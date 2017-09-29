@@ -1,0 +1,21 @@
+buy-together:  集采管理;
+
+data-statistics: 数据统计;
+
+goods:         商品管理;
+
+logistics：    物流管理;
+
+operate:       运营管理;
+
+permissions:   权限设置;
+
+search:        搜索管理;
+
+statistics:    数据统计;
+
+system:        系统设置;
+
+trade:         商贸系统;
+
+zdp_bi:        销售统计;

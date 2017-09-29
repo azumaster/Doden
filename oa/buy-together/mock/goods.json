@@ -1,0 +1,36 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "total": 28,
+    "per_page": 100,
+    "current_page": 1,
+    "last_page": 1,
+    "next_page_url": null,
+    "prev_page_url": null,
+    "from": 1,
+    "to": 28,
+    "data": [
+      {
+        "name": "测试汪",
+        "gname": "不造",
+        "deal_num": "1",
+        "ordered_num": "1427",
+        "deal_money": "0.01",
+        "ordered_money": "10.23",
+        "diff_money": "0.00",
+        "percentage": "0.000978"
+      },
+      {
+        "name": "测试-严越",
+        "gname": "酱紫",
+        "deal_num": "0",
+        "ordered_num": "61",
+        "deal_money": "0.00",
+        "ordered_money": "10.15",
+        "diff_money": "0.00",
+        "percentage": "0.000000"
+      }
+    ]
+  }
+}

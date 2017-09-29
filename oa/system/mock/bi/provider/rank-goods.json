@@ -1,0 +1,25 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "data": [
+      {
+        "goods_name": "平原和盛 鸡大胸 清真",
+        "province": "四川省",
+        "shop_name": "恒大食品",
+        "sp_name": "永生",
+        "data": "6"
+      },
+      {
+        "goods_name": "子均 鸡肉丁 中颗粒",
+        "province": "四川省",
+        "shop_name": "馥驫冻品",
+        "sp_name": "永生",
+        "data": "3"
+      }
+    ],
+    "total": 2,
+    "current": 1,
+    "last_page": 1
+  }
+}

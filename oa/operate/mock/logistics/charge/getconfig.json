@@ -1,0 +1,29 @@
+{
+  "code": 0,
+  "data": {
+    "base": "10",
+    "collection": "1",
+    "overdue": "1",
+    "charges": [
+      {
+        "name": "泡沫箱",
+        "amount": "25"
+      },
+      {
+        "name": "小件(5kg以下)",
+        "amount": "10"
+      }
+    ],
+    "sales": [
+      {
+        "price": "100",
+        "sale": "95"
+      },
+      {
+        "price": "200",
+        "sale": "90"
+      }
+    ]
+  },
+  "message": "ok"
+}

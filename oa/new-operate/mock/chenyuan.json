@@ -1,0 +1,34 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": [
+    {
+      "shId": 2,
+      "shopId": 2,
+      "laoBanHao": 0,
+      "xingming": "王春",
+      "lianxiTel": "13808170760"
+    },
+    {
+      "shId": 103,
+      "shopId": 2,
+      "laoBanHao": 4,
+      "xingming": "渝达食品",
+      "lianxiTel": "13608088402--已删除--103"
+    },
+    {
+      "shId": 814,
+      "shopId": 2,
+      "laoBanHao": 2,
+      "xingming": "孙晓欣",
+      "lianxiTel": "13541127880"
+    },
+    {
+      "shId": 1350,
+      "shopId": 2,
+      "laoBanHao": 2,
+      "xingming": "老李",
+      "lianxiTel": "13541079223"
+    }
+  ]
+}

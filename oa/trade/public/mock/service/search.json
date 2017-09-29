@@ -1,0 +1,48 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": [
+    {
+      "uid": 1,
+      "shop_name": "代码鸡",
+      "user_name": "卖代码的冻品",
+      "mobile": "18428385555",
+      "status": 2,
+      "address": "科园南二路",
+      "market_ids": "1,3,4",
+      "openid": "odh7zsgI75iT8FRh0fGlSojc9P99",
+      "created_at": {
+        "date": "2017-03-03 17:03:54.000000",
+        "timezone_type": 3,
+        "timezone": "PRC"
+      },
+      "wechat_account": {
+        "sp_id": 1,
+        "source": "cd",
+        "wechat_name": "",
+        "appid": "1"
+      }
+    },
+    {
+      "uid": 438,
+      "shop_name": "王大力代码点心",
+      "user_name": "yankeys",
+      "mobile": "18284559755",
+      "status": 2,
+      "address": "牛市口",
+      "market_ids": "2",
+      "openid": "T8FRh0fGlSojc9PWModh7zsgI75i",
+      "created_at": {
+        "date": "2017-03-03 17:07:45.000000",
+        "timezone_type": 3,
+        "timezone": "PRC"
+      },
+      "wechat_account": {
+        "sp_id": 438,
+        "source": "sp",
+        "wechat_name": "王大力冻品",
+        "appid": "wx4787110576b639e4"
+      }
+    }
+  ]
+}

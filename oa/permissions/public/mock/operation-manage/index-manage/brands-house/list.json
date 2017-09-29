@@ -1,0 +1,54 @@
+{
+  "code":0,
+  "data":{
+    "page":1,
+    "total":10,
+    "brands":[
+      {
+        "id":2,
+        "brand_id":1234,
+        "brand_name":"鹅子",
+        "position":1,
+        "put_on_at":"2016-12-17 08:25:00",
+        "pull_off_at":"2016-12-23 11:30:00",
+        "status":1,
+        "pv":2333,
+        "image":"images/123.png"
+      },
+      {
+        "id":12,
+        "brand_id":5411,
+        "brand_name":"鸡子",
+        "position":2,
+        "put_on_at":"2016-12-17 08:25:00",
+        "pull_off_at":"2016-12-23 11:30:00",
+        "status":2,
+        "pv":155,
+        "image":"/path/to/your/image"
+      },
+      {
+        "id":5,
+        "brand_id":1234,
+        "brand_name":"羊子",
+        "position":3,
+        "put_on_at":"2016-12-17 08:25:00",
+        "pull_off_at":"2016-12-23 11:30:00",
+        "status":1,
+        "pv":2333,
+        "image":"/path/to/your/image"
+      },
+      {
+        "id":2,
+        "brand_id":1234,
+        "brand_name":"鸭子",
+        "position":4,
+        "put_on_at":"2016-12-17 08:25:00",
+        "pull_off_at":"2016-12-23 11:30:00",
+        "status":3,
+        "pv":150,
+        "image":"/path/to/your/image"
+      }
+    ]
+  },
+  "message":"OK"
+}

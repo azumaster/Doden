@@ -1,0 +1,42 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "province": {
+      "0.province": "四川省",
+      "1.province": null,
+      "2.province": "重庆市",
+      "3.province": "北京市"
+    },
+    "city": {
+      "0.city": "成都市",
+      "6.city": "遂宁市"
+    },
+      "pianquId":{
+        "0":"未指定市场"
+    },
+    "county": {
+      "0.county": "郫县",
+      "1.county": "青白江区",
+      "2.county": null,
+      "3.county": "无",
+      "4.county": "市辖区",
+      "5.county": "",
+      "6.county": "丹棱县"
+    },
+    "method": {
+      "0.method": 6,
+      "1.method": 1,
+      "2.method": 3,
+      "3.method": 2,
+      "4.method": 4,
+      "5.method": 5
+    },
+    "market" :{
+      "0.market": "海霸王"
+    },
+    "trenchnum": {
+      "0.trenchnum" :"一批"
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "total": 1779,
+    "current_page": 2,
+    "last_page": 89,
+    "detail": [
+      {
+        "shopid": 14,
+        "uid": 886,
+        "user_tel": "13518436009",
+        "dianPuName": "孔氏冻品",
+        "num": "2947",
+        "amount": "502526.00",
+        "order": 124
+      },
+      {
+        "shopid": 1217,
+        "uid": 3417,
+        "user_tel": "18987174576",
+        "dianPuName": "嘉琪冷冻",
+        "num": "2835",
+        "amount": "428537.00",
+        "order": 44
+      },
+      {
+        "shopid": 9865,
+        "uid": 2565,
+        "user_tel": "18980259237",
+        "dianPuName": "巨邦",
+        "num": "2820",
+        "amount": "415200.00",
+        "order": 428
+      },
+      {
+        "shopid": 136,
+        "uid": 894,
+        "user_tel": "18980122690",
+        "dianPuName": "达州市赋盈商贸有限公司",
+        "num": "2717",
+        "amount": "509447.00",
+        "order": 276
+      },
+      {
+        "shopid": 1,
+        "uid": 4616,
+        "user_tel": "18784508768",
+        "dianPuName": "绿海食品",
+        "num": "2709",
+        "amount": "201293.00",
+        "order": 44
+      },
+      {
+        "shopid": 119,
+        "uid": 247,
+        "user_tel": "13990856591",
+        "dianPuName": "朝丰商贸行",
+        "num": "2625",
+        "amount": "399126.00",
+        "order": 276
+      },
+      {
+        "shopid": 2,
+        "uid": 438,
+        "user_tel": "13540402818",
+        "dianPuName": "玉冠冻品",
+        "num": "2600",
+        "amount": "314040.00",
+        "order": 8
+      },
+      {
+        "shopid": 266,
+        "uid": 1869,
+        "user_tel": "18990945310",
+        "dianPuName": "向氏冷冻",
+        "num": "2527",
+        "amount": "419152.00",
+        "order": 173
+      },
+      {
+        "shopid": 675,
+        "uid": 810,
+        "user_tel": "13551727983",
+        "dianPuName": "顺兴冷冻食品经营部",
+        "num": "2443",
+        "amount": "191242.00",
+        "order": 139
+      },
+      {
+        "shopid": 52,
+        "uid": 758,
+        "user_tel": "18990632232",
+        "dianPuName": "巴中海国厨珍",
+        "num": "2221",
+        "amount": "368285.00",
+        "order": 274
+      },
+      {
+        "shopid": 271,
+        "uid": 272,
+        "user_tel": "13882266220",
+        "dianPuName": "深冻时代(任记金枪鱼)",
+        "num": "2200",
+        "amount": "4439500.00",
+        "order": 4
+      },
+      {
+        "shopid": 6285,
+        "uid": 5185,
+        "user_tel": "17760333050",
+        "dianPuName": "百盛食品",
+        "num": "2138",
+        "amount": "449304.00",
+        "order": 12
+      },
+      {
+        "shopid": 2,
+        "uid": 7601,
+        "user_tel": "13488999041",
+        "dianPuName": "远诚食品",
+        "num": "2070",
+        "amount": "469790.00",
+        "order": 4
+      },
+      {
+        "shopid": 367,
+        "uid": 1466,
+        "user_tel": "18011124887",
+        "dianPuName": "成都川山甲",
+        "num": "2069",
+        "amount": "188372.00",
+        "order": 163
+      },
+      {
+        "shopid": 235,
+        "uid": 9121,
+        "user_tel": "15908254021",
+        "dianPuName": "重庆毛肚王自助火锅",
+        "num": "2063",
+        "amount": "354501.00",
+        "order": 121
+      },
+      {
+        "shopid": 378,
+        "uid": 7448,
+        "user_tel": "18990993931",
+        "dianPuName": "邻水大肉面",
+        "num": "2051",
+        "amount": "237252.00",
+        "order": 163
+      },
+      {
+        "shopid": 1263,
+        "uid": 13137,
+        "user_tel": "13540198843",
+        "dianPuName": "舍得大碗面",
+        "num": "2010",
+        "amount": "100500.00",
+        "order": 3
+      },
+      {
+        "shopid": 619,
+        "uid": 1838,
+        "user_tel": "15082471813",
+        "dianPuName": "合兴食品",
+        "num": "2001",
+        "amount": "222016.00",
+        "order": 207
+      },
+      {
+        "shopid": 91,
+        "uid": 1528,
+        "user_tel": "18384336579",
+        "dianPuName": "成都大樊食品商行",
+        "num": "1949",
+        "amount": "413087.50",
+        "order": 264
+      },
+      {
+        "shopid": 7136,
+        "uid": 4485,
+        "user_tel": "18989101538",
+        "dianPuName": "海鲜水产",
+        "num": "1901",
+        "amount": "411480.00",
+        "order": 70
+      }
+    ]
+  }
+}

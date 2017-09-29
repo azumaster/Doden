@@ -1,0 +1,37 @@
+{
+  "code": 0,
+  "data": {
+    "user_tags": [
+      "department",
+      "department_list",
+      "goods",
+      "goods_audit",
+      "goods_audit_list",
+      "goods_audit_pass",
+      "goods_audit_refused",
+      "goods_brands",
+      "goods_brands_add",
+      "goods_brands_list",
+      "goods_brands_update",
+      "goods_delete",
+      "goods_history_prices_list",
+      "goods_logs_list",
+      "goods_on_sale",
+      "goods_price_refresh",
+      "goods_query",
+      "goods_query_list",
+      "goods_restore_delete",
+      "goods_sold_out",
+      "goods_transfer",
+      "goods_transfer_list",
+      "goods_type",
+      "goods_type_list",
+      "goods_update",
+      "system",
+      "user",
+      "user_info_update",
+      "user_list"
+    ]
+  },
+  "message": "OK"
+}

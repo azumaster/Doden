@@ -1,0 +1,30 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": [
+    {
+      "uid": 1,
+      "shop_name": "代码鸡",
+      "user_name": "卖代码的冻品",
+      "mobile": "18428385555",
+      "status": 2,
+      "address": "科园南二路",
+      "province_id": 510000,
+      "city_id": 510100,
+      "county_id": 510107,
+      "market_ids": "1,3,4",
+      "openid": "odh7zsgI75iT8FRh0fGlSojc9P99",
+      "created_at": {
+        "date": "2017-03-03 17:03:54.000000",
+        "timezone_type": 3,
+        "timezone": "PRC"
+      },
+      "wechat_account": {
+        "sp_id": 1,
+        "source": "cd",
+        "wechat_name": "",
+        "appid": "1"
+      }
+    }
+  ]
+}

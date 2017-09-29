@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "buyer_city": "乐山市"
+    },
+    {
+      "buyer_city": "成都市"
+    },
+    {
+      "buyer_city": "泸州市"
+    },
+    {
+      "buyer_city": "资阳市"
+    }
+  ],
+  "message": "OK"
+}

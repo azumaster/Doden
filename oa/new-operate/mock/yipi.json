@@ -1,0 +1,9 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "province": "四川省",
+    "city": "达州市",
+    "county": "市辖区"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "menu": {
+      "button": [
+        {
+          "type": "click",
+          "name": "测试未登录",
+          "key": "V1001_TODAY_MUSIC",
+          "sub_button": []
+        },
+        {
+          "name": "未登录菜单",
+          "sub_button": [
+            {
+              "type": "view",
+              "name": "搜索未登录",
+              "url": "http://www.baidu.com/",
+              "sub_button": []
+            },
+            {
+              "type": "view",
+              "name": "dsfdsf",
+              "url": "http://www.baidu.com/",
+              "sub_button": []
+            }
+          ]
+        }
+      ],
+      "menuid": 525805430
+    },
+    "conditionalmenu": [
+      {
+        "button": [
+          {
+            "type": "click",
+            "name": "测试登录",
+            "key": "V1001_TODAY_MUSIC",
+            "sub_button": []
+          },
+          {
+            "name": "登录菜单",
+            "sub_button": [
+              {
+                "type": "view",
+                "name": "搜索登录",
+                "url": "http://www.baidu.com/",
+                "sub_button": []
+              },
+              {
+                "type": "view",
+                "name": "搜索sdfdsfasdfasdf登录",
+                "url": "http://www.baidu.com/",
+                "sub_button": []
+              }
+            ]
+          }
+        ],
+        "matchrule": {
+          "group_id": "122"
+        },
+        "menuid": 525805428
+      },
+      {
+        "button": [
+          {
+            "type": "click",
+            "name": "测试登录",
+            "key": "V1001_TODAY_MUSIC",
+            "sub_button": []
+          }
+        ],
+        "matchrule": {
+          "group_id": "122"
+        },
+        "menuid": 52580
+      }
+    ]
+  }
+}

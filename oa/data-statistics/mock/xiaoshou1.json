@@ -1,0 +1,150 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "total": 7009,
+    "current_page": 1,
+    "detail": [
+      {
+        "goods_id": 20035,
+        "num": "2381",
+        "amount": "389737.00",
+        "brand": "无",
+        "goods_name": "进口猪肋条"
+      },
+      {
+        "goods_id": 2884,
+        "num": "1464",
+        "amount": "173255.00",
+        "brand": "美力诚",
+        "goods_name": "美力诚 川香鸡柳小号38g"
+      },
+      {
+        "goods_id": 12792,
+        "num": "1199",
+        "amount": "218745.00",
+        "brand": "六和",
+        "goods_name": "六和 奥尔良腿排"
+      },
+      {
+        "goods_id": 2355,
+        "num": "674",
+        "amount": "55590.00",
+        "brand": "渝达",
+        "goods_name": "渝达鸭食带"
+      },
+      {
+        "goods_id": 20292,
+        "num": "624",
+        "amount": "112527.00",
+        "brand": "其它",
+        "goods_name": "王中王豆皮"
+      },
+      {
+        "goods_id": 4845,
+        "num": "509",
+        "amount": "44180.00",
+        "brand": "海霸王",
+        "goods_name": "海霸王包心撒尿牛丸"
+      },
+      {
+        "goods_id": 3520,
+        "num": "451",
+        "amount": "93501.00",
+        "brand": "202",
+        "goods_name": "202进口猪舌10.4公斤/件"
+      },
+      {
+        "goods_id": 5824,
+        "num": "434",
+        "amount": "50865.00",
+        "brand": "王院",
+        "goods_name": "王院 枣肠串60g"
+      },
+      {
+        "goods_id": 11865,
+        "num": "433",
+        "amount": "42082.00",
+        "brand": "福星台",
+        "goods_name": "福星台鱿鱼须40g"
+      },
+      {
+        "goods_id": 15201,
+        "num": "414",
+        "amount": "18111.00",
+        "brand": "中盛中有",
+        "goods_name": "中盛中有鸡翅尖大号"
+      },
+      {
+        "goods_id": 23895,
+        "num": "379",
+        "amount": "68090.00",
+        "brand": "正大",
+        "goods_name": "正大 鸡肉洋葱圈"
+      },
+      {
+        "goods_id": 14720,
+        "num": "347",
+        "amount": "12170.00",
+        "brand": "红太阳",
+        "goods_name": "红太阳肥牛"
+      },
+      {
+        "goods_id": 16277,
+        "num": "332",
+        "amount": "97755.00",
+        "brand": "丰果",
+        "goods_name": "丰果 鸭胗 L"
+      },
+      {
+        "goods_id": 2814,
+        "num": "313",
+        "amount": "61910.00",
+        "brand": "华味源",
+        "goods_name": "华味源 小肥羊串25g"
+      },
+      {
+        "goods_id": 173,
+        "num": "277",
+        "amount": "17541.00",
+        "brand": "七叔公",
+        "goods_name": "七叔公 油炸紫薯卷"
+      },
+      {
+        "goods_id": 2817,
+        "num": "275",
+        "amount": "41300.00",
+        "brand": "可可益佳",
+        "goods_name": "可可益佳 鸡胗串40g"
+      },
+      {
+        "goods_id": 25030,
+        "num": "273",
+        "amount": "29132.00",
+        "brand": "博大",
+        "goods_name": "博大鸡心 中号"
+      },
+      {
+        "goods_id": 20738,
+        "num": "273",
+        "amount": "56295.00",
+        "brand": "61",
+        "goods_name": "荷兰61猪前肘"
+      },
+      {
+        "goods_id": 24550,
+        "num": "253",
+        "amount": "25027.00",
+        "brand": "平原和盛",
+        "goods_name": "平原和盛鸡胗 大号"
+      },
+      {
+        "goods_id": 10023,
+        "num": "237",
+        "amount": "21910.00",
+        "brand": "安井",
+        "goods_name": "安井 包心鱼豆腐"
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "all_num": 58,
+    "all_amount": "14959.00",
+    "sort_data": {
+      "中餐店": {
+        "on_amount": null,
+        "on_num": 0,
+        "un_amount": null,
+        "un_num": 0
+      },
+      "火锅店": {
+        "on_amount": null,
+        "on_num": 0,
+        "un_amount": null,
+        "un_num": 0
+      },
+      "串串": {
+        "on_amount": null,
+        "on_num": 0,
+        "un_amount": null,
+        "un_num": 0
+      },
+      "粉面馆": {
+        "on_amount": null,
+        "on_num": 0,
+        "un_amount": null,
+        "un_num": 0
+      },
+      "小吃快餐": {
+        "on_amount": null,
+        "on_num": 0,
+        "un_amount": null,
+        "un_num": 0
+      },
+      "自助": {
+        "on_amount": null,
+        "on_num": 0,
+        "un_amount": null,
+        "un_num": 0
+      },
+      "凉拌卤菜": {
+        "on_amount": "2611.00",
+        "on_num": 12,
+        "un_amount": null,
+        "un_num": 0
+      },
+      "超市": {
+        "on_amount": "12348.00",
+        "on_num": 46,
+        "un_amount": null,
+        "un_num": 0
+      }
+    },
+    "detail": [
+      {
+        "time": "2017-05-31",
+        "amount": 0,
+        "num": 0
+      },
+      {
+        "time": "2017-06-01",
+        "amount": "2128.00",
+        "num": 6
+      },
+      {
+        "time": "2017-06-02",
+        "amount": "4039.00",
+        "num": 21
+      },
+      {
+        "time": "2017-06-03",
+        "amount": "3271.00",
+        "num": 12
+      },
+      {
+        "time": "2017-06-04",
+        "amount": "4087.00",
+        "num": 13
+      },
+      {
+        "time": "2017-06-05",
+        "amount": "1434.00",
+        "num": 6
+      },
+      {
+        "time": "2017-06-06",
+        "amount": 0,
+        "num": 0
+      }
+    ]
+  }
+}

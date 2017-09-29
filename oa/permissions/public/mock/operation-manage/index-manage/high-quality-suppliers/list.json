@@ -1,0 +1,43 @@
+{
+  "code":0,
+  "data":{
+    "page":1,
+    "total":10,
+    "suppliers":[
+      {
+        "id":1,
+        "shop_id":1234,
+        "shop_name":"渝达食品",
+        "position":1,
+        "put_on_at":"2016-12-17 08:25:00",
+        "pull_off_at":"2016-12-23 11:30:00",
+        "status":1,
+        "pv":2333,
+        "image":"/images/123.png"
+      },
+      {
+        "id":3,
+        "shop_id":2544,
+        "shop_name":"美好火腿肠",
+        "position":2,
+        "put_on_at":"2016-12-17 08:25:00",
+        "pull_off_at":"2016-12-23 11:30:00",
+        "status":2,
+        "pv":2333,
+        "image":"/images/123.png"
+      },
+      {
+        "id":6,
+        "shop_id":5122,
+        "shop_name":"汇源食品",
+        "position":3,
+        "put_on_at":"2016-12-17 08:25:00",
+        "pull_off_at":"2016-12-23 11:30:00",
+        "status":3,
+        "pv":2333,
+        "image":"/images/123.png"
+      }
+    ]
+  },
+  "message":"OK"
+}

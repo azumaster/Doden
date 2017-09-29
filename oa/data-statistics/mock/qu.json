@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "buyer_district": "市中区"
+    },
+    {
+      "buyer_district": "市辖区"
+    },
+    {
+      "buyer_district": "青白江区"
+    },
+    {
+      "buyer_district": "锦江区"
+    }
+  ],
+  "message": "OK"
+}

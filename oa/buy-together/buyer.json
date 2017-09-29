@@ -1,0 +1,105 @@
+{
+    "seller": {
+        "data":[
+            {
+                        "rank": 1,
+                        "sp_name": "海霸王专卖店",
+                        "order_num": 7302,
+                        "deal_num": 5627,
+                        "order_amount": 1563,
+                        "deal_amount": 4254,
+                        "buyer_num": 1438,
+                        "deal_buyer": 274,
+                        "goods_num": 285,
+                        "deal_num2": 1727,
+                        "changeprce_num": 558
+                    },
+                    {
+                        "rank": 2,
+                        "sp_name": "海霸王专卖店2",
+                        "order_num": 300,
+                        "deal_num": 56,
+                        "order_amount": 13,
+                        "deal_amount": 44,
+                        "buyer_num": 18,
+                        "deal_buyer": 4,
+                        "goods_num": 25,
+                        "deal_num2": 127,
+                        "changeprce_num": 58
+                    },
+                    {
+                        "rank": 3,
+                        "sp_name": "海霸王专卖店3",
+                        "order_num": 32,
+                        "deal_num": 27,
+                        "order_amount": 13,
+                        "deal_amount": 44,
+                        "buyer_num": 138,
+                        "deal_buyer": 24,
+                        "goods_num": 25,
+                        "deal_num2": 17,
+                        "changeprce_num": 58
+                    }
+        ]
+    },
+    "buyer": {
+        "data":[
+            {
+                        "rank": 1,
+                        "sp_name": "买家海霸王专卖店",
+                        "order_num": 7302,
+                        "deal_num": 5627,
+                        "order_amount": 1563,
+                        "deal_amount": 4254,
+                        "seller_num": 1438,
+                        "deal_seller": 274,
+                        "goods_num": 285,
+                        "deal_num2": 1727,
+                        "changeprce_num": 558
+                    },
+                    {
+                        "rank": 2,
+                        "sp_name": "买家海霸王专卖店2",
+                        "order_num": 300,
+                        "deal_num": 56,
+                        "order_amount": 13,
+                        "deal_amount": 44,
+                        "seller_num": 18,
+                        "deal_seller": 4,
+                        "goods_num": 25,
+                        "deal_num2": 127,
+                        "changeprce_num": 58
+                    },
+                    {
+                        "rank": 3,
+                        "sp_name": "买家海霸王专卖店3",
+                        "order_num": 32,
+                        "deal_num": 27,
+                        "order_amount": 13,
+                        "deal_amount": 44,
+                        "seller_num": 138,
+                        "deal_seller": 24,
+                        "goods_num": 25,
+                        "deal_num2": 17,
+                        "changeprce_num": 58
+                    }
+        ]
+    },
+    "sellerdetail": {
+        "data":[
+            {
+                        "rank": 1,
+                        "sp_name": "买家海霸王专卖店",
+                        "order_num": 7302,
+                        "deal_num": 5627,
+                        "order_amount": 1563,
+                        "deal_amount": 4254,
+                        "seller_num": 1438,
+                        "deal_seller": 274,
+                        "goods_num": 285,
+                        "deal_num2": 1727,
+                        "changeprce_num": 558
+                    }
+        ]
+    }
+}

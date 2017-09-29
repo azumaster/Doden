@@ -1,0 +1,32 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "detail": [
+      {
+        "shId": 1326,
+        "xingming": "张先生",
+        "lianxiTel": "13352082521",
+        "zhuceTime": "2015-10-06 19:25:00",
+        "grounds": "没店铺照片",
+        "shopId": 1391,
+        "trenchnum": 25,
+        "dianPuName": "路宏源",
+        "xiangXiDiZi": "天津市",
+        "province_id": 21,
+        "province": null,
+        "city_id": 0,
+        "city": null,
+        "county_id": -1,
+        "county": null,
+        "pianquId": 6,
+        "pianqu_province": 21,
+        "pianqu_name": "其他市场",
+        "weChatGroupId": 1
+      }
+    ],
+    "current": 1,
+    "last_page": 1,
+    "total": 21
+  }
+}

@@ -1,0 +1,680 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "id": 67,
+      "title": "科园南二路1516号",
+      "full": "四川省成都市武侯区",
+      "lat": "32.656435",
+      "lng": "114.065811",
+      "area": {
+        "id": 510107063,
+        "name": "石羊场街道",
+        "parent": "武侯区",
+        "node": [
+          "510000",
+          "510100",
+          "510107"
+        ]
+      },
+      "customs": [
+        {
+          "names": [
+            {
+              "name": "刘秋美",
+              "mobile": 13265528855
+            }
+          ],
+          "deliveries1": [
+            {
+              "id": 84,
+              "day_no": "2017011600051",
+              "custom": {
+                "name": "刘秋美",
+                "mobile": 13265528855
+              },
+              "code": [
+                23,
+                10,
+                14,
+                6,
+                5
+              ],
+              "volume": 18,
+              "status": 0,
+              "driver": {
+                "uid": 4,
+                "name": "魏",
+                "wx_name": "Doden",
+                "firm": "一个公司",
+                "mobile": 18381076241,
+                "car_no": "川AZL110",
+                "capacity": {
+                  "name": "疯狂米老鼠",
+                  "bill_no": 4,
+                  "bill_max": 7,
+                  "pack_no": 30,
+                  "pack_max": 60
+                },
+                "status": 1
+              }
+            },
+            {
+              "id": 44,
+              "day_no": "2017011600051",
+              "custom": {
+                "name": "刘秋美",
+                "mobile": 13265528855
+              },
+              "code": [
+                23,
+                1,
+                4,
+                16,
+                56
+              ],
+              "volume": 32,
+              "status": 0,
+              "driver": {
+                "uid": 4,
+                "name": "魏",
+                "wx_name": "Doden",
+                "firm": "一个公司",
+                "mobile": 18381076241,
+                "car_no": "川AZL110",
+                "capacity": {
+                  "name": "疯狂米老鼠",
+                  "bill_no": 4,
+                  "bill_max": 7,
+                  "pack_no": 30,
+                  "pack_max": 60
+                },
+                "status": 1
+              }
+            },
+            {
+              "id": 48,
+              "day_no": "2017011600003",
+              "custom": {
+                "name": "刘秋美",
+                "mobile": 13265528855
+              },
+              "code": [
+                23,
+                1,
+                4,
+                16,
+                56
+              ],
+              "volume": 55,
+              "status": 0,
+              "driver": {
+                "uid": 4,
+                "name": "魏",
+                "wx_name": "Doden",
+                "firm": "一个公司",
+                "mobile": 18381076241,
+                "car_no": "川AZL110",
+                "capacity": {
+                  "name": "疯狂米老鼠",
+                  "bill_no": 4,
+                  "bill_max": 7,
+                  "pack_no": 30,
+                  "pack_max": 60
+                },
+                "status": 1
+              }
+            },
+            {
+              "id": 41,
+              "day_no": "2017011600001",
+              "custom": {
+                "name": "张江",
+                "mobile": 15812554421
+              },
+              "code": [
+                23,
+                1,
+                4,
+                7,
+                16
+              ],
+              "volume": 12,
+              "status": 0,
+              "driver": {
+                "uid": 4,
+                "name": "魏",
+                "wx_name": "Doden",
+                "firm": "一个公司",
+                "mobile": 18381076241,
+                "car_no": "川AZL110",
+                "capacity": {
+                  "name": "疯狂米老鼠",
+                  "bill_no": 4,
+                  "bill_max": 7,
+                  "pack_no": 30,
+                  "pack_max": 60
+                },
+                "status": 1
+              }
+            },
+            {
+              "id": 43,
+              "day_no": "2017011600001",
+              "custom": {
+                "name": "张江",
+                "mobile": 15812554421
+              },
+              "code": [
+                23,
+                1,
+                5,
+                17,
+                6
+              ],
+              "volume": 10,
+              "status": 0,
+              "driver": {
+                "uid": 4,
+                "name": "魏",
+                "wx_name": "Doden",
+                "firm": "一个公司",
+                "mobile": 18381076241,
+                "car_no": "川AZL110",
+                "capacity": {
+                  "name": "疯狂米老鼠",
+                  "bill_no": 4,
+                  "bill_max": 7,
+                  "pack_no": 30,
+                  "pack_max": 60
+                },
+                "status": 1
+              }
+            }
+          ],
+          "deliveries": [
+            {
+              "id": 25,
+              "kno":"K3",
+              "day_no": "2017011600051",
+              "custom": {
+                "name": "刘秋美",
+                "mobile": 13265528855
+              },
+              "code": [
+                23,
+                10,
+                14,
+                6,
+                5
+              ],
+              "volume": 18,
+              "status": 0,
+              "driver": {
+                "uid": 25,
+                "name": "魏",
+                "wx_name": "Doden",
+                "firm": "一个公司",
+                "mobile": 18381076241,
+                "car_no": "川AZL110",
+                "capacity": {
+                  "name": "疯狂米老鼠",
+                  "bill_no": 4,
+                  "bill_max": 7,
+                  "pack_no": 30,
+                  "pack_max": 60
+                },
+                "status": 1
+              }
+            },
+            {
+              "id": 84,
+              "kno":"K3",
+              "day_no": "2017011600051",
+              "custom": {
+                "name": "张妈妈",
+                "mobile": 13265528855
+              },
+              "code": [
+                23,
+                10,
+                14,
+                6,
+                5
+              ],
+              "volume": 18,
+              "status": 0,
+              "driver": {
+                "uid": 25,
+                "name": "魏",
+                "wx_name": "Doden",
+                "firm": "一个公司",
+                "mobile": 18381076241,
+                "car_no": "川AZL110",
+                "capacity": {
+                  "name": "疯狂米老鼠",
+                  "bill_no": 4,
+                  "bill_max": 7,
+                  "pack_no": 30,
+                  "pack_max": 60
+                },
+                "status": 1
+              }
+            },
+            {
+              "id": 84,
+              "kno":"K3",
+              "day_no": "2017011600051",
+              "custom": {
+                "name": "张妈妈",
+                "mobile": 13265528855
+              },
+              "code": [
+                12,
+                11,
+                4,
+                16,
+                52
+              ],
+              "volume": 18,
+              "status": 0,
+              "driver": {
+                "uid": 4,
+                "name": "魏",
+                "wx_name": "Doden",
+                "firm": "一个公司",
+                "mobile": 18381076241,
+                "car_no": "川AZL110",
+                "capacity": {
+                  "name": "疯狂米老鼠",
+                  "bill_no": 4,
+                  "bill_max": 7,
+                  "pack_no": 30,
+                  "pack_max": 60
+                },
+                "status": 1
+              }
+            },
+            {
+              "id": 84,
+              "kno":"K3",
+              "day_no": "2017011600051",
+              "custom": {
+                "name": "张妈妈",
+                "mobile": 13265528855
+              },
+              "code": [
+                12,
+                11,
+                4,
+                16,
+                52
+              ],
+              "volume": 18,
+              "status": 0,
+              "driver": {
+                "uid": 4,
+                "name": "魏",
+                "wx_name": "Doden",
+                "firm": "一个公司",
+                "mobile": 18381076241,
+                "car_no": "川AZL110",
+                "capacity": {
+                  "name": "疯狂米老鼠",
+                  "bill_no": 4,
+                  "bill_max": 7,
+                  "pack_no": 30,
+                  "pack_max": 60
+                },
+                "status": 1
+              }
+            },
+            {
+              "id": 84,
+              "kno":"K3",
+              "day_no": "2017011600051",
+              "custom": {
+                "name": "张妈妈",
+                "mobile": 13265528855
+              },
+              "code": [
+                12,
+                11,
+                4,
+                16,
+                52
+              ],
+              "volume": 18,
+              "status": 0,
+              "driver": {
+                "uid": 4,
+                "name": "魏",
+                "wx_name": "Doden",
+                "firm": "一个公司",
+                "mobile": 18381076241,
+                "car_no": "川AZL110",
+                "capacity": {
+                  "name": "疯狂米老鼠",
+                  "bill_no": 4,
+                  "bill_max": 7,
+                  "pack_no": 30,
+                  "pack_max": 60
+                },
+                "status": 1
+              }
+            },
+            {
+              "id": 544,
+              "day_no": "2017011600511",
+              "custom": {
+                "name": "李大爷",
+                "mobile": 13265528855
+              },
+              "code": [
+                12,
+                1,
+                4,
+                16,
+                5
+              ],
+              "volume": 18,
+              "status": 0,
+              "driver": {
+                "uid": 2,
+                "name": "啦啦啦",
+                "wx_name": "Doden",
+                "firm": "一个公司",
+                "mobile": 18381076241,
+                "car_no": "川AZL110",
+                "capacity": {
+                  "name": "疯狂米老鼠",
+                  "bill_no": 4,
+                  "bill_max": 7,
+                  "pack_no": 30,
+                  "pack_max": 60
+                },
+                "status": 1
+              }
+            },
+            {
+              "id": 12,
+              "day_no": "2017011600018",
+              "custom": {
+                "name": "张大大",
+                "mobile": 13265528855
+              },
+              "code": [
+                12,
+                1,
+                4,
+                16,
+                5
+              ],
+              "volume": 18,
+              "status": 0,
+              "driver": {
+                "uid": 2,
+                "name": "啦啦啦",
+                "wx_name": "Doden",
+                "firm": "一个公司",
+                "mobile": 18381076241,
+                "car_no": "川AZL110",
+                "capacity": {
+                  "name": "疯狂米老鼠",
+                  "bill_no": 4,
+                  "bill_max": 7,
+                  "pack_no": 30,
+                  "pack_max": 60
+                },
+                "status": 1
+              }
+            },
+            {
+              "id": 108,
+              "day_no": "2017011600911",
+              "custom": {
+                "name": "么么么",
+                "mobile": 13265528855
+              },
+              "code": [
+                14,
+                11,
+                42,
+                16,
+                8
+              ],
+              "volume": 18,
+              "status": 0,
+              "driver": {
+                "uid": 2,
+                "name": "啦啦啦",
+                "wx_name": "Doden",
+                "firm": "一个公司",
+                "mobile": 18381076241,
+                "car_no": "川AZL110",
+                "capacity": {
+                  "name": "疯狂米老鼠",
+                  "bill_no": 4,
+                  "bill_max": 7,
+                  "pack_no": 30,
+                  "pack_max": 60
+                },
+                "status": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "科园南二路6号",
+      "full": "四川省成都市武侯区",
+      "lat": "31.648664",
+      "lng": "105.083686",
+      "area": {
+        "id": 510107063,
+        "name": "我也不知道",
+        "node": [
+          "510000",
+          "510100",
+          "510107"
+        ]
+      },
+      "customs": [
+        {
+          "names": [
+            {
+              "name": "刘秋美",
+              "mobile": 13265528855
+            }
+          ],
+          "deliveries": [
+            {
+              "id": 81,
+              "day_no": "2017011600001",
+              "custom": {
+                "name": "刘秋美",
+                "mobile": 13265528855
+              },
+              "code": [
+                23,
+                1,
+                4,
+                16,
+                56
+              ],
+              "volume": 17,
+              "status": 0,
+              "driver": null
+            },
+            {
+              "id": 81,
+              "day_no": "2017011600001",
+              "custom": {
+                "name": "刘秋美",
+                "mobile": 13265528855
+              },
+              "code": [
+                23,
+                1,
+                4,
+                16,
+                56
+              ],
+              "volume": 32,
+              "status": 0,
+              "driver": null
+            },
+            {
+              "id": 81,
+              "day_no": "2017011600001",
+              "custom": {
+                "name": "张江",
+                "mobile": 18215421155
+              },
+              "code": [
+                23,
+                1,
+                4,
+                7,
+                16
+              ],
+              "volume": 15,
+              "status": 0,
+              "driver": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "科园南二路6号",
+      "full": "四川省成都市武侯区",
+      "lat": "30.348664",
+      "lng": "104.183686",
+      "area": {
+        "id": 510107063,
+        "name": "我也不知道",
+        "node": [
+          "510000",
+          "510100",
+          "510107"
+        ]
+      },
+      "customs": [
+        {
+          "names": [
+            {
+              "name": "刘秋美",
+              "mobile": 13265528855
+            }
+          ],
+          "deliveries": [
+
+            {
+              "id": 45,
+              "day_no": "2017011600001",
+              "custom": {
+                "name": "张江",
+                "mobile": 15812554421
+              },
+              "code": [
+                23,
+                1,
+                5,
+                17,
+                6
+              ],
+              "volume": 70,
+              "status": 0,
+              "driver": {
+                "uid": 2,
+                "name": "啦啦啦",
+                "wx_name": "Doden",
+                "firm": "一个公司",
+                "mobile": 18381076241,
+                "car_no": "川AZL110",
+                "capacity": {
+                  "name": "疯狂米老鼠",
+                  "bill_no": 4,
+                  "bill_max": 7,
+                  "pack_no": 30,
+                  "pack_max": 60
+                },
+                "status": 0
+              }
+            },
+            {
+              "id": 49,
+              "day_no": "20170116001601",
+              "custom": {
+                "name": "张江",
+                "mobile": 15812554421
+              },
+              "code": [
+                23,
+                1,
+                4,
+                16,
+                56
+              ],
+              "volume": 7,
+              "status": 0,
+              "driver": {
+                "uid": 2,
+                "name": "啦啦啦",
+                "wx_name": "Doden",
+                "firm": "一个公司",
+                "mobile": 18381076241,
+                "car_no": "川AZL110",
+                "capacity": {
+                  "name": "疯狂米老鼠",
+                  "bill_no": 4,
+                  "bill_max": 7,
+                  "pack_no": 30,
+                  "pack_max": 60
+                },
+                "status": 0
+              }
+            },
+            {
+              "id": 52,
+              "day_no": "20170116001651",
+              "custom": {
+                "name": "张江",
+                "mobile": 15812554421
+              },
+              "code": [
+                2,
+                1,
+                4,
+                19,
+                56
+              ],
+              "volume": 11,
+              "status": 0,
+              "driver": {
+                "uid": 2,
+                "name": "啦啦啦",
+                "wx_name": "Doden",
+                "firm": "一个公司",
+                "mobile": 18381076241,
+                "car_no": "川AZL110",
+                "capacity": {
+                  "name": "疯狂米老鼠",
+                  "bill_no": 4,
+                  "bill_max": 7,
+                  "pack_no": 30,
+                  "pack_max": 60
+                },
+                "status": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

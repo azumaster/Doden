@@ -1,0 +1,31 @@
+{
+    "code":0,
+    "data":{
+        "page":1,
+        "total":30,
+        "lists":[
+            {
+                "id":1,
+                "type_no": "ad_ticket",
+                "title":"买家首页广告",
+                "image":"https://o5wwk8baw.qnssl.com/a42bdcc1178e62b4694c830f028db5c0/avatar",
+                "price":350,
+                "worth":35,
+                "unit":"天",
+                "sell_time":"2017-06-01 00:00:00",
+                "end_time":"2017-06-10 00:00:00"
+            },{
+                "id":2,
+                "title":"首页广告",
+                "type_no": "ad_ticket",
+                "image":"https://o5wwk8baw.qnssl.com/a42bdcc1178e62b4694c830f028db5c0/avatar",
+                "price":50,
+                "worth":5,
+                "unit":"天",
+                "sell_time":"2017-06-01 00:00:00",
+                "end_time":"2017-06-10 00:00:00"
+            }
+        ]
+    },
+    "message":"OK"
+}

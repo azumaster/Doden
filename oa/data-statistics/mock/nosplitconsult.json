@@ -1,0 +1,92 @@
+{
+  "code": 0,
+  "data": {
+    "全部": {
+      "group": {
+        "2016-01": {
+          "call_times": "3",
+          "buyer_times": "4",
+          "seller_times" : "12",
+          "time": "2016-01"
+        },
+        "2016-02": {
+          "call_times": 0,
+          "buyer_times": "4",
+          "seller_times" : "12",
+          "time": "2016-02"
+        },
+        "2016-03": {
+          "call_times": 0,
+          "buyer_times": "4",
+          "seller_times" : "22",
+          "time": "2016-03"
+        },
+        "2016-04": {
+          "call_times": 0,
+          "buyer_times": "14",
+          "seller_times" : "11",
+          "time": "2016-04"
+        },
+        "2016-05": {
+          "call_times": 0,
+          "buyer_times": "4",
+          "seller_times" : "2",
+          "time": "2016-05"
+        },
+        "2016-06": {
+          "call_times": 0,
+          "buyer_times": "4",
+          "seller_times" : "21",
+          "time": "2016-06"
+        },
+        "2016-07": {
+          "call_times": 0,
+          "buyer_times": "23",
+          "seller_times" : "22",
+          "time": "2016-07"
+        },
+        "2016-08": {
+          "call_times": 0,
+          "buyer_times": "24",
+          "seller_times" : "23",
+          "time": "2016-08"
+        },
+        "2016-09": {
+          "call_times": "2",
+          "buyer_times": "2",
+          "seller_times" : "12",
+          "time": "2016-09"
+        },
+        "2016-10": {
+          "call_times": 0,
+          "buyer_times": "8",
+          "seller_times" : "12",
+          "time": "2016-10"
+        },
+        "2016-11": {
+          "call_times": 0,
+          "buyer_times": "6",
+          "seller_times" : "18",
+          "time": "2016-11"
+        },
+        "2016-12": {
+          "call_times": 0,
+          "buyer_times": "24",
+          "seller_times" : "12",
+          "time": "2016-12"
+        },
+        "2017-01": {
+          "call_times": 0,
+          "buyer_times": "14",
+          "seller_times" : "12",
+          "time": "2017-01"
+        }
+      },
+      "total_times": "5",
+      "total_buyer": 4,
+      "total_goods": 4
+    }
+    
+  },
+  "message": "OK"
+}

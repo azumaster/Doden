@@ -1,0 +1,40 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "全部": [
+      {
+        "time": "2017-01",
+        "total_delete": 0,
+        "total_new": 0,
+        "total_overdue": 0,
+        "total_sale": 0,
+        "total_not_sale":1
+      },
+      {
+        "time": "2017-02",
+        "total_delete": 10,
+        "total_new": 20,
+        "total_overdue": 10,
+        "total_sale": 7,
+        "total_not_sale":1
+      },
+      {
+        "time": "2017-03",
+        "total_delete": 20,
+        "total_new": 10,
+        "total_overdue": 9,
+        "total_sale": 21,
+        "total_not_sale":11
+      },
+      {
+        "time": "2017-04",
+        "total_delete": 20,
+        "total_new": 10,
+        "total_overdue": 9,
+        "total_sale": 21,
+        "total_not_sale":11
+      }
+    ]
+  }
+}

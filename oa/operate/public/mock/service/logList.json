@@ -1,0 +1,25 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "total": 2,
+    "current": 1,
+    "last_page": 1,
+    "logs": [
+      {
+        "sp_id": 963,
+        "operate": 20,
+        "created_at": "2017-03-13 17:43:36",
+        "user_name": "小小宇",
+        "department_name": "系统管理组"
+      },
+      {
+        "sp_id": 438,
+        "operate": 20,
+        "created_at": "2017-03-13 17:43:35",
+        "user_name": "胡小宇",
+        "department_name": "系统管理组"
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>找冻品网OA系统</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name='viewport' content='width=device-width,initial-scale=1.0,user-scalable=no'>
+    <meta name="renderer" content="webkit">
+</head>
+
+<body>
+    <header class="oa-header">
+        <div class="oa-header-body">
+            <div class="logo">找冻品网OA系统</div>
+            <div class="user">
+                <div class="user-op" id="logout"><i title="退出登录" class="icon logout"></i></div>
+                <div class="user-op" onclick="window.open('/html/permissions/index.html');"><i id="private" title="权限设置" class="icon private"></i></div>
+                <div class="user-op" onclick="window.open('/user/home');"><i id="old" title="老系统" class="icon old"></i></div>
+                <div class="user-img">
+                    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1495693789&di=2d78e303830e22cdda5711f6523ba528&imgtype=jpg&er=1&src=http%3A%2F%2Fimg.woyaogexing.com%2Ftouxiang%2Fkatong%2F2014%2F0430%2F33cdc09608a52862%21200x200.jpg">
+                </div>
+                <div class="user-name"><p id="userName"></p></div>
+            </div>
+        </div>
+    </header>
+    <div id="content" class="oa-content">
+        <div id="oaOperate" class="oa-operate"></div>
+    </div>
+    <footer class="oa-footer">&copy;成都信领科技有限公司</footer>
+
+    <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        (function () {
+            getUserInfo();
+
+            $('#logout').click(function () {
+                $.ajax({
+                    url: '/user/logout?r='+Math.random(),
+                    type: 'post',
+                    headers: {Accept: 'application/json'},
+                    success: function (res) {
+                        if (res.code == 0) {
+                            window.location.href = '/';
+                        }
+                    }
+                });
+            });
+        })();
+        
+        function getUserInfo() {
+            $.ajax({
+                url: '/user/info?r='+Math.random(),
+                type: 'get',
+                headers: {Accept: 'application/json'},
+                success: function (res) {
+                    if(res.code == 0){
+                        $('#userName').html(res.data.user_infos.name);
+                        if(res.data.user_infos.name != 'root'){
+                            $('#private').hide();
+                        }
+
+                        getNavigate();
+                    }else if(res.code = 10106){
+                        window.location.href = '/';
+                    }else {
+                        alert(res.message)
+                    }
+                }
+            });
+        }
+
+        function getNavigate() {
+            $.ajax({
+                url: '/user/navigate?r='+Math.random(),
+                type: 'get',
+                headers: {Accept: 'application/json'},
+                success: function (res) {
+                    if(res.code == 0){
+                        var firstNavigate = res.data.navigates[1];
+
+                        for(var i=0; i<firstNavigate.length; i++){
+
+                            (function (i) {
+                                var op = document.createElement('div');
+
+                                op.className = 'op';
+                                op.onclick = function () {
+                                    to(firstNavigate[i].url);
+                                };
+                                op.innerHTML = '<i class="icon '+firstNavigate[i].privilege_tag+'"></i><p>'+firstNavigate[i].name+'</p>';
+
+                                $('#oaOperate').append(op);
+                            })(i);
+                        }
+
+                        if(!localStorage.navigate){
+                            localStorage.setItem('navigate', JSON.stringify(res.data));
+                        }
+
+                    }else if(res.code = 10106){
+                        window.location.href = '/';
+                    }else {
+                        alert(res.message)
+                    }
+                }
+            });
+        }
+
+        function to(url) {
+            window.open(url);
+        }
+
+    </script>
+</body>
+</html>

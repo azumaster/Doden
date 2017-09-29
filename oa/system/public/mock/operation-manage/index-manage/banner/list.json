@@ -1,0 +1,27 @@
+{
+  "code":0,
+  "data":{
+    "page":3,
+    "total":17,
+    "banner_lists":[
+      {
+        "banner_id":1,
+        "banner_title":"竹林商贸猪大肚",
+        "position":1,
+        "put_on_at":"2016-11-16 10:00:00",
+        "pull_off_at":"2016-11-16 11:00:00",
+        "pv":12,
+        "status":1
+      },{
+        "banner_id":1,
+        "banner_title":"猪肉鸡肉鸭肉",
+        "position":2,
+        "put_on_at":"2016-11-16 10:00:00",
+        "pull_off_at":"2016-11-16 11:00:00",
+        "pv":12,
+        "status":1
+      }
+    ]
+  },
+  "message":"OK"
+}

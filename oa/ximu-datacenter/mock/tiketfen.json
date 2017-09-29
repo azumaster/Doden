@@ -1,0 +1,18 @@
+{
+    "code":0,
+    "data":{
+        "ad_ticket":{
+            "type_no":"ad_ticket",
+            "name":"广告券",
+            "unit":"天",
+            "remark":"平台内广告券，时间按天计算"
+        },
+        "sel_ticket":{
+            "type_no":"ad_ticket",
+            "name":"广告券",
+            "unit":"天",
+            "remark":"平台内广告券，时间按天计算"
+        }
+    },
+    "message":"OK"
+}

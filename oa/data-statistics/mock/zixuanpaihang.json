@@ -1,0 +1,60 @@
+{
+  "code": 0,
+  "data": {
+    "detail": [
+      {
+        "seller_name": "成都顺洋食品",
+         "buyer_name": "嗯嗯",
+        "goods_name": "小星星4",
+        "goods_brand": "哈哈",
+        "goods_sort": "冻品",
+        "call_times": "166",
+        "buyer_num": 2,
+        "goods_num": 1
+      },
+      {
+        "seller_name": "江苏九寿堂",
+         "goods_sort": "冻品",
+          "buyer_name": "嗯嗯",
+         "goods_name": "小星星3",
+          "goods_brand": "哈哈",
+        "call_times": "31",
+        "buyer_num": 3,
+        "goods_num": 1
+      },
+      {
+        "seller_name": "宝迪冻品",
+         "goods_sort": "冻品",
+          "buyer_name": "嗯嗯",
+         "goods_brand": "哈哈",
+         "goods_name": "小星星2",
+        "call_times": "12",
+        "buyer_num": 7,
+        "goods_num": 3
+      },
+      {
+        "seller_name": "恒旭铭达",
+         "buyer_name": "嗯嗯",
+         "goods_sort": "冻品",
+         "goods_brand": "哈哈",
+         "goods_name": "小星星1",
+        "call_times": "10",
+        "buyer_num": 1,
+        "goods_num": 2
+      }
+    
+    
+ 
+  
+     
+    
+    
+      
+
+    ],
+    "total": 17,
+    "current": 1,
+    "last_page": 1
+  },
+  "message": "OK"
+}

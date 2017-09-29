@@ -1,0 +1,91 @@
+{
+  "code": 10106,
+  "data": {
+    "全部": {
+      "group": [
+        {
+          "call_times": "3",
+          "buyer_times": 3,
+          "seller_times": 1,
+          "time": "2016-01"
+        },
+        {
+          "call_times": 0,
+          "buyer_times": 0,
+          "seller_times": 0,
+          "time": "2016-02"
+        },
+        {
+          "call_times": 0,
+          "buyer_times": 0,
+          "seller_times": 0,
+          "time": "2016-03"
+        },
+        {
+          "call_times": 0,
+          "buyer_times": 0,
+          "seller_times": 0,
+          "time": "2016-04"
+        },
+        {
+          "call_times": 0,
+          "buyer_times": 0,
+          "seller_times": 0,
+          "time": "2016-05"
+        },
+        {
+          "call_times": 0,
+          "buyer_times": 0,
+          "seller_times": 0,
+          "time": "2016-06"
+        },
+        {
+          "call_times": 0,
+          "buyer_times": 0,
+          "seller_times": 0,
+          "time": "2016-07"
+        },
+        {
+          "call_times": 0,
+          "buyer_times": 0,
+          "seller_times": 0,
+          "time": "2016-08"
+        },
+        {
+          "call_times": "2",
+          "buyer_times": 1,
+          "seller_times": 2,
+          "time": "2016-09"
+        },
+        {
+          "call_times": 0,
+          "buyer_times": 0,
+          "seller_times": 0,
+          "time": "2016-10"
+        },
+        {
+          "call_times": 0,
+          "buyer_times": 0,
+          "seller_times": 0,
+          "time": "2016-11"
+        },
+        {
+          "call_times": 0,
+          "buyer_times": 0,
+          "seller_times": 0,
+          "time": "2016-12"
+        },
+        {
+          "call_times": 0,
+          "buyer_times": 0,
+          "seller_times": 0,
+          "time": "2017-01"
+        }
+      ],
+      "total_times": "5",
+      "total_buyer": 4,
+      "total_goods": 4
+    }
+  },
+  "message": "OK"
+}

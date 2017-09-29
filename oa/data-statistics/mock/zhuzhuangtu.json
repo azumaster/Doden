@@ -1,0 +1,33 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "total": 450,
+    "detail": [
+      {
+        "trenchnum": 11,
+        "num": 204
+      },
+      {
+        "trenchnum": 21,
+        "num": 186
+      },
+      {
+        "trenchnum": 22,
+        "num": 1
+      },
+      {
+        "trenchnum": 23,
+        "num": 2
+      },
+      {
+        "trenchnum": 25,
+        "num": 56
+      },
+      {
+        "trenchnum": 26,
+        "num": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "code":0,
+  "message":"OK",
+  "data":[
+    {
+      "id": 1,
+      "gname": "测试",
+      "guigei": "规格",
+      "xinghao": "型号"
+    }
+  ]
+}

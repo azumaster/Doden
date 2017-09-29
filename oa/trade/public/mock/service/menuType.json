@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "view": {
+      "type_name":"跳转URL",
+      "value_type":"view",
+      "value_field":"url",
+      "remark":"用户点击view类型按钮后，微信客户端将会打开开发者在按钮中填写的网页URL"
+    },
+    "click": {
+      "type_name":"点击推事件",
+      "value_type":"click",
+      "value_field":"key",
+      "remark":"用户点击click类型按钮后，微信服务器会通过消息接口推送消息类型为 event    的结构给开发者"
+    }
+  }
+}

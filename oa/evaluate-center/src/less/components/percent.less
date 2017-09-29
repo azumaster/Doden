@@ -1,0 +1,73 @@
+.percent{
+  height: 500px;
+  .percent-all{
+    width: 100px;
+    margin: 10px auto 30px;
+    text-align: center;
+    background: #2d8cf0;
+    line-height: 20px;
+    padding: 5px 0;
+    position: relative;
+    color: #ffffff;
+    &:before{
+      content: '';
+      width: 0;
+      height: 0;
+      position: absolute;
+      left: 0;
+      bottom: -20px;
+      border-top: 20px solid #2d8cf0;
+      border-left: 50px solid transparent;
+    }
+    &:after{
+      content: '';
+      width: 0;
+      height: 0;
+      position: absolute;
+      right: 0;
+      bottom: -20px;
+      border-top: 20px solid #2d8cf0;
+      border-right: 50px solid transparent;
+    }
+  }
+  .percent-other{
+    width: 100px;
+    margin: 10px auto 20px;
+    text-align: center;
+    background: #5cadff;
+    line-height: 20px;
+    padding: 5px 0;
+    position: relative;
+    color: #ffffff;
+    &:before{
+      content: '';
+      width: 0;
+      height: 0;
+      position: absolute;
+      left: -20px;
+      bottom: -15px;
+      border-top: 15px solid #5cadff;
+      border-left: 70px solid transparent;
+    }
+    &:after{
+      content: '';
+      width: 0;
+      height: 0;
+      position: absolute;
+      right: -20px;
+      bottom: -15px;
+      border-top: 15px solid #5cadff;
+      border-right: 70px solid transparent;
+    }
+  }
+  .percent-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    height: 40px;
+    margin: 10px 0;
+    background: #e6e6e6;
+    border: 1px solid #cccccc;
+    line-height: 40px;
+  }
+}

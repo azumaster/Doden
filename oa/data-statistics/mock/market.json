@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "seller_market": "还帮"
+    },
+    {
+      "seller_market": "外地"
+    },
+    {
+      "seller_market": "青白江"
+    },
+    {
+      "seller_market": "锦江"
+    }
+  ],
+  "message": "OK"
+}

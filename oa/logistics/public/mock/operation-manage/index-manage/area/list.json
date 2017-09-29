@@ -1,0 +1,13 @@
+{
+  "code":0,
+  "message":"获取成功",
+  "data":[
+    {
+      "area_id":2,
+      "area_name":"四川"
+    },{
+      "area_id":5,
+      "area_name":"重庆"
+    }
+  ]
+}

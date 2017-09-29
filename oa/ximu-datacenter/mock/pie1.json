@@ -1,0 +1,31 @@
+{
+    "code": 0,
+    "message": "OK",
+    "data": {
+        "省1": {
+            "white_list": 48,
+            "opened": 26,
+            "paid": 35
+        },
+        "省2": {
+            "white_list": 31,
+            "opened": 6,
+            "paid": 7
+        },
+        "省3": {
+            "white_list": 13,
+            "opened": 4,
+            "paid": 2
+        },
+        "省4": {
+            "white_list": 22,
+            "opened": 10,
+            "paid": 9
+        },
+        "省5": {
+            "white_list": 10,
+            "opened": 21,
+            "paid": 13
+        }
+    }
+}

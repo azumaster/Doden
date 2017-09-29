@@ -1,0 +1,53 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "total": 1,
+    "per_page": "2",
+    "current_page": 1,
+    "last_page": 1,
+    "next_page_url": null,
+    "prev_page_url": null,
+    "from": 1,
+    "to": 1,
+    "data": [
+      {
+        "name": "利源冻品",
+        "ZhuCe": "2015-06-04 00:28:22",
+        "shopId": 1,
+
+        "allSale": "256515.00",
+        "appraiseNum": 177,
+        "goodAppraise": "23%",
+        "goodAppraiseNum": 53,
+        "hasImgGoodAppraiseNum": 15,
+        "mediumAppraise": "11%",
+        "mediumAppraiseNum":27,
+        "hasImgMediumAppraiseNum": 18,
+        "poorAppraise": "50%",
+        "poorAppraiseNum": 97,
+        "hasImgPoorAppraiseNum": 88,
+        "deliverySpeed": 4.77,
+        "servicePlatform": 4.89
+      },{
+        "name": "利源冻品222",
+        "ZhuCe": "2015-06-04 00:28:22",
+        "shopId": 1,
+
+        "allSale": "256515.00",
+        "appraiseNum": 177,
+        "goodAppraise": "23%",
+        "goodAppraiseNum": 53,
+        "hasImgGoodAppraiseNum": 15,
+        "mediumAppraise": "11%",
+        "mediumAppraiseNum":27,
+        "hasImgMediumAppraiseNum": 18,
+        "poorAppraise": "50%",
+        "poorAppraiseNum": 97,
+        "hasImgPoorAppraiseNum": 88,
+        "deliverySpeed": 4.77,
+        "servicePlatform": 4.89
+      }
+    ]
+  }
+}

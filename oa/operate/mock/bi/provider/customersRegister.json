@@ -1,0 +1,136 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "total": 44,
+    "per_page": "20",
+    "current_page": 1,
+    "last_page": 3,
+    "next_page_url": "http://test.oa.zdongpin.com/bi/provider/customersRegister?=2",
+    "prev_page_url": null,
+    "from": 1,
+    "to": 20,
+    "data": [
+      {
+        "shop_name": "王大力",
+        "mobile_phone": "18284559755",
+        "type_name": "中餐店",
+        "created_at": "2017-03-02 12:39:11"
+      },
+      {
+        "shop_name": "写代码的冻品",
+        "mobile_phone": "18428385253",
+        "type_name": "火锅店",
+        "created_at": "2017-03-03 11:05:00"
+      },
+      {
+        "shop_name": "哈哈",
+        "mobile_phone": "15208359521",
+        "type_name": "串串店",
+        "created_at": "2017-03-20 15:22:29"
+      },
+      {
+        "shop_name": "王大力冻品",
+        "mobile_phone": "18284559755",
+        "type_name": "火锅店",
+        "created_at": "2017-03-21 14:43:29"
+      },
+      {
+        "shop_name": "哈哈哈",
+        "mobile_phone": "15608069020",
+        "type_name": "快餐店",
+        "created_at": "2017-03-24 09:44:56"
+      },
+      {
+        "shop_name": "测试代码鸡",
+        "mobile_phone": "13262987416",
+        "type_name": "中餐店",
+        "created_at": "2017-03-27 18:27:28"
+      },
+      {
+        "shop_name": "婷婷",
+        "mobile_phone": "18081140832",
+        "type_name": "快餐店",
+        "created_at": "2017-03-28 09:59:02"
+      },
+      {
+        "shop_name": "会写冻品的代码",
+        "mobile_phone": "18428385253",
+        "type_name": "代码店",
+        "created_at": "2017-03-28 10:10:16"
+      },
+      {
+        "shop_name": "卧槽",
+        "mobile_phone": "已删除",
+        "type_name": "粉面馆",
+        "created_at": "2017-03-28 17:35:15"
+      },
+      {
+        "shop_name": "妈的",
+        "mobile_phone": "18614028121",
+        "type_name": "火锅店",
+        "created_at": "2017-03-28 18:01:14"
+      },
+      {
+        "shop_name": "",
+        "mobile_phone": "13262987416",
+        "type_name": "中餐店",
+        "created_at": "2017-03-29 14:27:48"
+      },
+      {
+        "shop_name": "我的天",
+        "mobile_phone": "18614028121",
+        "type_name": "粉面馆",
+        "created_at": "2017-03-29 15:57:45"
+      },
+      {
+        "shop_name": "卖代码的冻品",
+        "mobile_phone": "18428385253",
+        "type_name": "123",
+        "created_at": "2017-03-31 13:31:59"
+      },
+      {
+        "shop_name": "冻冻",
+        "mobile_phone": "15208359521",
+        "type_name": "123",
+        "created_at": "2017-03-31 15:19:20"
+      },
+      {
+        "shop_name": "重庆奇明火锅",
+        "mobile_phone": "18739529588",
+        "type_name": "123",
+        "created_at": "2017-04-07 12:35:34"
+      },
+      {
+        "shop_name": "yy鱿鱼店",
+        "mobile_phone": "18980920269",
+        "type_name": "火锅店",
+        "created_at": "2017-04-07 14:28:12"
+      },
+      {
+        "shop_name": "",
+        "mobile_phone": "18380242859",
+        "type_name": null,
+        "created_at": "2017-04-07 14:30:34"
+      },
+      {
+        "shop_name": "蛋蛋杂货铺",
+        "mobile_phone": "17760333050",
+        "type_name": "123",
+        "created_at": "2017-04-07 14:32:24"
+      },
+      {
+        "shop_name": "冻参谋服务商客服测试",
+        "mobile_phone": "18000500400",
+        "type_name": "123",
+        "created_at": "2017-04-07 17:13:21"
+      },
+      {
+        "shop_name": "测试",
+        "mobile_phone": "13808170760",
+        "type_name": "123",
+        "created_at": "2017-05-05 15:38:52"
+      }
+    ]
+  }
+}

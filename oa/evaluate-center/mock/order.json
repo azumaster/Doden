@@ -1,0 +1,68 @@
+{
+    "data": {
+        "shop_appraise": {
+            "sell_service": 5,
+            "delivery_speed": 5
+        },
+        "goods_appraise": [
+            {
+                "id": 123,
+                "good_new_price": "302.00",
+                "buy_num": 10,
+                "count_price": "3020.00",
+                "meter_unit": 0,
+                "name": "六和鸭肫L号",
+                "quality": 2,
+                "content": "货不错！",
+                "appraise_id": "1",
+                "img": [
+                    {
+                        "id":"1",
+                        
+                        "img_url": "Public/Uploads/evaluateImg/20170831/15041635249874327.jpg",
+                        "type": "1"
+                    },
+                    {
+                        "id":"1",
+                        "appraise_id": "1",
+                        "img_url": "Public/Uploads/evaluateImg/20170831/15041635249874328.jpg",
+                        "type": "1"
+                    }
+                 ]
+            },
+                {
+                "id": 1234,
+                "appraise_id": "2",
+                "good_new_price": "3012.00",
+                "buy_num": 10,
+                "count_price": "30120.00",
+                "meter_unit": 0,
+                "name": "六和鸭肫哈号",
+                "quality": 4,
+                "content": "货不222错！",
+                "img": [
+                    {
+                        "id":"1",
+                        "appraise_id": "1",
+                        "img_url": "Public/Uploads/evaluateImg/20170831/15041635249874327.jpg",
+                        "type": "1"
+                    },
+                    {
+                        "id":"2",
+                        "appraise_id": "1",
+                        "img_url": "Public/Uploads/evaluateImg/20170831/15041635249874329.jpg",
+                        "type": "1"
+                    },
+                    {
+                        "id":"3",
+                        "appraise_id": "1",
+                        "img_url": "Public/Uploads/evaluateImg/20170831/15041635249874320.jpg",
+                        "type": "1"
+                    }
+                 ]
+            }
+        ]
+    },
+    "message": "ok",
+    "code": 0
+}

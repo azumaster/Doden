@@ -1,0 +1,28 @@
+{
+    "code":0,
+    "data":{
+        "page":1,
+        "total":60,
+        "lists":[
+            {
+                "shop_name":"店铺名称",
+                "area_province":"四川省",
+                "mobile":"13612345678",
+                "open_status":5,
+                "total_limit":150.00,
+                "pay_status":1,
+                "pay_money":0
+            },
+            {
+                "shop_name":"店铺名称",
+                "area_province":"四川省",
+                "mobile":"13612345678",
+                "open_status":1,
+                "total_limit":150.00,
+                "pay_status":1,
+                "pay_money":10
+            }
+        ]
+    },
+    "message":"OK"
+}

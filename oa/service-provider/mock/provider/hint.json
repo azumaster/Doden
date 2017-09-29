@@ -1,0 +1,16 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": [
+    {
+      "shop_name": "代码鸡",
+      "user_name": "卖代码的冻品",
+      "mobile": "18428385555"
+    },
+    {
+      "shop_name": "王大力代码点心",
+      "user_name": "yankeys",
+      "mobile": "18284559755"
+    }
+  ]
+}

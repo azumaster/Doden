@@ -1,0 +1,34 @@
+    {
+    "code": 0,
+    "message": "ok",
+    "data": {
+        "lists": [
+            {
+                "order_code": "128781484890633Wao7r2AX-0",
+                "good_num": 1,
+                "orderact": 2,
+                "addtime": "2017-01-20 13:37:13",
+                "shopId": 5627,
+                "dianPuName": "天恩冻品",
+                "goodid": 16276,
+                "id": 16276,
+                "gname": "方源 加工掌中宝小颗粒",
+                "appraise_status": "已评价"
+            },
+            {
+                "order_code": "128781484890633Wao7r2AX-0",
+                "good_num": 1,
+                "orderact": 3,
+                "addtime": "2017-01-20 13:37:13",
+                "shopId": 5627,
+                "dianPuName": "天恩冻品",
+                "goodid": 16276,
+                "id": 16276,
+                "gname": "方源 加工掌中宝小颗粒",
+                "appraise_status": "未评价"
+            }
+        ],
+        "total": 100,
+        "current": 1
+    }
+}

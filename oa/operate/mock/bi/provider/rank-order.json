@@ -1,0 +1,31 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "data": [
+      {
+        "sp_shop": "火锅店",
+        "district": "123",
+        "data": "2501.07"
+      },
+      {
+        "sp_shop": "快餐店",
+        "district": "222",
+        "data": "318.03"
+      },
+      {
+        "sp_shop": "串串店",
+        "district": "333",
+        "data": "120.00"
+      },
+      {
+        "sp_shop": "代码店",
+        "district": "444",
+        "data": "2.02"
+      }
+    ],
+    "total": 4,
+    "current": 1,
+    "last_page": 1
+  }
+}

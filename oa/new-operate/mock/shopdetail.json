@@ -1,0 +1,28 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": [
+    {
+      "shId": 9348,
+      "xingming": "严友平",
+      "lianxiTel": "13550927311--已删除--9348",
+      "zhuceTime": "2016-07-30 15:43:52",
+      "shopId": 9334,
+      "trenchnum": 11,
+      "dianPuName": "煎饼",
+      "cardPic": "",
+      "xiangXiDiZi": "西区",
+      "province_id": 21,
+      "province": "四川省",
+      "city_id": 21,
+      "city": "成都市",
+      "county_id": 21,
+      "county": "锦江区",
+      "pianquId": 83,
+      "pianqu_province_id": 21,
+      "pianqu_name": "外地市场",
+      "weChatGroupId": 1,
+      "grounds": "没店铺照片"
+    }
+  ]
+}

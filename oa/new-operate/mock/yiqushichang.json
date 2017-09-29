@@ -1,0 +1,34 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "provinceArr": [
+      {
+        "provinceidtxt": "21",
+        "dividename": "四川省"
+      },
+      {
+        "provinceidtxt": "2",
+        "dividename": "天津市"
+      }
+    ],
+    "pianquArr": {
+      "2": [
+        {
+          "pianquId": 3,
+          "pianqu": "海霸王市场"
+        }
+      ],
+      "21": [
+      {
+          "pianquId": 83,
+          "pianqu": "外地市场"
+        },
+        {
+          "pianquId": 13,
+          "pianqu": "haha市场"
+        }
+      ]
+    }
+  }
+}

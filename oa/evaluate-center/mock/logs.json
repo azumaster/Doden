@@ -1,0 +1,99 @@
+ {
+    "code": 0,
+    "message": "ok",
+    "data": [
+        {
+            "dispose_person_id": 1122,
+            "dispose_person_name": "测试",
+            "dispose_time": {
+                "date": "2017-08-24 15:35:06.000000",
+                "timezone_type": 3,
+                "timezone": "PRC"
+            },
+            "appraise_data": {
+                    "shop_appraise": {
+                        "sell_service": 5,
+                        "delivery_speed": 5
+                    },
+                    "goods_appraise": [
+                        {
+                            "good_new_price": "27.00",
+                            "buy_num": 2,
+                            "count_price": "54.00",
+                            "meter_unit": 0,
+                            "name": "鸭肝（三件起卖）",
+                            "quality": 5,
+                            "content": "价格低品质好！！",
+                            "img": [
+                                {
+                                    "id":"1",
+                                    "appraise_id": "1",
+                                    "img_url": "Public/Uploads/goodsimg/20150824/55daca3d8ba49.jpg",
+                                    "type": "1"
+                               }
+                            ]
+                        },
+                        {
+                            "good_new_price": "1227.00",
+                            "buy_num": 12,
+                            "count_price": "2354.00",
+                            "meter_unit": 0,
+                            "name": "234鸭肝（三件起卖）",
+                            "quality": 5,
+                            "content": "34价格低品质好！！",
+                            "img": [
+                                {
+                                    "id":"1",
+                                    "appraise_id": "1",
+                                    "img_url": "Public/Uploads/goodsimg/20150824/55daca3d8ba49.jpg",
+                                    "type": "1"
+                               },
+                                {
+                                    "id":"1",
+                                    "appraise_id": "1",
+                                    "img_url": "Public/Uploads/goodsimg/20150824/55daca3d8ba439.jpg",
+                                    "type": "1"
+                               }
+                            ]
+                        }
+                    ]
+                
+            }
+        },
+         {
+            "dispose_person_id": 1122,
+            "dispose_person_name": "测试234",
+            "dispose_time": {
+                "date": "2017-08-24 15:35:06.000000",
+                "timezone_type": 3,
+                "timezone": "PRC"
+            },
+            "appraise_data": {
+                    "shop_appraise": {
+                        "sell_service": 5,
+                        "delivery_speed": 5
+                    },
+                    "goods_appraise": [
+                        {
+                            "good_new_price": "127.00",
+                            "buy_num": 2,
+                            "count_price": "154.00",
+                            "meter_unit": 0,
+                            "name": "鸭333肝（三件起卖）",
+                            "quality": 5,
+                            "content": "价格低品33质好！！",
+                            "img": [
+                                {
+                                    "id":"12",
+                                    "appraise_id": "13",
+                                    "img_url": "Public/Uploads/goodsimg/20150824/55daca3d8ba49.jpg",
+                                    "type": "13"
+                               }
+                            ]
+                        }
+                    ]
+                
+            }
+        }
+    ]
+}

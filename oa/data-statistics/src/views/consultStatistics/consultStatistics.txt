@@ -1,0 +1,278 @@
+<template>
+<div>
+	<h1>买家咨询统计</h1>
+	 <Alert type="error" show-icon closable="true" v-if="alert">
+        您还未登录
+        <span slot="desc">
+            请登录
+        </span>
+    </Alert>
+	<div class="datepicker">
+		   <Date-picker type="daterange" placement="bottom-start" placeholder="默认为7天前到今天"
+                                 style="width: 300px" @on-change="dateChange"></Date-picker>
+	</div>
+	<div>
+	<div class="margintop20">
+		<Radio-group v-model="params.group">
+        <Radio label="day">按日</Radio>
+        <Radio label="week">按周</Radio>
+        <Radio label="month">按月</Radio>
+        <Radio label="year">按年</Radio>
+    </Radio-group>
+	</div>
+	<div class="margintop20">省：
+		<Checkbox-group v-model="provincemodel"  @on-change="provinceChange">
+        <Checkbox v-for='i in provinceList'  :label="i"></Checkbox>
+    </Checkbox-group>
+    </Select>
+	</div>
+	<div class="margintop20">市：
+		<Checkbox-group v-model="citymodel"  @on-change="cityChange">
+        <Checkbox v-for='i in cityList'  :label="i"></Checkbox>
+    </Checkbox-group>
+	</div>
+	<div class="margintop20">区：
+		<Checkbox-group v-model="buyer_districtmodel"  @on-change="buyer_districtChange">
+        <Checkbox v-for='i in buyer_districtList'  :label="i"></Checkbox>
+    </Checkbox-group>
+	</div>
+	<div class="margintop20">商品种类：
+		<Checkbox-group v-model="goods_sortmodel"  @on-change="goods_sortChange">
+        <Checkbox v-for='i in goods_sortList'  :label="i"></Checkbox>
+    </Checkbox-group>
+	</div>
+	<div class="margintop20">商品品牌：
+		<Checkbox-group v-model="goods_brandmodel"  @on-change="goods_brandChange">
+        <Checkbox v-for='i in goods_brandList'  :label="i"></Checkbox>
+    </Checkbox-group>
+	</div>
+	<div class="margintop20">买家批次：
+		<Checkbox-group v-model="buyer_typemodel"  @on-change="buyer_typeChange">
+        <Checkbox v-for='i in buyer_typeList'  :label="i"></Checkbox>
+    </Checkbox-group>
+	</div>
+	<div class="margintop20">买家市场：
+		<Checkbox-group v-model="buyer_marketmodel"  @on-change="buyer_marketChange">
+        <Checkbox v-for='i in buyer_marketList'  :label="i"></Checkbox>
+    </Checkbox-group>
+	</div>
+		<div class="margintop20">买家名：
+		<Checkbox-group v-model="buyer_namemodel"  @on-change="buyer_nameChange">
+        <Checkbox v-for='i in buyer_nameList'  :label="i"></Checkbox>
+    </Checkbox-group>
+	</div>
+	<div class="margintop20">
+		<Button type="primary" @click="select">确认筛选</Button>
+	</div>
+	</div>
+	<Card :bordered="true">
+	<div id="totalChart" class="chart" style="width: 100%; height: 500px"></div>
+	<Spin size="large" fix v-if="spinShow"></Spin>
+	</Card>
+</div>
+</template>
+<script>
+import eCharts from 'echarts';
+//import Consule from '../../common/consule.js'; //引入请求本地的数据，上线时注释即可
+	export default {
+	//	mixins:[Consule],
+		data(){
+			return {
+				spinShow: true, //加载中
+				provincemodel: '',
+				alert: false,
+				provinceList: [],
+				citymodel: '',
+				cityList: [],
+				buyer_districtmodel: '',
+				buyer_districtList: [],
+				goods_sortmodel: '',
+				goods_sortList: [],
+				goods_brandmodel: '',
+				goods_brandList: [],
+				buyer_typemodel: '',
+				buyer_typeList: [],
+				buyer_marketmodel: '',
+				buyer_marketList: [],
+				buyer_namemodel: '',
+				buyer_nameList: [],
+				totalEcharts: [],  //存储返回的数据
+				filterparams:{
+					filter: ['goods_brand', 'goods_sort', 'buyer_type', 'buyer_name', 'buyer_province', 'buyer_city', 'buyer_district', 'buyer_market', 'seller_type',  'seller_name', 'seller_province']
+				},
+				params:{
+					time: [],
+					filter: {},
+					group: 'day'
+				}
+			}
+		},
+		methods:{
+			dateChange(e){
+                this.start = e[0];
+                this.end = e[1];
+                this.filterparams.time = [this.start, this.end];
+                this.params.time = [this.start, this.end];
+                this.time = this.params.time;
+                this.getFilterData();
+            },
+            provinceChange(){
+            	var _this = this;
+            	var obj = _this.params.filter;
+            	obj = Object.assign({'buyer_province':_this.provincemodel});
+            	_this.params.filter = obj;
+            },
+            cityChange(){
+            	var _this= this;
+            	var obj = _this.params.filter;
+            	obj = Object.assign(obj, {'buyer_city': _this.citymodel});
+            	_this.params.filter = obj;
+            },
+            goods_sortChange(){
+            	var _this= this;
+            	var obj = _this.params.filter;
+            	obj = Object.assign(obj, {'goods_sort': _this.goods_sortmodel});
+            	_this.params.filter = obj;
+            },
+            buyer_districtChange(){
+            	var _this= this;
+            	var obj = _this.params.filter;
+            	obj = Object.assign(obj, {'buyer_district': _this.buyer_districtmodel});
+            	_this.params.filter = obj;
+            },
+            goods_brandChange(){
+            	var _this= this;
+            	var obj = _this.params.filter;
+            	obj = Object.assign(obj, {'goods_brand': _this.goods_brandmodel});
+            	_this.params.filter = obj;
+            },
+            buyer_typeChange(){
+            	var _this= this;
+            	var obj = _this.params.filter;
+            	obj = Object.assign(obj, {'buyer_type': _this.buyer_typemodel});
+            	_this.params.filter = obj;
+            },
+            buyer_marketChange(){
+            	var _this= this;
+            	var obj = _this.params.filter;
+            	obj = Object.assign(obj, {'buyer_market': _this.buyer_marketmodel});
+            	_this.params.filter = obj;
+            
+            },
+            buyer_nameChange(){
+            	var _this= this;
+            	var obj = _this.params.filter;
+            	obj = Object.assign(obj, {'buyer_name': _this. buyer_namemodel});
+            	_this.params.filter = obj;
+            },
+            getBaseData(){
+				var _this = this;
+				_this.$http({
+					method: 'POST',
+					url: '/bi/call',
+					body: _this.params,
+					header: 'Accept application/json'
+				}).then(response =>{
+					if(response.body.code ==0){
+						_this.totalEcharts = response.body.data.全部.group;
+						_this.initTotalCharts();
+						_this.spinShow = false ;
+					}
+					else if(response.body.code != 0){
+						_this.alert = true;
+					}
+				});
+			},
+            getFilterData(){
+            	var _this = this;
+            	_this.$http({
+            		method: 'POST',
+            		url: '/bi/call/filter',
+            		body: _this.filterparams,
+            		header: 'Accept application/json'
+            	}).then(response => {
+            		_this.provinceList = response.body.data.buyer_province;
+            		_this.cityList = response.body.data.buyer_city;
+            		_this.goods_sortList = response.body.data.goods_sort;
+            		_this.buyer_districtList = response.body.data.buyer_district;
+            		_this.goods_brandList =  response.body.data.goods_brand;
+            		_this.buyer_typeList = response.body.data.buyer_type;
+            		_this.buyer_marketList = response.body.data.buyer_market;
+            		_this.buyer_nameList = response.body.data.buyer_name;
+            	})
+            },
+            select(){
+            	this.spinShow = true;
+            	this.getBaseData();
+            },
+            //图表
+            initTotalCharts(){
+            	var _this =this,
+            	    myChart = eCharts.init(document.getElementById('totalChart'));
+          
+            	    var xAxis = [],
+                    	totalEchartsData = _this.totalEcharts,
+              			yAxis = [];
+                    	for(var i in totalEchartsData){
+                    		xAxis.push(totalEchartsData[i].time);
+                    		yAxis.push(totalEchartsData[i].times); 
+                    	}
+            		myChart.setOption({
+				legend: {
+				        data:['咨询统计']
+				    },
+				    toolbox: {
+				        show : true,
+				        feature : {
+				            mark : {show: true},
+				            dataView : {show: true, readOnly: false},
+				            magicType : {show: true, type: ['line', 'bar']},
+				            restore : {show: true},
+				            saveAsImage : {show: true}
+				        }
+				    },
+				    calculable : true,
+				    tooltip : {
+				        trigger: 'axis',
+				        formatter: "{b} {c}"
+				    },
+				    xAxis : [
+				        {
+				            type: 'category',
+				             boundaryGap: true,
+				             data : xAxis
+				        }
+				    ],
+				    yAxis : [
+				        {
+				            type : 'value',
+				            axisLabel : { formatter: '{value} ' }
+				        }
+				    ],
+				    series : [
+				        {
+				            name:'咨询统计',
+				            type:'line',
+				            smooth:false,
+				            itemStyle: {
+				                normal: {
+				                    lineStyle: {
+				                        shadowColor : 'rgba(0,0,0,0.4)'
+				                    }
+				                }
+				            },
+				            data:yAxis
+				        }
+				    ] 
+            		})
+            }
+		},
+		created(){
+			this.getBaseData();
+			this.getFilterData();
+		}
+	}
+</script>
+<style scoped>
+	.datepicker,.margintop20{margin: 20px 0;}
+</style>

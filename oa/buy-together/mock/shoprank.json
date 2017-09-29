@@ -1,0 +1,95 @@
+{
+  "code": 10106,
+  "message": "OK",
+  "data": {
+    "detail": [
+      {
+        "province": "四川省",
+        "city": "成都市",
+        "county": "郫县",
+        "num": 1193
+      },
+      {
+        "province": "四川省",
+        "city": "成都市",
+        "county": "青白江区",
+        "num": 471
+      },
+      {
+        "province": "四川省",
+        "city": "成都市",
+        "county": "市辖区",
+        "num": 30
+      },
+      {
+        "province": "四川省",
+        "city": "成都市",
+        "county": "锦江区",
+        "num": 4
+      },
+      {
+        "province": "重庆市",
+        "city": "九龙坡区",
+        "county": "",
+        "num": 2
+      },
+      {
+        "province": "四川省",
+        "city": "成都市",
+        "county": "高新区",
+        "num": 2
+      },
+      {
+        "province": "四川省",
+        "city": "成都市",
+        "county": "青羊区",
+        "num": 2
+      },
+      {
+        "province": "四川省",
+        "city": "成都市",
+        "county": "成华区",
+        "num": 1
+      },
+      {
+        "province": "四川省",
+        "city": "成都市",
+        "county": "金牛区",
+        "num": 1
+      },
+      {
+        "province": "四川省",
+        "city": "雅安市",
+        "county": "芦山县",
+        "num": 1
+      },
+      {
+        "province": "四川省",
+        "city": "成都市",
+        "county": "新都区",
+        "num": 1
+      },
+      {
+        "province": "四川省",
+        "city": "成都市",
+        "county": "武侯区",
+        "num": 1
+      },
+      {
+        "province": "四川省",
+        "city": "资阳市",
+        "county": "简阳市",
+        "num": 1
+      },
+      {
+        "province": "四川省",
+        "city": "成都市",
+        "county": "双流县",
+        "num": 1
+      }
+    ],
+    "total": 14,
+    "current": 1,
+    "last_page": 1
+  }
+}

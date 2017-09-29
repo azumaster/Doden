@@ -1,0 +1,66 @@
+{
+    "code": 0,
+    "message": "OK",
+    "data": {
+        "成都市": {
+            "white_list": 208,
+            "opened": 10,
+            "paid": 10
+        },
+        "绵阳市": {
+            "white_list": 15,
+            "opened": 1,
+            "paid": 1
+        },
+        "南充市": {
+            "white_list": 14,
+            "opened": 2,
+            "paid": 2
+        },
+        "宜宾市": {
+            "white_list": 11,
+            "opened": 2,
+            "paid": 2
+        },
+        "内江市": {
+            "white_list": 8,
+            "opened": 3,
+            "paid": 4
+        },
+        "凉山州": {
+            "white_list": 7,
+            "opened": 2,
+            "paid": 4
+        },
+        "雅安市": {
+            "white_list": 7,
+            "opened": 3,
+            "paid": 2
+        },
+        "乐山市": {
+            "white_list": 7,
+            "opened": 5,
+            "paid": 8
+        },
+        "遂宁市": {
+            "white_list": 7,
+            "opened": 5,
+            "paid": 4
+        },
+        "广元市": {
+            "white_list": 2,
+            "opened": 3,
+            "paid": 5
+        },
+        "阿坝州": {
+            "white_list": 1,
+            "opened": 3,
+            "paid": 5
+        },
+        "甘孜州": {
+            "white_list": 9,
+            "opened": 4,
+            "paid": 4
+        }
+    }
+}

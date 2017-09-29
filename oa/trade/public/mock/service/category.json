@@ -1,0 +1,14 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": [
+    {
+      "type_name": "火锅店",
+      "sort_value": 1
+    },
+    {
+      "type_name": "中餐店",
+      "sort_value": 2
+    }
+  ]
+}

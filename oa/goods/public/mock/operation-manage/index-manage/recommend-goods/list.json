@@ -1,0 +1,38 @@
+{
+  "code":0,
+  "data":{
+    "page":1,
+    "total":30,
+    "goods":[
+      {
+        "id":2,
+        "goods_id":1234,
+        "goods_name":"鸭肠",
+        "shop_name":"渝达大鸭肠",
+        "put_on_at":"2016-12-17 08:25:00",
+        "pull_off_at":"2016-12-23 11:30:00",
+        "status":1,
+        "pv":2333
+      },{
+        "id":3,
+        "goods_id":1334,
+        "goods_name":"鸭肠",
+        "shop_name":"渝达大鸭肠",
+        "put_on_at":"2016-12-17 08:25:00",
+        "pull_off_at":"2016-12-23 11:30:00",
+        "status":3,
+        "pv":2333
+      },{
+        "id":1,
+        "goods_id":1434,
+        "goods_name":"鸭肠",
+        "shop_name":"渝达大鸭肠",
+        "put_on_at":"2016-12-17 08:25:00",
+        "pull_off_at":"2016-12-23 11:30:00",
+        "status":2,
+        "pv":2333
+      }
+    ]
+  },
+  "message":"OK"
+}

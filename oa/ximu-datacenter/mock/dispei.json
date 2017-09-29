@@ -1,0 +1,26 @@
+{
+    "code": 0,
+    "message": "OK",
+    "data": {
+        "区1": {
+            "white_list": 208,
+            "opened": 10,
+            "paid": 10
+        },
+        "区2": {
+            "white_list": 15,
+            "opened": 1,
+            "paid": 1
+        },
+        "区3": {
+            "white_list": 14,
+            "opened": 2,
+            "paid": 2
+        },
+        "区4": {
+            "white_list": 11,
+            "opened": 2,
+            "paid": 12
+        }
+    }
+}
