@@ -1,0 +1,64 @@
+.dialog-mask{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1000;
+  background: rgba(0, 0, 0, .5);
+  .dialog{
+    width: 416px;
+    background: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 0;
+    .dialog-title{
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      font-size: 18px;
+      color: #666666;
+      span{
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: block;
+        width: 34px;
+        height: 32px;
+        background: #f0f0f0;
+        color: #45c8dc;
+        line-height: 32px;
+        text-align: center;
+        font-size: 16px;
+      }
+    }
+    .dialog-content{
+      width: 300px;
+      margin: 14px auto;
+    }
+    .dialog-footer{
+      width: 300px;
+      margin: 0 auto 20px;
+      display: flex;
+      justify-content: space-between;
+      .dialog-btn{
+        cursor: pointer;
+        width: 100%;
+        height: 37px;
+        border-radius: 4px;
+        background: #45c8dc;
+        text-align: center;
+        line-height: 37px;
+        color: #ffffff;
+        font-size: 16px;
+
+        &:not(:first-child){
+          margin-left: 60px;
+        }
+      }
+    }
+  }
+}

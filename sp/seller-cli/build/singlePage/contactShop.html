@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='viewport' content='width=device-width,initial-scale=1.0,user-scalable=no'>
+    <meta name="renderer" content="webkit">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="x-rim-auto-match" content="none">
+    <title>联系店铺</title>
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <style rel="stylesheet">
+        @font-face {
+            font-family: 'iconfont';  /* project id 240714 */
+            src: url('//at.alicdn.com/t/font_er1izfonaylj714i.eot');
+            src: url('//at.alicdn.com/t/font_er1izfonaylj714i.eot?#iefix') format('embedded-opentype'),
+            url('//at.alicdn.com/t/font_er1izfonaylj714i.woff') format('woff'),
+            url('//at.alicdn.com/t/font_er1izfonaylj714i.ttf') format('truetype'),
+            url('//at.alicdn.com/t/font_er1izfonaylj714i.svg#iconfont') format('svg');
+        }
+
+        *{
+            margin: 0; padding: 0;
+        }
+
+        body{
+            background: #f5f5f5;
+        }
+
+        h3{
+            font-size: 15px;
+            font-weight: normal;
+        }
+
+        i{
+            font-style: normal;
+            display: inline-block;
+        }
+
+        .buyer-shop-info {
+            overflow: hidden;
+        }
+        .buyer-shop-info .buyer-shop-info-ul {
+            margin-top: 8px;
+        }
+        .buyer-shop-info .buyer-shop-info-ul i{
+            margin-right: 15px;
+        }
+        .buyer-shop-info .buyer-contact {
+            margin: 0 14px;
+        }
+        .buyer-shop-info .buyer-contact .contact-btn{
+            border-radius: 5px;
+            background: none;
+            text-decoration: none;
+            outline: none;
+            min-width: 88px;
+            box-sizing: border-box;
+            padding: 0 18px;
+            height: 42px;
+            font-size: 17px;
+            color: #ffffff;
+            width: 100%;
+            background: #f2582a;
+            border: 1px solid #f2582a;
+        }
+        .buyer-shop-info .buyer-contact .contact-btn:active {
+            background: #e3552b;
+        }
+        .buyer-shop-info .buyer-copyright{
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 46px;
+            position: absolute;
+            bottom: 25px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .ul{
+            background: #ffffff;
+            list-style: none;
+        }
+        .ul:not(:last-child){
+            margin-bottom: 10px;
+        }
+        .ul .li{
+            margin: 0 14px;
+            padding: 15px 0;
+            box-sizing: border-box;
+            position: relative;
+            overflow: hidden;
+        }
+        .ul .li:not(:last-child):after{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            height: 1px;
+            width: 100%;
+            background: #e3e5e9;
+            transform: scaleY(0.5);
+            -webkit-transform: scaleY(0.5);
+            -moz-transform: scaleY(0.5);
+            -ms-transform: scaleY(0.5);
+            -o-transform: scaleY(0.5);
+        }
+
+        .icon {
+            font-family: 'iconfont';
+        }
+        .icon.shop:before {content: '\e736';}
+        .icon.address:before {content:'\e612';}
+        .icon.phone:before {content: '\e61d';}
+
+        .grid-row {
+            width: 100%;
+            overflow: hidden;
+        }
+        .grid-row>* {
+            float: left;
+        }
+        .grid-col-8 {
+            width: 66.67%;
+        }
+        .grid-col-4 {
+            width: 33.33%;
+        }
+        @media only screen and (max-width: 350px) {
+            .grid-col-sm-7 {
+                width: 58.33%;
+            }
+            .grid-col-sm-5 {
+                width: 41.67%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="buyerShopInfo" class="buyer-shop-info">
+    <div class="ul buyer-shop-info-ul">
+        <div class="li">
+            <div class="grid-row">
+                <div class="grid-col-4 grid-col-sm-5">
+                    <h3 class="text-muted"><i class="icon shop"></i>卖家店铺：</h3>
+                </div>
+                <div class="grid-col-8 grid-col-sm-7">
+                    <h3 class="text-muted" id="shopName"> </h3>
+                </div>
+            </div>
+        </div>
+        <div class="li">
+            <div class="grid-row">
+                <div class="grid-col-4 grid-col-sm-5">
+                    <h3 class="text-muted"><i class="icon address"></i>卖家地址：</h3>
+                </div>
+                <div class="grid-col-8 grid-col-sm-7">
+                    <h3 class="text-muted" id="shopAddress"> </h3>
+                </div>
+            </div>
+        </div>
+        <div class="li">
+            <div class="grid-row">
+                <div class="grid-col-4 grid-col-sm-5">
+                    <h3 class="text-muted"><i class="icon phone"></i>联系电话：</h3>
+                </div>
+                <div class="grid-col-8 grid-col-sm-7">
+                    <h3 class="text-muted" id="shopMobile"> </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="buyer-contact"><button type="button" id="contactBtn" class="contact-btn" onclick="contactShop();">联系店铺</button></div>
+    <h5 class="text-assist text-center buyer-copyright">技术支持由成都信领科技有限公司提供</h5>
+</div>
+
+<script>
+    /**
+     * Created by H5 on 2017.03.10.
+     */
+    var mobile = 0;
+
+    (function () {
+        document.addEventListener('touchmove', function (e) {
+            e.preventDefault();
+        }, false);
+        getShopInfo();
+    })();
+
+    function $(node) {
+        return document.getElementById(node);
+    }
+
+    // 获取店铺的信息
+    function getShopInfo() {
+        ajax('get', '/api/customer/contact', {}, function(res){
+            if(res.code == 0){
+                $('shopName').innerHTML = res.data.shop_name;
+                $('shopAddress').innerHTML = res.data.address;
+                $('shopMobile').innerHTML = res.data.mobile;
+                mobile = res.data.mobile;
+            }else{
+                alert(res.message);
+            }
+        });
+    }
+
+    // 联系店铺
+    function contactShop() {
+        window.location.href = 'tel:'+mobile;
+    }
+
+    function ajax(method, link, param, callback) {
+        var xhr = window.XMLHttpRequest?new XMLHttpRequest():new ActiveXObject('Microsoft.XMLHTTP'),
+            url = method == 'post'?link+'?r='+Math.random():link+'?'+buildData(data)+'&r='+Math.random(),
+            type = method?method:'get',
+            data = param || null;
+
+        xhr.open(type, url, true);
+        type=='post'?xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded'):null;
+        xhr.setRequestHeader('Cache-Control', 'no-cache');
+        xhr.setRequestHeader('Accept', 'application/json');
+        xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+        xhr.send(type=='post'?buildData(data):'');
+
+        xhr.onreadystatechange = function(){
+            if(xhr.readyState == 4 && xhr.status == 200){
+                callback(JSON.parse(xhr.responseText));
+            }
+        };
+    }
+
+    // 构建Send的数据结构
+    function buildData(data) {
+        if(data == null) return data;
+
+        var arr = [];
+        for(var key in data){
+            var str = key+'='+data[key];
+            arr.push(str);
+        }
+
+        return arr.join('&');
+    }
+</script>
+</body>
+</html>

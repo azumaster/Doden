@@ -1,0 +1,44 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "id": 456,
+    "goods_id": 456,
+    "goods_name": "天宇 寿桃包21g",
+    "expired": false,
+    "goods_type_id": 594,
+    "goods_title": "天宇 寿桃包21g，每件12个＊24袋",
+    "goods_brand": "天宇",
+    "goods_origin": "湖北",
+    "goods_description": "这里是商品描述",
+    "goods_image_count": 3,
+    "inspection_report": "images/goods3.jpg",
+    "on_sale": 2,
+    "goods_status": 2,
+    "halal": 0,
+    "goods_xinghao": "12个／袋",
+    "goods_guigei": "12个*24袋",
+    "goods_rough_weight": 6,
+    "goods_meat_weight": 0,
+    "goods_net_weight": 6,
+    "goods_price": "65.00",
+    "origin_goods_price": "80.00",
+    "goods_sell_num": 5,
+    "goods_start_num": 0,
+    "type": 1,
+    "goods_inventory": 999,
+    "end_time": "2017-01-21 09:30:00",
+    "goods_unit": 0,
+    "auto_soldout_time": "2017-01-21 09:30:00",
+    "goods_picture": [
+      {
+        "goodsid": 456,
+        "goods_image": "images/goods1.jpg"
+      },
+      {
+        "goodsid": 456,
+        "goods_image": "images/goods2.jpg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+.tab{
+  height: 45px;
+  position: fixed;
+  width: 100%;
+  z-index: 800;
+  background: @color-white;
+  border-bottom: 1px solid @color-divide;
+  .tab-item {
+    line-height: 45px;
+    position: relative;
+    &.active {
+      h3{
+        color: @color-green;
+      }
+      &:before{
+        content:'';
+        width: 60px;
+        height: 4px;
+        background: @color-green;
+        position: absolute;
+        .vertical-center(100%, 50%);
+      }
+    }
+    &.active-buyer {
+      h3{
+        color: @color-primary;
+      }
+      &:before{
+        content:'';
+        width: 60px;
+        height: 4px;
+        background: @color-primary;
+        position: absolute;
+        .vertical-center(100%, 50%);
+      }
+    }
+  }
+}

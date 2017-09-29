@@ -1,0 +1,109 @@
+@import "address";
+@bottomHeight:50px;
+.confirm-car{
+  position: absolute;
+  .wrapper(0, 0, 0, 0, 4);
+  background-color: @color-bg;
+  .car-bottom{
+    position: absolute;
+    .wrapper(auto, 0, 0, 0);
+    background: @color-white;
+    .car-total{
+      width: 50%;
+      overflow: hidden;
+      height: 50px;
+      padding-left: 14px;
+      .price-all{
+        line-height: 20px;
+        margin-top: @gap-basic/2;
+      }
+    }
+  }
+
+  .car-cell {
+    position: relative;
+    margin: 0 @margin;
+    height: 45px;
+    line-height: 45px;
+    .pay-radio {
+      position: absolute;
+      left: -9999px;
+    }
+    .icon:before {
+      font-size: 22px;
+    }
+    .check-fill {
+      color: @color-primary;
+    }
+  }
+
+  .send-type{
+    h6{
+      padding: @margin;
+      word-wrap: break-word;
+    }
+    .tel {
+      color: blue;
+    }
+    .send-list{
+      background: none;
+      border: none;
+      font-size: 15px;
+      color: @color-text-primary;
+      outline: none;
+      -webkit-appearance: none;
+    }
+  }
+
+  .good-list{
+    .li{
+      display: flex;
+      justify-content: space-between;
+    }
+    .good-img{
+      flex:1;
+      margin-right: @gap-basic*2;
+      img{
+        width:80px;
+        height: 80px;
+        border-radius: @border-radius;
+      }
+    }
+    .good-des{
+      flex:5;
+      .good-name{
+        height: 58px;
+        .clamp(3);
+      }
+    }
+  }
+
+  .orders{
+    position: absolute;
+    .wrapper(0, 0, @bottomHeight, 0);
+    .car-hd-address{
+      padding: 0 14px;
+      .car-hr {
+        height: 3px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+      }
+      .li{
+        margin: 0;
+        position: relative;
+      }
+      .address-icon{
+        margin-top: 20px;
+      }
+      .more{
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-5px);
+      }
+    }
+
+  }
+
+}

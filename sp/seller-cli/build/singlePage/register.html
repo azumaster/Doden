@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='viewport' content='width=device-width,initial-scale=1.0,user-scalable=no'>
+    <meta name="renderer" content="webkit">
+    <title>注册</title>
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <link rel="stylesheet" href="./LArea.min.css">
+    <style rel="stylesheet">
+        @font-face {
+            font-family: 'iconfont';  /* project id 240714 */
+            src: url('//at.alicdn.com/t/font_aqm7yunknxbf0f6r.eot');
+            src: url('//at.alicdn.com/t/font_aqm7yunknxbf0f6r.eot?#iefix') format('embedded-opentype'),
+            url('//at.alicdn.com/t/font_aqm7yunknxbf0f6r.woff') format('woff'),
+            url('//at.alicdn.com/t/font_aqm7yunknxbf0f6r.ttf') format('truetype'),
+            url('//at.alicdn.com/t/font_aqm7yunknxbf0f6r.svg#iconfont') format('svg');
+        }
+
+        *{
+            margin: 0; padding: 0;
+        }
+
+        body{
+            background: #f5f5f5;
+        }
+
+        h3{
+            font-size: 15px;
+            font-weight: normal;
+        }
+
+        i{
+            font-style: normal;
+        }
+        .icon {
+            font-family: 'iconfont';
+        }
+        .icon.right:before{content:'\e61a';}
+        .register {
+            overflow: hidden;
+        }
+        .register .step1{
+            display: block;
+        }
+        .register .step2{
+            display: none;
+        }
+        .register .step3{
+            display: none;
+            padding: 0 16px;
+        }
+
+        .register .complete{
+            margin: 95px 35px 35px 35px;
+        }
+        .register .complete img{
+            width: 100%;
+            height: 100%;
+        }
+        .register .h3-notice{
+            font-size: 14px;
+            color: #5d5f6a;
+            text-align: center;
+            width: 260px;
+            line-height: 25px;
+            margin: 0 auto;
+        }
+        .register .complete-btn {
+            display: block;
+            margin: 16px 0;
+            width: 100%;
+            box-sizing: border-box;
+            height: 45px;
+            background: #f2582a;
+            color: #e3e5e9;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+        }
+        .register .complete-btn:active{
+            background: #e3552b;
+        }
+
+
+        .register .register-ul {
+            margin-top: 8px;
+            line-height: 34px;
+        }
+        .register .register-ul i{
+            margin-left: 5px;
+        }
+        .register .register-ul .li-item{
+            display: flex;
+            flex-flow: nowrap;
+            justify-content: space-between;
+        }
+        .register .register-ul .li-item>div{
+            flex: 1;
+        }
+        .register .register-ul .register-input{
+            height: 25px;
+            border: none;
+            outline: none;
+            width: 100%;
+            color: #5d5f6a;
+            font-size: 15px;
+        }
+        .register .register-ul .register-input::-webkit-input-placeholder{
+            text-align: right;
+        }
+        .register .register-ul .clear-input{
+            font-size:15px;
+            color: #9d9d9d;
+        }
+        .register .register-ul .clear-input:before{
+            float: right;
+        }
+        .register .register-ul .clear-input.select{
+            text-align: right;
+        }
+        .register .register-ul .get-vertify{
+            width: 90px;
+            height: 34px;
+            border: none;
+            background: #f2582a;
+            border-radius: 5px;
+            color: #ffffff;
+            outline: none;
+            display: block;
+            float: right;
+        }
+        .register .register-ul .get-vertify:disabled{
+            background: #b6b6b6;
+        }
+        .register .register-operate{
+            margin: 0 14px;
+        }
+        .register .register-operate .register-btn{
+            border-radius: 5px;
+            background: none;
+            text-decoration: none;
+            outline: none;
+            min-width: 88px;
+            box-sizing: border-box;
+            padding: 0 18px;
+            height: 42px;
+            color: #ffffff;
+            width: 100%;
+            background: #f2582a;
+            border: 1px solid #f2582a;
+            font-size: 17px;
+        }
+        .register .register-operate .register-btn:active{
+            background: #e3552b;
+        }
+        .register .register-operate .register-btn:disabled{
+            background: #b6b6b6;
+        }
+        .register .register-agreement{
+            margin: 17px 14px;
+            font-size: 14px;
+            font-weight: normal;
+        }
+        .register .register-agreement a{
+            color: #f2582a;
+        }
+        .register .register-agreement .register-agree{
+            margin-right: 10px;
+            -webkit-appearance:none;
+            outline: none;
+            display: none;
+        }
+        .register .register-agreement .register-agree:before{
+            font-family:'iconfont';
+            content:'\e68d';
+            font-size: 15px;
+            color: #f2582a;
+
+        }
+        .register .register-agreement .register-agree:checked:before{
+            content: '\e69e';
+        }
+        .register .radio-icon {
+            margin-right: 4px;
+            position: relative;
+        }
+        .register .radio-icon:before {
+            font-family: 'iconfont';
+            content: '\e68d';
+            font-size: 17px;
+            color: #5d5f6a;
+        }
+        .register .register-agree:checked+i:before {
+            content: '\e69e';
+            color: #f2582a;
+        }
+        .register .toast{
+            position: fixed;
+            left: 50%;
+            bottom: 10%;
+            transform: translate(-50%, 0);
+            padding: 10px 20px;
+            background: rgba(0, 0, 0, .8);
+            font-size: 12px;
+            color: #ffffff;
+            opacity: 0;
+            transition: opacity .3s linear;
+        }
+        .register .toast.active{
+            opacity: 1;
+            transition: opacity .3s linear;
+        }
+        .register .register-notice{
+            font-size: 13px;
+            font-weight: normal;
+            margin: 16px 0;
+            color: #9d9d9d;
+            padding: 0 14px;
+        }
+        .register .default-area{
+            text-align: right;
+        }
+        .register .default-select{
+            display: none;
+        }
+        .register .register-choice{
+            background: #ffffff;
+            padding: 16px 14px;
+            overflow: hidden;
+            display: flex;
+            flex-flow: wrap row;
+            justify-content: space-around;
+        }
+        .register .register-choice .choice-btn{
+            margin: 8px 8px 8px 0;
+            height: 25px;
+            background: none;
+            border: 1px solid #e3e5e9;
+            font-size: 13px;
+            color: #9d9d9d;
+            border-radius: 5px;
+            outline: none;
+            padding: 0 15px;
+        }
+        .register .register-choice .choice-btn.active{
+            border-color: #f2582a;
+            color: #f2582a;
+        }
+
+        .ul{
+            background: #ffffff;
+            list-style: none;
+        }
+        .ul:not(:last-child){
+            margin-bottom: 10px;
+        }
+        .ul .li{
+            margin: 0 14px;
+            padding: 15px 0;
+            box-sizing: border-box;
+            position: relative;
+            overflow: hidden;
+        }
+        .ul .li:not(:last-child):after{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            height: 1px;
+            width: 100%;
+            background: #e3e5e9;
+            transform: scaleY(0.5);
+            -webkit-transform: scaleY(0.5);
+            -moz-transform: scaleY(0.5);
+            -ms-transform: scaleY(0.5);
+            -o-transform: scaleY(0.5);
+        }
+
+        .icon {
+            font-family: 'iconfont';
+        }
+        .icon.mobile:before {content: '\e6be';}
+        .icon.vertify:before {content: '\e6b2';}
+        .icon.close:before {content: '\e603';}
+
+        .grid-row {
+            width: 100%;
+            overflow: hidden;
+        }
+        .grid-row>* {
+            float: left;
+        }
+        .grid-col-9{
+            width:75%;
+        }
+        .grid-col-3 {
+            width: 25%;
+        }
+
+        .register .agreement{
+            display: none;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+        }
+        .register .ag-title{
+            background: #ffffff;
+            border-bottom: 1px solid #e3e5e9;
+            overflow: hidden;
+            position: fixed;
+            width: 100%;
+            height: 40px;
+            z-index: 200;
+        }
+        .register .ag-title h1{
+            font-size: 15px;
+            text-align: center;
+            line-height: 40px;
+            font-weight: normal;
+            color: #5d5f6a;
+        }
+        .register .ag-title i{
+            position: absolute;
+            right: 20px;
+            top: 10px;
+            z-index: 100;
+            color: #e3552b;
+        }
+        .register .ag-body{
+            position: fixed;
+            margin-top: 40px;
+            width: 100%;
+            height: 85%;
+        }
+        .register .article{
+            margin: 14px;
+            box-sizing: border-box;
+        }
+        .register .article p{
+            font-size: 14px;
+            text-indent: 2em;
+            line-height: 20px;
+        }
+        .register .article h5{
+            font-size: 15px;
+            line-height: 25px;
+        }
+    </style>
+    <script src="../../../service-providers/public/Public/service-provider-cli/js/bundle.js"></script>
+</head>
+<body onload="scroll();">
+
+<div id="register" class="register">
+    <div id="step1" class="step1">
+        <div class="ul register-ul">
+            <div class="li">
+                <div class="li-item">
+                    <h3 class="text-muted"><i class="icon mobile"></i>手机号：</h3>
+                    <div style="margin-left: 16px">
+                        <input type="tel" class="register-input input-mobile" id="registerMobile" maxlength="11"/>
+                    </div>
+                    <div style="float: right"><i id="clearInput" class="icon close clear-input" style="display: block" onclick="clearInput();"></i></div>
+                </div>
+            </div>
+            <div class="li">
+                <div class="li-item">
+                    <h3 class="text-muted"><i class="icon vertify"></i>验证码：</h3>
+                    <div style="margin-left: 16px">
+                        <input type="text" class="register-input" id="registerVertify" maxlength="4"/>
+                    </div>
+                    <div style="float: right">
+                        <button id="getVertify" class="get-vertify" onclick="getVertify();">获取验证码</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="register-operate"><button id="next" type="button" class="register-btn" onclick="nextPage();">下一步</button></div>
+        <h5 class="text-assist text-center register-agreement">
+            <label for="agree">
+                <input id="agree" type="checkbox" class="register-agree"><i class="radio-icon"></i>
+                已阅读并同意<a href="javascript:;" onclick="openAgreement();">注册协议</a></label>
+        </h5>
+    </div>
+    <div id="step2" class="step2">
+        <h5 class="register-notice">请输入店铺信息</h5>
+        <div class="ul register-ul">
+            <div class="li">
+                <div class="grid-row">
+                    <div class="grid-col-3">
+                        <h3 class="text-muted">店铺名</h3>
+                    </div>
+                    <div class="grid-col-9">
+                        <input type="text" style="text-align: right;" class="register-input" id="registerShopName" placeholder="请输入店铺名">
+                    </div>
+                </div>
+            </div>
+            <div class="li">
+                <div class="grid-row">
+                    <div class="grid-col-3">
+                        <h3 class="text-muted">收货区域</h3>
+                    </div>
+                    <div class="grid-col-9" id="areaInfoBody">
+                        <input id="areaValue" type="hidden"/>
+                        <span id="areaInfo" class="default-area new-input" style="width: auto;float:right" type="text" readonly="readonly" placeholder="请选择收货区域">请选择收货区域</span>
+                        <h3 class="text-muted" id="areaProvince" style="float: right; display: inline-block; text-align: right">四川省,</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="li">
+                <div class="grid-row">
+                    <div class="grid-col-3">
+                        <h3 class="text-muted">收货地址</h3>
+                    </div>
+                    <div class="grid-col-9">
+                        <input type="text" style="text-align: right;" class="register-input" id="registerShopAddress" placeholder="街道、楼牌号">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h5 class="register-notice">选择店铺类型</h5>
+        <div id="registerChoice" class="register-choice">
+
+        </div>
+        <div class="register-operate"><button id="submit" type="button" class="register-btn" onclick="register();">提交</button></div>
+    </div>
+    <div id="step3" class="step3">
+        <div class="complete">
+            <img src="images/complete.png" alt="">
+        </div>
+        <h3 class="h3-notice">注册完成，将于两个工作日内通过审核，请耐心等待。</h3>
+        <button id="complete" class="complete-btn" onclick="window.location.href='/home'">我知道了</button>
+    </div>
+    <div id="agreement" class="agreement">
+        <div class="ag-title">
+            <h1>服务商用户注册协议</h1>
+            <i class="icon close" onclick="closeAgreement();"></i>
+        </div>
+        <div id="agBody" class="ag-body">
+            <div class="article">
+                <p>本协议为您与服务商平台管理者之间订立的契约，具有合同的法律效力，请您仔细阅读。 </p>
+                <h5>一、协议内容、生效、变更</h5>
+                <p>1、在使用服务商平台之前您应当认真阅读全部协议内容，您点击并同意遵守《服务商平台用户注册协议》按钮后，本协议立即成立并生效，届时您不应以未阅读本协议内容为由，主张协议内容无效或要求撤销本协议。 </p>
+                <p>2、本协议条款是处理双方权利义务的契约，始终有效，若法律有强制性规定或双方另有特别约定，依其规定。 </p>
+                <p>3、服务商平台有权根据需要不定期地制订、修改本协议及/或各类规则，并在服务商平台公示，不再单独通知用户。变更后的协议和规则一经网站公布，立即生效。如您不同意相关变更，应当立即停止使用服务商平台，否则服务商平台将采取拒绝服务、关闭用户账户、清除或取消订单等强制措施。如您继续使用服务商平台，即表明您接受修订后的协议和规则。 </p>
+                <h5>二、注册</h5>
+                <p>1、注册条件:</p>
+                <p>用户须具有法定的相应权利能力和行为能力的自然人、法人或其他组织，能够独立承担法律责任。您完成注册程序或其它服务商平台允许的方式实际使用本平台服务时，即视为您确认自己具备主体资格，能够独立承担法律责任。若因您不具备主体资格，而导致的一切后果，由您及您的监护人自行承担。 </p>
+                <p>2、注册资料:</p>
+                <p>用户应本着诚实信用向本站提供注册资料，用户保证其提供的注册资料真实、准确、完整、合法有效，用户注册资料如有变动，应及时更新其注册资料。如用户提供的注册资料不合法、不准确、不真实、不详尽的，用户需承担因此引起的相应责任及后果，并且服务商平台有权终止不合规用户的平台使用权。 </p>
+                <h5>三、账户</h5>
+                <p>1、用户在本站进行浏览、下单等活动时，涉及用户真实姓名/民称、通讯地址、联系方式、个人身份信息/企业营业执照的隐私信息的，本站将严格予以保密，除非得到用户授权或法律另有规定，本站不会向外界披露用户隐私信息。若由于用户自身的原因导致其隐私信息泄露的，由用户自行承担后果。 </p>
+                <p>2、用户在本站获得的账户仅限于其自用，用户之外的第三人在任何条件下均无权使用其账户，但获得本站同意除外。否则用户应承担因此产生的全部责任，并与实际使用人承担连带责任。 </p>
+                <p>3、若发现任何非法使用等可能危及您的账户安全的情形时，您应立即与服务商平台联系，要求服务商平台暂停相关服务，并向公安机关报案。服务商平台对您的请求采取行动需要合理的时间，对在采取行动前已经产生的后果（包括但不限于您的任何损失）不承担任何责任。 </p>
+                <p>4、用户信息的合理使用 </p>
+                <p>4.1、您同意，服务商平台拥有通过邮件、短信电话等形式，向在本平台注册、购物用户、收货人发送订单信息、促销活动等告知信息的权利。 </p>
+                <p>4.2、您了解并同意，服务商有权应国家司法、行政等主管部门的要求，向其提供您在服务商平台填写的注册信息和交易记录等必要信息。如您涉嫌侵犯他人知识产权，则服务商平台亦有权在初步判断涉嫌侵权行为存在的情况下，向权利人提供您必要的身份信息。 </p>
+                <p>4.3、用户同意，服务商平台有权使用用户的注册信息、用户名、密码等信息，登陆进入用户的注册账户，进行证据保全，包括但不限于公证、见证等。 </p>
+                <h5>四、找冻品网平台服务规范</h5>
+                <p>1、不得利用本平台从事洗钱、窃取商业秘密、个人信息等违法活动； </p>
+                <p>2、不得传输或发表损害国家社会公共利益和涉及国家安全的信息资料或言论； </p>
+                <p>3、不得利用在本平台注册的账户进行非法牟利活动，本平台保有删除站内各类不符合法律政策或不真实的信息内容而无须通知用户的权利。 </p>
+                <p>4、对于您在服务商平台实施的行为，包括您未在服务商平台上实施但已经对服务商平台及其用户产生影响的行为，服务商平台有权单方认定您的行为的性质及是否构成对本协议和/或规则的违反，并采取暂停或关闭用户账号及其他措施。 </p>
+                <p>5、任何未经授权使用计算机模拟程序（不限于此方式），抓取服务商平台非公开、公开的数据（不限于用户信息、订单信息、商品信息、商品价格），都会被视作非法用户，本站有权利封停账户、公布非法抓取行为、向执法机关起诉用户的非法行为等。 </p>
+                <p>6、任何非法获得服务商平台的数据资料，如果被用于商业行为，本平台将有权利索赔。 </p>
+                <p>7、若因销售方自身货物或销售行为的原因给本站造成经济损失，本平台因此遭受的一切财产损失将由销售方承担。 </p>
+                <p>8、对于您涉嫌违反承诺的行为对任意第三方造成损害的，您均应以自己的名义独立承担所有的法律责任，并应确保服务商平台免于因此产生损失或增加费用。 </p>
+                <p>9、如您涉嫌违反有关法律或者本协议之规定，使服务商平台遭受任何损失、或受到任何第三方的索赔，或受到任何行政管理部门的处罚，您应当赔偿服务商平台因此造成的损失及/或发生的费用，包括合理的律师费。 </p>
+                <h5>五、订单</h5>
+                <p>1、本平台上的货物价格、数量、是否有货等商品信息将根据市场行情及销售情况随时发生变动，本平台不作特别通知。 </p>
+                <p>2、在本平台购物的用户，请您仔细确认所购商品的名称、价格、数量、型号、规格、尺寸等信息，因平台内展示的商品和价格等信息仅仅是邀约邀请，您下单时需完整填写您希望购买的商品数量、价款及支付方式、收货人、联系方式、收货地址等内容，如果您提供的注册资料不合法、不真实、不准确、不详尽的，用户需承担因此引起的相应责任及后果，并且保留服务商平台终止用户使用各项服务的权利。 </p>
+                <p>3、系统生成的订单信息是计算机信息系统根据您填写的内容自动生成的数据，仅是您向服务商平台或冻品销售方发出的合同要约；服务商平台或冻品销售方收到您的订单信息后，并收到您的大款和提货函后，即视为您与服务商平台或冻品销售方之间建立了合同关系。 </p>
+                <p>4、由于市场变化及各种以合理商业努力难以控制的因素影响，本平台无法保证您提交的订单信息中希望购买的商品都会有货；如您拟购买的商品发生缺货，你有权取消订单。 </p>
+                <p>5、因如下原因造成无法提货等，服务商平台及冻品销售方不承担任何责任： </p>
+                <p>5.1用户提供的信息错误导致的； </p>
+                <p>5.2情势变更因素导致的； </p>
+                <p>5.3不可抗力因素导致的，如：自然灾害、突发战争等。 </p>
+                <h5>六、责任限制及范围</h5>
+                <p>1、本平台作为您进行了解、咨询、协商、交易的场所，提示您：应谨慎判断相关物品及/或信息的真实性、合法性和有效性，除非另有明确的书面说明，本平台不对商家在本平台发布的信息、内容、材料、产品和服务及各方在交易中各项义务的履行能力作任何形式的担保，法律法规另有规定的除外。 </p>
+                <p>2、任何经服务商平台确认已经违反相关法律法规或本协议或服务商平台使用规则某一项或多项规定的用户，服务商平台有权决定是否给予暂停使用或终止使用的处理，且因此造成的一切后果由用户自行承担。 </p>
+                <h5>七、法律适用、管辖与其它</h5>
+                <p>1、本协议的订立、执行与解释及争议的解决均应适用在中华人民共和国大陆地区现行有效的法律（但不包括其冲突规范），如发生本协议条款与相关法律相抵触之时，则这些规定将按照法律条款重新解释，而其它条款继续有效。 </p>
+                <p>2、在本协议履行过程中，因您使用服务商平台服务时产生争议，应先协商，协商不成时，双方均同意由服务商平台管理者所在地人民法院为管辖法院。 </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="//cdn.bootcss.com/iScroll/5.2.0/iscroll.min.js"></script>
+<script src="./LArea.js"></script>
+<script>
+    /**
+     * Created by H5 on 2017.03.10.
+     */
+    (function () {
+        document.addEventListener('touchmove', function (e) {
+            e.preventDefault();
+        }, false);
+    })();
+
+    var SCROLL;
+
+    var shopType = -1;
+
+    (function () {
+        judgeStatus();
+    })();
+
+
+    function close() {
+        var close = document.getElementsByClassName('larea_finish')[0];
+
+        close.onclick = function () {
+            document.getElementById('areaInfo').blur();
+        }
+    }
+
+    function scroll() {
+        SCROLL = new IScroll('#agBody', {
+            zoom: true,
+            scrollX: false,  //是不中可以横向滚动;
+            scrollY: true,  //是否可以纵向滚动;
+            mouseWheel: true, //是否监听鼠标滚轮;
+            wheelAction: 'zoom',
+            probeType: 2,
+            preventDefault: false
+        });
+
+        SCROLL.on('beforeScrollStart', function() {
+            SCROLL.refresh();
+        });
+    }
+
+    function openAgreement() {
+        document.getElementById('step1').style.display = 'none';
+        document.getElementById('agreement').style.display = 'block';
+    }
+
+    function closeAgreement() {
+        document.getElementById('step1').style.display = 'block';
+        document.getElementById('agreement').style.display = 'none';
+    }
+
+    function clearInput() {
+        document.getElementById('registerMobile').value = '';
+        document.getElementById('registerMobile').focus();
+    }
+
+    // 判断登录状态
+    function judgeStatus(){
+        ajax('get', '/api/customer/register/status', {}, function (res) {
+            if(res.code ==0){
+                if(res.data.status == -1){
+                    document.getElementById('step1').style.display = 'block';
+                    document.getElementById('step2').style.display = 'none';
+                }else if(res.data.status == 0){
+                    openStep2();
+                }else {
+                    window.location.href = '/home'
+                }
+            } else {
+                createToast(res.message);
+            }
+        });
+    }
+
+    function change() {
+        document.getElementById('areaInfo').blur();
+    }
+    // 获取验证码
+    function getVertify() {
+        var btn = document.getElementById('getVertify'),
+            time = 30;
+
+        ajax('get', '/api/customer/register/verify', {mobile: document.getElementById('registerMobile').value}, function(res){
+            if(res.code == 0){
+                btn.setAttribute('disabled', 'disabeld');
+
+                var interval = setInterval(function () {
+                    btn.innerHTML = time+'s';
+
+                    if(time<0){
+                        clearInterval(interval);
+                        btn.innerHTML = '获取验证码';
+                        btn.removeAttribute('disabled');
+                    }
+                    time --;
+                }, 1000);
+            } else {
+                createToast(res.message);
+            }
+        });
+    }
+
+    // 注册第一步
+    function nextPage() {
+        if(document.getElementById('agree').checked){
+            ajax('post', '/api/customer/register/step1', {mobile: document.getElementById('registerMobile').value, verify: document.getElementById('registerVertify').value}, function(res){
+                if(res.code == 0){
+                    openStep2();
+                } else {
+                    createToast(res.message);
+                }
+            });
+        }else {
+            createToast('请先同意注册协议');
+        }
+    }
+
+    // 打开第二步
+    function openStep2() {
+        document.getElementById('step1').style.display = 'none';
+        document.getElementById('step2').style.display = 'block';
+
+        ajax('get', '/api/other/shop/categories', {}, function(res){
+
+
+            if(res.code == 0){
+                var btn = '';
+                for(var i = 0; i < res.data.length ; i++) {
+                    var s = res.data[i];
+                    btn+= '<button onclick="choiceType(this);" data-id="'+s.id+'" class="choice-btn">'+s.type_name+'</button>';
+                }
+                document.getElementById('registerChoice').innerHTML = btn;
+
+                ajax('get', '/api/other/shop/location', {}, function(res){
+                    if(res.code == 0){
+                        if(res.data.length >1){
+                            // 如果超出了一个服务区域
+                            var areaInfo = document.getElementById('areaInfo'),
+                                areaValue = document.getElementById('areaValue');
+                            areaInfo.innerHTML = res.data[0][1].name + ',' + res.data[0][2].name;
+                            areaValue.setAttribute('data-pid', res.data[0][0].id);
+                            areaValue.value =  res.data[0][1].id + ',' + res.data[0][2].id;
+
+                            if(!document.getElementById('right')){
+                                var eleI = document.createElement('i'),
+                                    list = document.getElementById('areaInfoBody');
+                                eleI.className = 'icon right';
+                                eleI.style.id = 'right';
+                                eleI.style.float = 'right';
+                                list.insertBefore(eleI, list.children[0]);
+                            }
+
+                            var lArea = new LArea();
+
+                            lArea.init({
+                                'trigger': '#areaInfo',//触发选择控件的文本框，同时选择完毕后name属性输出到该位置
+                                'valueTo':'#areaValue',//选择完毕后id属性输出到该位置
+                                'keys':{id:'id',name:'name'},//绑定数据源相关字段 id对应valueTo的value属性输出 name对应trigger的value属性输出
+                                'type':1,//数据源类型
+                                'data': buildOrigin(res.data)//数据源
+                            });
+
+                        }else if(res.data.length == 1){
+                            // 如果只有一个服务区域
+                            document.getElementById('areaInfo').innerHTML = res.data[0][1].name + ',' + res.data[0][2].name;
+                            document.getElementById('areaValue').value = res.data[0][1].id + ',' + res.data[0][2].id;
+                            document.getElementById('areaValue').setAttribute('data-pid', res.data[0][0].id);
+                        }else{
+                            // 如果没有服务区域
+                            document.getElementById('areaInfo').innerHTML = '该服务商暂无开通配送区域';
+                        }
+
+                    }else{
+                        createToast(res.message);
+                    }
+                });
+            }
+        });
+    }
+
+    // 注册
+    function register() {
+        var value = document.getElementById('areaValue');
+
+        var final;
+
+        final = value.value.split(',');
+        final.unshift(value.getAttribute('data-pid'));
+
+        var data = {
+            shop_name: document.getElementById('registerShopName').value,
+            province_id: final[0],
+            city_id: final[1],
+            county_id: final[2],
+            address: document.getElementById('registerShopAddress').value,
+            shop_type_id: shopType
+        };
+
+        ajax('post', '/api/customer/register/step2', data,  function(res) {
+            if(res.code == 0){
+                createToast('注册成功');
+                setTimeout(function () {
+                    window.location.href='/home'
+                }, 1000);
+            }else {
+                createToast(res.message);
+            }
+        });
+    }
+
+    // 选择店铺类型
+    function choiceType(obj){
+        if(obj.className != 'choice-btn active'){
+            var nodes = document.getElementById('registerChoice').children;
+            for(var i=0; i<nodes.length; i++){
+                nodes[i].className = 'choice-btn';
+            }
+            obj.className = 'choice-btn active';
+            shopType = obj.dataset.id;
+        }
+    }
+
+    function createToast(text){
+        if(document.getElementById('toast')){
+            return;
+        }
+
+        var toast = document.createElement('div');
+        toast.className = 'toast';
+        toast.setAttribute('id', 'toast');
+
+        toast.innerHTML = text;
+
+        document.getElementById('register').appendChild(toast);
+
+        setTimeout(function () {
+            toast.className = 'toast active';
+
+            setTimeout(function () {
+                toast.className = 'toast';
+
+                setTimeout(function () {
+                    document.getElementById('register').removeChild(toast);
+                }, 300);
+            }, 1800);
+        }, 100);
+    }
+
+    function buildOrigin(origin) {
+        var des = [];
+
+        for(var i = 0; i<origin.length; i++){
+
+            if(findElem(des, 'id', origin[i][1].id)==-1){
+                des.push(origin[i][1]);
+            }
+
+            for(var j=0; j<des.length; j++){
+                if(!des[j].child){
+                    des[j].child = [];
+                }
+                if(des[j].id == origin[i][1].id){
+                    des[j].child.push(origin[i][2]);
+                }
+            }
+        }
+
+        return des;
+    }
+
+    function findElem(arrayToSearch,attr,val){
+        for (var i=0;i<arrayToSearch.length;i++){
+            if(arrayToSearch[i][attr]==val){
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    function ajax(method, link, param, callback) {
+        var xhr = window.XMLHttpRequest?new XMLHttpRequest():new ActiveXObject('Microsoft.XMLHTTP'),
+            url = method == 'post'?link+'?r='+Math.random():link+'?'+buildData(param)+'&r='+Math.random(),
+            type = method?method:'get',
+            data = param || null;
+
+        xhr.open(type, url, true);
+        type=='post'?xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded'):null;
+        xhr.setRequestHeader('Cache-Control', 'no-cache');
+        xhr.setRequestHeader('Accept', 'application/json');
+        xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+        xhr.send(type=='post'?buildData(data):'');
+
+        xhr.onreadystatechange = function(){
+            if(xhr.readyState == 4 && (xhr.status == 200 || xhr.status == 301)){
+                callback(JSON.parse(xhr.responseText));
+            }
+        };
+    }
+
+    // 构建Send的数据结构
+    function buildData(data) {
+        if(data == null) return data;
+
+        var arr = [];
+        for(var key in data){
+            var str = key+'='+data[key];
+            arr.push(str);
+        }
+
+        return arr.join('&');
+    }
+</script>
+</body>
+</html>

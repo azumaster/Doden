@@ -1,0 +1,10 @@
+{
+    "code": 0,
+    "message": "OK",
+    "data": {
+        "ytd_new_usr": 200,
+        "ytd_money": 2000,
+        "total_usr": 2000,
+        "total_money": 20000
+    }
+}

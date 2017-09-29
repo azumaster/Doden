@@ -1,0 +1,24 @@
+.ul{
+  background: @color-white;
+  list-style: none;
+  &:not(:last-child){
+    margin-bottom: @gap-basic*2;
+  }
+  .li{
+    margin: 0 14px;
+    padding: 15px 0;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    &:not(:last-child):after{
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 1px;
+      width: 100%;
+      background: @color-divide;
+      .halfOnePx();
+    }
+  }
+}

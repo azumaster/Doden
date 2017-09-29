@@ -1,0 +1,86 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "1": {
+      "2": {
+        "4": {
+          "type_id": 4,
+          "type_name": "鸡胸",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828073891802.png",
+          "829" : {
+              "type_id": 829,
+              "type_name": "去油鸡胸",
+              "type_pic_url": ""
+          },
+          "830" : {
+              "type_id": 892,
+              "type_name": "毛鸡胸",
+              "type_pic_url": ""
+          },
+           "831" : {
+              "type_id": 893,
+              "type_name": "毛胸",
+              "type_pic_url": ""
+          }
+        },
+        "172": {
+          "type_id": 172,
+          "type_name": "鸡腿",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828911911542.png",
+          "830" : {
+              "type_id": 851,
+              "type_name": "去油鸡腿",
+              "type_pic_url": ""
+          }
+        },
+        "173": {
+          "type_id": 173,
+          "type_name": "鸡胗",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14829174729570.png",
+          "8283" : {
+              "type_id": 841,
+              "type_name": "去油鸡胗",
+              "type_pic_url": ""
+          },
+          "3355" : {
+            "type_id": 3355,
+            "type_name": "高级鸡胗",
+            "type_pic_url": ""
+          }
+        },
+        "type_id": 2,
+        "type_name": "鸡副",
+        "type_pic_url": ""
+      },
+      "3": {
+        "5": {
+          "type_id": 5,
+          "type_name": "鸭胸",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828073891802.png",
+          "831" : {
+              "type_id": 831,
+              "type_name": "去油鸭胸",
+              "type_pic_url": ""
+          }
+        },
+        "145": {
+          "type_id": 145,
+          "type_name": "鸭翅",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14829174729570.png",
+          "899": {
+            "type_id": 899,
+            "type_name": "超级鸭胸",
+            "type_pic_url": ""
+          }
+        },
+        "type_id": 3,
+        "type_name": "鸭副",
+        "type_pic_url": ""
+      },
+      "type_id": 1,
+      "type_name": "冻品",
+      "type_pic_url": ""
+    }
+  }
+}

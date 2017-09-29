@@ -1,0 +1,80 @@
+.halfOnePx(){
+  transform: scaleY(0.5);
+  -webkit-transform: scaleY(0.5);
+  -moz-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  -o-transform: scaleY(0.5);
+}
+
+.vertical-center(@top: 50%, @left: 50%) {
+  top: @top;
+  left: @left;
+  transform: translate(-@left, -@top);
+  -webkit-transform: translate(-@left, -@top);
+  -moz-transform: translate(-@left, -@top);
+  -ms-transform: translate(-@left,-@top);
+  -o-transform: translate(-@left, -@top);
+}
+
+//可以滑动的容器;
+.wrapper(@top: 0, @right: @top, @bottom: @top, @left: @top, @index: 1, @overflow: hidden) {
+  z-index: @index;
+  top: @top;
+  right: @right;
+  bottom: @bottom;
+  left: @left;
+  overflow: @overflow;
+}
+
+//超出显示省略号
+.clamp (@row: 1;) {
+  overflow-y: hidden;
+  -webkit-line-clamp: @row;
+  -moz-line-clamp: @row;
+  -ms-line-clamp: @row;
+  -o-line-clamp: @row;
+  line-clamp: @row;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  -o-box-orient: vertical;
+  box-orient: vertical;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  display: box;
+  word-break: break-all;
+}
+
+
+.icon-style(@font-size: @font-size-h4, @color: @color-primary) {
+  font-family: iconfont;
+  color: @color;
+  font-size: @font-size;
+}
+
+.border-top() {
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-top: 1px solid @color-divide;
+    transform: scaleY(0.5);
+  }
+}
+.border-bottom() {
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    border-bottom: 1px solid @color-divide;
+    transform: scaleY(0.5);
+  }
+}

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='viewport' content='width=device-width,initial-scale=1.0,user-scalable=no'>
+    <meta name="renderer" content="webkit">
+    <title>服务商申请</title>
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <style rel="stylesheet">
+        @font-face {
+            font-family: 'iconfont';  /* project id 240714 */
+            src: url('//at.alicdn.com/t/font_er1izfonaylj714i.eot');
+            src: url('//at.alicdn.com/t/font_er1izfonaylj714i.eot?#iefix') format('embedded-opentype'),
+            url('//at.alicdn.com/t/font_er1izfonaylj714i.woff') format('woff'),
+            url('//at.alicdn.com/t/font_er1izfonaylj714i.ttf') format('truetype'),
+            url('//at.alicdn.com/t/font_er1izfonaylj714i.svg#iconfont') format('svg');
+        }
+
+        *{
+            margin: 0; padding: 0;
+        }
+
+        body{
+            background: #f5f5f5;
+        }
+
+        h3{
+            font-size: 15px;
+            font-weight: normal;
+        }
+
+        i{
+            font-style: normal;
+            display: inline-block;
+        }
+
+        .service-apply {
+            overflow: hidden;
+        }
+        .service-apply .service-apply-ul {
+            margin-top: 8px;
+            line-height: 25px;
+        }
+        .service-apply .service-apply-ul i{
+            margin-right: 15px;
+        }
+        .service-apply .service-apply-ul .input-text{
+            width: 100%;
+            text-align: right;
+            height: 25px;
+            border: none;
+            outline: none;
+            font-size: 14px;
+            color: #5d5f6a;
+        }
+        .service-apply .service-apply-ul .service-input {
+            width: 100%;
+            text-align: right;
+            height: 25px;
+            border: none;
+            outline: none;
+            font-size: 14px;
+            color: #5d5f6a;
+        }
+        .service-apply .service-apply-ul .location{
+            font-size: 14px;
+            color: #9d9d9d;
+            text-align: right;
+            font-weight: normal;
+
+        }
+        .service-apply .service-apply-ul .location:before{
+            content:'';
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            top: 20px;
+            right: 5px;
+            border-top: 1px solid #9d9d9d;
+            border-right: 1px solid #9d9d9d;
+            transform: rotate(45deg);
+        }
+        .service-apply .service-apply-ul .location span{
+            margin-right: 15px;
+        }
+        .service-apply .service-contact {
+            margin: 0 14px;
+        }
+        .service-apply .service-contact .contact-btn{
+            border-radius: 5px;
+            background: none;
+            text-decoration: none;
+            outline: none;
+            min-width: 88px;
+            box-sizing: border-box;
+            padding: 0 18px;
+            height: 42px;
+            color: #ffffff;
+            width: 100%;
+            background: #f2582a;
+            border: 1px solid #f2582a;
+        }
+        .service-apply .service-contact .contact-btn:active {
+            background: #e3552b;
+        }
+
+        .ul{
+            background: #ffffff;
+            list-style: none;
+        }
+        .ul:not(:last-child){
+            margin-bottom: 10px;
+        }
+        .ul .li{
+            margin: 0 14px;
+            padding: 15px 0;
+            box-sizing: border-box;
+            position: relative;
+            overflow: hidden;
+        }
+        .ul .li:not(:last-child):after{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            height: 1px;
+            width: 100%;
+            background: #e3e5e9;
+            transform: scaleY(0.5);
+            -webkit-transform: scaleY(0.5);
+            -moz-transform: scaleY(0.5);
+            -ms-transform: scaleY(0.5);
+            -o-transform: scaleY(0.5);
+        }
+
+        .grid-row {
+            width: 100%;
+            overflow: hidden;
+        }
+        .grid-row>* {
+            float: left;
+        }
+        .grid-col-9{
+            width:75%;
+        }
+        .grid-col-3 {
+            width: 25%;
+        }
+
+        .complete{
+            margin: 95px 35px 35px 35px;
+        }
+        .complete img{
+            width: 100%;
+            height: 100%;
+        }
+        .h3-notice{
+            font-size: 14px;
+            color: #5d5f6a;
+            text-align: center;
+            width: 260px;
+            line-height: 25px;
+            margin: 0 auto;
+        }
+        .complete-btn {
+            display: block;
+            margin: 16px 0;
+            width: 100%;
+            box-sizing: border-box;
+            height: 45px;
+            background: #f2582a;
+            color: #e3e5e9;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+        }
+        .complete-btn:active{
+            background: #e3552b;
+        }
+    </style>
+</head>
+<body>
+<div id="serviceApply" class="service-apply">
+
+    <div id="apply">
+        <div class="ul service-apply-ul">
+            <div class="li">
+                <div class="grid-row">
+                    <div class="grid-col-3">
+                        <h3 class="text-muted">店铺名：</h3>
+                    </div>
+                    <div class="grid-col-9">
+                        <p class="input-text" id="shopName">店铺名</p>
+                    </div>
+                </div>
+            </div>
+            <div class="li">
+                <div class="grid-row">
+                    <div class="grid-col-3">
+                        <h3 class="text-muted">联系人：</h3>
+                    </div>
+                    <div class="grid-col-9">
+                        <p class="input-text" id="user">联系人</p>
+                    </div>
+                </div>
+            </div>
+            <div class="li">
+                <div class="grid-row">
+                    <div class="grid-col-3">
+                        <h3 class="text-muted">手机号：</h3>
+                    </div>
+                    <div class="grid-col-9">
+                        <p class="input-text" id="mobile">手机号</p>
+                    </div>
+                </div>
+            </div>
+            <div class="li">
+                <div class="grid-row">
+                    <div class="grid-col-3">
+                        <h3 class="text-muted">所在地：</h3>
+                    </div>
+                    <div class="grid-col-9">
+                        <p class="input-text" id="address">地址</p>
+                    </div>
+                </div>
+            </div>
+            <div class="li">
+                <div class="grid-row">
+                    <div class="grid-col-3">
+                        <h3 class="text-muted">邀请码：</h3>
+                    </div>
+                    <div class="grid-col-9">
+                        <input type="text" class="service-input" id="invitation" placeholder="请输入邀请码（选填）">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="service-contact"><button type="button" id="contactBtn" class="contact-btn" onclick="dredge();">申请开通</button></div>
+    </div>
+
+    <div id="completePage" style="display: none; margin: 0 14px">
+        <div class="complete">
+            <img src="http://img.idongpin.com/Public/images/complete.png" alt="">
+        </div>
+        <h3 class="h3-notice">提交申请成功，将于两个工作日内通过审核，请耐心等待。</h3>
+        <button id="complete" class="complete-btn" onclick="window.location.href='http://m.zdongpin.com'">我知道了</button>
+    </div>
+</div>
+<script>
+    /**
+     * Created by H5 on 2017.03.10.
+     */
+
+    (function () {
+        getData();
+        document.getElementById('contactBtn').addEventListener('tap', function(){
+            dredge();
+        }, false);
+    })();
+
+    function getData() {
+        ajax('get', '?m=Member&c=Shop&a=getInfo&r='+Math.random(), {}, function (res) {
+            if(res.code == 0){
+                document.getElementById('shopName').innerHTML = res.data.shop_infos.shop_name;
+                document.getElementById('user').innerHTML = res.data.shop_infos.user_name;
+                document.getElementById('mobile').innerHTML = res.data.shop_infos.mobile;
+                document.getElementById('address').innerHTML = res.data.shop_infos.province_name+res.data.shop_infos.city_name+res.data.shop_infos.county;
+            }else{
+                alert(res.message);
+            }
+        });
+    }
+
+    function dredge(){
+        var data = {};
+        if(document.getElementById('invitation').value){
+            data.invite = document.getElementById('invitation').value
+        }
+
+        ajax('post', '?m=Buyers&c=sp&a=apply&r='+Math.random(), data, function (res) {
+            if(res.code == 0){
+                document.getElementById('apply').style.display = 'none';
+                document.getElementById('completePage').style.display = 'block';
+            }else{
+                alert(res.message);
+            }
+        });
+    }
+
+
+    function ajax(method, link, param, callback) {
+        var xhr = window.XMLHttpRequest?new XMLHttpRequest():new ActiveXObject('Microsoft.XMLHTTP'),
+            url = method == 'post'?link+'?r='+Math.random():link+'?'+buildData(param)+'&r='+Math.random(),
+            type = method?method:'get',
+            data = param || null;
+
+        xhr.open(type, url, true);
+        type=='post'?xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded'):null;
+        xhr.setRequestHeader('Cache-Control', 'no-cache');
+        xhr.setRequestHeader('Accept', 'application/json');
+        xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+        xhr.send(type=='post'?buildData(data):'');
+
+        xhr.onreadystatechange = function(){
+            if(xhr.readyState == 4 && xhr.status == 200){
+                callback(JSON.parse(xhr.responseText));
+            }
+        };
+    }
+
+    // 构建Send的数据结构
+    function buildData(data) {
+        if(data == null) return data;
+
+        var arr = [];
+        for(var key in data){
+            var str = key+'='+data[key];
+            arr.push(str);
+        }
+
+        return arr.join('&');
+    }
+</script>
+</body>
+</html>

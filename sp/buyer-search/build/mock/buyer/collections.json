@@ -1,0 +1,81 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": [
+    {
+      "id": 2,
+      "title": "测试商品",
+      "sort_id": 8,
+      "sort_name": "鸡副",
+      "brand_id": 12,
+      "pic": "/images/1.jpg",
+      "price": "1.89",
+      "unit": "件",
+      "market_id": 1,
+      "soldout_time": "2017-09-09 9:30:00",
+      "sell_num": 12,
+      "halal": false,
+      "status": "正常"
+    },
+    {
+      "id": 3,
+      "title": "测试商品",
+      "sort_id": 9,
+      "sort_name": "鸭副",
+      "brand_id": 12,
+      "pic": "/images/1.jpg",
+      "price": "1.89",
+      "unit": "件",
+      "market_id": 1,
+      "soldout_time": "2017-09-09 9:30:00",
+      "sell_num": 12,
+      "halal": 1,
+      "status": "正常"
+    },
+    {
+      "id": 4,
+      "title": "测试商品",
+      "sort_id": 8,
+      "sort_name": "鸡副",
+      "brand_id": 12,
+      "pic": "/images/1.jpg",
+      "price": "1.89",
+      "unit": "件",
+      "market_id": 1,
+      "soldout_time": "2017-09-09 9:30:00",
+      "sell_num": 12,
+      "halal": false,
+      "status": "已下架"
+    },
+    {
+      "id": 5,
+      "title": "测试商品",
+      "sort_id": 10,
+      "sort_name": "牛副",
+      "brand_id": 12,
+      "pic": "/images/1.jpg",
+      "price": "1.89",
+      "unit": "件",
+      "market_id": 1,
+      "soldout_time": "2017-09-09 9:30:00",
+      "sell_num": 12,
+      "halal": 1,
+      "status": "已下架"
+    },
+    {
+      "id": 6,
+      "title": "测试商品",
+      "sort_id": 10,
+      "sort_name": "牛副",
+      "brand_id": 12,
+      "pic": "/images/1.jpg",
+      "price": "1.89",
+      "unit": "件",
+      "market_id": 1,
+      "soldout_time": "2017-09-09 9:30:00",
+      "sell_num": 12,
+      "halal": 1,
+      "status": "已下架"
+    }
+  ]
+}

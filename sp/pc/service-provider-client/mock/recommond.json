@@ -1,0 +1,58 @@
+{
+    "code": 0,
+    "message": "OK",
+    "data": {
+        "goods": [
+            {
+                "id": 145,
+                "sort": 1,
+                "name": "翅中串",
+                "type": "鸡翅串",
+                "title": "",
+                "display": true,
+                "origin_price": "380.00",
+                "price": "380.00",
+                "unit": "件",
+                "brand": "香克"
+            },
+            {
+                "id": 601579,
+                "sort": 2,
+                "name": "亿家园冻猪后腿肉",
+                "type": "猪后腿",
+                "title": "亿家园冻猪后腿肉  每件25kg  ",
+                "display": false,
+                "origin_price": "520.00",
+                "price": "520.00",
+                "unit": "件",
+                "brand": "亿家园"
+            },
+            {
+                "id": 601567,
+                "sort": 3,
+                "name": "阿兰那1865牛前",
+                "type": "牛前",
+                "title": "阿兰那1865牛前  每件25kg  ",
+                "display": false,
+                "origin_price": "740.00",
+                "price": "740.00",
+                "unit": "件",
+                "brand": "1865"
+            },
+            {
+                "id": 601563,
+                "sort": 4,
+                "name": "进口 5029凤爪 中号",
+                "type": "凤爪",
+                "title": "进口 5029凤爪 中号 每件15kg",
+                "display": false,
+                "origin_price": "320.00",
+                "price": "320.00",
+                "unit": "件",
+                "brand": "其它"
+            }
+        ],
+        "total": 4,
+        "last_page": 1
+    }
+}

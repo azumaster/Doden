@@ -1,0 +1,155 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "goods": [
+      {
+        "id": 147,
+        "title": "乇乇正肉掌中宝 中号颗粒，每件24斤",
+        "stick":false,
+        "pic": "Public/Uploads/goodsimg/20150824/55dacd612d97e.jpg",
+        "sell_num": 0,
+        "price_rules": [],
+        "shop_name": "利源冻品",
+        "market_name": "海霸王",
+        "debug": {
+          "score": 28,
+          "soldout_time": "2017-05-21 09:30:00",
+          "has_inspection": false,
+          "appraise_rate": 0,
+          "appraise_num": 0,
+          "shop.order_violation_rate": 1,
+          "order_num": 0,
+          "shop.name": "利源冻品",
+          "attr.type": "中号(5毛硬币）",
+          "brand": "乇乇正肉",
+          "cate": [
+            {
+              "series": 1,
+              "name": "冻品",
+              "id": 1
+            },
+            {
+              "series": 2,
+              "name": "鸡副",
+              "id": 2
+            },
+            {
+              "series": 3,
+              "name": "掌中宝",
+              "id": 313
+            },
+            {
+              "series": 4,
+              "name": "掌中宝",
+              "id": 314
+            }
+          ],
+          "name": "乇乇正肉 掌中宝中颗粒"
+        },
+        "price_expired": false,
+        "is_often_buy": false,
+        "price": "38X"
+      },
+      {
+        "id": 148,
+        "title": "乇乇正肉掌中宝 中号颗粒，每件24斤",
+        "stick":false,
+        "pic": "Public/Uploads/goodsimg/20150824/55dacd612d97e.jpg",
+        "sell_num": 0,
+        "price_rules": [],
+        "shop_name": "利源冻品",
+        "market_name": "海霸王",
+        "debug": {
+          "score": 28,
+          "soldout_time": "2017-05-21 09:30:00",
+          "has_inspection": false,
+          "appraise_rate": 0,
+          "appraise_num": 0,
+          "shop.order_violation_rate": 1,
+          "order_num": 0,
+          "shop.name": "利源冻品",
+          "attr.type": "中号(5毛硬币）",
+          "brand": "乇乇正肉",
+          "cate": [
+            {
+              "series": 1,
+              "name": "冻品",
+              "id": 1
+            },
+            {
+              "series": 2,
+              "name": "鸡副",
+              "id": 2
+            },
+            {
+              "series": 3,
+              "name": "掌中宝",
+              "id": 313
+            },
+            {
+              "series": 4,
+              "name": "掌中宝",
+              "id": 314
+            }
+          ],
+          "name": "乇乇正肉 掌中宝中颗粒"
+        },
+        "price_expired": false,
+        "is_often_buy": false,
+        "price": "38X"
+      },
+      {
+        "id": 17843,
+        "title": "西航食品西式烟腩片  净重10kg ",
+        "pic": "Public/Uploads/goodsimg/20160709/05752300_1468026720_4f8.jpg",
+        "sell_num": 8,
+        "price_rules": [],
+        "shop_name": "西航食品",
+        "market_name": "海霸王",
+        "debug": {
+          "score": 14.031304,
+          "soldout_time": "2017-01-21 09:30:00",
+          "has_inspection": true,
+          "appraise_rate": 1,
+          "appraise_num": 3,
+          "shop.order_violation_rate": 1,
+          "order_num": 24,
+          "shop.name": "西航食品",
+          "attr.type": "腌制调味",
+          "brand": "西航食品",
+          "cate": [
+            {
+              "series": 1,
+              "name": "冻品",
+              "id": 1
+            },
+            {
+              "series": 2,
+              "name": "中餐半成品",
+              "id": 882
+            },
+            {
+              "series": 3,
+              "name": "猪肉类",
+              "id": 883
+            },
+            {
+              "series": 4,
+              "name": "猪肉类",
+              "id": 940
+            }
+          ],
+          "name": "西航食品西式烟腩片"
+        },
+        "price_expired": true,
+        "is_often_buy": false,
+        "price": "15X"
+      }
+    ],
+    "page_all": 691,
+    "page": 1,
+    "size": 20,
+    "total": 6907
+  }
+}

@@ -1,0 +1,234 @@
+/*
+*** 买货页面的样式表;
+*/
+@topHeight: 50px;
+@bottomHeight: 50px;
+
+
+/* 左边的一级分类
+***************************************************/
+.left-type-wrap {
+  position: absolute;
+  .wrapper(@topHeight, auto, @bottomHeight, 0, 1);
+  width: 80px;
+  background-color: @color-bg;
+  .type-list {
+    li {
+      line-height: 44px;
+      text-align: center;
+      font-size: @font-size-h4;
+      &.active {
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+/* 右边的一级分类
+***************************************************/
+.right-type-wrap {
+  position: absolute;
+  .wrapper(@topHeight, 0, @bottomHeight, 80px, 1);
+  background-color: #fff;
+}
+.type-goods-list {
+  padding-top: 20px;
+  font-size: 0;
+  li {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    line-height: 1.3;
+  }
+  img {
+    //width: 65%;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: @border-radius;
+  }
+  span {
+    text-align: center;
+    .clamp(2);
+    height: 31px;
+    margin-top: 5px;
+    font-size: @font-size-h5;
+    color: @color-text-assist;
+  }
+}
+
+/* 搜索栏
+***************************************************/
+.search-bar {
+  background-color: #fff;
+  padding: 8px 0;
+  position: absolute;
+  .wrapper(0, 0, auto, 0, 3, visible);
+  .back-page {
+    display: block;
+    padding: 10px 15px;
+    margin-right: -15px;
+    &:before {
+      content: '';
+      display: block;
+      width: 12px;
+      height: 12px;
+      border-left: 2px solid #b3b3b3;
+      border-top: 2px solid #b3b3b3;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+  }
+  .search-content {
+    background-color: #e6e6e6;
+    padding: 0 8px 0 30px;
+    //.border-radius(3px);
+    border-radius: 3px;
+    position: relative;
+    margin-left: 15px;
+    &:before {
+      content: '\e752';
+      .icon-style(17px, @color-text-assist);
+      position: absolute;
+      left: 6px;
+      top: 8px;
+    }
+    input {
+      height: 34px;
+      width: 100%;
+      font-size: @font-size-h4;
+    }
+  }
+  .search-btn {
+    display: block;
+    color: @color-primary;
+    font-size: @font-size-h4;
+    border: none;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    overflow: hidden;
+    height: 34px;
+    padding: 0 15px;
+    text-align: center;
+  }
+}
+
+/* 分类筛选栏
+***************************************************/
+.type-filter {
+  position: absolute;
+  .wrapper(0, 0, auto, 0);
+  height: 55px;
+  background-color: #fff;
+  white-space: nowrap;
+  .type-item {
+    color: @color-text-primary;
+    border: 1px solid @color-divide;
+    border-radius: 5px;
+    background: none;
+    padding: 0 18px;
+    height: 28px;
+    font-size: 13px;
+    line-height: 28px;
+    margin: 0 @margin;
+    &.active {
+      color: @color-primary;
+      border: 1px solid @color-primary;
+    }
+  }
+}
+
+.result-page {
+  position: absolute;
+  .wrapper(@topHeight, 0, @bottomHeight, 0, 5);
+  overflow: inherit;
+  background-color: #fff;
+  .search-goods-no {
+    position: absolute;
+    .wrapper(0, 0, 0, 0, 4);
+    background-color: #fff;
+    padding: @margin;
+    text-align: center;
+    img {
+      margin-top: 2rem;
+    }
+    .note {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-size: @font-size-h4;
+    }
+  }
+}
+
+/* 排序栏
+***************************************************/
+.sort-wrap {
+  position: absolute;
+  .wrapper(55px, 0, auto, 0);
+  height: 45px;
+  background-color: #fff;
+  .sort-item {
+    display: block;
+    line-height: 45px;
+    text-align: center;
+    padding: 0 @margin;
+    &:after {
+      .icon-style(13px, @color-text-primary);
+      margin-left: 3px;
+    }
+  }
+  .sort-default:after {
+    content: '\e772';
+  }
+  .sort-sales:after {
+     content: '\e766';
+  }
+  .sort-price:after {
+    content: '\e6cd';
+  }
+  .sort-filter:after {
+    content: '\e74a';
+  }
+  .active {
+    color: @color-primary;
+    &:after {
+      color: @color-primary;
+    }
+  }
+}
+
+/* 搜索历史记录
+***************************************************/
+.search-history {
+  position: absolute;
+  .wrapper(@topHeight, 0, 0, 0, 5);
+  background-color: @color-bg;
+  .search-history-item {
+    padding: 6px 8px;
+    margin: 0 @margin;
+    position: relative;
+    .hd {
+      padding: 6px 0;
+      .history.icon,.try.icon {
+        &:before {
+          margin-right: 6px;
+          font-size: 20px;
+          vertical-align: middle;
+        }
+      }
+    }
+    .bd {
+      font-size: @font-size-h4;
+      padding: 0 28px;
+    }
+    .cell-item {
+      width: 50%;
+      float: left;
+      padding: @margin/2 0;
+    }
+  }
+  .clear-history {
+    color: #f23030;
+    font-size: @font-size-h4;
+  }
+}

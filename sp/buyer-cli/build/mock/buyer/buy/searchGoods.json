@@ -1,0 +1,652 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "goods": [
+      {
+        "id": 20725,
+        "title": "圣农 大号鸡架，肉多，每件7kg ",
+        "pic": "Public/Uploads/newgoodsimg/20161210/14813456169604.jpg",
+        "sell_num": 30,
+        "price_rules": [],
+        "shop_name": "乐港冻品",
+        "market_name": "青白江",
+        "debug": {
+          "score": 0,
+          "soldout_time": "2018-01-01 00:00:01",
+          "sort_id": 303,
+          "attr.price": "0.01",
+          "has_inspection": false,
+          "shop.level": 9,
+          "appraise_rate": 0.75,
+          "appraise_num": 3,
+          "shop.order_violation_rate": 1,
+          "order_num": 22,
+          "shop.name": "乐港冻品",
+          "attr.type": "450克／个-550克／个",
+          "brand": "圣农",
+          "cate": [
+            {
+              "series": 1,
+              "name": "冻品",
+              "id": 1
+            },
+            {
+              "series": 2,
+              "name": "鸡副",
+              "id": 2
+            },
+            {
+              "series": 3,
+              "name": "鸡架",
+              "id": 301
+            },
+            {
+              "series": 4,
+              "name": "老鸡架",
+              "id": 303
+            }
+          ],
+          "name": "圣农 大号鸡架"
+        },
+        "price_expired": false,
+        "price": 12.45,
+        "origin_price": 13
+      },
+      {
+        "id": 20726,
+        "title": "圣农 大号鸡架，肉多，每件7kg ",
+        "pic": "Public/Uploads/newgoodsimg/20161210/14813456169604.jpg",
+        "sell_num": 30,
+        "price_rules": [],
+        "shop_name": "乐港冻品",
+        "market_name": "青白江",
+        "debug": {
+          "score": 0,
+          "soldout_time": "2018-01-01 00:00:01",
+          "sort_id": 303,
+          "attr.price": "0.01",
+          "has_inspection": false,
+          "shop.level": 9,
+          "appraise_rate": 0.75,
+          "appraise_num": 3,
+          "shop.order_violation_rate": 1,
+          "order_num": 22,
+          "shop.name": "乐港冻品",
+          "attr.type": "450克／个-550克／个",
+          "brand": "圣农",
+          "cate": [
+            {
+              "series": 1,
+              "name": "冻品",
+              "id": 1
+            },
+            {
+              "series": 2,
+              "name": "鸡副",
+              "id": 2
+            },
+            {
+              "series": 3,
+              "name": "鸡架",
+              "id": 301
+            },
+            {
+              "series": 4,
+              "name": "老鸡架",
+              "id": 303
+            }
+          ],
+          "name": "圣农 大号鸡架"
+        },
+        "price_expired": false,
+        "price": 12.45,
+        "origin_price": 13
+      },
+      {
+        "id": 20727,
+        "title": "圣农 大号鸡架，肉多，每件7kg ",
+        "pic": "Public/Uploads/newgoodsimg/20161210/14813456169604.jpg",
+        "sell_num": 30,
+        "price_rules": [],
+        "shop_name": "乐港冻品",
+        "market_name": "青白江",
+        "debug": {
+          "score": 0,
+          "soldout_time": "2018-01-01 00:00:01",
+          "sort_id": 303,
+          "attr.price": "0.01",
+          "has_inspection": false,
+          "shop.level": 9,
+          "appraise_rate": 0.75,
+          "appraise_num": 3,
+          "shop.order_violation_rate": 1,
+          "order_num": 22,
+          "shop.name": "乐港冻品",
+          "attr.type": "450克／个-550克／个",
+          "brand": "圣农",
+          "cate": [
+            {
+              "series": 1,
+              "name": "冻品",
+              "id": 1
+            },
+            {
+              "series": 2,
+              "name": "鸡副",
+              "id": 2
+            },
+            {
+              "series": 3,
+              "name": "鸡架",
+              "id": 301
+            },
+            {
+              "series": 4,
+              "name": "老鸡架",
+              "id": 303
+            }
+          ],
+          "name": "圣农 大号鸡架"
+        },
+        "price_expired": false,
+        "price": 12.45,
+        "origin_price": 13
+      },
+      {
+        "id": 20727,
+        "title": "圣农 大号鸡架，肉多，每件7kg ",
+        "pic": "Public/Uploads/newgoodsimg/20161210/14813456169604.jpg",
+        "sell_num": 30,
+        "price_rules": [],
+        "shop_name": "乐港冻品",
+        "market_name": "青白江",
+        "debug": {
+          "score": 0,
+          "soldout_time": "2018-01-01 00:00:01",
+          "sort_id": 303,
+          "attr.price": "0.01",
+          "has_inspection": false,
+          "shop.level": 9,
+          "appraise_rate": 0.75,
+          "appraise_num": 3,
+          "shop.order_violation_rate": 1,
+          "order_num": 22,
+          "shop.name": "乐港冻品",
+          "attr.type": "450克／个-550克／个",
+          "brand": "圣农",
+          "cate": [
+            {
+              "series": 1,
+              "name": "冻品",
+              "id": 1
+            },
+            {
+              "series": 2,
+              "name": "鸡副",
+              "id": 2
+            },
+            {
+              "series": 3,
+              "name": "鸡架",
+              "id": 301
+            },
+            {
+              "series": 4,
+              "name": "老鸡架",
+              "id": 303
+            }
+          ],
+          "name": "圣农 大号鸡架"
+        },
+        "price_expired": false,
+        "price": 12.45
+      },
+      {
+        "id": 20727,
+        "title": "圣农 大号鸡架，肉多，每件7kg ",
+        "pic": "Public/Uploads/newgoodsimg/20161210/14813456169604.jpg",
+        "sell_num": 30,
+        "price_rules": [],
+        "shop_name": "乐港冻品",
+        "market_name": "青白江",
+        "debug": {
+          "score": 0,
+          "soldout_time": "2018-01-01 00:00:01",
+          "sort_id": 303,
+          "attr.price": "0.01",
+          "has_inspection": false,
+          "shop.level": 9,
+          "appraise_rate": 0.75,
+          "appraise_num": 3,
+          "shop.order_violation_rate": 1,
+          "order_num": 22,
+          "shop.name": "乐港冻品",
+          "attr.type": "450克／个-550克／个",
+          "brand": "圣农",
+          "cate": [
+            {
+              "series": 1,
+              "name": "冻品",
+              "id": 1
+            },
+            {
+              "series": 2,
+              "name": "鸡副",
+              "id": 2
+            },
+            {
+              "series": 3,
+              "name": "鸡架",
+              "id": 301
+            },
+            {
+              "series": 4,
+              "name": "老鸡架",
+              "id": 303
+            }
+          ],
+          "name": "圣农 大号鸡架"
+        },
+        "price_expired": false,
+        "price": 12.45
+      },
+      {
+        "id": 20727,
+        "title": "圣农 大号鸡架，肉多，每件7kg ",
+        "pic": "Public/Uploads/newgoodsimg/20161210/14813456169604.jpg",
+        "sell_num": 30,
+        "price_rules": [],
+        "shop_name": "乐港冻品",
+        "market_name": "青白江",
+        "debug": {
+          "score": 0,
+          "soldout_time": "2018-01-01 00:00:01",
+          "sort_id": 303,
+          "attr.price": "0.01",
+          "has_inspection": false,
+          "shop.level": 9,
+          "appraise_rate": 0.75,
+          "appraise_num": 3,
+          "shop.order_violation_rate": 1,
+          "order_num": 22,
+          "shop.name": "乐港冻品",
+          "attr.type": "450克／个-550克／个",
+          "brand": "圣农",
+          "cate": [
+            {
+              "series": 1,
+              "name": "冻品",
+              "id": 1
+            },
+            {
+              "series": 2,
+              "name": "鸡副",
+              "id": 2
+            },
+            {
+              "series": 3,
+              "name": "鸡架",
+              "id": 301
+            },
+            {
+              "series": 4,
+              "name": "老鸡架",
+              "id": 303
+            }
+          ],
+          "name": "圣农 大号鸡架"
+        },
+        "price_expired": false,
+        "price": 12.45
+      },
+      {
+        "id": 20727,
+        "title": "圣农 大号鸡架，肉多，每件7kg ",
+        "pic": "Public/Uploads/newgoodsimg/20161210/14813456169604.jpg",
+        "sell_num": 30,
+        "price_rules": [],
+        "shop_name": "乐港冻品",
+        "market_name": "青白江",
+        "debug": {
+          "score": 0,
+          "soldout_time": "2018-01-01 00:00:01",
+          "sort_id": 303,
+          "attr.price": "0.01",
+          "has_inspection": false,
+          "shop.level": 9,
+          "appraise_rate": 0.75,
+          "appraise_num": 3,
+          "shop.order_violation_rate": 1,
+          "order_num": 22,
+          "shop.name": "乐港冻品",
+          "attr.type": "450克／个-550克／个",
+          "brand": "圣农",
+          "cate": [
+            {
+              "series": 1,
+              "name": "冻品",
+              "id": 1
+            },
+            {
+              "series": 2,
+              "name": "鸡副",
+              "id": 2
+            },
+            {
+              "series": 3,
+              "name": "鸡架",
+              "id": 301
+            },
+            {
+              "series": 4,
+              "name": "老鸡架",
+              "id": 303
+            }
+          ],
+          "name": "圣农 大号鸡架"
+        },
+        "price_expired": false,
+        "price": 12.45
+      },
+      {
+        "id": 20727,
+        "title": "圣农 大号鸡架，肉多，每件7kg ",
+        "pic": "Public/Uploads/newgoodsimg/20161210/14813456169604.jpg",
+        "sell_num": 30,
+        "price_rules": [],
+        "shop_name": "乐港冻品",
+        "market_name": "青白江",
+        "debug": {
+          "score": 0,
+          "soldout_time": "2018-01-01 00:00:01",
+          "sort_id": 303,
+          "attr.price": "0.01",
+          "has_inspection": false,
+          "shop.level": 9,
+          "appraise_rate": 0.75,
+          "appraise_num": 3,
+          "shop.order_violation_rate": 1,
+          "order_num": 22,
+          "shop.name": "乐港冻品",
+          "attr.type": "450克／个-550克／个",
+          "brand": "圣农",
+          "cate": [
+            {
+              "series": 1,
+              "name": "冻品",
+              "id": 1
+            },
+            {
+              "series": 2,
+              "name": "鸡副",
+              "id": 2
+            },
+            {
+              "series": 3,
+              "name": "鸡架",
+              "id": 301
+            },
+            {
+              "series": 4,
+              "name": "老鸡架",
+              "id": 303
+            }
+          ],
+          "name": "圣农 大号鸡架"
+        },
+        "price_expired": false,
+        "price": 12.45
+      },
+      {
+        "id": 20727,
+        "title": "圣农 大号鸡架，肉多，每件7kg ",
+        "pic": "Public/Uploads/newgoodsimg/20161210/14813456169604.jpg",
+        "sell_num": 30,
+        "price_rules": [],
+        "shop_name": "乐港冻品",
+        "market_name": "青白江",
+        "debug": {
+          "score": 0,
+          "soldout_time": "2018-01-01 00:00:01",
+          "sort_id": 303,
+          "attr.price": "0.01",
+          "has_inspection": false,
+          "shop.level": 9,
+          "appraise_rate": 0.75,
+          "appraise_num": 3,
+          "shop.order_violation_rate": 1,
+          "order_num": 22,
+          "shop.name": "乐港冻品",
+          "attr.type": "450克／个-550克／个",
+          "brand": "圣农",
+          "cate": [
+            {
+              "series": 1,
+              "name": "冻品",
+              "id": 1
+            },
+            {
+              "series": 2,
+              "name": "鸡副",
+              "id": 2
+            },
+            {
+              "series": 3,
+              "name": "鸡架",
+              "id": 301
+            },
+            {
+              "series": 4,
+              "name": "老鸡架",
+              "id": 303
+            }
+          ],
+          "name": "圣农 大号鸡架"
+        },
+        "price_expired": false,
+        "price": 12.45
+      },
+      {
+        "id": 20727,
+        "title": "圣农 大号鸡架，肉多，每件7kg ",
+        "pic": "Public/Uploads/newgoodsimg/20161210/14813456169604.jpg",
+        "sell_num": 30,
+        "price_rules": [],
+        "shop_name": "乐港冻品",
+        "market_name": "青白江",
+        "debug": {
+          "score": 0,
+          "soldout_time": "2018-01-01 00:00:01",
+          "sort_id": 303,
+          "attr.price": "0.01",
+          "has_inspection": false,
+          "shop.level": 9,
+          "appraise_rate": 0.75,
+          "appraise_num": 3,
+          "shop.order_violation_rate": 1,
+          "order_num": 22,
+          "shop.name": "乐港冻品",
+          "attr.type": "450克／个-550克／个",
+          "brand": "圣农",
+          "cate": [
+            {
+              "series": 1,
+              "name": "冻品",
+              "id": 1
+            },
+            {
+              "series": 2,
+              "name": "鸡副",
+              "id": 2
+            },
+            {
+              "series": 3,
+              "name": "鸡架",
+              "id": 301
+            },
+            {
+              "series": 4,
+              "name": "老鸡架",
+              "id": 303
+            }
+          ],
+          "name": "圣农 大号鸡架"
+        },
+        "price_expired": false,
+        "price": 12.45
+      },
+      {
+        "id": 20727,
+        "title": "圣农 大号鸡架，肉多，每件7kg ",
+        "pic": "Public/Uploads/newgoodsimg/20161210/14813456169604.jpg",
+        "sell_num": 30,
+        "price_rules": [],
+        "shop_name": "乐港冻品",
+        "market_name": "青白江",
+        "debug": {
+          "score": 0,
+          "soldout_time": "2018-01-01 00:00:01",
+          "sort_id": 303,
+          "attr.price": "0.01",
+          "has_inspection": false,
+          "shop.level": 9,
+          "appraise_rate": 0.75,
+          "appraise_num": 3,
+          "shop.order_violation_rate": 1,
+          "order_num": 22,
+          "shop.name": "乐港冻品",
+          "attr.type": "450克／个-550克／个",
+          "brand": "圣农",
+          "cate": [
+            {
+              "series": 1,
+              "name": "冻品",
+              "id": 1
+            },
+            {
+              "series": 2,
+              "name": "鸡副",
+              "id": 2
+            },
+            {
+              "series": 3,
+              "name": "鸡架",
+              "id": 301
+            },
+            {
+              "series": 4,
+              "name": "老鸡架",
+              "id": 303
+            }
+          ],
+          "name": "圣农 大号鸡架"
+        },
+        "price_expired": false,
+        "price": 12.45
+      },
+      {
+        "id": 20727,
+        "title": "圣农 大号鸡架，肉多，每件7kg ",
+        "pic": "Public/Uploads/newgoodsimg/20161210/14813456169604.jpg",
+        "sell_num": 30,
+        "price_rules": [],
+        "shop_name": "乐港冻品",
+        "market_name": "青白江",
+        "debug": {
+          "score": 0,
+          "soldout_time": "2018-01-01 00:00:01",
+          "sort_id": 303,
+          "attr.price": "0.01",
+          "has_inspection": false,
+          "shop.level": 9,
+          "appraise_rate": 0.75,
+          "appraise_num": 3,
+          "shop.order_violation_rate": 1,
+          "order_num": 22,
+          "shop.name": "乐港冻品",
+          "attr.type": "450克／个-550克／个",
+          "brand": "圣农",
+          "cate": [
+            {
+              "series": 1,
+              "name": "冻品",
+              "id": 1
+            },
+            {
+              "series": 2,
+              "name": "鸡副",
+              "id": 2
+            },
+            {
+              "series": 3,
+              "name": "鸡架",
+              "id": 301
+            },
+            {
+              "series": 4,
+              "name": "老鸡架",
+              "id": 303
+            }
+          ],
+          "name": "圣农 大号鸡架"
+        },
+        "price_expired": false,
+        "price": 12.45
+      },
+      {
+        "id": 20727,
+        "title": "圣农 大号鸡架，肉多，每件7kg ",
+        "pic": "Public/Uploads/newgoodsimg/20161210/14813456169604.jpg",
+        "sell_num": 30,
+        "price_rules": [],
+        "shop_name": "乐港冻品",
+        "market_name": "青白江",
+        "debug": {
+          "score": 0,
+          "soldout_time": "2018-01-01 00:00:01",
+          "sort_id": 303,
+          "attr.price": "0.01",
+          "has_inspection": false,
+          "shop.level": 9,
+          "appraise_rate": 0.75,
+          "appraise_num": 3,
+          "shop.order_violation_rate": 1,
+          "order_num": 22,
+          "shop.name": "乐港冻品",
+          "attr.type": "450克／个-550克／个",
+          "brand": "圣农",
+          "cate": [
+            {
+              "series": 1,
+              "name": "冻品",
+              "id": 1
+            },
+            {
+              "series": 2,
+              "name": "鸡副",
+              "id": 2
+            },
+            {
+              "series": 3,
+              "name": "鸡架",
+              "id": 301
+            },
+            {
+              "series": 4,
+              "name": "老鸡架",
+              "id": 303
+            }
+          ],
+          "name": "圣农 大号鸡架"
+        },
+        "price_expired": false,
+        "price": 12.45
+      }
+    ],
+    "page_all": 1,
+    "page": 1,
+    "size": 20,
+    "total": 6907
+  }
+}

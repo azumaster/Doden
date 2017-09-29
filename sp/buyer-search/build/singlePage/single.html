@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='viewport' content='width=device-width,initial-scale=1.0,user-scalable=no'>
+    <meta name="renderer" content="webkit">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="x-rim-auto-match" content="none">
+    <title>冻品商城</title>
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: #f5f5f5;
+        }
+
+        .ul {
+            background: #ffffff;
+            list-style: none;
+        }
+        .ul:not(:last-child){
+            margin-bottom: 16px;
+        }
+        .ul .li {
+            margin: 0 14px;
+            padding: 15px 0;
+            box-sizing: border-box;
+            position: relative;
+            overflow: hidden;
+        }
+        .ul .li:not(:last-child):after{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            height: 1px;
+            width: 100%;
+            background: #e3e5e9;
+            transform: scaleY(0.5);
+            -webkit-transform: scaleY(0.5);
+            -moz-transform: scaleY(0.5);
+            -ms-transform: scaleY(0.5);
+            -o-transform: scaleY(0.5);
+        }
+
+        .single-page{
+            height: 100%;
+        }
+        .single-page .li-item{
+            display: flex;
+            justify-content: space-between;
+        }
+        .single-page .li-item p{
+            font-size: 14px;
+            color: #5d5f6a;
+        }
+        .single-info{
+            height: 40px;
+            font-size: 12px;
+            color: #5d5f6a;
+            margin: 0 14px;
+            line-height: 40px;
+        }
+        .singleBtn{
+            margin: 0 14px;
+        }
+        .singleBtn .confirm-btn{
+            width: 100%;
+            box-sizing: border-box;
+            height: 45px;
+            background: #f2582a;
+            border:none;
+            border-radius: 5px;
+            color: #ffffff;
+            font-size: 15px;
+            outline: none;
+        }
+        .singleBtn .confirm-btn:active{
+            background: #e3552b;
+        }
+
+        .singleBtn .toast{
+            height: 30px;
+            line-height: 30px;
+            position: fixed;
+            bottom: 30%;
+            background: rgba(0, 0, 0, .8);
+            color: #ffffff;
+            padding: 0 16px;
+            left: 50%;
+            transform: translate(-50%, 0);
+            font-size: 14px;
+            opacity: 0;
+            transition: opacity .3s linear;
+        }
+        .singleBtn .toast.active{
+            opacity: 1;
+            transition: opacity .3s linear;
+        }
+        .single-page .toast{
+            position: fixed;
+            left: 50%;
+            bottom: 10%;
+            transform: translate(-50%, 0);
+            padding: 10px 20px;
+            background: rgba(0, 0, 0, .8);
+            font-size: 12px;
+            color: #ffffff;
+            opacity: 0;
+            transition: opacity .3s linear;
+        }
+        .single-page .toast.active{
+            opacity: 1;
+            transition: opacity .3s linear;
+        }
+    </style>
+</head>
+<body>
+<div id="single" class="single-page">
+    <div class="single-info">
+        <p>请确认激活你的账号：</p>
+    </div>
+    <div class="ul">
+        <div class="li li-item">
+            <p style="min-width:60px">店铺名</p>
+            <p id="shopName">店铺名</p>
+        </div>
+        <div class="li li-item">
+            <p style="min-width:60px">联系人</p>
+            <p id="name">联系人</p>
+        </div>
+        <div class="li li-item">
+            <p style="min-width:60px">电话</p>
+            <p id="mobile">电话</p>
+        </div>
+        <div class="li li-item">
+            <p style="min-width:60px">地址</p>
+            <p id="address">地址</p>
+        </div>
+    </div>
+    <div class="singleBtn">
+        <button type="button" class="confirm-btn" onclick="confirm();">确认激活</button>
+    </div>
+</div>
+
+<script>
+    (function () {
+        document.addEventListener('touchmove', function (e) {
+            e.preventDefault();
+        }, false);
+        getData();
+    })();
+
+    function getData() {
+        ajax('get', 'api/other/sp-info', {}, function (res) {
+            if(res.code ==0){
+                document.getElementById('shopName').innerHTML = res.data.shop_name;
+                document.getElementById('name').innerHTML = res.data.user_name;
+                document.getElementById('mobile').innerHTML = res.data.mobile;
+                document.getElementById('address').innerHTML = res.data.address;
+            }else{
+                createToast(res.message);
+            }
+        });
+    }
+    
+    function confirm() {
+        ajax('post', '/api/other/activate', {}, function (res) {
+            if(res.code == 0){
+                createToast('激活成功！');
+                setTimeout(function () {
+                    window.location.href = '/index?page_route=/buyer/buy';
+                }, 1000);
+            }else{
+                createToast(res.message);
+            }
+        });
+    }
+
+    function ajax(method, link, param, callback) {
+        var xhr = window.XMLHttpRequest?new XMLHttpRequest():new ActiveXObject('Microsoft.XMLHTTP'),
+            url = method == 'post'?link+'?r='+Math.random():link+'?'+buildData(data)+'&r='+Math.random(),
+            type = method?method:'get',
+            data = param || null;
+
+        xhr.open(type, url, true);
+        type=='post'?xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded'):null;
+        xhr.setRequestHeader('Cache-Control', 'no-cache');
+        xhr.setRequestHeader('Accept', 'application/json');
+        xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+        xhr.send(type=='post'?buildData(data):'');
+
+        xhr.onreadystatechange = function(){
+            if(xhr.readyState == 4 && xhr.status == 200){
+                callback(JSON.parse(xhr.responseText));
+            }
+        };
+    }
+
+    // 构建Send的数据结构
+    function buildData(data) {
+        if(data == null) return data;
+
+        var arr = [];
+        for(var key in data){
+            var str = key+'='+data[key];
+            arr.push(str);
+        }
+
+        return arr.join('&');
+    }
+
+    // 创建Toast
+    function createToast(text) {
+        var toast = document.createElement('div');
+        toast.innerHTML = text;
+        toast.className = 'toast';
+        toast.id = 'toast';
+
+        document.getElementById('single').appendChild(toast);
+
+        setTimeout(function () {
+            document.getElementById('toast').className = 'toast active';
+
+            setTimeout(function () {
+                document.getElementById('toast').className = 'toast';
+                setTimeout(function () {
+                    document.getElementById('single').removeChild(document.getElementById('toast'));
+                }, 300);
+            }, 2000);
+        }, 100);
+    }
+</script>
+</body>
+</html>

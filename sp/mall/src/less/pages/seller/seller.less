@@ -1,0 +1,66 @@
+@import "market.less";
+@import "shopInfo.less";
+@import "custom.less";
+@import "price.less";
+@import "ticket.less";
+@import "pay.less";
+@import "member.less";
+@import "blacklist.less";
+@import "stick.less";
+
+.seller-home{
+  margin-top: @gap-basic;
+  background: @color-white;
+  .seller-home-link{
+    display: block;
+    height: 90px;
+    position: relative;
+    overflow: hidden;
+    &:active {
+      background: @color-bg;
+    }
+    i{
+      display: block;
+      font-size: 25px;
+      line-height: 45px;
+      margin-top: @gap-basic*2;
+      &.ticket {
+        color: #f05868;
+      }
+      &.market {
+        color: #faab44;
+      }
+      &.goods {
+        color: #a0cf69;
+      }
+      &.shop-info {
+        color: #48aecb;
+      }
+      &.custom {
+        color: #657de6
+      }
+      &.pay{
+        color: #edc921;
+      }
+      &.member{
+        color: #6acce8;
+      }
+      &.dong{
+        color: #efcee8;
+      }
+      &.blacklist{
+        color: #3dacfa;
+      }
+      &.stick{
+        color: #ff7246;
+      }
+    }
+  }
+}
+
+.page-notice{
+  font-size: 14px;
+  color: @color-text-assist;
+  text-align: center;
+  margin-top: 200px;
+}

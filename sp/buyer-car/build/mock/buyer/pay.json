@@ -1,0 +1,12 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "appId": "wxddca787d1553e4ab",
+    "timeStamp": "1492675896",
+    "nonceStr": "58f86d3808d38",
+    "package": "prepay_id=wx201704201611360b3826b1ef0112482790",
+    "signType": "MD5",
+    "paySign": "5186E649E15831550F24F858286D39DE"
+  }
+}

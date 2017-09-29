@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name='viewport' content='width=device-width,initial-scale=1.0,user-scalable=no'>
+    <meta name="renderer" content="webkit">
+	<meta name="x5-fullscreen" content="true">
+	<meta name="full-screen" content="yes">
+	<title>冻品商城</title>
+	<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+</head>
+<body>
+	<div id="app">
+		<div style="text-align: center;margin-top: 100px;" onclick="location.reload()">
+			<img src="./Public/service-provider/images/entry.jpg">
+			<div id="loadInfo" style="margin-top: 20px; color: #b2b2b2; font-size: 12px;">
+				资源加载中...
+			</div>
+		</div>
+	</div>
+	<div id="picker_container"></div>
+</body>
+<!--<script src="./Public/service-provider/js/bundle.js"></script>-->
+<script type="text/javascript">
+	var script = document.createElement('script'),
+		loadInfo = document.getElementById('loadInfo');
+	script.type = 'application/javascript';
+	script.src = '/Public/service-provider/js/bundle.js';
+	document.body.appendChild(script);
+	script.onload = function() {
+		setTimeout(function(){
+			if(!document.getElementById('loadInfo')) {
+				console.log(location.hash);
+				if(location.hash == '#/') {
+					location.hash = '#{{$page_route}}';
+				}else {
+					loadInfo.innerHTML = '网络信息不好，点击重新加载';
+				}
+			}
+		}, 5000);
+	};
+	script.onerror = function() {
+		loadInfo.innerHTML = '网络信息不好，点击重新加载';
+	};
+
+	var	brWidth = document.documentElement.clientWidth,
+			brHeight = document.documentElement.clientHeight,
+//	brWidth = brWidth>640?640:brWidth;
+			size=brWidth/320*16;
+	document.getElementsByTagName("html")[0].style.fontSize=size+"px";
+	document.getElementsByTagName("html")[0].style.height=brHeight+"px";
+
+	(function() {
+		function setCookie(name,value) {
+			var exp = new Date();
+			exp.setTime(exp.getTime() + 2*60*1000);
+			document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+		}
+
+		function getCookie(name) {
+			var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+			if(arr=document.cookie.match(reg))
+				return unescape(arr[2]);
+			else
+				return null;
+		}
+		var localhost = location.origin + '/',
+			imgSuccess = null,
+			static1 = 'http://img.idongpin.com/',
+			static2 = 'http://cdn2.img.idongpin.com/',
+			imgTimeout = false,
+			timeout = null,
+			CONNECT_TIME = 3000;
+
+		function createImgConnect() {
+			imgError = function() {  //图片没加载成功，启用备用cdn;
+				if(!timeout) return;
+				clearInterval(timeout);
+				timeout = null;
+				imgTimeout = true;
+				setCookie('domain', static2);
+			};
+
+			imgSuccess = function() {
+				clearInterval(timeout);
+				imgTimeout = true;
+				setCookie('domain', static1);
+			};
+
+			var testImgDom = document.createElement('img');
+			testImgDom.src = static1 + 'Public/images/test-connect.png';
+			testImgDom.width = 0;
+			testImgDom.height = 0;
+			testImgDom.onerror = imgError;
+			testImgDom.onload = imgSuccess;
+			document.body.appendChild(testImgDom);
+			timeout = setInterval(function() {
+				if(!imgTimeout) {
+					imgError();
+				}
+			}, CONNECT_TIME);
+			//更新cookie;
+		}
+
+		if(location.host.indexOf('192.168.') != -1) {
+			setCookie('domain', localhost);
+		}else {
+			if(!getCookie('domain')) {
+				setCookie('domain', static1);
+			}
+			createImgConnect();
+		}
+	})();
+</script>
+</html>

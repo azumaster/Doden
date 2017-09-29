@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data1": [
+    {
+      "wechat_openid": "123",
+      "wechat_name": "Doden"
+    },
+    {
+      "wechat_openid": "微信OPENID",
+      "wechat_name": "微信用户名"
+    }
+  ],
+  "data":[]
+}

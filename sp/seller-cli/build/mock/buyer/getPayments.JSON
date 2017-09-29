@@ -1,0 +1,16 @@
+{
+  "code": 0,
+  "message": "ok",
+  "data": [
+    {
+      "id": 2,
+      "pay_name": "微信支付",
+      "selected": true
+    },
+    {
+      "id": 1,
+      "pay_name": "货到付款",
+      "selected": true
+    }
+  ]
+}

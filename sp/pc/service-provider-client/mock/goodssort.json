@@ -1,0 +1,71 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "1": {
+      "2": {
+        "4": {
+          "type_id": 4,
+          "type_name": "鸡胸",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828073891802.png"
+        },
+        "12": {
+          "type_id": 12,
+          "type_name": "整鸡",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828075391491.png"
+        },
+        "type_id": 2,
+        "type_name": "鸡副",
+        "type_pic_url": ""
+      },
+      "3": {
+        "type_id": 3,
+        "type_name": "鸭副",
+        "type_pic_url": ""
+      },
+      "84": {
+        "type_id": 84,
+        "type_name": "鹅副",
+        "type_pic_url": ""
+      },
+      "85": {
+        "type_id": 85,
+        "type_name": "兔副",
+        "type_pic_url": ""
+      },
+      "86": {
+        "type_id": 86,
+        "type_name": "猪副",
+        "type_pic_url": ""
+      },
+      "87": {
+        "849": {
+          "type_id": 849,
+          "type_name": "牛鞭",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828927516017.png"
+        },
+        "type_id": 87,
+        "type_name": "牛副",
+        "type_pic_url": ""
+      },
+      "88": {
+        "type_id": 88,
+        "type_name": "羊副",
+        "type_pic_url": ""
+      },
+      "90": {
+        "98": {
+          "type_id": 98,
+          "type_name": "炸制类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828931991128.png"
+        },
+        "type_id": 90,
+        "type_name": "小吃快餐",
+        "type_pic_url": ""
+      },
+      "type_id": 1,
+      "type_name": "冻品",
+      "type_pic_url": ""
+    }
+  }
+}

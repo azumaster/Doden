@@ -1,0 +1,8 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "goods_count": 3,
+    "total_amount": 335
+  }
+}

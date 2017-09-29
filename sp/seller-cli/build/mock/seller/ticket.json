@@ -1,0 +1,93 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "total": 2,
+    "current": 1,
+    "last_page": 1,
+    "sales": [
+      {
+        "order_id": 66,
+        "sp_id": 438,
+        "buyer_id": 5,
+        "goods_sort": 2,
+        "goods_count": 4,
+        "order_amount": "335.00",
+        "order_status": 5,
+        "created_at": "2017-03-10 11:51:54",
+        "buyer_info": {
+          "buyer_name": "写代码的冻品",
+          "buyer_mobile": "18428385253",
+          "buyer_address": "北京市东城区我爱北京天安门，天安门上太阳升"
+        },
+        "goods_info": [
+          {
+            "goods_id": 111,
+            "goods_status": 1,
+            "goods_title": "",
+            "goods_brand": "比他好（佳龙）",
+            "goods_num": 3,
+            "goods_picture": "Public/Uploads/goodsimg/201511011/1446544607060.jpg",
+            "goods_price_add": 65,
+            "goods_price_pre": "60.00",
+            "goods_shop": "七叔公",
+            "goods_market": "海霸王"
+          },
+          {
+            "goods_id": 23348,
+            "goods_status": 1,
+            "goods_title": "正德乌鸡10只  净重9.5kg  ",
+            "goods_brand": "正德",
+            "goods_num": 1,
+            "goods_picture": "Public/Uploads/goodsimg/20161022/17232600_1477123656_s2q.jpg",
+            "goods_price_add": "140.00",
+            "goods_price_pre": "140.00",
+            "goods_shop": "天源冻品",
+            "goods_market": "青白江"
+          }
+        ]
+      },
+      {
+        "order_id": 64,
+        "sp_id": 438,
+        "buyer_id": 1,
+        "goods_sort": 2,
+        "goods_count": 2,
+        "order_amount": "205.00",
+        "order_status": 5,
+        "created_at": "2017-03-10 10:11:35",
+        "buyer_info": {
+          "buyer_name": "写代码的冻品",
+          "buyer_mobile": "18428385253",
+          "buyer_address": "北京市东城区我爱北京天安门，天安门上太阳升"
+        },
+        "goods_info": [
+          {
+            "goods_id": 111,
+            "goods_status": 1,
+            "goods_title": "",
+            "goods_brand": "比他好（佳龙）",
+            "goods_num": 1,
+            "goods_picture": "Public/Uploads/goodsimg/201511011/1446544607060.jpg",
+            "goods_price_add": 65,
+            "goods_price_pre": "60.00",
+            "goods_shop": "七叔公",
+            "goods_market": "海霸王"
+          },
+          {
+            "goods_id": 23348,
+            "goods_status": 2,
+            "goods_title": "正德乌鸡10只  净重9.5kg  但是犯得上犯得上犯得上犯得上电风扇",
+            "goods_brand": "正德",
+            "goods_num": 1,
+            "goods_picture": "Public/Uploads/goodsimg/20161022/17232600_1477123656_s2q.jpg",
+            "goods_price_add": "140.00",
+            "goods_price_pre": "140.00",
+            "goods_shop": "天源冻品",
+            "goods_market": "青白江"
+          }
+        ]
+      }
+    ]
+  }
+}

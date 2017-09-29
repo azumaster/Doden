@@ -1,0 +1,198 @@
+.goods-info-wrap {
+  position: absolute;
+  .wrapper(0, 0, 50px, 0, 5);
+  background-color: @color-bg;
+}
+.goods-banner {
+  height: 230px;
+  position: relative;
+  .picArr {
+    height: 230px;
+    li {
+      position: absolute;
+      left: 0;
+      width: 100%;
+      bottom: 0;
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+  img {
+    width: 100%;
+    display: block;
+  }
+  .ctrlArr {
+    position: absolute;
+    bottom: 6px;
+    width: 100%;
+    text-align: center;
+    li {
+      background-color: #fff;
+      width: 6px;
+      height: 6px;
+      margin: 3px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .active {
+      background-color: @color-primary;
+    }
+  }
+}
+
+.goods-basic {
+  padding: @margin;
+  background-color: #fff;
+  position: relative;
+  .goods-price {
+    color: @color-primary;
+    font-size: @font-size-h1;
+    font-weight: 700;
+  }
+  .goods-title {
+    font-size: @font-size-h5;
+    line-height: 2.5;
+  }
+  .goods-sell-num {
+    position: absolute;
+    right: 0;
+    top: -10px;
+    background-color: @color-primary;
+    color: #fff;
+    padding: 2px 12px 2px 18px;
+    font-size: @font-size-h6;
+    border-radius: 20px 0 0 0;
+    z-index: 5;
+  }
+}
+
+.goods-describe {
+  padding: @margin;
+  margin-top: 10px;
+  background-color: #fff;
+  .toggle {
+    position: relative;
+    text-align: center;
+  }
+  .toggle-item {
+    display: inline-block;
+    line-height: 2;
+    border-bottom: 2px solid transparent;
+    &.active {
+      color: @color-primary;
+      border-bottom: 2px solid @color-primary;
+    }
+  }
+}
+
+.goods-introduce {
+  .slogan {
+    margin: 0;
+    font-size: @font-size-h5;
+    padding: @margin 0;
+    position: relative;
+  }
+  img {
+    width: 100%;
+  }
+  h2 {
+    line-height: 2.5;
+  }
+}
+
+.goods-attr {
+  padding: 10px 0;
+  .attr-item {
+    line-height: 2;
+    display: flex;
+    font-size: @font-size-h4;
+  }
+  .attr-name {
+    width: 120px;
+  }
+  .attr-val {
+    flex: 1;
+    color: @color-text-assist;
+  }
+}
+
+/* 商品详情底部工具条;
+**************************************************/
+.goods-toolbar {
+  position: absolute;
+  .wrapper(auto, 0, 0, 0);
+  height: 50px;
+  background-color: #fff;
+  .items {
+    display: block;
+    text-align: center;
+    .icon-consult {
+      display: inline-block;
+      width: 27px;
+      height: 27px;
+      margin-top: 2px;
+      &:after {
+        content: '\e741';
+        .icon-style(25px, @color-text-primary);
+      }
+    }
+    .icon-car-list {
+      display: inline-block;
+      width: 27px;
+      height: 27px;
+      margin-top: 2px;
+      &:after {
+        content: '\e73d';
+        .icon-style(24px, @color-text-primary);
+      }
+    }
+    p {
+      margin: 0;
+    }
+    &.add-car {
+      background-color: @color-primary;
+      color: #fff;
+      font-size: @font-size-h2;
+      line-height: 50px;
+    }
+    &.no-add-car {
+      background-color: @color-text-primary;
+      color: #fff;
+      font-size: @font-size-h2;
+      line-height: 50px;
+    }
+  }
+}
+
+//下单的弹窗
+.add-car-dialog {
+  margin: -20px 0;
+  .hd {
+    padding-bottom: 17px;
+    position: relative;
+  }
+  .goods-img {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-right: 15px;
+  }
+  .goods-info {
+    text-align: left;
+    line-height: 30px;
+  }
+  .edit-num {
+    padding: 37px 0 20px 0;
+    input {
+      width: 60px;
+      height: 25px;
+      border-bottom: 1px solid @color-divide;
+      text-align: center;
+    }
+    .add, .reduction {
+      color: @color-primary;
+      font-size: 20px;
+      vertical-align: middle;
+      padding: 10px 6px;
+    }
+  }
+}

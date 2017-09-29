@@ -1,0 +1,288 @@
+.stick-category {
+  overflow: hidden;
+  .stick-content {
+    overflow: hidden;
+    width: 100%;
+
+    .goods-class {
+      width: 75px;
+      position: fixed;
+      background: @color-white;
+      top: 0;
+      bottom: 0;
+      z-index: 500;
+      .good-class {
+        height: 44px;
+        h4{
+          line-height: 44px;
+        }
+        &.active {
+          background: @color-bg;
+          h4{
+            color: @color-green;
+          }
+        }
+      }
+    }
+
+    .type-list {
+      padding-left: 75px;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      overflow: hidden;
+      width: 100%;
+      box-sizing: border-box;
+
+      .type-item {
+        margin: 14px 14px 0 14px;
+        img{
+          min-height: 70px;
+          min-width: 70px;
+          width: 80%;
+          display: block;
+          margin: 0 auto @gap-basic;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .stick-category{
+    .stick-content{
+      .type-list{
+        .type-item{
+          img{
+            min-width: 55px;
+            min-height: 55px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.stick-list{
+  position: fixed;
+  width: 100%;
+  height: 97%;
+  background: #f5f5f5;
+}
+
+.stick-item{
+  margin-top: 10px;
+  background: #ffffff;
+
+  .stick-title{
+    height: 45px;
+    padding: 0 15px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    p{
+      line-height: 45px;
+    }
+    button{
+      margin-top: 7px;
+    }
+    &:before{
+      content: '';
+      position: absolute;
+      left: 15px;
+      bottom: 0;
+      width: 100%;
+      height: 1px;
+      background: #e3e5e9;
+    }
+  }
+
+  .stick-body{
+    margin: 0 15px;
+    .stick-body-name{
+      margin-top: 20px;
+      color: #999999;
+      font-size: 13px;
+    }
+    .stick-body-list{
+      padding-bottom: 15px;
+      overflow: hidden;
+      .brand-item{
+        float: left;
+        width: 33%;
+        position: relative;
+        p{
+          width: 50px;
+          height: 25px;
+          margin: 20px auto 5px auto;
+          text-align: center;
+          line-height: 25px;
+          border-radius: 4px;
+          border: 1px solid #e4e5e9;
+          padding: 0 10px;
+          position: relative;
+          .clamp(1);
+        }
+        i{
+          position: absolute;
+          left: 5px;
+          top: 25px;
+          color: #8e91a2;
+          font-size: 15px;
+        }
+
+        &.active{
+          i{
+            color: #fc7950;
+          }
+        }
+      }
+    }
+    .stick-notice{
+      text-align: center;
+      line-height: 75px;
+      font-size: 14px;
+      i{
+        margin-right: 5px;
+
+      }
+      &.black{
+        color: #5d5f6a;
+        i{
+          color: #ff7150;
+        }
+      }
+      &.no{
+        color: #cccccc;
+      }
+    }
+  }
+}
+
+.stick-no{
+  margin: 40% 15px 0 15px;
+  p{
+    font-size: 16px;
+    text-align: center;
+    color: @color-text-assist;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (min-width: 330px) {
+  .stick-item{
+    .stick-body{
+      .stick-body-list{
+        .brand-item{
+          p{
+            width: 70px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .stick-item{
+    .stick-body{
+      .stick-body-list{
+        .brand-item{
+          p{
+            width: 80px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.stick-order{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #f5f5f5;
+}
+
+
+
+.stick-setting{
+  margin-top: 15px;
+  background: #ffffff;
+
+  .setting-title{
+    height: 45px;
+    line-height: 45px;
+    padding: 0 15px;
+    position: relative;
+    color: #5d5f6a;
+    font-size: 13px;
+    &:before{
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 1px;
+      background: #e3e5e9;
+      bottom: 0;
+
+    }
+  }
+  .setting-list{
+    overflow: hidden;
+    &.brand{
+      padding: 0 15px 20px 15px;
+    }
+    &.no{
+      padding: 15px 0;
+    }
+    .setting-list-item{
+      height: 55px;
+      display: flex;
+      justify-content: space-between;
+      &:not(:last-child){
+        border-bottom: 2px solid #f7f7f7;
+      }
+      .setting-item{
+        text-align: center;
+        font-size: 13px;
+        line-height: 55px;
+        .clamp(1);
+        &.order{flex: 2}
+        &.name{flex: 2}
+        &.cancel-stick{flex: 2; color: #f15536}
+        &.up{flex: 1}
+      }
+    }
+    .stick-normal-item{
+      float: left;
+      margin-top: 20px;
+      width: 33%;
+      em{
+        width: 70px;
+        height: 25px;
+        padding: 0 5px;
+        display: block;
+        text-align: center;
+        line-height: 25px;
+        border-radius: 4px;
+        border: 1px solid #e4e5e9;
+        font-style: normal;
+        font-size: 13px;
+        color: #5d5f6a;
+        margin: 0 auto;
+        .clamp(1);
+      }
+    }
+  }
+  .setting-notice{
+    text-align: center;
+    font-size: 12px;
+    color: @color-text-assist;
+    line-height: 30px;
+  }
+}
+
+.submit-btn{
+  margin: 15px;
+  padding-bottom: 100px;
+}

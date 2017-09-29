@@ -1,0 +1,103 @@
+.me-list{
+  width: 100%;
+  height: 100%;
+  background: @color-bg;
+  position: fixed;
+  z-index: 500;
+
+  .me-notice {
+    height: 44px;
+    padding: 0 @gap-basic;
+    line-height: 44px;
+    .me-base>div{
+      display: flex;
+      flex-flow: nowrap;
+      justify-content: space-between;
+    }
+  }
+  .address-ul{
+    .header{
+      margin-bottom: @gap-basic;
+    }
+    .footer{
+      .is-default{
+        line-height: 25px;
+        font-size: 13px;
+        .radio-icon{
+          margin-right: @gap-basic;
+          &:before{
+            font-family: 'iconfont';
+            content: '\e68d';
+            font-size: 17px;
+            color: @color-text-primary;
+          }
+        }
+        .radio{
+          display: none;
+          outline: none;
+          &:checked+i:before{
+            content: '\e69e';
+            color: @color-primary;
+          }
+        }
+      }
+      .address-group{
+        .btn:not(:last-child){
+          margin-right: @gap-basic;
+        }
+      }
+    }
+  }
+
+  .add-address{
+    margin: 0 14px;
+  }
+}
+
+.class-btn{
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  .btn{
+    margin: 0 @gap-basic @gap-basic 0;
+  }
+}
+
+.edit-address{
+  width: 100%;
+  height: 100%;
+  background: @color-bg;
+  position: fixed;
+  z-index: 500;
+
+  .edit-list{
+    margin-top: @gap-basic;
+    .edit-item{
+      display: flex;
+      justify-content: space-between;
+      line-height: 25px;
+      h4{
+        flex: 1;
+      }
+      .address-input{
+        flex: 4;
+        text-align: right;
+      }
+      .area{
+        .area-select{
+          margin: 0 @gap-basic;
+          border: none;
+          -webkit-appearance: none;
+          color: @color-text-assist;
+          height: 25px;
+          font-size: 13px;
+          line-height: 25px;
+        }
+      }
+    }
+
+  }
+  .address-btn{
+    padding: 0 @gap-basic;
+  }
+}

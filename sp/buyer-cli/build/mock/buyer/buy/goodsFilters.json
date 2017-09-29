@@ -1,0 +1,178 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "halal": [
+      1,
+      0
+    ],
+    "markets": [
+      {
+        "pianquId": 1,
+        "pianqu": "青白江"
+      }
+    ],
+    "categories": [
+      {
+        "id": 1,
+        "sort_name": "冻品",
+        "series": 1
+      },
+      {
+        "id": 2,
+        "sort_name": "鸡副",
+        "series": 2
+      },
+      {
+        "id": 4,
+        "sort_name": "鸡胸",
+        "series": 3
+      },
+      {
+        "id": 5,
+        "sort_name": "去油鸡胸",
+        "series": 4
+      },
+      {
+        "id": 73,
+        "sort_name": "鸡边腿",
+        "series": 3
+      },
+      {
+        "id": 74,
+        "sort_name": "仔鸡边",
+        "series": 4
+      },
+      {
+        "id": 77,
+        "sort_name": "琵琶腿",
+        "series": 3
+      },
+      {
+        "id": 78,
+        "sort_name": "琵琶腿",
+        "series": 4
+      },
+      {
+        "id": 93,
+        "sort_name": "串类",
+        "series": 2
+      },
+      {
+        "id": 147,
+        "sort_name": "翅膀类",
+        "series": 3
+      },
+      {
+        "id": 195,
+        "sort_name": "鸡翅尖",
+        "series": 4
+      },
+      {
+        "id": 197,
+        "sort_name": "鸡翅根",
+        "series": 4
+      },
+      {
+        "id": 295,
+        "sort_name": "鸡爪类",
+        "series": 3
+      },
+      {
+        "id": 296,
+        "sort_name": "凤爪",
+        "series": 4
+      },
+      {
+        "id": 297,
+        "sort_name": "长鸡爪",
+        "series": 4
+      },
+      {
+        "id": 301,
+        "sort_name": "鸡架",
+        "series": 3
+      },
+      {
+        "id": 303,
+        "sort_name": "老鸡架",
+        "series": 4
+      },
+      {
+        "id": 304,
+        "sort_name": "鸡皮",
+        "series": 3
+      },
+      {
+        "id": 306,
+        "sort_name": "鸡皮",
+        "series": 4
+      },
+      {
+        "id": 315,
+        "sort_name": "鸡油",
+        "series": 3
+      },
+      {
+        "id": 326,
+        "sort_name": "鸡油",
+        "series": 4
+      },
+      {
+        "id": 333,
+        "sort_name": "鸡冠",
+        "series": 3
+      },
+      {
+        "id": 352,
+        "sort_name": "鸡冠",
+        "series": 4
+      },
+      {
+        "id": 552,
+        "sort_name": "鸡肉串",
+        "series": 3
+      },
+      {
+        "id": 571,
+        "sort_name": "骨肉相连",
+        "series": 4
+      },
+      {
+        "id": 753,
+        "sort_name": "鸡肉串",
+        "series": 4
+      }
+    ],
+    "brands": [
+      {
+        "id": 9,
+        "brand": "和美"
+      },
+      {
+        "id": 211,
+        "brand": "圣农"
+      },
+      {
+        "id": 216,
+        "brand": "铭川"
+      },
+      {
+        "id": 768,
+        "brand": "星河"
+      },
+      {
+        "id": 769,
+        "brand": "亚大"
+      },
+      {
+        "id": 772,
+        "brand": "华扬美食"
+      },
+      {
+        "id": 1092,
+        "brand": "佑莱-京成茂"
+      }
+    ]
+  }
+}

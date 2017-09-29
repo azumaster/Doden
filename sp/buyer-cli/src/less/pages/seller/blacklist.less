@@ -1,0 +1,77 @@
+//屏蔽商品;
+.blacklist-wrap {
+  position: absolute;
+  .wrapper()
+}
+
+.blacklist-type-item {
+  background-color: #fff;
+  margin-bottom: 8px;
+  padding: 0 14px;
+  .type-name {
+    position: relative;
+    .border-bottom();
+    padding: 16px 0 12px 0;
+  }
+  .hd {
+    margin-bottom: 14px;
+    line-height: 28px;
+  }
+  .bd {
+    margin: 0 -14px;
+  }
+  .cell {
+    width: 33.33333333%;
+    float: left;
+    margin-bottom: 10px;
+    padding: 0 14px;
+    box-sizing: border-box;
+    .cell-item {
+      display: inline-block;
+      width: 100%;
+      line-height: 28px;
+      border: 1px solid @color-divide;
+      border-radius: @border-radius;
+      text-align: center;
+      font-size: @font-size-h5;
+      box-sizing: border-box;
+    }
+  }
+  .blacklist-item {
+    padding-top: 8px;
+  }
+  .normal-item{
+    position: relative;
+    .border-bottom();
+    padding-top: 12px;
+    padding-bottom: 8px;
+  }
+}
+
+.choose-blacklist-brand {
+  margin: 0 -14px;
+  height: 250px;
+  .cell {
+    width: 33.33333333%;
+    float: left;
+    margin-bottom: 10px;
+    padding: 0 14px;
+    box-sizing: border-box;
+    .cell-item {
+      display: inline-block;
+      width: 100%;
+      line-height: 28px;
+      border: 1px solid @color-divide;
+      border-radius: @border-radius;
+      text-align: center;
+      font-size: @font-size-h5;
+      box-sizing: border-box;
+      &.active {
+        position: relative;
+        border: 1px solid #f2582a;
+        background-color: #fff;
+        color: #f2582a;
+      }
+    }
+  }
+}

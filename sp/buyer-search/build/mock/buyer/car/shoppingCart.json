@@ -1,0 +1,40 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "goods": [
+      {
+        "goods_id": 139,
+        "goods_title": " 七叔公 黄金大饼，2个/袋，440g*10袋 ",
+        "goods_price": 40,
+        "buy_num": 10,
+        "available": false,
+        "image": "/images/1.jpg"
+      },
+      {
+        "goods_id": 145,
+        "goods_title": "乇乇正肉掌中宝 中号颗粒，每件24斤",
+        "goods_price": 380,
+        "buy_num": 10,
+        "available": true,
+        "image": "/images/1.jpg"
+      },
+      {
+        "goods_id": 146,
+        "goods_title": "乇乇正肉掌中宝 中号颗粒，每件24斤",
+        "goods_price": 380,
+        "buy_num": 10,
+        "available": true,
+        "image": "/images/1.jpg"
+      },
+      {
+        "goods_id": 147,
+        "goods_title": "乇乇正肉掌中宝 中号颗粒，每件24斤",
+        "goods_price": 380,
+        "buy_num": 10,
+        "available": false,
+        "image": "/images/1.jpg"
+      }
+    ]
+  }
+}

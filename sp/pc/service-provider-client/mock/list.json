@@ -1,0 +1,29 @@
+{
+    "code": 0,
+    "message": "OK",
+    "data": {
+        "customs": [
+            {
+                "user_name": "测试",
+                "wechat_nickname": "测试",
+                "shop_name": "测试",
+                "mobile_phone": "13112859021",
+                "shop_type": "火锅店",
+                "address": [
+                    {
+                        "full_address": "四川省成都市武侯区一个你不知道的地方",
+                        "receiver": "测试",
+                        "mobile": "13112859021"
+                    } ,
+                    {
+                        "full_address": "四川省成都市武侯区一个地方",
+                        "receiver": "测试",
+                        "mobile": "13112859021"
+                    } 
+                ]
+            }
+        ],
+        "last_page": 10,
+        "current": 1
+    }
+}

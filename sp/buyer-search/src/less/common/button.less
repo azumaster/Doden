@@ -1,0 +1,141 @@
+.btn {
+  border-radius: @border-radius;
+  background: none;
+  text-decoration: none;
+  outline: none;
+  min-width: 88px;
+  box-sizing: border-box;
+  padding: 0 18px;
+  height: 28px;
+  font-size: @font-size-h5;
+  line-height: 28px;
+  display: inline-block;
+
+  &.btn-default {
+    color: @color-text-primary;
+    border: 1px solid @color-divide;
+  }
+
+  &.btn-active {
+    color: @color-primary;
+    border: 1px solid @color-primary;
+  }
+  &.btn-info {
+    color: @color-orange;
+    border: 1px solid @color-orange;
+  }
+
+  &.btn-primary {
+    color: @color-bg;
+    background: @color-primary;
+    border: 1px solid @color-primary;
+    &:disabled{
+      background: @color-text-assist;
+    }
+    &:active {
+      background: @color-primary-active;
+    }
+  }
+
+  &.btn-ok {
+    color: @color-bg;
+    background: @color-green;
+    border: 1px solid @color-green;
+    &:disabled {
+      background: @color-text-assist;
+    }
+    &:active {
+      background: @color-green-active;
+    }
+  }
+
+  &.btn-market {
+    color: @color-green;
+    border: 1px solid @color-green;
+  }
+
+  &.btn-list{
+    color: @color-text-primary;
+    border: 1px solid @color-divide;
+    &.active{
+      border: 1px solid @color-green;
+      color: @color-green;
+    }
+  }
+
+  &.btn-sm {
+    height: 28px;
+    line-height: 28px;
+    width: 73px;
+    padding: 0 11px !important;
+  }
+  &.btn-strong {
+    height: 47px;
+    min-width: 103px;
+    padding: 0 28px;
+    border-radius: 0;
+  }
+
+  &.btn-dialog-cancel{
+    height: 49px;
+    border-radius: 0;
+    border:none;
+    width: 100%;
+    flex: 1;
+    background: @color-bg;
+    color: @color-text-primary;
+  }
+  &.btn-dialog-confirm{
+    height: 49px;
+    border-radius: 0;
+    border:none;
+    width: 100%;
+    flex: 1;
+    background: @color-green;
+    color: @color-white;
+  }
+  &.btn-dialog-ok {
+    height: 49px;
+    border-radius: 0;
+    border:none;
+    flex: 1;
+    width: 100%;
+    background: @color-primary;
+    color: @color-white;
+  }
+
+  &.btn-full {
+    display: block;
+    width: 100%;
+    height: 42px;
+    font-size: @font-size-h2;
+    line-height: 42px;
+  }
+
+
+
+  &.btn-block {
+    display: block;
+    margin: @gap-basic 0;
+
+  }
+}
+
+.btn-all {
+  display: block;
+  width: 100%;
+  height: 50px;
+  font-size: @font-size-h2;
+  line-height: 50px;
+  background: none;
+  text-decoration: none;
+  outline: none;
+  min-width: 88px;
+  box-sizing: border-box;
+  padding: 0 18px;
+  color: @color-bg;
+  background: @color-green;
+  border: 1px solid @color-green;
+  position: fixed;
+  bottom: 0;
+}

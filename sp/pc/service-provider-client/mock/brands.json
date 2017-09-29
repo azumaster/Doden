@@ -1,0 +1,42 @@
+{
+    "code": 0,
+    "message": "OK",
+    "data": {
+        "brands": [
+            {
+                "id": 1,
+                "name": "六和",
+                "status": 1,
+                "increase": -0.01,
+                "switchBtn": true,
+                "serial": 1
+            },
+            {
+                "id": 5,
+                "name": "2和",
+                "status": 1,
+                "increase": -0.01,
+                "serial": 1
+            },
+            {
+                "id": 10,
+                "name": "8和",
+                "status": 1,
+                "increase": -0.01,
+                "serial": 1
+            },
+            {
+                "id": 2,
+                "name": "七和",
+                "status": 2,
+                "increase": 0.01
+            },
+            {
+                "id": 3,
+                "name": "八和",
+                "status": 0,
+                "increase": 0.01
+            }
+        ]
+    }
+}

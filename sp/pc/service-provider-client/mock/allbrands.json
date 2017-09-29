@@ -1,0 +1,23 @@
+{
+    "code": 0,
+    "message": "OK",
+    "data": {
+        "current": 1,
+        "brands": [
+            {
+                "brand": "六和",
+                "id": 1
+            },
+            {
+                "brand": "3和",
+                "id": 2
+            },
+            {
+                "brand": "4和",
+                "id": 12
+            }
+        ],
+        "last_page": 126,
+        "total": 2504
+    }
+}

@@ -1,0 +1,64 @@
+.seller-custom{
+
+  position: fixed;
+  width: 100%;
+  height: 95%;
+  .custom-list{
+    box-sizing: border-box;
+    margin: 13px 14px;
+    .custom-item {
+      margin-bottom: @gap-basic;
+      box-shadow: 0 0 4px rgba(99, 99, 99, .09);
+      position: relative;
+      &:before, &:after{
+        content:'';
+        position: absolute;
+        width: 8px;
+        height: 16px;
+        background: @color-bg;
+        box-shadow: 0 0 4px rgba(99, 99, 99, .09) inset;
+      }
+      &:before{
+        border-radius: 0 16px 16px 0;
+        .vertical-center(50%, 0%);
+
+      }
+      &:after{
+        border-radius: 16px 0 0 16px;
+        .vertical-center(50%, 100%);
+      }
+      .ul{
+        border-radius: @border-radius;
+        .li{
+          .icon {
+            margin-right: @gap-basic;
+          }
+          h5:not(:last-child){
+            margin-bottom: @gap-basic;
+          }
+        }
+      }
+    }
+  }
+}
+
+.edit-input{
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #eeeeee;
+    padding: 0 20px 0 10px;
+    font-size: 14px;
+    color: #333333;
+  }
+  span{
+    position: absolute;
+    right: 5px;
+    top: 0;
+    line-height: 30px;
+  }
+}

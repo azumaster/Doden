@@ -1,0 +1,80 @@
+.zdp-switch {
+    width: 52px !important;
+    height: 31px !important;
+    position: relative !important;
+    border: 1px solid #dfdfdf !important;
+    background-color: #fdfdfd !important;
+    box-shadow: #dfdfdf 0 0 0 0 inset !important;
+    border-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-left-radius: 20px  !important;
+    border-bottom-right-radius: 20px !important;
+    background-clip: content-box !important;
+    display: inline-block !important;
+    -webkit-appearance: none !important;
+    user-select: none !important;
+    outline: none !important;
+}
+
+.zdp-switch:before {
+    content: '';
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.zdp-switch:checked {
+    border-color: #12b672 !important;
+    box-shadow: #12b672 0 0 0 16px inset !important;
+    background-color: #12b672 !important;
+}
+
+.zdp-switch:checked:before {
+    left: 21px;
+}
+
+.zdp-switch.zdp-switch-animbg {
+    transition: background-color ease 0.4s;
+}
+
+.zdp-switch.zdp-switch-animbg:before {
+    transition: left 0.3s;
+}
+
+.zdp-switch.zdp-switch-animbg:checked {
+    box-shadow: #dfdfdf 0 0 0 0 inset;
+    background-color: #64bd63;
+    transition: border-color 0.4s, background-color ease 0.4s;
+}
+
+.zdp-switch.zdp-switch-animbg:checked:before {
+    transition: left 0.3s;
+}
+
+.zdp-switch.zdp-switch-anim {
+    transition: border cubic-bezier(0, 0, 0, 1) 0.4s, box-shadow cubic-bezier(0, 0, 0, 1) 0.4s;
+}
+
+.zdp-switch.zdp-switch-anim:before {
+    transition: left 0.3s;
+}
+
+.zdp-switch.zdp-switch-anim:checked {
+    box-shadow: #64bd63 0 0 0 16px inset;
+    background-color: #64bd63;
+    transition: border ease 0.4s, box-shadow ease 0.4s, background-color ease 1.2s;
+}
+
+.zdp-switch.zdp-switch-anim:checked:before {
+    transition: left 0.3s;
+}

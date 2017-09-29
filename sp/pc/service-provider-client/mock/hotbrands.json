@@ -1,0 +1,10 @@
+{
+    "code": 0,
+    "message": "OK",
+    "data": [
+        {"id":1,"sort":1,"name":"六和"},
+        {"id":2,"sort":2,"name":"渝达"},
+        {"id":3,"sort":3,"name":"川渝"},
+        {"id":5,"sort":4,"name":"太合"}
+    ]
+}

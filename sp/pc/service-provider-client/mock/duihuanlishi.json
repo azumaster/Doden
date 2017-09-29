@@ -1,0 +1,34 @@
+{
+    "code":0,
+    "data":{
+        "page":1,
+        "total":10,
+        "lists":[
+            {
+                "id":1,
+                "title":"买家首页广告",
+                "price":350,
+                "worth":35,
+                "type_name":"广告",
+                "unit":"天",
+                "shop_name":"店铺名称",
+                "user_tel":"13985692317",
+                "buy_time":"2017-06-10 00:00:00",
+                "status":1
+            },
+            {
+                "id":1,
+                "title":"测试添加",
+                "type_name":"广告",
+                "price":350,
+                "worth":35,
+                "unit":"天",
+                "shop_name":"店铺名称",
+                "user_tel":"13985692317",
+                "buy_time":"2017-06-10 00:00:00",
+                "status":2
+            }
+        ]
+    },
+    "message":"OK"
+}

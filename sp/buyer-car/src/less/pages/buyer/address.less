@@ -1,0 +1,50 @@
+.car-address {
+  position: absolute;
+  .wrapper(0, 0, 0, 0, 6);
+  background-color: @color-bg;
+  .hd {
+    line-height: 40px;
+    font-size: @font-size-h3;
+    margin: 0 @margin;
+  }
+  ul {
+    padding: @margin;
+    background-color: #fff;
+    font-size: @font-size-h4;
+    li {
+      padding: @margin 0;
+      position: relative;
+      .border-bottom();
+      &:last-child {
+        &:after {
+          display: none;
+        }
+      }
+    }
+  }
+  .car-address-radio {
+    position: absolute;
+    left: -9999px;
+  }
+  .item {
+    display: block;
+    padding-left: 30px;
+    position: relative;
+    &:before {
+      content: '\e68d';
+      position: absolute;
+      left: 0;
+      top: 10px;
+      .icon-style(19px, @color-text-primary);
+    }
+    &.active {
+      &:before {
+        content: '\e69e';
+        .icon-style(19px, @color-primary);
+      }
+    }
+  }
+  .btn-cell {
+    padding: @margin;
+  }
+}

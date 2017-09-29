@@ -1,0 +1,1412 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "1": {
+      "2": {
+        "4": {
+          "type_id": 4,
+          "type_name": "鸡胸",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828073891802.png"
+        },
+        "12": {
+          "type_id": 12,
+          "type_name": "整鸡",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828075391491.png"
+        },
+        "73": {
+          "type_id": 73,
+          "type_name": "鸡边腿",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828076418687.png"
+        },
+        "77": {
+          "type_id": 77,
+          "type_name": "琵琶腿",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828082546954.png"
+        },
+        "79": {
+          "type_id": 79,
+          "type_name": "鸡排腿",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828085122422.png"
+        },
+        "147": {
+          "type_id": 147,
+          "type_name": "翅膀类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830633486804.png"
+        },
+        "149": {
+          "type_id": 149,
+          "type_name": "鸡腿肉",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828090698427.png"
+        },
+        "293": {
+          "type_id": 293,
+          "type_name": "鸡蓬腿",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14831872532709.png"
+        },
+        "295": {
+          "type_id": 295,
+          "type_name": "鸡爪类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828092748213.png"
+        },
+        "301": {
+          "type_id": 301,
+          "type_name": "鸡架",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828099022441.png"
+        },
+        "304": {
+          "type_id": 304,
+          "type_name": "鸡皮",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828100099114.png"
+        },
+        "309": {
+          "type_id": 309,
+          "type_name": "鸡肾",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828100396409.png"
+        },
+        "313": {
+          "type_id": 313,
+          "type_name": "掌中宝",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828101558440.png"
+        },
+        "315": {
+          "type_id": 315,
+          "type_name": "鸡油",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828103344425.png"
+        },
+        "316": {
+          "type_id": 316,
+          "type_name": "鸡心",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828103551369.png"
+        },
+        "317": {
+          "type_id": 317,
+          "type_name": "鸡胗",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828103909518.png"
+        },
+        "318": {
+          "type_id": 318,
+          "type_name": "鸡肠",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828107186696.png"
+        },
+        "319": {
+          "type_id": 319,
+          "type_name": "鸡肚",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828107486541.png"
+        },
+        "320": {
+          "type_id": 320,
+          "type_name": "鸡脖",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828111413703.png"
+        },
+        "322": {
+          "type_id": 322,
+          "type_name": "鸡肝",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828111864477.png"
+        },
+        "323": {
+          "type_id": 323,
+          "type_name": "鸡头",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828115176684.png"
+        },
+        "324": {
+          "type_id": 324,
+          "type_name": "鸡锁骨",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828115311750.png"
+        },
+        "328": {
+          "type_id": 328,
+          "type_name": "鸡尾",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828116102324.png"
+        },
+        "333": {
+          "type_id": 333,
+          "type_name": "鸡冠",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828116585857.png"
+        },
+        "353": {
+          "type_id": 353,
+          "type_name": "鸡脆骨",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828116992800.png"
+        },
+        "480": {
+          "type_id": 480,
+          "type_name": "火鸡类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828910210658.png"
+        },
+        "type_id": 2,
+        "type_name": "鸡副",
+        "type_pic_url": ""
+      },
+      "3": {
+        "164": {
+          "type_id": 164,
+          "type_name": "鸭头",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828910722760.png"
+        },
+        "165": {
+          "type_id": 165,
+          "type_name": "鸭舌",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828910866590.png"
+        },
+        "166": {
+          "type_id": 166,
+          "type_name": "鸭天堂",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828910979735.png"
+        },
+        "167": {
+          "type_id": 167,
+          "type_name": "鸭唇",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828911114964.png"
+        },
+        "168": {
+          "type_id": 168,
+          "type_name": "鸭脖",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828911421811.png"
+        },
+        "169": {
+          "type_id": 169,
+          "type_name": "鸭翅膀",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828911539637.png"
+        },
+        "170": {
+          "type_id": 170,
+          "type_name": "鸭掌",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828911639855.png"
+        },
+        "171": {
+          "type_id": 171,
+          "type_name": "鸭边腿",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14829175381763.png"
+        },
+        "172": {
+          "type_id": 172,
+          "type_name": "鸭腿",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828911911542.png"
+        },
+        "173": {
+          "type_id": 173,
+          "type_name": "鸭胗",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14829174729570.png"
+        },
+        "174": {
+          "type_id": 174,
+          "type_name": "鸭肠",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14829174817877.png"
+        },
+        "175": {
+          "type_id": 175,
+          "type_name": "鸭食带",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828912184736.png"
+        },
+        "176": {
+          "type_id": 176,
+          "type_name": "鸭肝",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828912311058.png"
+        },
+        "177": {
+          "type_id": 177,
+          "type_name": "鸭心",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828912433175.png"
+        },
+        "178": {
+          "type_id": 178,
+          "type_name": "鸭血",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828916754844.png"
+        },
+        "180": {
+          "type_id": 180,
+          "type_name": "鸭胸",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828916826174.png"
+        },
+        "205": {
+          "type_id": 205,
+          "type_name": "鸭锁骨",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830634677692.png"
+        },
+        "219": {
+          "type_id": 219,
+          "type_name": "整鸭",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828916973991.png"
+        },
+        "355": {
+          "type_id": 355,
+          "type_name": "半边鸭",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14829174922293.png"
+        },
+        "type_id": 3,
+        "type_name": "鸭副",
+        "type_pic_url": ""
+      },
+      "84": {
+        "228": {
+          "type_id": 228,
+          "type_name": "白条鹅",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828917329916.png"
+        },
+        "232": {
+          "type_id": 232,
+          "type_name": "鹅头",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828917409386.png"
+        },
+        "235": {
+          "type_id": 235,
+          "type_name": "鹅翅膀",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828917497714.png"
+        },
+        "236": {
+          "type_id": 236,
+          "type_name": "鹅肠",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830634889286.png"
+        },
+        "237": {
+          "type_id": 237,
+          "type_name": "鹅掌",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830635058509.png"
+        },
+        "238": {
+          "type_id": 238,
+          "type_name": "鹅胗",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828917890851.png"
+        },
+        "239": {
+          "type_id": 239,
+          "type_name": "鹅食带",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830635155330.png"
+        },
+        "240": {
+          "type_id": 240,
+          "type_name": "鹅肝",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828918190869.png"
+        },
+        "241": {
+          "type_id": 241,
+          "type_name": "鹅心",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828918865405.png"
+        },
+        "type_id": 84,
+        "type_name": "鹅副",
+        "type_pic_url": ""
+      },
+      "85": {
+        "253": {
+          "type_id": 253,
+          "type_name": "白条兔",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828919366160.png"
+        },
+        "254": {
+          "type_id": 254,
+          "type_name": "兔排",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828919507043.png"
+        },
+        "255": {
+          "type_id": 255,
+          "type_name": "兔腿",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828919596072.png"
+        },
+        "256": {
+          "type_id": 256,
+          "type_name": "兔头",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828919667928.png"
+        },
+        "257": {
+          "type_id": 257,
+          "type_name": "兔肚",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828919743666.png"
+        },
+        "258": {
+          "type_id": 258,
+          "type_name": "兔腰",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830635565971.png"
+        },
+        "259": {
+          "type_id": 259,
+          "type_name": "兔里脊",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828919954030.png"
+        },
+        "550": {
+          "type_id": 550,
+          "type_name": "兔肉",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828920123846.png"
+        },
+        "type_id": 85,
+        "type_name": "兔副",
+        "type_pic_url": ""
+      },
+      "86": {
+        "161": {
+          "type_id": 161,
+          "type_name": "五花肉",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828921061338.png"
+        },
+        "273": {
+          "type_id": 273,
+          "type_name": "猪蹄",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828921199039.png"
+        },
+        "281": {
+          "type_id": 281,
+          "type_name": "猪肠类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828921401383.png"
+        },
+        "312": {
+          "type_id": 312,
+          "type_name": "排骨类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828922289787.png"
+        },
+        "368": {
+          "type_id": 368,
+          "type_name": "猪肉类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828922639678.jpg"
+        },
+        "372": {
+          "type_id": 372,
+          "type_name": "拱嘴",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828923028599.png"
+        },
+        "373": {
+          "type_id": 373,
+          "type_name": "猪腰",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828923156611.png"
+        },
+        "374": {
+          "type_id": 374,
+          "type_name": "猪尾巴",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828923384430.png"
+        },
+        "376": {
+          "type_id": 376,
+          "type_name": "猪肚",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828923510895.png"
+        },
+        "381": {
+          "type_id": 381,
+          "type_name": "猪皮",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828923617575.png"
+        },
+        "382": {
+          "type_id": 382,
+          "type_name": "猪筋",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828923693840.png"
+        },
+        "383": {
+          "type_id": 383,
+          "type_name": "猪舌",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828923872349.png"
+        },
+        "384": {
+          "type_id": 384,
+          "type_name": "猪心",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828924001306.png"
+        },
+        "385": {
+          "type_id": 385,
+          "type_name": "猪骨",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828924134737.png"
+        },
+        "386": {
+          "type_id": 386,
+          "type_name": "脑花",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828924203071.png"
+        },
+        "387": {
+          "type_id": 387,
+          "type_name": "猪耳朵",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830635933094.png"
+        },
+        "388": {
+          "type_id": 388,
+          "type_name": "猪天堂",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828924406092.png"
+        },
+        "394": {
+          "type_id": 394,
+          "type_name": "猪肘子",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830637447714.png"
+        },
+        "395": {
+          "type_id": 395,
+          "type_name": "猪肺",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828924938339.png"
+        },
+        "398": {
+          "type_id": 398,
+          "type_name": "猪肝",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828925036410.png"
+        },
+        "410": {
+          "type_id": 410,
+          "type_name": "猪头部",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828925113986.png"
+        },
+        "419": {
+          "type_id": 419,
+          "type_name": "猪宝",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828925194492.png"
+        },
+        "422": {
+          "type_id": 422,
+          "type_name": "乳猪",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828925385815.png"
+        },
+        "425": {
+          "type_id": 425,
+          "type_name": "猪鞭",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14831849323287.png"
+        },
+        "434": {
+          "type_id": 434,
+          "type_name": "猪脊髓",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828925564448.png"
+        },
+        "438": {
+          "type_id": 438,
+          "type_name": "猪黄喉",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828925671777.png"
+        },
+        "444": {
+          "type_id": 444,
+          "type_name": "油脂类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828925739533.png"
+        },
+        "962": {
+          "type_id": 962,
+          "type_name": "猪喉头",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828925930408.png"
+        },
+        "type_id": 86,
+        "type_name": "猪副",
+        "type_pic_url": ""
+      },
+      "87": {
+        "454": {
+          "type_id": 454,
+          "type_name": "颈脖部位",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828926225001.png"
+        },
+        "799": {
+          "type_id": 799,
+          "type_name": "牛腿部位",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828926468404.png"
+        },
+        "807": {
+          "type_id": 807,
+          "type_name": "脊背部位",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828926589386.png"
+        },
+        "809": {
+          "type_id": 809,
+          "type_name": "牛胸部位",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828926695098.png"
+        },
+        "810": {
+          "type_id": 810,
+          "type_name": "牛腹部位",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828926811225.png"
+        },
+        "813": {
+          "type_id": 813,
+          "type_name": "牛肩部位",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828926930826.png"
+        },
+        "831": {
+          "type_id": 831,
+          "type_name": "肥牛",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828927082136.png"
+        },
+        "834": {
+          "type_id": 834,
+          "type_name": "牛碎肉",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828927165837.png"
+        },
+        "836": {
+          "type_id": 836,
+          "type_name": "牛排",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828927270859.png"
+        },
+        "838": {
+          "type_id": 838,
+          "type_name": "牛肉粒(块)",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828927352268.png"
+        },
+        "840": {
+          "type_id": 840,
+          "type_name": "牛肚",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828927439504.png"
+        },
+        "849": {
+          "type_id": 849,
+          "type_name": "牛鞭",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828927516017.png"
+        },
+        "852": {
+          "type_id": 852,
+          "type_name": "牛筋",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828927625724.png"
+        },
+        "856": {
+          "type_id": 856,
+          "type_name": "牛肠",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828927702070.png"
+        },
+        "859": {
+          "type_id": 859,
+          "type_name": "牛骨类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828927773949.png"
+        },
+        "862": {
+          "type_id": 862,
+          "type_name": "牛黄喉",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828927909088.png"
+        },
+        "864": {
+          "type_id": 864,
+          "type_name": "牛心",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828928075381.png"
+        },
+        "866": {
+          "type_id": 866,
+          "type_name": "牛舌",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828928219896.png"
+        },
+        "868": {
+          "type_id": 868,
+          "type_name": "牛尾",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828928931796.png"
+        },
+        "870": {
+          "type_id": 870,
+          "type_name": "牛脑花",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828928851609.png"
+        },
+        "872": {
+          "type_id": 872,
+          "type_name": "牛脊髓",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828929136191.png"
+        },
+        "874": {
+          "type_id": 874,
+          "type_name": "牛头皮",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830642524490.png"
+        },
+        "876": {
+          "type_id": 876,
+          "type_name": "牛耳朵",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828929293511.png"
+        },
+        "878": {
+          "type_id": 878,
+          "type_name": "牛蹄",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14881774250937.jpg"
+        },
+        "880": {
+          "type_id": 880,
+          "type_name": "牛油",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828929692401.png"
+        },
+        "1008": {
+          "type_id": 1008,
+          "type_name": "牛肾",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14881774086610.jpg"
+        },
+        "type_id": 87,
+        "type_name": "牛副",
+        "type_pic_url": ""
+      },
+      "88": {
+        "458": {
+          "type_id": 458,
+          "type_name": "羊肠",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828929889477.png"
+        },
+        "459": {
+          "type_id": 459,
+          "type_name": "羊肚",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828930104180.png"
+        },
+        "460": {
+          "type_id": 460,
+          "type_name": "羊心",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828930186324.png"
+        },
+        "461": {
+          "type_id": 461,
+          "type_name": "羊肺",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828930302984.png"
+        },
+        "529": {
+          "type_id": 529,
+          "type_name": "羊腿肉",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828930429280.png"
+        },
+        "530": {
+          "type_id": 530,
+          "type_name": "羊排",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828930503202.png"
+        },
+        "531": {
+          "type_id": 531,
+          "type_name": "全羊",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828930582997.png"
+        },
+        "532": {
+          "type_id": 532,
+          "type_name": "羊头",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828930678674.png"
+        },
+        "533": {
+          "type_id": 533,
+          "type_name": "羊蹄",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828930845372.png"
+        },
+        "534": {
+          "type_id": 534,
+          "type_name": "羊腰",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14829769309783.png"
+        },
+        "535": {
+          "type_id": 535,
+          "type_name": "羊油",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828931007925.png"
+        },
+        "536": {
+          "type_id": 536,
+          "type_name": "羊肉",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828931140778.png"
+        },
+        "537": {
+          "type_id": 537,
+          "type_name": "羊板肉",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828931208086.png"
+        },
+        "538": {
+          "type_id": 538,
+          "type_name": "羊骨",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828931351944.png"
+        },
+        "754": {
+          "type_id": 754,
+          "type_name": "羊肝",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828931427159.png"
+        },
+        "755": {
+          "type_id": 755,
+          "type_name": "羊鞭",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828931522942.png"
+        },
+        "762": {
+          "type_id": 762,
+          "type_name": "羊蛋",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828931603826.png"
+        },
+        "type_id": 88,
+        "type_name": "羊副",
+        "type_pic_url": ""
+      },
+      "90": {
+        "98": {
+          "type_id": 98,
+          "type_name": "炸制类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828931991128.png"
+        },
+        "99": {
+          "type_id": 99,
+          "type_name": "蒸煮类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828932139265.png"
+        },
+        "102": {
+          "type_id": 102,
+          "type_name": "烘焙西餐类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828932209720.png"
+        },
+        "103": {
+          "type_id": 103,
+          "type_name": "即食常温类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828932274443.png"
+        },
+        "742": {
+          "type_id": 742,
+          "type_name": "调理裹粉类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828932351616.png"
+        },
+        "type_id": 90,
+        "type_name": "小吃快餐",
+        "type_pic_url": ""
+      },
+      "91": {
+        "113": {
+          "type_id": 113,
+          "type_name": "猪系列",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828932638766.png"
+        },
+        "114": {
+          "type_id": 114,
+          "type_name": "牛系列",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828932710407.png"
+        },
+        "117": {
+          "type_id": 117,
+          "type_name": "鸡(火鸡)",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828932780287.png"
+        },
+        "118": {
+          "type_id": 118,
+          "type_name": "鸭系列",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14840378285483.png"
+        },
+        "type_id": 91,
+        "type_name": "腌制半成品",
+        "type_pic_url": ""
+      },
+      "92": {
+        "119": {
+          "type_id": 119,
+          "type_name": "包馅饺类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828933133436.png"
+        },
+        "120": {
+          "type_id": 120,
+          "type_name": "丸卷类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828933446651.png"
+        },
+        "122": {
+          "type_id": 122,
+          "type_name": "肠类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14829769612463.png"
+        },
+        "542": {
+          "type_id": 542,
+          "type_name": "片类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828933624180.png"
+        },
+        "543": {
+          "type_id": 543,
+          "type_name": "棒类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828933705964.png"
+        },
+        "544": {
+          "type_id": 544,
+          "type_name": "排类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828933768609.png"
+        },
+        "910": {
+          "type_id": 910,
+          "type_name": "豆腐类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828933866587.png"
+        },
+        "type_id": 92,
+        "type_name": "调理丸类",
+        "type_pic_url": ""
+      },
+      "93": {
+        "552": {
+          "type_id": 552,
+          "type_name": "鸡肉串",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828934356161.png"
+        },
+        "553": {
+          "type_id": 553,
+          "type_name": "猪肉类串",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828934451408.png"
+        },
+        "554": {
+          "type_id": 554,
+          "type_name": "牛肉类串",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828934570299.png"
+        },
+        "555": {
+          "type_id": 555,
+          "type_name": "羊肉类串",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14829769851860.png"
+        },
+        "556": {
+          "type_id": 556,
+          "type_name": "水产类串",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828934723006.png"
+        },
+        "558": {
+          "type_id": 558,
+          "type_name": "素食串类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828934838202.png"
+        },
+        "628": {
+          "type_id": 628,
+          "type_name": "鸭肉类串",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828934967167.png"
+        },
+        "type_id": 93,
+        "type_name": "串类",
+        "type_pic_url": ""
+      },
+      "104": {
+        "487": {
+          "type_id": 487,
+          "type_name": "玉米类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830644138885.png"
+        },
+        "490": {
+          "type_id": 490,
+          "type_name": "豆类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828936353759.png"
+        },
+        "492": {
+          "type_id": 492,
+          "type_name": "果仁类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828936477915.png"
+        },
+        "501": {
+          "type_id": 501,
+          "type_name": "根茎类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828936591685.png"
+        },
+        "506": {
+          "type_id": 506,
+          "type_name": "特色蔬菜",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828936754554.png"
+        },
+        "516": {
+          "type_id": 516,
+          "type_name": "杂菜",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828936842112.png"
+        },
+        "1000": {
+          "type_id": 1000,
+          "type_name": "青花椒",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830671496570.png"
+        },
+        "type_id": 104,
+        "type_name": "速冻果蔬",
+        "type_pic_url": ""
+      },
+      "105": {
+        "106": {
+          "type_id": 106,
+          "type_name": "海菜类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828937123632.png"
+        },
+        "107": {
+          "type_id": 107,
+          "type_name": "魔芋蔬菜类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828937292207.png"
+        },
+        "108": {
+          "type_id": 108,
+          "type_name": "竹笋类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828937541243.png"
+        },
+        "128": {
+          "type_id": 128,
+          "type_name": "菌类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828937633258.png"
+        },
+        "131": {
+          "type_id": 131,
+          "type_name": "粉类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828937702092.png"
+        },
+        "138": {
+          "type_id": 138,
+          "type_name": "常温肉制品",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830671801903.png"
+        },
+        "1002": {
+          "type_id": 1002,
+          "type_name": "豆制品",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14881773788933.jpg"
+        },
+        "type_id": 105,
+        "type_name": "常温产品",
+        "type_pic_url": ""
+      },
+      "289": {
+        "706": {
+          "type_id": 706,
+          "type_name": "驴肉",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828938289826.png"
+        },
+        "707": {
+          "type_id": 707,
+          "type_name": "驴排",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828938374641.png"
+        },
+        "708": {
+          "type_id": 708,
+          "type_name": "驴蹄",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830671975264.png"
+        },
+        "709": {
+          "type_id": 709,
+          "type_name": "驴肠",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828938575174.png"
+        },
+        "710": {
+          "type_id": 710,
+          "type_name": "驴心",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828938694108.png"
+        },
+        "711": {
+          "type_id": 711,
+          "type_name": "驴肚",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828938771084.png"
+        },
+        "712": {
+          "type_id": 712,
+          "type_name": "驴鞭",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828938874943.png"
+        },
+        "722": {
+          "type_id": 722,
+          "type_name": "驴舌",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828938949585.png"
+        },
+        "type_id": 289,
+        "type_name": "驴副",
+        "type_pic_url": ""
+      },
+      "437": {
+        "580": {
+          "type_id": 580,
+          "type_name": "水发千层肚",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828939233873.png"
+        },
+        "585": {
+          "type_id": 585,
+          "type_name": "水发羊肚",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828939324353.png"
+        },
+        "603": {
+          "type_id": 603,
+          "type_name": "水发鸭郡把",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828939516261.png"
+        },
+        "605": {
+          "type_id": 605,
+          "type_name": "水发兔肚",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828939599706.png"
+        },
+        "607": {
+          "type_id": 607,
+          "type_name": "水发鸡肚",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828939680490.png"
+        },
+        "609": {
+          "type_id": 609,
+          "type_name": "水发牛筋",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828939756396.png"
+        },
+        "612": {
+          "type_id": 612,
+          "type_name": "水发牛黄喉",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828939844417.png"
+        },
+        "615": {
+          "type_id": 615,
+          "type_name": "水发鱿鱼",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828939981223.png"
+        },
+        "618": {
+          "type_id": 618,
+          "type_name": "水发猪黄喉",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828940088923.png"
+        },
+        "620": {
+          "type_id": 620,
+          "type_name": "水发叶片",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828940312939.png"
+        },
+        "624": {
+          "type_id": 624,
+          "type_name": "水发毛肚底板",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828940403347.png"
+        },
+        "type_id": 437,
+        "type_name": "水发货",
+        "type_pic_url": ""
+      },
+      "648": {
+        "667": {
+          "type_id": 667,
+          "type_name": "鲳鱼",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828940648047.png"
+        },
+        "668": {
+          "type_id": 668,
+          "type_name": "带鱼",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830645644772.png"
+        },
+        "669": {
+          "type_id": 669,
+          "type_name": "耗儿鱼",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828940933145.png"
+        },
+        "670": {
+          "type_id": 670,
+          "type_name": "鱿鱼",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828941038372.png"
+        },
+        "671": {
+          "type_id": 671,
+          "type_name": "墨鱼",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828941162023.png"
+        },
+        "682": {
+          "type_id": 682,
+          "type_name": "龙利鱼",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828941372042.png"
+        },
+        "765": {
+          "type_id": 765,
+          "type_name": "鲍鱼",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828941502001.png"
+        },
+        "766": {
+          "type_id": 766,
+          "type_name": "黄鱼",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828941601563.png"
+        },
+        "767": {
+          "type_id": 767,
+          "type_name": "三文鱼",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828941671728.png"
+        },
+        "768": {
+          "type_id": 768,
+          "type_name": "沙丁鱼",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828941841378.png"
+        },
+        "769": {
+          "type_id": 769,
+          "type_name": "鳕鱼",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828942206598.png"
+        },
+        "770": {
+          "type_id": 770,
+          "type_name": "金枪鱼",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828942350285.png"
+        },
+        "771": {
+          "type_id": 771,
+          "type_name": "章鱼",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828942497547.png"
+        },
+        "772": {
+          "type_id": 772,
+          "type_name": "秋刀鱼",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828942582420.png"
+        },
+        "773": {
+          "type_id": 773,
+          "type_name": "多春鱼",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828942658118.png"
+        },
+        "774": {
+          "type_id": 774,
+          "type_name": "白鲢鱼",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828942763284.png"
+        },
+        "775": {
+          "type_id": 775,
+          "type_name": "其他鱼类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828942868244.png"
+        },
+        "907": {
+          "type_id": 907,
+          "type_name": "鱼肚",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828942977847.png"
+        },
+        "950": {
+          "type_id": 950,
+          "type_name": "鱼籽",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828943062366.png"
+        },
+        "1005": {
+          "type_id": 1005,
+          "type_name": "茶鱼",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14881773535806.jpg"
+        },
+        "type_id": 648,
+        "type_name": "鱼类",
+        "type_pic_url": ""
+      },
+      "649": {
+        "650": {
+          "type_id": 650,
+          "type_name": "熟虾",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830645945587.png"
+        },
+        "651": {
+          "type_id": 651,
+          "type_name": "青虾",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828943720670.png"
+        },
+        "652": {
+          "type_id": 652,
+          "type_name": "虾仁",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828943787048.png"
+        },
+        "653": {
+          "type_id": 653,
+          "type_name": "龙虾",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828943890313.png"
+        },
+        "654": {
+          "type_id": 654,
+          "type_name": "汉虾",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828943974391.png"
+        },
+        "665": {
+          "type_id": 665,
+          "type_name": "草虾",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828944065563.png"
+        },
+        "672": {
+          "type_id": 672,
+          "type_name": "白虾",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828944178023.png"
+        },
+        "673": {
+          "type_id": 673,
+          "type_name": "虎虾",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828944365773.png"
+        },
+        "938": {
+          "type_id": 938,
+          "type_name": "爬爬虾",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828944446177.png"
+        },
+        "959": {
+          "type_id": 959,
+          "type_name": "琵琶虾",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830646165082.png"
+        },
+        "type_id": 649,
+        "type_name": "虾类",
+        "type_pic_url": ""
+      },
+      "776": {
+        "899": {
+          "type_id": 899,
+          "type_name": "切蟹",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828945026353.png"
+        },
+        "900": {
+          "type_id": 900,
+          "type_name": "三点蟹",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828945097884.png"
+        },
+        "901": {
+          "type_id": 901,
+          "type_name": "梭子蟹",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828945162605.png"
+        },
+        "902": {
+          "type_id": 902,
+          "type_name": "兰花蟹",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830646345055.png"
+        },
+        "903": {
+          "type_id": 903,
+          "type_name": "帝王蟹",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828945329399.png"
+        },
+        "909": {
+          "type_id": 909,
+          "type_name": "其他蟹类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828945402897.png"
+        },
+        "933": {
+          "type_id": 933,
+          "type_name": "蟹腿",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828945464084.png"
+        },
+        "type_id": 776,
+        "type_name": "蟹类",
+        "type_pic_url": ""
+      },
+      "777": {
+        "792": {
+          "type_id": 792,
+          "type_name": "扇贝",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828945755948.png"
+        },
+        "793": {
+          "type_id": 793,
+          "type_name": "花蛤",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830646547076.png"
+        },
+        "794": {
+          "type_id": 794,
+          "type_name": "黄金贝",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830646620699.png"
+        },
+        "795": {
+          "type_id": 795,
+          "type_name": "圣子皇",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828945997187.png"
+        },
+        "796": {
+          "type_id": 796,
+          "type_name": "青口贝",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828946073939.png"
+        },
+        "797": {
+          "type_id": 797,
+          "type_name": "蓝口贝",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828946242524.png"
+        },
+        "800": {
+          "type_id": 800,
+          "type_name": "生蚝",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828946349827.png"
+        },
+        "801": {
+          "type_id": 801,
+          "type_name": "北极贝",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828946547855.png"
+        },
+        "924": {
+          "type_id": 924,
+          "type_name": "其他贝壳类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828946644460.png"
+        },
+        "926": {
+          "type_id": 926,
+          "type_name": "螺类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828946747509.png"
+        },
+        "929": {
+          "type_id": 929,
+          "type_name": "乌龟甲鱼",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828949463715.png"
+        },
+        "type_id": 777,
+        "type_name": "甲壳类",
+        "type_pic_url": ""
+      },
+      "882": {
+        "883": {
+          "type_id": 883,
+          "type_name": "猪肉类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830646918545.png"
+        },
+        "884": {
+          "type_id": 884,
+          "type_name": "牛肉类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830647045301.png"
+        },
+        "885": {
+          "type_id": 885,
+          "type_name": "羊肉类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830647129833.png"
+        },
+        "886": {
+          "type_id": 886,
+          "type_name": "鸡肉类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830647254995.png"
+        },
+        "887": {
+          "type_id": 887,
+          "type_name": "鸭肉类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830647363102.png"
+        },
+        "888": {
+          "type_id": 888,
+          "type_name": "兔肉类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830647455026.png"
+        },
+        "890": {
+          "type_id": 890,
+          "type_name": "鹅肉类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830647523623.png"
+        },
+        "891": {
+          "type_id": 891,
+          "type_name": "水产品类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830647617526.png"
+        },
+        "892": {
+          "type_id": 892,
+          "type_name": "素制品",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830647692589.png"
+        },
+        "893": {
+          "type_id": 893,
+          "type_name": "野味昆虫类",
+          "type_pic_url": ""
+        },
+        "type_id": 882,
+        "type_name": "中餐半成品",
+        "type_pic_url": ""
+      },
+      "935": {
+        "936": {
+          "type_id": 936,
+          "type_name": "肉卷",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830648701742.png"
+        },
+        "type_id": 935,
+        "type_name": "肉卷类",
+        "type_pic_url": ""
+      },
+      "952": {
+        "953": {
+          "type_id": 953,
+          "type_name": "牛蛙",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828950792282.png"
+        },
+        "954": {
+          "type_id": 954,
+          "type_name": "蛙腿",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14828950864046.png"
+        },
+        "type_id": 952,
+        "type_name": "蛙类",
+        "type_pic_url": ""
+      },
+      "979": {
+        "980": {
+          "type_id": 980,
+          "type_name": "蜂蛹",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830671681403.png"
+        },
+        "987": {
+          "type_id": 987,
+          "type_name": "鳄鱼",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830671614032.png"
+        },
+        "990": {
+          "type_id": 990,
+          "type_name": "其他类",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14881774840678.jpg"
+        },
+        "type_id": 979,
+        "type_name": "野味昆虫",
+        "type_pic_url": "Public/Uploads/goodsTypeIcon/14881774725446.jpg"
+      },
+      "982": {
+        "983": {
+          "type_id": 983,
+          "type_name": "鸽子",
+          "type_pic_url": "Public/Uploads/goodsTypeIcon/14830672174071.jpg"
+        },
+        "984": {
+          "type_id": 984,
+          "type_name": "鹌鹑",
+          "type_pic_url": "/images/1.jpg"
+        },
+        "989": {
+          "type_id": 989,
+          "type_name": "其他类",
+          "type_pic_url": ""
+        },
+        "type_id": 982,
+        "type_name": "飞禽类",
+        "type_pic_url": ""
+      },
+      "type_id": 1,
+      "type_name": "冻品",
+      "type_pic_url": ""
+    }
+  }
+}
+  

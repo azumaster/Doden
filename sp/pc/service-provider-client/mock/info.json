@@ -1,0 +1,16 @@
+{
+    "code": 0,
+    "message": "OK",
+    "data": {
+    "shop_name": "店铺名",
+    "mobile": "13812345678",
+    "province_id": "510000",
+    "city_id": "510100",
+    "county_id": "510101",
+    "address": "地址",
+    "service_area": ["区域一", "区域二"],
+    "avatar": "1234",
+    "introduce": "不拉不拉不拉不拉",
+    "delivery_remark": "啦啦啦啦啦啦啦"
+}
+    }

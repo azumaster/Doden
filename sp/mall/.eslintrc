@@ -1,0 +1,41 @@
+{
+  "plugins": [
+    "react"
+  ],
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true
+  },
+  "settings": {
+    "react": {
+      "pragma": "React"  // Pragma to use, default to "React"
+    }
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "amd": true,
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "indent": [0, "tab"],
+    "linebreak-style": [0, "windows"],
+    "quotes": [2, "single"],
+    "semi": [2, "always"],
+    "comma-dangle": [2, "never"],
+    "comma-spacing": [2, {"before": false, "after": true } ],
+    "curly": [2, "multi-line"],
+    "no-unused-vars": [2, {"vars": "local"} ],
+    "no-underscore-dangle": 0,
+    "no-unused-expressions": 0,
+    "strict": 0,
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": [
+    {
+      "id": 15,
+      "sort_name": "三黄鸡",
+      "brands": [
+        {
+          "brand_id": 1,
+          "brand_name": "六和",
+          "increase": 0
+        }, {
+          "brand_id": 3,
+          "brand_name": "品牌",
+          "increase": -0.15
+        }, {
+          "brand_id": 18,
+          "brand_name": "品牌2",
+          "increase": 0.31
+        }]
+    },
+    {
+      "id": 16,
+      "sort_name": "乌鸡",
+      "brands": [
+        {
+          "brand_id": 12,
+          "brand_name": "三张",
+          "increase": -0.3
+        }, {
+          "brand_id": 3,
+          "brand_name": "品牌",
+          "increase": 0.1
+        }, {
+          "brand_id": 18,
+          "brand_name": "品牌2",
+          "increase": 0
+        }]
+    },
+    {
+      "id": 17,
+      "sort_name": "青脚鸡",
+      "brands": [
+        {
+          "brand_id": 1,
+          "brand_name": "六和",
+          "increase": 0
+        }, {
+          "brand_id": 3,
+          "brand_name": "品牌",
+          "increase": -0.15
+        }, {
+          "brand_id": 18,
+          "brand_name": "品牌2",
+          "increase": 0.31
+        }]
+    },
+    {
+      "id": 18,
+      "sort_name": "西装鸡",
+      "brands": [
+        {
+          "brand_id": 1,
+          "brand_name": "六和",
+          "increase": 0
+        }, {
+          "brand_id": 3,
+          "brand_name": "品牌",
+          "increase": -0.15
+        }, {
+          "brand_id": 18,
+          "brand_name": "品牌2",
+          "increase": 0.31
+        }]
+    },
+    {
+      "id": 19,
+      "sort_name": "种鸡",
+      "brands": [
+        {
+          "brand_id": 1,
+          "brand_name": "六和",
+          "increase": 0
+        }, {
+          "brand_id": 3,
+          "brand_name": "品牌",
+          "increase": -0.15
+        }, {
+          "brand_id": 18,
+          "brand_name": "品牌2",
+          "increase": 0.31
+        }]
+    }
+  ]
+}

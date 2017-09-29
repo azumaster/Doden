@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='viewport' content='width=device-width,initial-scale=1.0,user-scalable=no'>
+    <meta name="renderer" content="webkit">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="x-rim-auto-match" content="none">
+    <title>我的</title>
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <style>
+        *{
+            margin: 0; padding: 0;
+        }
+        body{
+            background: #f5f5f5;
+        }
+        @font-face {
+            font-family: 'iconfont';  /* project id 240714 */
+            src: url('//at.alicdn.com/t/font_er1izfonaylj714i.eot');
+            src: url('//at.alicdn.com/t/font_er1izfonaylj714i.eot?#iefix') format('embedded-opentype'),
+            url('//at.alicdn.com/t/font_er1izfonaylj714i.woff') format('woff'),
+            url('//at.alicdn.com/t/font_er1izfonaylj714i.ttf') format('truetype'),
+            url('//at.alicdn.com/t/font_er1izfonaylj714i.svg#iconfont') format('svg');
+        }
+        i{
+            font-style: normal;
+        }
+        .icon {
+            font-family: 'iconfont';
+        }
+        .icon.right:before{content:'\e61a';}
+        .icon.close:before{content:'\e603';}
+        .icon.delete:before{content:'\e74b';}
+        .icon.modify:before{content:'\e738';}
+
+        .mask{
+            position: fixed;
+            z-index: 805;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, .8);
+        }
+        .dialog {
+            width: 100%;
+            background: #ffffff;
+            position: absolute;
+            bottom: -100%;
+            z-index: 1001;
+            transition: bottom .3s ease-in-out;
+        }
+        .dialog.active {
+             bottom: 0;
+             transition: bottom .3s ease-in-out;
+         }
+        .dialog .dialog-title {
+            height: 48px;
+            color: #5d5f6a;
+        }
+        .dialog h2{
+            line-height: 48px;
+            font-size: 17px;
+            font-weight: normal;
+            text-align: center;
+        }
+        .dialog .dialog-body {
+            margin: 0 14px;
+            padding: 37px 0;
+            overflow-y: auto;
+            overflow-x: hidden;
+            max-height: 330px;
+            box-sizing: border-box;
+            position: relative;
+            text-align: center;
+            border-top: 1px solid #e3e5e9;
+        }
+        .dialog .dialog-button{
+            display: flex;
+            justify-content: space-between;
+        }
+        .btn{
+            border-radius: 5px;
+            background: none;
+            text-decoration: none;
+            outline: none;
+            min-width: 88px;
+            box-sizing: border-box;
+            padding: 0 18px;
+            height: 28px;
+            font-size: 12px;
+            line-height: 28px;
+        }
+        .class-btn{
+            display: flex;
+            flex-flow: wrap row;
+            justify-content: center;
+        }
+        .btn.btn-class {
+            float: left;
+            height: 28px;
+            width: 73px;
+            padding: 0 11px !important;
+            color: #5d5f6a;
+            border: 1px solid #9d9d9d;
+            margin-bottom: 8px;
+            margin-right: 8px;
+        }
+        .btn.btn-class.btn-active{
+            color: #f2582a;
+            border: 1px solid #f2582a;
+        }
+        .btn.btn-dialog-cancel{
+            height: 49px;
+            border-radius: 0;
+            font-size: 17px;
+            border:none;
+            width: 100%;
+            background: #f5f5f5;
+            color: #5d5f6a;
+        }
+        .btn.btn-dialog-ok{
+             height: 49px;
+             border-radius: 0;
+             border:none;
+             font-size: 17px;
+             width: 100%;
+             background: #f2582a;
+             color: #ffffff;
+         }
+        .btn.btn-default{
+            color: #5d5f6a;
+            border: 1px solid #e3e5e9;
+            height: 28px;
+            width: 73px;
+            padding: 0 11px !important;
+            font-size: 14px;
+        }
+        .btn.btn-primary{
+            width: 100%;
+            height: 45px;
+            color: #f5f5f5;
+            background: #f2582a;
+            border: 1px solid #f2582a;
+            font-size: 17px;
+        }
+        .btn.btn-primary:active{
+            background: #e3552b;
+        }
+        .btn.btn-cancel{
+            width: 100%;
+            height: 45px;
+            background: transparent;
+            border: none;
+            text-decoration: underline;
+            color: #5d5f6a;
+        }
+
+        .ul {
+            background: #ffffff;
+            list-style: none;
+        }
+        .ul:not(:last-child){
+             margin-bottom: 16px;
+         }
+        .ul .li {
+            margin: 0 14px;
+            padding: 15px 0;
+            box-sizing: border-box;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .me{
+            width: 100%;
+            background: #f5f5f5;
+            z-index: 500;
+            -webkit-overflow-scrolling : touch;
+        }
+        .me .me-notice{
+            height: 44px;
+            padding: 0 8px;
+            line-height: 44px;
+        }
+        .me .me-notice h5{
+            color: #9d9d9d;
+            font-size: 12px;
+            font-weight: normal;
+        }
+
+        .me .addressList{
+            background: #ffffff;
+        }
+
+        .me .me-base>div{
+            display: flex;
+            flex-flow: nowrap;
+            justify-content: space-between;
+        }
+        .me .me-base h3{
+            font-size: 14px;
+            color: #5d5f6a;
+            font-weight: normal;
+        }
+        .me .me-base .new-input{
+            text-align: right;
+            width: 80%;
+            border: none;
+            outline: none;
+            font-size: 14px;
+            color: #5d5f6a;
+        }
+        .me .header{
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .me h4{
+            font-size: 13px;
+            color: #5d5f6a;
+            font-weight: normal;
+        }
+        .me h3{
+            color: #5d5f6a;
+            font-size: 15px;
+            font-weight: normal;
+        }
+        .me hr{
+            margin: 16px 0;
+            border: none;
+            border-top:1px solid #e3e5e9;
+        }
+        .me hr.mini{
+            margin: 0 14px;
+            border: none;
+            border-top:1px solid #e3e5e9;
+        }
+        .me .footer{
+            display: flex;
+            justify-content: space-between;
+        }
+        .me .body{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+        .me .footer .btn:first-of-type{
+            margin-right: 8px;
+        }
+        .me .footer .is-default {
+            line-height: 25px;
+            font-size: 13px;
+        }
+        .me .address-group a{
+            color: inherit;
+            text-decoration: none;
+            font-size: 13px;
+        }
+        .me .address-group a:first-child{
+            margin-right: 8px;
+        }
+        .me .radio-icon {
+            margin-right: 8px;
+            top: 2px;
+            position: relative;
+        }
+        .me .radio-icon:before {
+            font-family: 'iconfont';
+            content: '\e68d';
+            font-size: 17px;
+            color: #5d5f6a;
+        }
+        .me .radio {
+            display: none;
+            outline: none;
+        }
+        .me .radio:checked+i:before {
+            content: '\e69e';
+            color: #f2582a;
+        }
+        .me .add-address{
+            box-sizing: border-box;
+            margin:14px;
+        }
+        .me .save-address{
+            margin: 0 14px;
+        }
+        .me .new-address{
+            line-height: 25px;
+        }
+
+        .me .area-panel{
+            width: 100%;
+            position: absolute;
+            bottom: -300px;
+            height: 300px;
+            background: #ffffff;
+            transition: bottom .2s linear;
+        }
+        .me .area-panel.active{
+            bottom: 0;
+            transition: bottom .2s linear;
+        }
+        .me .area-panel .panel-title{
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 15px;
+            color: #5d5f6a;
+        }
+        .me .area-panel .panel-title span{
+            font-size: 12px;
+            position: absolute;
+            right: 14px;
+            color: #9d9d9d;
+        }
+        .me .area-panel .panel-content .area-choice{
+            font-size: 14px;
+            height: 30px;
+            line-height: 30px;
+            border-bottom: 1px solid #e3e5e9;
+            margin: 0 14px;
+        }
+        .me .area-panel .panel-content .area-choice span{
+            margin-right: 8px;
+        }
+        .me .area-panel .panel-content .area-choice span.active{
+            line-height: 35px;
+            border-bottom: 3px solid #e3552b;
+        }
+        .me .area-panel .scroll{
+            margin: 14px;
+            height: 200px;
+            overflow-y: scroll;
+            -webkit-overflow-scrolling : touch;
+        }
+        .me .area-panel .scroll .scroll-item{
+            font-size: 13px;
+            line-height: 30px;
+        }
+
+        .me .toast{
+            height: 30px;
+            line-height: 30px;
+            position: fixed;
+            bottom: 30%;
+            background: rgba(0, 0, 0, .8);
+            color: #ffffff;
+            padding: 0 16px;
+            left: 50%;
+            transform: translate(-50%, 0);
+            font-size: 14px;
+            opacity: 0;
+            transition: opacity .3s linear;
+        }
+        .me .toast.active{
+            opacity: 1;
+            transition: opacity .3s linear;
+        }
+    </style>
+</head>
+<body>
+    <div class="me" id="me">
+        <div id="meList" style="display: block">
+            <div id="baseInfo">
+                <div class="me-notice">
+                    <h5>基础信息</h5>
+                </div>
+                <div class="ul me-base">
+                    <div class="li">
+                        <h3>我的店铺</h3>
+                        <h3 id="shopName">我的店铺</h3>
+                    </div>
+                    <hr class="mini">
+                    <div class="li">
+                        <h3>联系电话</h3>
+                        <h3 id="mobile">联系电话</h3>
+                    </div>
+                    <hr class="mini">
+                    <div class="li">
+                        <h3>所属分类</h3>
+                        <h3 onclick="openShopType();"><span id="shopType"> </span> <i class="icon right"></i></h3>
+                    </div>
+                </div>
+            </div>
+            <div id="address">
+                <div class="me-notice">
+                    <h5>收货地址 <small>（最多可添加3个地址）</small></h5>
+                </div>
+                <div id="addressList" class="addressList">
+
+                </div>
+                <div class="add-address">
+                    <button id="addNewAddress" class="btn btn-primary">添加新地址</button>
+                </div>
+            </div>
+        </div>
+        <div id="newAddress" style="display: none">
+            <div class="ul me-base new-address">
+                <div class="li">
+                    <h3>收货人</h3>
+                    <input type="text" class="new-input" id="receiver" placeholder="请输入收货人姓名">
+                </div>
+                <hr class="mini">
+                <div class="li">
+                    <h3>收货电话</h3>
+                    <input type="tel" maxlength="11" class="new-input" id="reMobile" placeholder="请输入收货人电话">
+                </div>
+                <hr class="mini">
+                <div class="li">
+                    <h3>收货区域</h3>
+                    <h3><span id="receiverId">请选择收货区域</span> </h3>
+                </div>
+                <hr class="mini">
+                <div class="li">
+                    <h3>收货地址</h3>
+                    <input type="text" class="new-input" id="reAddress" placeholder="请输入详细收件地址">
+                </div>
+            </div>
+            <div class="save-address">
+                <button type="button" id="saveAddress" class="btn btn-primary btn-full" onclick="saveAddress();">保存</button>
+                <button type="button" class="btn btn-cancel" onclick="cancel();">取消</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var addressList = [],
+        areaInfo = {id:{}, name:{}},
+        activeType = {};
+    
+    (function () {
+        document.addEventListener('touchmove', function(e) {
+            e.preventDefault();
+        }, false);
+         getCustomInfo();
+    })();
+    
+    function getCustomInfo() {
+
+        ajax('get', '/api/customer/profile', {}, function(res){
+            if(res.code==0){
+                document.getElementById('shopName').innerHTML = res.data.shop_name;
+                document.getElementById('mobile').innerHTML = res.data.mobile;
+                document.getElementById('shopType').innerHTML = res.data.shop_type;
+                document.getElementById('addNewAddress').onclick = function(){
+                    areaInfo = {id:{}, name:{}};
+                    areaInfo.id.province = res.data.sp_province_id;
+                    areaInfo.id.city = res.data.sp_city_id;
+                    areaInfo.id.region = res.data.sp_county_id;
+
+                    areaInfo.name.province = res.data.sp_province;
+                    areaInfo.name.city = res.data.sp_city;
+                    areaInfo.name.region = res.data.sp_county;
+                    addNewAddress()
+                };
+                addressList = res.data.shipping_addresses;
+                createAddressList();
+            }else{
+                createToast(res.message);
+            }
+        });
+        createAddressList();
+    }
+    
+    function openShopType() {
+        if(document.getElementById('dialog')){
+            return;
+        }
+
+        ajax('get', '/api/other/shop/categories', {}, function (res) {
+            if(res.code==0){
+                createDialog(res.data);
+            }else {
+                createToast(res.message);
+            }
+        });
+
+    }
+
+    function createAddressList() {
+        var adds = '',
+            div = document.createElement('div');
+
+        div.className = 'ul address-ul';
+
+        for(var i=0; i<addressList.length;i++){
+            var input = '';
+            if(addressList[i].default){
+                input = '<input checked id="address_'+i+'" class="radio" type="radio" onclick="changeDefaultAddress('+addressList[i].address_id+');" name="defaultAddress"/>'
+            }else {
+                input = '<input id="address_'+i+'" class="radio" type="radio" onclick="changeDefaultAddress('+addressList[i].address_id+');" name="defaultAddress"/>'
+            }
+
+            adds += '<div class="li"><div class="header">' +
+                '<h3>收货人：'+addressList[i].receiver+'</h3></div>' +
+                '<div class="body">' +
+                '<h4>'+addressList[i].shipping_address+'</h4>' +
+                '<h4>'+addressList[i].mobile+'</h4></div>' +
+                '<div class="footer">' +
+                '<div class="is-default pull-left">' +
+                '<label for="address_'+i+'">'+ input +
+                '<i class="radio-icon"></i>默认地址</label></div>' +
+                '<div class="address-group pull-right">' +
+                '<a href="javascript:;" onclick="modifyAddress('+i+');">修改 <i class="icon modify"></i></a>' +
+                '<a href="javascript:;" onclick="del('+addressList[i].address_id+');">删除 <i class="icon delete"></i></a>' +
+                '</div></div></div><hr class="mini">';
+        }
+
+        div.innerHTML = adds;
+
+        document.getElementById('addressList').innerHTML = '';
+        document.getElementById('addressList').appendChild(div);
+    }
+
+    //修改地址
+    function modifyAddress(id) {
+
+        var area = {};
+
+        document.getElementById('meList').style.display = 'none';
+        document.getElementById('newAddress').style.display = 'block';
+
+        document.getElementById('receiver').value = addressList[id].receiver;
+        document.getElementById('reMobile').value = addressList[id].mobile;
+
+        areaInfo.id.province = addressList[id].province_id;
+        areaInfo.name.province = addressList[id].province;
+        areaInfo.id.city = addressList[id].city_id;
+        areaInfo.name.city = addressList[id].city;
+        areaInfo.id.region = addressList[id].county_id;
+        areaInfo.name.region = addressList[id].county;
+
+        // 获取到省/市/县的名字然后加上去
+        ajax('get', '/api/other/provinces', {}, function (res) {
+            if(res.code == 0){
+                for(var i=0;i<res.data.length;i++){
+                    if(res.data[i].id == areaInfo.id.province){
+                        area.province = res.data[i].name;
+                        ajax('get', '/api/other/children/'+res.data[i].id, {id: res.data[i].id}, function (res) {
+                            if(res.code == 0){
+                                for(var j=0;j<res.data.length;j++){
+                                    if(res.data[j].id == areaInfo.id.city){
+                                        area.city = res.data[j].name;
+                                        ajax('get', '/api/other/children/'+res.data[j].id, {id: res.data[j].id}, function (res) {
+                                            if(res.code == 0){
+                                                for(var k=0;k<res.data.length;k++){
+                                                    if(res.data[k].id == areaInfo.id.region){
+                                                        area.region = res.data[k].name;
+                                                        document.getElementById('receiverId').innerHTML = area.province+area.city+area.region;
+                                                        document.getElementById('reAddress').value = addressList[id].shipping_address.split(area.province+area.city+area.region)[1];
+                                                    }
+                                                }
+                                            }else {
+                                                createToast(res.message);
+                                            }
+                                        });
+                                    }
+                                }
+                            }else {
+                                createToast(res.message);
+                            }
+                        });
+                    }
+                }
+            }else {
+                createToast(res.message);
+            }
+        });
+
+        document.getElementById('receiverId').innerHTML = areaInfo.name.province+areaInfo.name.city+areaInfo.name.region;
+        document.getElementById('reAddress').value = addressList[id].shipping_address.split(areaInfo.name.province+areaInfo.name.city+areaInfo.name.region)[1];
+
+        document.getElementById('saveAddress').setAttribute('data-type', 'modify');
+        document.getElementById('saveAddress').setAttribute('data-id', addressList[id].address_id);
+    }
+
+    // 取消新增地址
+    function cancel() {
+        document.getElementById('meList').style.display = 'block';
+        document.getElementById('newAddress').style.display = 'none';
+    }
+
+    // 新增地址
+    function addNewAddress() {
+        if(addressList.length>=3){
+            createToast('最多拥有3个收件地址~');
+        }else{
+
+            document.getElementById('meList').style.display = 'none';
+            document.getElementById('newAddress').style.display = 'block';
+
+            document.getElementById('receiver').value = '';
+            document.getElementById('reMobile').value = '';
+            document.getElementById('reAddress').value = '';
+
+            document.getElementById('receiverId').innerHTML = areaInfo.name.province+areaInfo.name.city+areaInfo.name.region;
+        }
+    }
+
+    // 保存收货地址
+    function saveAddress() {
+        var receiver = document.getElementById('receiver').value,
+            reMobile = document.getElementById('reMobile').value,
+            reAddress = document.getElementById('reAddress').value,
+            provinceId = areaInfo.id.province,
+            cityId = areaInfo.id.city,
+            countyId = areaInfo.id.region;
+
+        var data = {
+            receiver: receiver,
+            mobile: reMobile,
+            address: reAddress,
+            province_id: provinceId,
+            city_id: cityId,
+            county_id:countyId
+        };
+        var url = '';
+
+
+        if(document.getElementById('saveAddress').dataset.type == 'modify'){
+            data.id = document.getElementById('saveAddress').dataset.id;
+            url = '/api/customer/address/update';
+        }else {
+            url = '/api/customer/address';
+        }
+
+        ajax('post', url, data, function (res){
+           if(res.code == 0){
+               createToast('收件地址保存成功！');
+               document.getElementById('meList').style.display = 'block';
+               document.getElementById('newAddress').style.display = 'none';
+               getCustomInfo();
+           } else {
+               createToast(res.message);
+           }
+        });
+    }
+
+    // 选择收货区域
+    function toggleArea() {
+        // 创建框
+        var div = document.createElement('div');
+        div.className = 'mask';
+        div.id = 'mask';
+
+        var province = '';
+
+        // 获取省，形成省得列表
+        ajax('get', '/api/other/provinces', {}, function (res) {
+            if(res.code == 0){
+                for(var i=0; i<res.data.length; i++){
+                    province += '<div class="scroll-item" data-id="'+res.data[i].id+'" onclick="inputProvince(this);">'+res.data[i].name+'</div>';
+                }
+
+                div.innerHTML = '<div id="areaPanel" class="area-panel">' +
+                    '<div class="panel-title">收件区域 <span onclick="hideArea();"><i class="icon close"></i></span></div>' +
+                    '<div class="panel-content">' +
+                    '<div class="area-choice" id="areaChoice"><span class="active">请选择</span></div>' +
+                    '<div id="scrollPanel" class="scroll">' + province +
+                    '</div>' +
+                    '</div>' +
+                    '</div>';
+
+                document.getElementById('me').appendChild(div);
+
+                setTimeout(function () {
+                    document.getElementById('areaPanel').className = 'area-panel active';
+                }, 100);
+            }else {
+                createToast(res.message);
+            }
+        });
+    }
+
+    // 选择省
+    function inputProvince(obj){
+
+        var province  = obj.innerHTML,
+            id = obj.dataset.id,
+            choice = document.createElement('span');
+
+        //点击省。。获取该省的市，形成市列表
+        ajax('get', 'api/other/children/'+id, {id: id}, function (res) {
+            if(res.code == 0){
+
+                document.getElementById('areaChoice').children[0].innerHTML = province;
+                document.getElementById('areaChoice').children[0].setAttribute('data-id', id);
+                document.getElementById('areaChoice').children[0].className = '';
+                areaInfo.id.province = id;
+                areaInfo.name.province = province;
+                choice.innerHTML = '请选择';
+                choice.className = 'active';
+                document.getElementById('areaChoice').appendChild(choice);
+
+                var city = '',
+                    scroll = document.getElementById('scrollPanel');
+
+                for(var i=0; i<res.data.length; i++){
+                    city += '<div class="scroll-item" data-id="'+res.data[i].id+'" onclick="inputCity(this);">'+res.data[i].name+'</div>';
+                }
+
+                scroll.innerHTML = city;
+            }else {
+                createToast(res.message);
+            }
+        });
+
+    }
+
+    // 选择市
+    function inputCity(obj) {
+        var city = obj.innerHTML,
+            id = obj.dataset.id,
+            choice = document.createElement('span');
+
+        ajax('get', 'api/other/children/'+id, {id: id}, function (res) {
+            if(res.code == 0){
+                if(res.data.length<=0){
+                    areaInfo.id.city = id;
+                    areaInfo.name.city = city;
+                    inputRegion();
+                }else {
+                    document.getElementById('areaChoice').children[1].innerHTML = city;
+                    document.getElementById('areaChoice').children[1].className = '';
+                    document.getElementById('areaChoice').children[1].setAttribute('data-id', id);
+                    areaInfo.id.city = id;
+                    areaInfo.name.city = city;
+                    choice.innerHTML = '请选择';
+                    choice.className = 'active';
+                    document.getElementById('areaChoice').appendChild(choice);
+
+                    var region = '',
+                        scroll = document.getElementById('scrollPanel');
+
+                    for(var i=0; i<res.data.length; i++){
+                        region += '<div class="scroll-item" data-id="'+res.data[i].id+'" onclick="inputRegion(this);">'+res.data[i].name+'</div>';
+                    }
+
+                    scroll.innerHTML = region;
+                }
+            }else {
+                createToast(res.message);
+            }
+        });
+    }
+
+    // 选择区域
+    function inputRegion(obj) {
+        if(obj){
+            var region = obj.innerHTML,
+                id = obj.dataset.id;
+
+            document.getElementById('areaChoice').children[2].innerHTML = region;
+            document.getElementById('areaChoice').children[2].className = '';
+            document.getElementById('areaChoice').children[2].setAttribute('data-id', id);
+            areaInfo.id.region = id;
+            areaInfo.name.region = region;
+            hideArea();
+        }else {
+            areaInfo.id.region = 0;
+            areaInfo.name.region = '';
+            hideArea();
+        }
+
+        document.getElementById('receiverId').innerHTML = areaInfo.name.region? areaInfo.name.province+areaInfo.name.city+areaInfo.name.region:
+            areaInfo.name.province + areaInfo.name.city;
+    }
+
+    // 隐藏地址选择
+    function hideArea(){
+        var div = document.getElementById('mask');
+
+        document.getElementById('areaPanel').className = 'area-panel';
+
+        setTimeout(function () {
+            document.getElementById('me').removeChild(div);
+        }, 300);
+    }
+
+    // 删除地址
+    function del(id) {
+        if(confirm('确定删除该地址？')){
+            ajax('post', '/api/customer/address/del', {id:id}, function (res) {
+                if(res.code == 0){
+                    getCustomInfo();
+                }else{
+                    createToast(res.message);
+                }
+            });
+        }
+    }
+
+    // 修改默认地址
+    function changeDefaultAddress(id) {
+        ajax('post', '/api/customer/main-address/update', {id:id}, function (res) {
+            if(res.code == 0){
+                createToast('修改成功');
+                getCustomInfo();
+            }else {
+                createToast(res.message);
+            }
+        });
+    }
+    
+    function createDialog(typeList) {
+        var content = '';
+
+        content = '<div class="class-btn">';
+        for(var i=0; i<typeList.length; i++){
+            if(typeList[i].type_name == document.getElementById('shopType').innerHTML){
+                content += '<button onclick="toggleBtn(this);" data-id="'+typeList[i].id+'" class="btn btn-sm btn-class btn-active btn-default">'+typeList[i].type_name+'</button>'
+            }else {
+                content += '<button onclick="toggleBtn(this);" data-id="'+typeList[i].id+'" class="btn btn-sm btn-class btn-default">'+typeList[i].type_name+'</button>'
+            }
+        }
+        content += '</div>';
+
+        var div = document.createElement('div');
+        div.setAttribute('id', 'mask');
+        div.className = 'mask';
+
+        div.innerHTML='<div id="dialog" class="dialog">' +
+            '<div class="dialog-title"><h2 class="text-center">选择分类</h2></div>' +
+            '<div class="dialog-body">'+content+'</div>' +
+            '<div class="dialog-button flex">' +
+            '<button id="dialogCancel" type="button" class="btn btn-dialog-cancel">取消</button>'+
+            '<button id="dialogOk" type="button" class="btn btn-dialog-ok">确定</button>'+
+            '</div></div>';
+
+        document.getElementById('me').appendChild(div);
+
+        setTimeout(function () {
+            showDialog();
+        }, 100);
+    }
+
+    function toggleBtn(obj) {
+        var btns = document.getElementsByClassName('btn-class');
+        for(var i=0; i<btns.length; i++){
+            btns[i].className = 'btn btn-sm btn-class btn-default';
+        }
+        if(obj.className == 'btn btn-sm btn-class btn-default'){
+            obj.className = 'btn btn-sm btn-class btn-active btn-default';
+            activeType.id = obj.dataset.id;
+            activeType.name = obj.innerHTML;
+        }else {
+            obj.className = 'btn btn-sm btn-class btn-default';
+        }
+    }
+
+    function showDialog(){
+       document.getElementById('dialog').className = 'dialog active';
+
+        document.getElementById('dialogOk').addEventListener('click', function () {
+            hideDialog();
+
+            if(!activeType.id){
+//                createToast('未修改');
+            }else {
+                var data = [];
+                data.push({type:'shop_type_id', value:activeType.id});
+
+                var xhr = window.XMLHttpRequest?new XMLHttpRequest():new ActiveXObject('Microsoft.XMLHTTP');
+
+                xhr.open('post', '/api/customer/shop/update', true);
+                xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                xhr.setRequestHeader('Cache-Control', 'no-cache');
+                xhr.setRequestHeader('Accept', 'application/json');
+                xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+                xhr.setRequestHeader('Content-type', 'application/json');
+
+                xhr.send(JSON.stringify(data));
+
+                xhr.onreadystatechange = function () {
+
+                    if(xhr.readyState == 4 && xhr.status == 200){
+                        if(JSON.parse(xhr.responseText).code==0){
+                            document.getElementById('shopType').innerHTML = activeType.name;
+                            createToast('修改成功');
+                        }else {
+                            createToast(JSON.parse(xhr.responseText).message);
+                        }
+                    }
+                };
+            }
+        }, false);
+
+        document.getElementById('dialogCancel').addEventListener('click', function(){
+            hideDialog();
+        }, false);
+
+    }
+
+    function hideDialog() {
+        document.getElementById('dialog').className = 'dialog';
+        setTimeout(function(){
+            document.getElementById('me').removeChild(document.getElementById('mask'));
+        }, 300);
+    }
+
+    function ajax(method, link, param, callback, contentType) {
+        var xhr = window.XMLHttpRequest?new XMLHttpRequest():new ActiveXObject('Microsoft.XMLHTTP'),
+            url = method == 'post'?link+'?r='+Math.random():link+'?'+buildData(data)+'&r='+Math.random(),
+            type = method?method:'get',
+            data = param || null;
+
+        xhr.open(type, url, true);
+        type=='post'?xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded'):null;
+        xhr.setRequestHeader('Cache-Control', 'no-cache');
+        xhr.setRequestHeader('Accept', 'application/json');
+        xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+        if(contentType){
+            xhr.setRequestHeader('Content-type', contentType);
+        }
+        xhr.send(type=='post'?buildData(data):'');
+
+        xhr.onreadystatechange = function(){
+            if(xhr.readyState == 4 && xhr.status == 200){
+                callback(JSON.parse(xhr.responseText));
+            }
+        };
+    }
+
+    // 构建Send的数据结构
+    function buildData(data) {
+        if(data == null) return data;
+
+        var arr = [];
+        for(var key in data){
+            var str = key+'='+data[key];
+            arr.push(str);
+        }
+
+        return arr.join('&');
+    }
+
+    // 创建Toast
+    function createToast(text) {
+        var toast = document.createElement('div');
+        toast.innerHTML = text;
+        toast.className = 'toast';
+        toast.id = 'toast';
+
+        document.getElementById('me').appendChild(toast);
+
+        setTimeout(function () {
+            document.getElementById('toast').className = 'toast active';
+
+            setTimeout(function () {
+                document.getElementById('toast').className = 'toast';
+                setTimeout(function () {
+                    document.getElementById('me').removeChild(document.getElementById('toast'));
+                }, 300);
+            }, 2000);
+        }, 100);
+    }
+</script>
+</html>

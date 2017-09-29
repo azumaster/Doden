@@ -1,0 +1,33 @@
+.toast {
+  width: 120px;
+  height: 120px;
+  border-radius: @border-radius;
+  background: rgba(0, 0, 0, .7);
+  .vertical-center();
+  position: fixed;
+  opacity: 0;
+  z-index: -1;
+  transition: all .3s ease-in-out;
+  padding: 23px;
+  &.active {
+    opacity: 1;
+    z-index: 1000;
+    transition: all .3s ease-in-out;
+  }
+  .toast-text {
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    color: @color-white;
+  }
+  .toast-icon {
+    display: block;
+    text-align: center;
+    height: 90px;
+    color: @color-white;
+    &:before {
+      font-size: 50px;
+      line-height: 90px;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data":[
+    {
+      "sort_id": 5,
+      "sort_name": "去油鸡胸",
+      "brands": {
+        "normal": [
+          {
+            "brand_id": 1818,
+            "brand_name": "大连百年"
+          },
+          {
+            "brand_id": 1819,
+            "brand_name": "大连2"
+          }
+        ],
+        "blacklist": [
+          {
+            "brand_id": 1978,
+            "brand_name": "百年"
+          },
+          {
+            "brand_id": 1979,
+            "brand_name": "百年1"
+          }
+        ]
+      }
+    },
+    {
+      "sort_id": 6,
+      "sort_name": "去油鸡胸",
+      "brands": {
+        "normal": [
+
+        ],
+        "blacklist": [
+          {
+            "brand_id": 1978,
+            "brand_name": "百年"
+          },
+          {
+            "brand_id": 1979,
+            "brand_name": "百年1"
+          }
+        ]
+      }
+    }
+  ]
+}

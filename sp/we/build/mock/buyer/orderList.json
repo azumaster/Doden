@@ -1,0 +1,39 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "total":20,
+    "orders":[
+      {
+        "id": 64,
+        "order_no": "s592ePKwp9jA2wiyS6jGRELoaBUkI0PA",
+        "goods_num": 2,
+        "buy_count": 2,
+        "order_amount": "205.00",
+        "payment": 1,
+        "delivery": 1,
+        "consignee_info": {
+          "mobile": "18428385253",
+          "address": "北京市东城区我爱北京天安门，天安门上太阳升",
+          "receiver": "写代码的冻品"
+        },
+        "status": 1,
+        "created_at": "2017-03-10 10:11:35",
+        "goods": [
+          {
+            "goods_title": "",
+            "goods_price": 65,
+            "buy_num": 1,
+            "goods_pic": "Public/Uploads/goodsimg/201511011/1446544607060.jpg"
+          },
+          {
+            "goods_title": "正德乌鸡10只  净重9.5kg  ",
+            "goods_price": "140.00",
+            "buy_num": 1,
+            "goods_pic": "Public/Uploads/goodsimg/20161024/36015800_1477292697.jpg"
+          }
+        ]
+      }
+    ]
+  }
+}

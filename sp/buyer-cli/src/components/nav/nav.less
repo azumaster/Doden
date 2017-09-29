@@ -1,0 +1,99 @@
+.nav-wrap {
+  @color: @color-text-primary;
+  @activeColor: @color-primary;
+  @font-size: 12px;
+  @height-ft: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  height: @height-ft;
+  background-color: #fff;
+  //border-top: 1px solid #d9d9d9;
+  font-size: 10px;
+  .nav-item {
+    display: block;
+    font-size: 10px;
+    text-align: center;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    color: @color;
+  }
+  .nav-icon {
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    position: relative;
+    &:before {
+      font-family: iconfont;
+      color: @color;
+      font-size: 25px;
+    }
+  }
+  .nav-label {
+    display: block;
+    width: 100%;
+    height: 14px;
+    margin-bottom: 0;
+    line-height: 1;
+  }
+  .icon-buy {
+    &:before {
+      content: '\e754';
+    }
+  }
+
+  .icon-car {
+    &:before {
+      content: '\e73d';
+    }
+  }
+
+  .icon-order {
+    &:before {
+      content: '\e737';
+    }
+  }
+  .active {
+    color: @activeColor;
+    .nav-icon {
+      &:before {
+        color: @activeColor;
+      }
+    }
+    .icon-buy {
+      &:before {
+        content: '\e753';
+      }
+    }
+    .icon-car {
+      &:before {
+        content: '\e73c';
+      }
+    }
+    .icon-order {
+      &:before {
+        content: '\e7ab';
+      }
+    }
+  }
+
+  //数字提示;
+  .nav-badge {
+    position: absolute;
+    display: inline-block;
+    padding: .15em .4em;
+    min-width: 8px;
+    border-radius: 18px;
+    background-color: @activeColor;
+    color: #fff;
+    line-height: 1.2;
+    text-align: center;
+    font-size: 12px;
+    vertical-align: middle;
+    top: -4px;
+    left: 16px;
+    -webkit-transform: scale(.88);
+    transform: scale(.88);
+  }
+}

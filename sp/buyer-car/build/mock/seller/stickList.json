@@ -1,0 +1,109 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data":[
+    {
+      "sort_id": 5,
+      "sort_name": "去油鸡胸",
+      "brands": {
+        "normal": [
+          {
+            "brand_id": 1818,
+            "brand_name": "大连百年第三方士大夫"
+          },{
+            "brand_id": 1655,
+            "brand_name": "和美"
+          },
+          {
+            "brand_id": 1582,
+            "brand_name": "五谷金凤"
+          },
+          {
+            "brand_id": 151,
+            "brand_name": "六合"
+          }
+        ],
+        "stick": [
+          {
+            "brand_id": 1978,
+            "brand_name": "百年"
+          },
+          {
+            "brand_id": 1655,
+            "brand_name": "和美"
+          },
+          {
+            "brand_id": 1582,
+            "brand_name": "五谷金凤"
+          },
+          {
+            "brand_id": 151,
+            "brand_name": "六合"
+          },
+          {
+            "brand_id": 151,
+            "brand_name": "渝达"
+          }
+        ]
+      }
+    },
+    {
+      "sort_id": 18,
+      "sort_name": "毛鸡胸",
+      "brands": {
+        "normal": [
+          {
+            "brand_id": 1818,
+            "brand_name": "大连百年"
+          },
+          {
+            "brand_id": 1655,
+            "brand_name": "和美"
+          },
+          {
+            "brand_id": 1582,
+            "brand_name": "五谷金凤"
+          },
+          {
+            "brand_id": 151,
+            "brand_name": "六合"
+          }
+        ],
+        "stick": []
+      }
+    },
+    {
+      "sort_id": 23,
+      "sort_name": "呀天堂",
+      "brands": {
+        "normal": [],
+        "stick": [
+          {
+            "brand_id": 1978,
+            "brand_name": "百年"
+          },
+          {
+            "brand_id": 1655,
+            "brand_name": "和美"
+          },
+          {
+            "brand_id": 1582,
+            "brand_name": "五谷金凤"
+          },
+          {
+            "brand_id": 151,
+            "brand_name": "六合"
+          }
+        ]
+      }
+    },
+    {
+      "sort_id": 114,
+      "sort_name": "猪脚",
+      "brands": {
+        "normal": [],
+        "stick": []
+      }
+    }
+  ]
+}
