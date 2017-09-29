@@ -1,0 +1,31 @@
+body{
+  background: @color-bg;
+}
+
+.tab{
+  height: 40px;
+  z-index: 1000;
+  background: @color-content;
+  border-bottom: 1px solid @color-border;
+  display: flex;
+  justify-content: space-around;
+  .tab-item{
+    line-height: 40px;
+    padding: 0 12px;
+    font-size: 14px;
+    &.active{
+      font-weight: bold;
+      position: relative;
+      &:before{
+        content: '';
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        border-radius: 4px;
+        background: @color-primary;
+        bottom: 0;
+        left: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "code": 0,
+    "data": {
+        "baofoo_wechat_pub": {
+            "payment_mode": "微信安全支付",
+            "remark": "自动确认",
+            "status": 1
+        },
+        "baofoo_quick_pub": {
+            "payment_mode": "银行卡快捷支付",
+            "remark": "自动确认",
+            "status": 1
+        },
+        "bank": {
+            "payment_mode": "网银转账",
+            "remark": "人工确认",
+            "status": 1
+        },
+        "ious": {
+            "payment_mode": "冻品白条支付",
+            "remark": "人工确认",
+            "status": 1
+        }
+    },
+    "message": "获取成功"
+}

@@ -1,0 +1,15 @@
+{
+    "code":0,
+    "data":{
+        "customer_phone":"02812568955",
+        "account_info":[
+            {
+                "bank_name":"中国农业银行",
+                "bank_address":"紫荆支行",
+                "bank_account_no":"62281024253838716",
+                "bank_account_name":"王弟武"
+            }
+        ]
+    },
+    "message":"获取成功"
+}

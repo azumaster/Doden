@@ -1,0 +1,16 @@
+{
+  "code":0,
+  "data":{
+    "alipay":{
+      "account":"sfsfsfsfsf",
+      "name":"姓名"
+    },
+    "bank":{
+      "account":"1324511122",
+      "bank_name":"中国工商银行",
+      "address":"开户行地址",
+      "name":"姓名"
+    }
+  },
+  "message":"OK"
+}

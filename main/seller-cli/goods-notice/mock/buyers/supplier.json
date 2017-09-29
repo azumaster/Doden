@@ -1,0 +1,14 @@
+{
+  "code" : 0,
+  "message" : "OK",
+  "data" : {
+    "seller_id" : 1,
+    "seller_name" : "供应商名字",
+    "seller_rank" : 9,
+    "point_of_departure" : "中南海",
+    "service_grade" : 5,
+    "delivery_speed" : 4.5,
+    "goods_grade" : 3,
+    "infraction_num" : 6
+  }
+}

@@ -1,0 +1,28 @@
+.help{
+  .warpper();
+}
+
+.help-list{
+  overflow: hidden;
+  .help-item{
+    background: #ffffff;
+    padding: 10px 15px;
+    overflow: hidden;
+    margin: 5px 0;
+    .help-question{
+      line-height: 20px;
+      margin: 10px 0;
+      color: #ff5f3e;
+      font-size: 15px;
+    }
+    .help-anwser{
+      line-height: 20px;
+      font-size: 13px;
+      color: #666666;
+      text-indent: 2em;
+    }
+    &:not(:last-child){
+      border-bottom: 1px solid #eeeeee;
+    }
+  }
+}

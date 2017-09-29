@@ -1,0 +1,50 @@
+{
+    "code": 0,
+    "data": [
+        {
+            "id": 1,
+            "operator": "张三",
+            "sub_order_no": "sfdfdgdfijkerwdsfds-0",
+            "violation_type": 1,
+            "violation_title": "上下架违规",
+            "violation_score": -50,
+            "sub_order_id": 123123,
+            "opt_time": "2016-03-28 12:12:12",
+            "is_del": false
+        },
+        {
+            "id": 2,
+            "operator": "李四",
+            "sub_order_no": "sfdfdgdfijkerwdsq2fds-0",
+            "violation_type": 1,
+            "violation_title": "虚假信息",
+            "sub_order_id": 123123,
+            "violation_score": -50,
+            "opt_time": "2016-03-29 12:12:12",
+            "is_del": false
+        },
+        {
+            "id": 2,
+            "operator": "李四",
+            "sub_order_no": "sfdfdgdfijkerwdsq2fds-0",
+            "violation_type": 1,
+            "violation_title": "虚假信息",
+            "sub_order_id": 123123,
+            "violation_score": -50,
+            "opt_time": "2016-03-29 12:12:12",
+            "is_del": true
+        },
+        {
+            "id": 2,
+            "operator": "李四",
+            "sub_order_no": "sfdfdgdfijkerwdsq2fds-0",
+            "violation_type": 1,
+            "violation_title": "虚假信12323息",
+            "sub_order_id": 123123,
+            "violation_score": -50,
+            "opt_time": "2016-03-29 12:12:12",
+            "is_del": false
+        }
+    ],
+    "message": "ok"
+}    

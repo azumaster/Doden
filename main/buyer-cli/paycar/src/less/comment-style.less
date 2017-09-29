@@ -1,0 +1,123 @@
+@charset "utf-8";
+@import "common/variable";
+@import "common/normalize";
+@import "common/component";
+@import "common/loading";
+@import "common/dialog";
+
+.comment-list {
+  padding: @box-left @box-bottom @box-bottom @box-left;
+  font-size: @font-size-medium;
+  background-color: #fff;
+  margin-bottom: @box-bottom;
+  .goods-img {
+    width: 50px;
+    max-height: 50px;
+    display: block;
+    margin-right: 5px;
+  }
+  .goods-info {
+    line-height: 1.6;
+    .title{
+      .clamp(1);
+    }
+    .goods-num {
+      color: @text-color-tint;
+    }
+  }
+  .enter-comment {
+    background-color: #e8e8e8;
+    position: relative;
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 12px;
+    &:before {
+      content: "";
+      position: absolute;
+      top: -20px;
+      left: 20px;
+      border-top: 10px solid transparent;
+      border-right: 7px solid transparent;
+      border-bottom: 10px solid #e8e8e8;
+      border-left: 7px solid transparent;
+    }
+    .enter-msg {
+      width: 100%;
+      height: 40px;
+    }
+    .msg-warp {
+      align-items: flex-end;
+      .textarea {
+        padding: 5px;
+        background-color: #fff;
+      }
+    }
+  }
+}
+.serve-comment {
+  padding: @box-left @box-bottom @box-bottom @box-left;
+  background-color: #fff;
+  color: #555555;
+  font-size: @font-size-medium;
+  margin-top: @box-bottom*2;
+  .title {
+    .text {
+      font-size: @font-size-default;
+      margin-right: 10px;
+    }
+    .flex-num1 {
+      position: relative;
+      &:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        border-top: 1px solid #d7d7d7;
+        top: 50%;
+      }
+    }
+  }
+  .synthesis {
+    line-height: 1.8;
+    padding: @box-bottom;
+  }
+}
+.star-warp {
+  .flex-box;
+  line-height: 2;
+  .star-cell {
+    margin-top: -.2em;
+    i{
+      line-height: 1;
+      .icon-font;
+      color: #d7d7d7;
+      padding: 0.3em;
+      font-size: 14px;
+    }
+    .active {
+      color: @base-color-orange;
+    }
+  }
+  .start-cell-big {
+    i{
+      font-size: 18px;
+    }
+  }
+}
+.star-sub-info {
+  padding: 12px;
+  padding-bottom: 0;
+  .sub-info {
+    .border-radius(3px);
+    display: block;
+    .btn-base(#fff, @base-color-orange, @base-color-orange);
+    font-size: 16px;
+    text-align: center;
+    line-height: 2.333;
+  }
+}
+.footer_c {
+  color: #848689;
+  font-size: 14px;
+  text-align: center;
+  margin: 20px 0;
+}

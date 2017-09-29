@@ -1,0 +1,35 @@
+.shop-tab{
+  background: #ffffff;
+  height: 40px;
+  border-bottom: 1px solid #e4e4e4;
+  display: flex;
+  justify-content: space-around;
+  &.fixed{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+  }
+  p{
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    padding: 0 15px;
+    position: relative;
+    color: #737373;
+    &.active{
+      font-weight: bold;
+      color: #383838;
+      &:after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: #1498fc;
+        height: 4px;
+        border-radius: 2px;
+      }
+    }
+  }
+}

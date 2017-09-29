@@ -1,0 +1,61 @@
+{
+  "code": 0,
+  "data": {
+    "type_id": "294",
+    "attributes": [
+      {
+        "attribute_id": 107,
+        "attribute_name": "内脏净度",
+        "format_type_id": 2,
+        "must": 1,
+        "format_values": [
+          {
+            "value": "带内脏（带叉骨）",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          },
+          {
+            "value": "去内脏（带叉骨）",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          },
+          {
+            "value": "去内脏（去叉骨）",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          }
+        ]
+      },
+      {
+        "attribute_id": 108,
+        "attribute_name": "带骨长度（腰骨）",
+        "format_type_id": 2,
+        "must": 1,
+        "format_values": [
+          {
+            "value": "（较短）",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          },
+          {
+            "value": "（适中）",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          },
+          {
+            "value": "（较长）",
+            "unit": "",
+            "rule": "string",
+            "default": false
+          }
+        ]
+      }
+    ]
+  },
+  "message": "OK"
+}

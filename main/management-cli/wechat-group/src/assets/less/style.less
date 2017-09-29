@@ -1,0 +1,114 @@
+@charset "utf-8";
+@import "common/normalize";
+@import "common/loading";
+@import "common/dialog";
+
+body {
+  font-family: "Microsoft YaHei";
+  background: antiquewhite;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section-main {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  .btn-refresh {
+    margin: 10px 0;
+  }
+}
+.section-menu-list {
+  @pad: 10px;
+  background: skyblue;
+
+  .menu-list-item {
+    border: 1px solid #628E9A;;
+    padding: @pad;
+    margin-bottom: @pad;
+    .item-name {
+      margin: @pad/2 0;
+    }
+  }
+
+  .list-item-forms {
+    @p: 10px;
+    &:after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden
+    }
+
+    .tag {
+      float: left;
+      font-weight: bold;
+      font-size: 1.17em;
+    }
+
+    .forms-w {
+      position: relative;
+      float: left;
+
+      ul {
+        li {
+          margin-bottom: @p*2;
+        }
+      }
+
+      .btn-save {
+        width: @p*11;
+        padding: @p*0.75 0;
+        margin-left: @p*12;
+      }
+    }
+
+    .menu-level-1,
+    .menu-level-2{
+      height: @p*4;
+      input {
+        margin-right: @p;
+        padding: @p*0.75 0 @p*0.75 @p/2;
+      }
+      select {
+        height: 100%;
+        margin-right: @p;
+      }
+    }
+
+    .menu-level-1 {
+      margin-bottom: @p;
+    }
+
+    .menu-level-2 {
+      padding-left: @p*12;
+      margin-top: @p;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    .btn-addLevel2 {
+      height: 100%;
+    }
+
+    .level-1-name,
+    .level-2-name {
+      width: @p*10;
+      margin-right: @p;
+    }
+
+    .level-1-url {
+      min-width: @p*60;
+    }
+
+    .level-2-url {
+      width: @p*48;
+    }
+  }
+}

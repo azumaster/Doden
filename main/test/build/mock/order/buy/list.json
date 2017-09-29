@@ -1,0 +1,372 @@
+{
+    "code": 0,
+    "data": {
+        "order_infos": [
+            {
+                "logistic_info": [
+                    "8小时内未付款，订单会自动取消",
+                    "如需修改车辆信息，请联系客服"
+                ],
+                "status": 1,
+                "phone": "028-85171136",
+                "status_time": "2016-04-27 11:09:58",
+                "order_amount": 105,
+                "appraise": 2,
+                "payment_mode": 1,
+                "parent_order_no": "12061461726598KHL2y7ft",
+                "discount_amount": "0.00",
+                "sell_district": "海霸王",
+                "order_goods_infos": [
+                    {
+                        "goods_name": "樱桃小丸子",
+                        "goods_brand": "",
+                        "goods_pic": "Public/Uploads/goodsimg/20160328/1459148045280.jpg",
+                        "buy_num": 1,
+                        "buy_price": "15.00",
+                        "goods_total_amount": "15.00",
+                        "order_goods_id": 16794,
+                        "goods_unit": "件",
+                        "goods_id":0
+                    },
+                    {
+                        "goods_name": "渝达鸭肠 ",
+                        "goods_brand": "渝达",
+                        "goods_pic": "Public/Uploads/goodsimg/20150928/1443415379249.jpg",
+                        "buy_num": 1,
+                        "buy_price": "105.00",
+                        "goods_total_amount": "105.00",
+                        "order_goods_id": 16792,
+                        "goods_unit": "件",
+                        "goods_id":5
+                    },
+                    {
+                        "goods_name": "渝达鸭肠 ",
+                        "goods_brand": "渝达",
+                        "goods_pic": "Public/Uploads/goodsimg/20150928/1443415379249.jpg",
+                        "buy_num": 1,
+                        "buy_price": "105.00",
+                        "goods_total_amount": "105.00",
+                        "order_goods_id": 23792,
+                        "goods_unit": "件",
+                        "goods_id":5
+                    }
+                ]
+            },
+            {
+                "order_id": 10692,
+                "sell_shop_name": "老王冻品",
+                "sub_order_no": "12061461726775C4wcTX0d-0",
+                "logistic_info": [
+                    "刷单，司机电话：18782010060"
+                ],
+                "status": 1,
+                "phone": "18000500400",
+                "status_time": "2016-04-27 11:12:55",
+                "order_amount": 20,
+                "appraise": 2,
+                "payment_mode": 1,
+                "parent_order_no": "12061461726775C4wcTX0d",
+                "discount_amount": "0.00",
+                "sell_district": "海霸王",
+                "order_goods_infos": [
+                    {
+                        "goods_name": "樱桃小丸子",
+                        "goods_brand": "",
+                        "goods_pic": "Public/Uploads/goodsimg/20160328/1459148045280.jpg",
+                        "buy_num": 1,
+                        "buy_price": "15.00",
+                        "goods_total_amount": "15.00",
+                        "order_goods_id": 16794,
+                        "goods_unit": "件",
+                        "goods_id":6
+                    },
+                    {
+                        "goods_name": "物流打包费专拍",
+                        "goods_brand": "",
+                        "goods_pic": "Public/Uploads/goodsimg/20160421/1461228287917.jpg",
+                        "buy_num": 1,
+                        "buy_price": "5.00",
+                        "goods_total_amount": "5.00",
+                        "order_goods_id": 16795,
+                        "goods_unit": "件",
+                        "goods_id":5
+                    },
+                    {
+                        "goods_name": "物流打包费专拍",
+                        "goods_brand": "",
+                        "goods_pic": "Public/Uploads/goodsimg/20160421/1461228287917.jpg",
+                        "buy_num": 1,
+                        "buy_price": "5.00",
+                        "goods_total_amount": "5.00",
+                        "order_goods_id": 16796,
+                        "goods_unit": "件",
+                        "goods_id":5
+                    }
+                ]
+            },
+            {
+                "order_id": 7967,
+                "sell_shop_name": "老王冻品",
+                "sub_order_no": "120614600866061iJuKUvP-0",
+                "logistic_info": [
+                    "商品库存不足"
+                ],
+                "status": 7,
+                "phone": "18000500400",
+                "status_time": "2016-04-08 11:37:19",
+                "order_amount": 15,
+                "refund_amount": 15,
+                "appraise": 2,
+                "payment_mode": 1,
+                "parent_order_no": "120614600866061iJuKUvP",
+                "discount_amount": "0.00",
+                "sell_district": "海霸王",
+                "order_goods_infos": [
+                    {
+                        "goods_name": "樱桃小丸子",
+                        "goods_brand": "",
+                        "goods_pic": "Public/Uploads/goodsimg/20160328/1459148045280.jpg",
+                        "buy_num": 1,
+                        "buy_price": "15.00",
+                        "goods_total_amount": "15.00",
+                        "order_goods_id": 12745,
+                        "goods_unit": "件",
+                        "goods_id":5
+                    }
+                ]
+            },
+            {
+                "order_id": 7822,
+                "sell_shop_name": "创利食品经营部",
+                "sub_order_no": "12061459942275so7atYyF-4",
+                "logistic_info": [
+                    "商品库存不足"
+                ],
+                "status": 7,
+                "phone": "15928875387",
+                "status_time": "2016-04-06 19:31:28",
+                "order_amount": 151,
+                "refund_amount": 151,
+                "appraise": 2,
+                "payment_mode": 1,
+                "parent_order_no": "12061459942275so7atYyF",
+                "discount_amount": "0.00",
+                "sell_district": "海霸王",
+                "order_goods_infos": [
+                    {
+                        "goods_name": "南洋翅尖特大",
+                        "goods_brand": "南洋",
+                        "goods_pic": "Public/Uploads/goodsimg/20160401/64322600_1459481276.jpg",
+                        "buy_num": 1,
+                        "buy_price": "151.00",
+                        "goods_total_amount": "151.00",
+                        "order_goods_id": 12444,
+                        "goods_unit": "件",
+                        "goods_id":5
+                    }
+                ]
+            },
+            {
+                "order_id": 7821,
+                "sell_shop_name": "成都天度冷冻食品",
+                "sub_order_no": "12061459942275so7atYyF-3",
+                "logistic_info": [
+                    "商品库存不足"
+                ],
+                "status": 7,
+                "phone": "13540607045",
+                "status_time": "2016-04-06 19:31:28",
+                "order_amount": 65,
+                "refund_amount": 65,
+                "appraise": 2,
+                "payment_mode": 1,
+                "parent_order_no": "12061459942275so7atYyF",
+                "discount_amount": "0.00",
+                "sell_district": "青白江",
+                "order_goods_infos": [
+                    {
+                        "goods_name": "润美半边鸭,本周新货",
+                        "goods_brand": "",
+                        "goods_pic": "Public/Uploads/goodsimg/20151118/1447813194678.jpg",
+                        "buy_num": 1,
+                        "buy_price": "65.00",
+                        "goods_total_amount": "65.00",
+                        "order_goods_id": 12451,
+                        "goods_unit": "件",
+                        "goods_id":5
+                    }
+                ]
+            },
+            {
+                "order_id": 7820,
+                "sell_shop_name": "山河食品",
+                "sub_order_no": "12061459942275so7atYyF-2",
+                "logistic_info": [
+                    "商品库存不足"
+                ],
+                "status": 7,
+                "phone": "15902870880",
+                "status_time": "2016-04-06 19:31:28",
+                "order_amount": 70,
+                "refund_amount": 70,
+                "appraise": 2,
+                "payment_mode": 1,
+                "parent_order_no": "12061459942275so7atYyF",
+                "discount_amount": "0.00",
+                "sell_district": "青白江",
+                "order_goods_infos": [
+                    {
+                        "goods_name": "冷冻半片鸭",
+                        "goods_brand": "新美泰",
+                        "goods_pic": "Public/Uploads/goodsimg/20150826/55dd3203ad4b0.jpg",
+                        "buy_num": 1,
+                        "buy_price": "70.00",
+                        "goods_total_amount": "70.00",
+                        "order_goods_id": 12447,
+                        "goods_unit": "件",
+                        "goods_id":5
+                    }
+                ]
+            },
+            {
+                "order_id": 7819,
+                "sell_shop_name": "天美意",
+                "sub_order_no": "12061459942275so7atYyF-1",
+                "logistic_info": [
+                    "商品库存不足"
+                ],
+                "status": 7,
+                "phone": "18602837636",
+                "status_time": "2016-04-06 19:31:28",
+                "order_amount": 62,
+                "refund_amount": 62,
+                "appraise": 2,
+                "payment_mode": 1,
+                "parent_order_no": "12061459942275so7atYyF",
+                "discount_amount": "0.00",
+                "sell_district": "海霸王",
+                "order_goods_infos": [
+                    {
+                        "goods_name": "六和鸭边腿32-34个",
+                        "goods_brand": "六和",
+                        "goods_pic": "Public/Uploads/goodsimg/20160223/46097300_1456199981.jpg",
+                        "buy_num": 1,
+                        "buy_price": "62.00",
+                        "goods_total_amount": "62.00",
+                        "order_goods_id": 12449,
+                        "goods_unit": "件",
+                        "goods_id":5
+                    }
+                ]
+            },
+            {
+                "order_id": 7818,
+                "sell_shop_name": "食品房子",
+                "sub_order_no": "12061459942275so7atYyF-0",
+                "logistic_info": [
+                    "商品库存不足"
+                ],
+                "status": 7,
+                "phone": "13808170760",
+                "status_time": "2016-04-06 19:31:28",
+                "order_amount": 105,
+                "refund_amount": 105,
+                "appraise": 2,
+                "payment_mode": 1,
+                "parent_order_no": "12061459942275so7atYyF",
+                "discount_amount": "0.00",
+                "sell_district": "海霸王",
+                "order_goods_infos": [
+                    {
+                        "goods_name": "渝达鸭肠 ",
+                        "goods_brand": "渝达",
+                        "goods_pic": "Public/Uploads/goodsimg/20150928/1443415379249.jpg",
+                        "buy_num": 1,
+                        "buy_price": "105.00",
+                        "goods_total_amount": "105.00",
+                        "order_goods_id": 12448,
+                        "goods_unit": "件",
+                        "goods_id":5
+                    }
+                ]
+            },
+            {
+                "order_id": 7811,
+                "sell_shop_name": "泰丰食品批发部",
+                "sub_order_no": "12061459940732saRv1BXb-3",
+                "logistic_info": [
+                    "商品库存不足"
+                ],
+                "status": 7,
+                "phone": "13981869897",
+                "status_time": "2016-04-06 19:05:47",
+                "order_amount": 140,
+                "refund_amount": 140,
+                "appraise": 2,
+                "payment_mode": 1,
+                "parent_order_no": "12061459940732saRv1BXb",
+                "discount_amount": "0.00",
+                "sell_district": "海霸王",
+                "order_goods_infos": [
+                    {
+                        "goods_name": "鸡尖",
+                        "goods_brand": "东北，山东",
+                        "goods_pic": "Public/Uploads/goodsimg/20160328/1459131685728.jpg",
+                        "buy_num": 1,
+                        "buy_price": "140.00",
+                        "goods_total_amount": "140.00",
+                        "order_goods_id": 12442,
+                        "goods_unit": "件",
+                        "goods_id":5
+                    }
+                ]
+            },
+            {
+                "order_id": 7810,
+                "sell_shop_name": "鑫旺食品",
+                "sub_order_no": "12061459940732saRv1BXb-2",
+                "logistic_info": [
+                    "商品库存不足"
+                ],
+                "status": 7,
+                "phone": "18215607464",
+                "status_time": "2016-04-06 19:05:47",
+                "order_amount": 240,
+                "refund_amount": 240,
+                "appraise": 2,
+                "payment_mode": 1,
+                "parent_order_no": "12061459940732saRv1BXb",
+                "discount_amount": "0.00",
+                "sell_district": "海霸王",
+                "order_goods_infos": [
+                    {
+                        "goods_name": "隆泰鸡腿160/180",
+                        "goods_brand": "隆泰",
+                        "goods_pic": "Public/Uploads/goodsimg/20151221/1450664040823.jpg",
+                        "buy_num": 1,
+                        "buy_price": "125.00",
+                        "goods_total_amount": "125.00",
+                        "order_goods_id": 12441,
+                        "goods_unit": "件",
+                        "goods_id":0
+                    },
+                    {
+                        "goods_name": "隆泰鸡腿块",
+                        "goods_brand": "隆泰",
+                        "goods_pic": "Public/Uploads/goodsimg/20151115/1447572832395.jpg",
+                        "buy_num": 1,
+                        "buy_price": "115.00",
+                        "goods_total_amount": "115.00",
+                        "order_goods_id": 12443,
+                        "goods_unit": "件",
+                        "goods_id":5
+                    }
+                ]
+            }
+        ],
+        "user_type": 0,
+        "page": "1",
+        "total_count": 112
+    },
+    "message": "获取成功"
+}

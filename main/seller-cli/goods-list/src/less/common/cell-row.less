@@ -1,0 +1,48 @@
+.cell-row-item {
+  border-top: 1px solid @color-border-primary;
+  border-bottom: 1px solid @color-border-primary;
+  background-color: #fff;
+  font-size: 17px;
+  height: 44px;
+  .cell-head {
+    color: @color-text-black;
+    .icon-font {
+      margin-right: 6px;
+    }
+  }
+  .cell-foot {
+    color: @color-text-secondary;
+    &:after {
+      content: '';
+      display: inline-block;
+      height: 6px;
+      width: 6px;
+      border-width: 2px 2px 0 0;
+      border-color: @color-border-more;
+      border-style: solid;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+      margin-left: 5px;
+      position: relative;
+      top: -2px;
+    }
+  }
+}
+
+.icon-font {
+  &.icon-{
+    &myGoods:before {
+      content: '\e642';
+      .icon-style(25px, #4eb8fc);
+    }
+    &salesPromotion:before {
+      content: '\e72c';
+      .icon-style(24px, #f89944);
+    }
+    &systemInforms:before {
+      content: '\e643';
+      color: #1fce71;
+      .icon-style(25px, #1fce71);
+    }
+  }
+}

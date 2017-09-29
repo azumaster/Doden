@@ -1,0 +1,121 @@
+{
+  "code" : 0,
+  "message" : "OK",
+  "data" : {
+    "total":35,
+    "register_status" : 1,
+    "is_seller" : 0,
+    "goods" : [
+      {
+        "goods_id" : 1,
+        "goods_title": "",
+        "goods_name" : "测试数据，看看就好",
+        "goods_brand" : "adsfadf",
+        "goods_xinghao" : "afasdfdsaf2",
+        "goods_guigei" : "hdsfgsfga",
+        "goods_price" : "123",
+        "putaway_time" : "2016-08-13",
+        "goods_image_count" : 3,
+        "goods_image" : "Public/images/buyer-cli/goods.jpg",
+        "goods_inventory" : 0,
+        "goods_enshrine" : 0
+      },
+      {
+        "goods_id" : 2,
+        "goods_title": "123456",
+        "goods_name" : "测试数据，看看就好",
+        "goods_brand" : "adsfadf",
+        "goods_xinghao" : "afasdfdsaf2",
+        "goods_guigei" : "hdsfgsfga",
+        "goods_price" : "123",
+        "putaway_time" : "2016-08-13",
+        "goods_image_count" : 3,
+        "goods_image" : "Public/images/buyer-cli/goods.jpg",
+        "goods_inventory" : 0,
+        "goods_enshrine" : 0
+      },
+      {
+        "goods_id" : 3,
+        "goods_title": "",
+        "goods_name" : "测试数据，看看就好",
+        "goods_brand" : "adsfadf",
+        "goods_xinghao" : "afasdfdsaf2",
+        "goods_guigei" : "hdsfgsfga",
+        "goods_price" : "123",
+        "putaway_time" : "2016-08-13",
+        "goods_image_count" : 3,
+        "goods_image" : "Public/images/buyer-cli/goods.jpg",
+        "goods_inventory" : 0,
+        "goods_enshrine" : 0
+      },
+      {
+        "goods_id" : 4,
+        "goods_title": "456789",
+        "goods_name" : "测试数据，看看就好",
+        "goods_brand" : "adsfadf",
+        "goods_xinghao" : "afasdfdsaf2",
+        "goods_guigei" : "hdsfgsfga",
+        "goods_price" : "123",
+        "putaway_time" : "2016-08-13",
+        "goods_image_count" : 3,
+        "goods_image" : "Public/images/buyer-cli/goods.jpg",
+        "goods_inventory" : 0,
+        "goods_enshrine" : 0
+      },
+      {
+        "goods_id" : 5,
+        "goods_title": "",
+        "goods_name" : "测试数据，看看就好",
+        "goods_brand" : "adsfadf",
+        "goods_xinghao" : "afasdfdsaf2",
+        "goods_guigei" : "hdsfgsfga",
+        "goods_price" : "123",
+        "putaway_time" : "2016-08-13",
+        "goods_image_count" : 3,
+        "goods_image" : "Public/images/buyer-cli/goods.jpg",
+        "goods_inventory" : 0,
+        "goods_enshrine" : 0
+      },
+      {
+        "goods_id" : 6,
+        "goods_title": "89101112",
+        "goods_name" : "测试数据，看看就好",
+        "goods_brand" : "adsfadf",
+        "goods_xinghao" : "afasdfdsaf2",
+        "goods_guigei" : "hdsfgsfga",
+        "goods_price" : "123",
+        "putaway_time" : "2016-08-13",
+        "goods_image_count" : 3,
+        "goods_image" : "Public/images/buyer-cli/goods.jpg",
+        "goods_inventory" : 0,
+        "goods_enshrine" : 0
+      },
+      {
+        "goods_id" : 7,
+        "goods_name" : "测试数据，看看就好",
+        "goods_brand" : "adsfadf",
+        "goods_xinghao" : "afasdfdsaf2",
+        "goods_guigei" : "hdsfgsfga",
+        "goods_price" : "123",
+        "putaway_time" : "2016-08-13",
+        "goods_image_count" : 3,
+        "goods_image" : "Public/images/buyer-cli/goods.jpg",
+        "goods_inventory" : 0,
+        "goods_enshrine" : 0
+      },
+      {
+        "goods_id" : 8,
+        "goods_name" : "测试数据，看看就好",
+        "goods_brand" : "adsfadf",
+        "goods_xinghao" : "afasdfdsaf2",
+        "goods_guigei" : "hdsfgsfga",
+        "goods_price" : "123",
+        "putaway_time" : "2016-08-13",
+        "goods_image_count" : 3,
+        "goods_image" : "Public/images/buyer-cli/goods.jpg",
+        "goods_inventory" : 0,
+        "goods_enshrine" : 0
+      }
+    ]
+  }
+}

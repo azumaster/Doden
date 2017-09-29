@@ -1,0 +1,75 @@
+{
+    "code": 0,
+    "data": {
+        "total_count": 55,
+        "list": [
+            {
+                "shop_id": 1,
+                "shop_name": "食品房子",
+                "market_name": "青白江",
+                "violation_summary": [
+                    {
+                        "type": 1,
+                        "num": 0
+                    },
+                    {
+                        "type": 2,
+                        "num": 2
+                    },
+                    {
+                        "type": 3,
+                        "num": 0
+                    },
+                    {
+                        "type": 4,
+                        "num": 2
+                    },
+                    {
+                        "type": 5,
+                        "num": 0
+                    },
+                    {
+                        "type": 6,
+                        "num": 111
+                    }
+                ],
+                "grade": 5,
+                "score": 150
+            },
+            {
+                "shop_id": 1,
+                "shop_name": "食品房子",
+                "market_name": "海霸王",
+                "violation_summary": [
+                    {
+                        "type": 1,
+                        "num": 0
+                    },
+                    {
+                        "type": 2,
+                        "num": 2
+                    },
+                    {
+                        "type": 3,
+                        "num": 0
+                    },
+                    {
+                        "type": 4,
+                        "num": 2
+                    },
+                    {
+                        "type": 5,
+                        "num": 0
+                    },
+                    {
+                        "type": 6,
+                        "num": 2
+                    }
+                ],
+                "grade": 3,
+                "score": 1520
+            }
+        ]
+    },
+    "message": "ok"
+}    

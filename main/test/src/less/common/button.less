@@ -1,0 +1,126 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/*
+	样式类class
+*/
+
+@border-radius:5px;
+
+.border(@border:1px){
+  border:@border solid rgba(0,0,0,0.2);
+}
+
+.btn(@bgcolor:white){
+
+  display:block;
+  position:relative;
+  text-align:center;
+  text-decoration:none;
+  padding:10px 0;
+  font-size:18px;
+  color:#454545;
+  .border;
+  border-radius:@border-radius;
+  line-height:2.3;
+  margin-left: auto;
+  margin-right: auto;
+  background:@bgcolor;
+  -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+}
+
+.btn-after{
+  content:" ";
+  display:absolute;
+  width:200%;
+  height:200%;
+  top:0;
+  left:0;
+  border:rgba(0,0,0,0.5);
+  transform:scale(0.5);
+  transform-origin:0 0;
+  box-sizing:border-box;
+  border-radius:10px;
+}
+
+/*
+元素样式
+*/
+
+.bg-space{
+  line-height:1.6;
+  .border;
+  padding:0 15px;
+}
+
+.btn{
+  .btn;
+}
+
+.btn:after{
+  .btn-after;
+}
+
+.btn {
+}
+
+.btn-primary{
+  background:#04BE02;
+  &:not(.btn-disabled):active{
+    background:#039702;
+    color:rgba(255, 255, 255, 0.4);
+  }
+}
+
+.btn-warn{
+  background:#EF4F4F;
+  &:not(.btn-disabled):active{
+    background:#C13E3E;
+    color:rgba(255, 255, 255, 0.4);
+  }
+}
+.btn-plain-default{
+  border:1px solid #5A5A5A;
+  color:#5A5A5A;
+}
+
+.btn-plain-primary{
+  border:1px solid #04BE02;
+  color:#04BE02;
+}
+.btn-mini{
+  padding:0 .75em;
+  display:inline-block;
+  line-height: 1.9;
+  font-size: 14px;
+}
+
+.btn-disabled{
+  color:rgba(255, 255, 255, 0.6);
+}
+
+.btn-area{
+  padding:10 0;
+  width:60%;
+  margin:0 auto;
+  text-align:justify;
+  &:after{
+    display:inline-block;
+    width: 100%;
+    height: 0;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    visibility:hidden;
+    content: ".";
+  }
+}
+.btn-space{
+  margin-right:10px;
+}
+
+

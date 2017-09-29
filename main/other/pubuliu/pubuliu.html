@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>瀑布流布局</title>
+    <style type="text/css">
+        body{margin:0; font-family:微软雅黑;}
+        #flow-box{margin:10px auto 0 auto; padding:0; position:relative}
+        #flow-box li{
+            width:190px; position:absolute; padding:10px; border:solid 1px #efefef; list-style:none;
+            opacity:0;
+            -moz-opacity:0;
+            filter:alpha(opacity=0);
+            -webkit-transition:opacity 500ms ease-in-out;
+            -moz-transition:opacity 500ms ease-in-out;
+            -o-transition:opaicty 500ms ease-in-out;
+            transition:opaicty 500ms ease-in-out;}
+        #flow-box li img{width:100%;}
+        #flow-box li a{display:block; width:100%; text-align:center; font-size:14px; color:#333; line-height:18px; margin-top:10px; text-decoration:none;}
+        .loadwrap{position:absolute; left:0; width:100%; text-align:center;}
+    </style>
+</head>
+<body>
+<ul id="flow-box">
+    <li><img src="img/1.png" /><a href="#">图片标题1</a></li>
+    <li><img src="img/2.png" /><a href="#">图片标题2</a></li>
+    <li><img src="img/3.png" /><a href="#">图片标题3</a></li>
+    <li><img src="img/4.png" /><a href="#">图片标题4</a></li>
+    <li><img src="img/5.png" /><a href="#">图片标题5</a></li>
+    <li><img src="img/6.jpg" /><a href="#">图片标题7</a></li>
+    <li><img src="img/7.png" /><a href="#">图片标题8</a></li>
+    <li><img src="img/8.jpg" /><a href="#">图片标题9</a></li>
+    <li><img src="img/9.png" /><a href="#">图片标题10</a></li>
+    <li><img src="img/10.jpg" /><a href="#">图片标题11</a></li>
+    <li><img src="img/11.png" /><a href="#">图片标题12</a></li>
+    <li><img src="img/1.png" /><a href="#">图片标题13</a></li>
+    <li><img src="img/2.png" /><a href="#">图片标题14</a></li>
+    <li><img src="img/3.png" /><a href="#">图片标题15</a></li>
+    <li><img src="img/4.png" /><a href="#">图片标题16</a></li>
+    <li><img src="img/5.png" /><a href="#">图片标题17</a></li>
+    <li><img src="img/6.jpg" /><a href="#">图片标题18</a></li>
+    <li><img src="img/7.png" /><a href="#">图片标题19</a></li>
+    <li><img src="img/8.jpg" /><a href="#">图片标题20</a></li>
+</ul>
+<div id="loadimg" class="loadwrap">加载中</div>
+<script type="text/javascript">
+    function flow(mh, mv) {//参数mh和mv是定义数据块之间的间距，mh是水平距离，mv是垂直距离
+        var w = document.documentElement.offsetWidth;//计算页面宽度
+        var ul = document.getElementById("flow-box");
+        var li = ul.getElementsByTagName("li");
+        var iw = li[0].offsetWidth + mh;//计算数据块的宽度
+        var c = Math.floor(w / iw);//计算列数
+        ul.style.width = iw * c - mh + "px";//设置ul的宽度至适合便可以利用css定义的margin把所有内容居中
+        ul.style.width = iw * c - mh + "px";//设置ul的宽度至适合便可以利用css定义的margin把所有内容居中
+
+        var liLen = li.length;
+        var lenArr = [];
+        for (var i = 0; i < liLen; i++) {//遍历每一个数据块将高度记入数组
+            lenArr.push(li[i].offsetHeight);
+        }
+        var oArr = [];
+        for (var i = 0; i < c; i++) {//把第一行排放好，并将每一列的高度记入数据oArr
+            li[i].style.top = "0";
+            li[i].style.left = iw * i + "px";
+            li[i].style.opacity = "1";
+            li[i].style["-moz-opacity"] = "1";
+            li[i].style["filter"] = "alpha(opacity=100)";
+            oArr.push(lenArr[i]);
+        }
+        document.getElementById("loadimg").style.top = _getMaxValue(oArr) + 50 + "px";//将loading移到下面
+        //获取数字数组的最大值
+        function _getMaxValue(arr) {
+            var a = arr[0];
+            for (var k in arr) {
+                if (arr[k] > a) {
+                    a = arr[k];
+                }
+            }
+            return a;
+        }
+        //获取数字数组最小值的索引
+        function _getMinKey(arr) {
+            var a = arr[0];
+            var b = 0;
+            for (var k in arr) {
+                if (arr[k] < a) {
+                    a = arr[k];
+                    b = k;
+                }
+            }
+            return b;
+        }
+    }
+    var re;
+    window.onload = function() {
+        clearTimeout(re);
+        re = setTimeout(function() {flow(10, 10);}, 200);
+    };
+</script>
+</body>
+</html>

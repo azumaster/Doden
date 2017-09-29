@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name='viewport' content='width=device-width,initial-scale=1.0,user-scalable=no'>
+    <meta name="renderer" content="webkit">
+	<title>订单</title>
+	<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+</head>
+<body>
+	<div id="container">
+		<div id="app"></div>
+	</div>
+</body>
+<script>
+	var version = '201607291012';
+	var brWidth = document.documentElement.clientWidth;
+	var brHeight = document.documentElement.clientHeight;
+	brWidth = brWidth>640?640:brWidth;
+	var size=brWidth/320*16;
+	document.getElementsByTagName("html")[0].style.fontSize=size+"px";
+	document.getElementsByTagName("html")[0].style.height=brHeight+"px";
+
+	var static_root = "__PUBLIC__";
+
+	function setCookie(name,value) {
+		var exp = new Date();
+		exp.setTime(exp.getTime() + 10*60*1000);
+		document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+	}
+
+	function getCookie(name)
+	{
+		var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+		if(arr=document.cookie.match(reg))
+			return unescape(arr[2]);
+		else
+			return null;
+	}
+
+	function staticChange(domain) {
+		var v = version || '201607291012',
+				pluginScript = document.createElement('script'),
+				bundleScript = document.createElement('script'),
+				pingpp = document.createElement('script');
+		pluginScript.type = 'application/javascript';
+		bundleScript.type = 'application/javascript';
+		pingpp.type = 'application/javascript';
+		pingpp.src = domain + 'buyer-cli/order/pingpp.js?v='+v;
+		document.body.appendChild(pingpp);
+		pluginScript.src = domain + 'buyer-cli/order/vendors.js?v='+v;
+		document.body.appendChild(pluginScript);
+		setTimeout(function() {
+			bundleScript.src = domain + 'buyer-cli/order/bundle.js?v='+v;
+			document.body.appendChild(bundleScript);
+		}, 200);
+	}
+
+	var domainUrl = '',
+			localhost = window.location.href.indexOf('test.m.zdongpin.com'),
+			imgSuccess = null,
+			static1 = 'http://img.idongpin.com/Public/',
+			static2 = 'http://cdn2.img.idongpin.com/Public/';
+	if( localhost != -1) {
+		static1 = 'http://test.m.zdongpin.com/Public/';
+	}
+
+	if(getCookie('domain')) {
+		domainUrl = getCookie('domain');
+		staticChange(domainUrl);
+	}else {
+		imgError = function() {  //图片没加载成功，启用备用cdn;
+			setCookie('domain', static2);
+			staticChange(static2);
+		};
+
+		imgSuccess = function() {
+			setCookie('domain', static1);
+			staticChange(static1);
+		};
+
+		var testImgDom = document.createElement('img');
+		testImgDom.src = static1 + 'images/test-connect.png';
+		testImgDom.width = 0;
+		testImgDom.height = 0;
+		testImgDom.onerror = imgError;
+		testImgDom.onload = imgSuccess;
+		document.body.appendChild(testImgDom);
+		//更新cookie;
+	}
+</script>
+</html>

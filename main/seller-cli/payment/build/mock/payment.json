@@ -1,0 +1,10 @@
+{
+  "code": 0,
+  "data": {
+    "cash": "1,022,942.00",
+    "ratio": 1,
+    "have_bank_card": 99,
+    "order_ids": [1, 2, 4, 5]
+  },
+  "message": "OK"
+}

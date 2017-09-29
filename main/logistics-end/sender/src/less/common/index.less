@@ -1,0 +1,190 @@
+/*
+公共样式
+------------------------------------------------------*/
+/*---基础样式---*/
+html{
+  height: 100%;
+  overflow: hidden;
+}
+body,div,section,canvas,p,h1,h2,h3,h4,h5,h6,ul,li {
+  margin: 0;
+  padding: 0
+}
+body{
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  height: 100%;
+  color: @color-text-primary;
+  font-size: @font-size-primary;
+  //font-family: 'Helvetica Neue', 'Microsoft Yahei', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, "\5fae\8f6f\96c5\9ed1";
+  background: @color-background;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+a,
+img,
+button,
+input[type=text],
+input[type=tel],
+input[type=password],
+input[type=number],
+textarea,
+span,
+i,
+address,
+div {
+  outline: none;
+  -webkit-tap-highlight-color:rgba(255,255,255,0);
+  -webkit-appearance: none;
+  border: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  .border-radius(0,0,0,0);
+  font-style: normal;
+  /*font-family: "微软雅黑";*/
+  -webkit-text-size-adjust:none;
+  background-color: transparent;
+}
+input[type=checkbox] {
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255,255,255,0);
+  border: 1px solid #868686;
+  width: 16px;
+  height: 16px;
+  .border-radius(2px,2px,2px,2px);
+  margin-right: 3px;
+  background-color: transparent;
+}
+
+ul,ol,li {
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: @color-text-primary;
+  font-style: normal;
+}
+.select {
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255,255,255,0);
+  -webkit-appearance: none;
+}
+.cls:after{
+  content:".";
+  display:block;
+  height:0;
+  clear:both;
+  visibility:hidden;
+}
+
+//flex布局;
+.flex-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  &.center {
+    .align-items-center();
+  }
+  &.flex-end {
+    .align-items-end();
+  }
+  &.align-items-stretch {
+    .align-items-stretch();
+  }
+  &.direction-row {
+    .flex-direction-row();
+  }
+  &.direction-column {
+    .flex-direction-column();
+  }
+  &.wrap-wrap{
+    .flex-wrap-wrap();
+  }
+}
+.flex-num1 {
+  .flex-num();
+  &.center {
+    text-align: center;
+  }
+  span {
+    &.flex-hd {
+      display: block;
+    }
+
+    font-size: @font-size-primary*0.8;
+  }
+}
+
+/*
+----------------wrapper
+*/
+#wrapper {
+  .wrapper();
+}
+.scroller{
+  position: absolute;
+  z-index: 2;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  width: 100%;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/*公用颜色区*/
+.orange{
+  color: @base-color-orange;
+}
+
+//删除图标按钮;
+.del-icon {
+  @color: @text-color-light;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border: 2px solid @color;
+  .border-radius(50%);
+  &:before {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 2px;
+    background-color: @color;
+    position: absolute;
+    left: 3px;
+    top: 9px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  &:after {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 2px;
+    background-color: @color;
+    position: absolute;
+    left: 3px;
+    top: 9px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}

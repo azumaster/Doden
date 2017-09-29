@@ -1,0 +1,13 @@
+{
+  "status": 0,
+  "message": "ok",
+  "signPackage": {
+    "appId": "wxdfd8ecdd1ae6f5f1",
+    "nonceStr": "DlHOmB1lUgu4mn01",
+    "timestamp": 1503455355,
+    "url": "http://test.m.zdongpin.com/index.php?m=PublicTemplate&c=ApiPublic&a=addGoodsPage",
+    "signature": "d6bdffe9a9a0f546f65f1034ed8a15d051925ce1",
+    "rawString": "jsapi_ticket=kgt8ON7yVITDhtdwci0qef-5GBSBxAWHpYiM04COEOcuocbg-VHw55bcgcSfg0EWkuxtY7aABwMmfDKG8YsWjw&noncestr=DlHOmB1lUgu4mn01×tamp=1503455355&url=http://test.m.zdongpin.com/index.php?m=PublicTemplate&c=ApiPublic&a=addGoodsPage",
+    "jsapiTicket": "kgt8ON7yVITDhtdwci0qef-5GBSBxAWHpYiM04COEOcuocbg-VHw55bcgcSfg0EWkuxtY7aABwMmfDKG8YsWjw"
+  }
+}

@@ -1,0 +1,130 @@
+@charset "utf-8";
+@import "common/normalize";
+@import "common/loading";
+@import "common/dialog";
+
+@bodyBg: #C6F2F7;
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background: @bodyBg;
+	font-family: "Microsoft YaHei";
+	font-size: 0.8rem;
+}
+
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+.section-tabs {
+	@p: 5px;
+	@bg: #b5b5b5;
+	margin-top: @p;
+	a {
+		display: inline-block;
+		padding: @p @p*2;
+		margin: 0 0 0 @p;
+		background: @bg;
+		color: #fff;
+		&.on {
+			background: #404040;
+		}
+	}
+}
+.section-tabContent {
+	@h: 10px;
+	padding: @h/2;
+	.thead {
+		background: #404040;
+		span {
+			display: inline-block;
+			width: 24%;
+			padding: 0.2rem 0;
+			text-align: center;
+			color: #929292;
+		}
+	}
+	.section-table-w {
+		@borderColor: #666;
+		@bg: #333;
+		// background: @bg;
+		.table {
+			width: 100%;
+			// border: 1px solid @borderColor;
+			
+			tr {
+				border-bottom: 1px solid @borderColor;
+				background: @bg;
+				&:last-child {
+					border: none;
+				}
+				td {
+					border-left: 1px solid @borderColor;
+					&:last-child {
+						background: lighten(@bg, 10%);
+					}
+					&.order-time {
+						background: @bg;
+					}
+				}
+			}
+			tr.hr {
+				border-left: none;
+				td {
+					background: @bodyBg;
+					border: none;
+				}
+			}
+			tr.disabled {
+				@disColor: #525252;
+				td {
+					color: @disColor;
+				}
+				a {
+					color: lighten(@disColor, 5%);
+				}
+			}
+			tr.bg-light {
+				background: lighten(@bg, 10%);
+				td {
+					background: lighten(@bg, 13%);
+				}
+			}
+			tr.disabled.bg-light {
+				@disColor: #525252;
+				td {
+					color: lighten(@disColor, 13%);
+				}
+				a {
+					color: lighten(@disColor, 13%);
+				}
+			}
+			td {
+				padding: 0;
+				text-align: center;
+				color: #eee;
+			}
+		}
+
+		.phone-icon {
+			display: inline-block;
+			padding: 0.3rem;
+			padding-right: 1.5rem;
+			background: url('../images/phone.png') no-repeat 95% center;
+			background-size: 20px;
+			color: #eee;
+		}
+		.btn {
+			color: #b7b7b7;
+			display: block;
+			height: 100%;
+			width: 100%;
+			padding: 0.8rem 0;
+			background: lighten(@bg, 10%);
+			border: none;
+		}
+	}
+}

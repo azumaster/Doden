@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "data": {
+    "price_rules": [
+      {
+        "price_rule_id":1,
+        "rules":[
+          {
+            "buy_num":10,
+            "preferential_value":200,
+            "preferential_unit":"元"
+          }
+        ]
+      }
+    ]
+  },
+  "message": "OK"
+}

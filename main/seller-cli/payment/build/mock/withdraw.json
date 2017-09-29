@@ -1,0 +1,73 @@
+{
+  "code": 0,
+  "data": {
+    "total": 4,
+    "per_page": "10",
+    "current_page": 1,
+    "last_page": 1,
+    "next_page_url": null,
+    "prev_page_url": null,
+    "from": 1,
+    "to": 4,
+    "data": [
+      {
+        "withDrawMoney": "185.00",
+        "withDrawTime": "2016-04-02 17:54:02",
+        "allOrder": 8,
+        "withDrawInfo": [
+          {
+            "buyName": "顺毅海鲜商行",
+            "orderMoney": "1.01",
+            "goodsNum": 2,
+            "goodsInfo": [
+              {
+                "goodsName": "切蟹",
+                "num": 2,
+                "specification": "1.4*12"
+              },
+              {
+                "goodsName": "切蟹",
+                "num": 2,
+                "specification": "1.4*12"
+              }
+            ],
+            "sendOutTime": "2017-08-04 22:22:22"
+          },{
+            "buyName": "顺毅海鲜商行",
+            "goodsNum": 2,
+            "orderMoney": "18.5",
+            "goodsInfo": [
+              {
+                "goodsName": "切蟹",
+                "num": 2,
+                "specification": "1.4*12"
+              }
+            ],
+            "sendOutTime": "2017-08-01 22:22:22"
+          }
+        ]
+      },{
+        "withDrawMoney": "440.00",
+        "withDrawTime": "2016-04-02 17:54:02",
+        "allOrder": 8,
+        "withDrawInfo": [
+          {
+            "buyName": "顺毅海鲜商行",
+            "goodsNum": 2,
+            "orderMoney": "18.5",
+            "goodsInfo": [
+              {
+                "goodsName": "切蟹",
+                "num": 2,
+                "specification": "1.4*12"
+              }
+            ],
+            "sendOutTime": "2017-08-04 22:22:22"
+          }
+        ]
+      }
+    ],
+    "allMoney": "31092.00"
+  },
+  "message": "OK"
+}

@@ -1,0 +1,43 @@
+{
+    "code":0,
+    "data":{
+        "page":2,
+        "total":25,
+        "appraise_infos":[
+            {
+                "appraise_id":8,
+                "order_goods_id":3,
+                "sub_order_no":"128lskdfjlfjsg-0",
+                "create_time":"2016-02-03 13:01:01",
+                "quality":2,
+                "content":"评价内容",
+                "buyer_infos":{
+                    "market":"绵阳",
+                    "shop_name":"店铺名",
+                    "name":"姓名",
+                    "phone":"13456789662"
+                },
+                "goods_infos":{
+                    "id":84,
+                    "name":"商品名称",
+                    "price":25.10,
+                    "buy_number":4,
+                    "unit":"件",
+                    "total_price":100.40
+                },
+                "sell_infos":{
+                    "shop_id":2,
+                    "shop_name":"食品盒子",
+                    "name":"王大",
+                    "phone":"12909098011"
+                },
+                "order_appraise":{
+                    "sell_service":4,
+                    "delivery_speed":3,
+                    "service_platform":5
+                }
+            }
+        ]
+    },
+    "message":"ok"
+}

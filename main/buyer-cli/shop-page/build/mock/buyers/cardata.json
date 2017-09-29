@@ -1,0 +1,10 @@
+{
+  "code" : 0,
+  "message" : "OK",
+  "data" : {
+    "goods_count" : 2,
+    "goods_total_price" : 458.10,
+    "diamond_num" : 30,
+    "preferential_price" : 1.3
+  }
+}

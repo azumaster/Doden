@@ -1,0 +1,156 @@
+{
+  "code": 0,
+  "data": {
+    "shops": [
+      {
+        "level": 1,
+        "name": "豪大大鸡排",
+        "goods_num": 17,
+        "id": 11772,
+        "market_name": "青白江",
+        "sell_num": "15",
+        "main_business":"主营业务",
+        "goods":[
+          {
+            "id": 3988,
+            "title": "好邦石羊琵琶腿",
+            "pic": "Public/goods2.png",
+            "price": 13.5,
+            "price_rules":[
+              {
+                "rule_type":"赠",
+                "max_preferential":"1件"
+              },
+              {
+                "rule_type":"减",
+                "max_preferential":"5元"
+              }
+            ]
+          },
+          {
+            "id": 3988,
+            "title": "好邦石羊琵琶腿",
+            "pic": "Public/goods1.jpg",
+            "price": 13.5,
+            "price_rules":[
+              {
+                "rule_type":"赠",
+                "max_preferential":"1件"
+              },
+              {
+                "rule_type":"减",
+                "max_preferential":"15元"
+              }
+            ]
+          },
+          {
+            "id": 3988,
+            "title": "好邦石羊琵琶腿",
+            "pic": "Public/goods1.jpg",
+            "price": 15.5,
+            "price_rules":[
+              {
+                "rule_type":"赠",
+                "max_preferential":"1件"
+              },
+              {
+                "rule_type":"减",
+                "max_preferential":"21元"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "name": "廖记棒棒鸡",
+        "goods_num": 21,
+        "id": 11772,
+        "market_name": "海霸王",
+        "sell_num": "0",
+        "main_business":"主营业务",
+        "goods":[
+          {
+            "id": 3988,
+            "title": "好邦石羊琵琶腿",
+            "pic": "Public/goods1.jpg",
+            "price": 13.5,
+            "price_rules":[
+              {
+                "rule_type":"赠",
+                "max_preferential":"1件"
+              },
+              {
+                "rule_type":"减",
+                "max_preferential":"5元"
+              }
+            ]
+          },
+          {
+            "id": 3988,
+            "title": "好邦石羊琵琶腿",
+            "pic": "Public/goods1.jpg",
+            "price": 13.5,
+            "price_rules":[
+              {
+                "rule_type":"赠",
+                "max_preferential":"1件"
+              },
+              {
+                "rule_type":"减",
+                "max_preferential":"15元"
+              }
+            ]
+          }
+        ]
+      },{
+        "level": 3,
+        "name": "赖串串",
+        "goods_num": 1,
+        "id": 11772,
+        "market_name": "白家市场",
+        "sell_num": "15",
+        "main_business":"主营业务",
+        "goods":[
+          {
+            "id": 3988,
+            "title": "好邦石羊琵琶腿",
+            "pic": "Public/goods1.jpg",
+            "price": 13.5,
+            "price_rules":[
+              {
+                "rule_type":"赠",
+                "max_preferential":"1件"
+              },
+              {
+                "rule_type":"减",
+                "max_preferential":"5元"
+              }
+            ]
+          },
+          {
+            "id": 3988,
+            "title": "好邦石羊琵琶腿",
+            "pic": "Public/goods1.jpg",
+            "price": 13.5,
+            "price_rules":[
+              {
+                "rule_type":"赠",
+                "max_preferential":"1件"
+              },
+              {
+                "rule_type":"减",
+                "max_preferential":"15元"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page_all": 1,
+    "page": 1,
+    "size": 20,
+    "total": 4
+  },
+  "message": "OK"
+}

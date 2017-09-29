@@ -1,0 +1,22 @@
+.star-wrap {
+  display: inline-block;
+  .score-level {
+    display: inline-block;
+    &:before {
+      content: '\e602';
+      .icon-font;
+      color: #e7e7e7;
+      font-size: 16px;
+    }
+    &.has {
+      &:before {
+        color: #fdc500;
+      }
+    }
+    &.active {
+      &:before {
+        color: #fdc500;
+      }
+    }
+  }
+}

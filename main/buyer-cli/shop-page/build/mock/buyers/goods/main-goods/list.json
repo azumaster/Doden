@@ -1,0 +1,168 @@
+{
+  "code": 0,
+  "data": {
+    "total": 20,
+    "page": 1,
+    "is_registered": true,
+    "is_boss": false,
+    "goods": [
+      {
+        "goods_id": 15927,
+        "goods_category_id": 212,
+        "goods_title": "渝源小鸭熟鸭肠，2板装，清真食品",
+        "goods_price": "0.00",
+        "sell_num": 1,
+        "goods_image": "Public/Uploads/goodsimg/20160602/12350800_1464856460_iDH.jpg",
+        "is_expired": true,
+        "is_oftenbuy": false
+      },
+      {
+        "goods_id": 312,
+        "goods_category_id": 212,
+        "goods_title": "宏泰 去油熟鸭肠，小鸭子，2板装",
+        "goods_price": "0.00",
+        "sell_num": 8,
+        "goods_image": "Public/Uploads/goodsimg/20160324/19955400_1458802605.jpg",
+        "is_expired": true,
+        "is_oftenbuy": false,
+        "price_rules":[
+          {
+            "rule_type":"赠",
+            "max_preferential":50
+          }
+        ]
+      },
+      {
+        "goods_id": 12535,
+        "goods_category_id": 6,
+        "goods_title": "正先单冻鸡大胸，220克以上，清真食品",
+        "goods_price": "0.00",
+        "sell_num": 30,
+        "goods_image": "Public/Uploads/goodsimg/20160407/75172500_1459998799.jpg",
+        "is_expired": true,
+        "is_oftenbuy": false
+      },
+      {
+        "goods_id": 16267,
+        "goods_category_id": 195,
+        "goods_title": "山河鸡翅尖大号，每件10袋，少量有血",
+        "goods_price": "0.00",
+        "sell_num": 105,
+        "goods_image": "Public/Uploads/goodsimg/20160803/29388200_1470192862.jpg",
+        "is_expired": true,
+        "is_oftenbuy": false
+      },
+      {
+        "goods_id": 12534,
+        "goods_category_id": 195,
+        "goods_title": "正先大号鸡翅尖，每件10袋，清真食品",
+        "goods_price": "0.00",
+        "sell_num": 40,
+        "goods_image": "Public/Uploads/goodsimg/20161021/55763600_1477010248.jpg",
+        "is_expired": true,
+        "is_oftenbuy": false
+      },
+      {
+        "goods_id": 14978,
+        "goods_category_id": 306,
+        "goods_title": "正先鸡皮 带油胸皮，清真食品 每件10板",
+        "goods_price": "0.00",
+        "sell_num": 38,
+        "goods_image": "Public/Uploads/goodsimg/20160517/49846900_1463474537.jpg",
+        "is_expired": true,
+        "is_oftenbuy": false
+      },
+      {
+        "goods_id": 12533,
+        "goods_category_id": 347,
+        "goods_title": "正先 鸡胗大号。去把鸡菌肝，每件10袋",
+        "goods_price": "0.00",
+        "sell_num": 1,
+        "goods_image": "Public/Uploads/goodsimg/20160407/84532600_1459998471.jpg",
+        "is_expired": true,
+        "is_oftenbuy": false
+      },
+      {
+        "goods_id": 11644,
+        "goods_category_id": 347,
+        "goods_title": "梦伊清单冻鸡胗小号，每件10袋，清真食品",
+        "goods_price": "0.00",
+        "sell_num": 1,
+        "goods_image": "Public/Uploads/goodsimg/20160323/84645900_1458714905.jpg",
+        "is_expired": true,
+        "is_oftenbuy": false
+      },
+      {
+        "goods_id": 12529,
+        "goods_category_id": 349,
+        "goods_title": "正先鸡凤肚，鸡嗉子，熟鸡肚，每件10袋",
+        "goods_price": "0.00",
+        "sell_num": 64,
+        "goods_image": "Public/Uploads/newgoodsimg/20161026/14774665628783.jpg",
+        "is_expired": true,
+        "is_oftenbuy": false
+      },
+      {
+        "goods_id": 18715,
+        "goods_category_id": 75,
+        "goods_title": "恒泰盛老鸡边腿，每件7个左右，清真食品",
+        "goods_price": "0.00",
+        "sell_num": 0,
+        "goods_image": "Public/Uploads/goodsimg/20160725/25772600_1469413963_41o.jpg",
+        "is_expired": true,
+        "is_oftenbuy": false
+      },
+      {
+        "goods_id": 18421,
+        "goods_category_id": 78,
+        "goods_title": "正先琵琶腿100-120克，清真食品，每件10kg",
+        "goods_price": "0.00",
+        "sell_num": 0,
+        "goods_image": "Public/Uploads/goodsimg/20160719/79536600_1468890303_gR5.jpg",
+        "is_expired": true,
+        "is_oftenbuy": false
+      },
+      {
+        "goods_id": 20826,
+        "goods_category_id": 215,
+        "goods_title": "伊穆斋 黄焖鸡专用鸡腿块，中号个头",
+        "goods_price": "0.00",
+        "sell_num": 10,
+        "goods_image": "Public/Uploads/goodsimg/20160910/86062800_1473471264_Zdg.jpg",
+        "is_expired": true,
+        "is_oftenbuy": false
+      },
+      {
+        "goods_id": 18420,
+        "goods_category_id": 78,
+        "goods_title": "正先琵琶腿120-130克，清真食品，每件10kg",
+        "goods_price": "0.00",
+        "sell_num": 0,
+        "goods_image": "Public/Uploads/goodsimg/20160719/73201200_1468890173_dLo.jpg",
+        "is_expired": true,
+        "is_oftenbuy": false
+      },
+      {
+        "goods_id": 20825,
+        "goods_category_id": 215,
+        "goods_title": "伊穆斋 黄焖鸡专用鸡腿块中号，清真，每件4袋",
+        "goods_price": "0.00",
+        "sell_num": 0,
+        "goods_image": "Public/Uploads/goodsimg/20160910/30213900_1473471180_HWa.jpg",
+        "is_expired": true,
+        "is_oftenbuy": false
+      },
+      {
+        "goods_id": 17634,
+        "goods_category_id": 78,
+        "goods_title": "正先琵琶腿120-130克，清真食品，每件10kg",
+        "goods_price": "0.00",
+        "sell_num": 29,
+        "goods_image": "Public/Uploads/goodsimg/20160706/92174500_1467797057_PH9.jpg",
+        "is_expired": true,
+        "is_oftenbuy": false
+      }
+    ]
+  },
+  "message": "OK"
+}

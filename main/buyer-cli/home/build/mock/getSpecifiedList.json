@@ -1,0 +1,544 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "id": 23,
+      "name": "兔副",
+      "sale_goods_num": 12,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 35,
+          "name": "兔头",
+          "sale_goods_num": 9,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 39,
+          "name": "兔尾",
+          "sale_goods_num": 1,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 41,
+          "name": "兔肚",
+          "sale_goods_num": 2,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "鸡副",
+      "sale_goods_num": 9,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 12,
+          "name": "鸡胸",
+          "sale_goods_num": 3,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 16,
+          "name": "掌中宝",
+          "sale_goods_num": 1,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 19,
+          "name": "鸡脖",
+          "sale_goods_num": 1,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 17,
+          "name": "鸡头",
+          "sale_goods_num": 4,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "猪副",
+      "sale_goods_num": 16,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 32,
+          "name": "猪头",
+          "sale_goods_num": 11,
+          "pic_url": "Public/Uploads/goodsTypeIcon/14804037711247.jpg"
+        },
+        {
+          "id": 43,
+          "name": "猪尾",
+          "sale_goods_num": 4,
+          "pic_url": "Public/goods1.jpg"
+        },
+        {
+          "id": 45,
+          "name": "猪腿",
+          "sale_goods_num": 1,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "鸭副",
+      "sale_goods_num": 33,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 30,
+          "name": "鸭子",
+          "sale_goods_num": 33,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "鸭副",
+      "sale_goods_num": 33,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 30,
+          "name": "鸭子",
+          "sale_goods_num": 33,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "鸭副",
+      "sale_goods_num": 33,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 30,
+          "name": "鸭子",
+          "sale_goods_num": 33,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "鸭副",
+      "sale_goods_num": 33,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 30,
+          "name": "鸭子",
+          "sale_goods_num": 33,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "鸭副",
+      "sale_goods_num": 33,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 30,
+          "name": "鸭子",
+          "sale_goods_num": 33,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "鸭副",
+      "sale_goods_num": 33,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 30,
+          "name": "鸭子",
+          "sale_goods_num": 33,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "鸭副",
+      "sale_goods_num": 33,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 30,
+          "name": "鸭子",
+          "sale_goods_num": 33,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "鸭副",
+      "sale_goods_num": 33,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 30,
+          "name": "鸭子",
+          "sale_goods_num": 33,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "鸭副",
+      "sale_goods_num": 33,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 30,
+          "name": "鸭子",
+          "sale_goods_num": 33,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "鸭副",
+      "sale_goods_num": 33,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 30,
+          "name": "鸭子",
+          "sale_goods_num": 33,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "鸭副",
+      "sale_goods_num": 33,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 30,
+          "name": "鸭子",
+          "sale_goods_num": 33,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "鸭副",
+      "sale_goods_num": 33,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 30,
+          "name": "鸭子",
+          "sale_goods_num": 33,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "鸭副",
+      "sale_goods_num": 33,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 30,
+          "name": "鸭子",
+          "sale_goods_num": 33,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "鸭副",
+      "sale_goods_num": 33,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 30,
+          "name": "鸭子",
+          "sale_goods_num": 33,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "鸭副",
+      "sale_goods_num": 33,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 30,
+          "name": "鸭子",
+          "sale_goods_num": 33,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "鸭副",
+      "sale_goods_num": 33,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 30,
+          "name": "鸭子",
+          "sale_goods_num": 33,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "鸭副",
+      "sale_goods_num": 33,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 30,
+          "name": "鸭子",
+          "sale_goods_num": 33,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "鸭副",
+      "sale_goods_num": 33,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 30,
+          "name": "鸭子",
+          "sale_goods_num": 33,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "鸭副",
+      "sale_goods_num": 33,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 30,
+          "name": "鸭子",
+          "sale_goods_num": 33,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "鸭副",
+      "sale_goods_num": 33,
+      "pic_url": "Public/goods1.jpg",
+      "children": [
+        {
+          "id": 30,
+          "name": "鸭子",
+          "sale_goods_num": 33,
+          "pic_url": "Public/goods1.jpg"
+        }
+      ]
+    }
+  ],
+  "message": "OK"
+}

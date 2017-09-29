@@ -1,0 +1,95 @@
+.mask{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1000;
+  background: rgba(0, 0, 0, .8);
+  top: 0;
+}
+.mask .dialog{
+  width: 100%;
+  position: fixed;
+  bottom: -100%;
+  background: #ffffff;
+  transition: bottom .3s linear;
+}
+.mask .dialog.active{
+  bottom: 0;
+  transition: bottom .3s linear;
+}
+.mask .dialog-title{
+  height: 45px;
+  line-height: 45px;
+  margin: 0 14px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e4e5e9;
+  font-size: 17px;
+  color: #333333;
+  text-align: center;
+}
+.mask .dialog-body{
+  margin: 25px 14px;
+  box-sizing: border-box;
+}
+.mask .dialog-body textarea{
+  width: 100%;
+  box-sizing: border-box;
+  height: 140px;
+  padding: 10px;
+  outline:none;
+  border-radius: 4px;
+  border: 1px solid #e4e4e4;
+  resize: none;
+}
+.mask .dialog-body .notice{
+  font-size: 12px;
+  color: #666666;
+  line-height: 30px;
+  text-align: center;
+}
+.mask .dialog-body .dialog-item{
+  display: flex;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #e4e4e4;
+}
+.mask .dialog-body .dialog-item .dialog-tag{
+  color: #999999;
+  font-size: 14px;
+  flex:1;
+}
+.mask .dialog-body .dialog-item .dialog-form{
+  flex: 3;
+  width: 100%;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.mask .dialog-body .dialog-item .dialog-form input{
+  height: 30px;
+  width: 90%;
+  box-sizing: border-box;
+  line-height: 30px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+.mask .dialog-footer{
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+.mask .dialog-footer .dialog-btn{
+  flex: 1;
+  text-align: center;
+  line-height: 50px;
+  font-size: 17px;
+}
+.mask .dialog-footer .dialog-btn.dialog-cancel{
+  background: #f5f5f5;
+  color: #5d5f6a;
+}
+.mask .dialog-footer .dialog-btn.dialog-submit{
+  background: #1498fc;
+  color: #ffffff;
+}

@@ -1,0 +1,332 @@
+{
+  "code": 0,
+  "data": {
+    "total": 31,
+    "goods_num": 145,
+    "delivery_infos": [
+      {
+        "delivery_date": "2016-08-12",
+        "seller": {
+          "seller_id": 1354,
+          "seller_name": "测试嘻嘻",
+          "shop_address": "123456789",
+          "seller_tel": "13679005214"
+        },
+        "orders": [
+          {
+            "goods_infos": {
+              "goods_id": 1757,
+              "goods_name": "几次",
+              "goods_brand": "厚",
+              "goods_guigei": "2",
+              "fromsell_num": 1
+            },
+            "order": {
+              "buy_num": 1
+            },
+            "purchase": 1
+          },
+          {
+            "goods_infos": {
+              "goods_id": 1756,
+              "goods_name": "发给",
+              "goods_brand": "仿古",
+              "goods_guigei": "55"
+            },
+            "order": {
+              "buy_num": 1
+            }
+          },
+          {
+            "goods_infos": {
+              "goods_id": 1772,
+              "goods_name": "顶替要",
+              "goods_brand": "枯休",
+              "goods_guigei": "55"
+            },
+            "order": {
+              "buy_num": 1
+            }
+          },
+          {
+            "goods_infos": {
+              "goods_id": 1770,
+              "goods_name": "枯人人",
+              "goods_brand": "顶替要",
+              "goods_guigei": "44"
+            },
+            "order": {
+              "buy_num": 1
+            }
+          },
+          {
+            "goods_infos": {
+              "goods_id": 1759,
+              "goods_name": "风格胡",
+              "goods_brand": "好就空间",
+              "goods_guigei": "46"
+            },
+            "order": {
+              "buy_num": 1
+            }
+          },
+          {
+            "goods_infos": {
+              "goods_id": 1754,
+              "goods_name": "厅厅",
+              "goods_brand": "枯枯",
+              "goods_guigei": "22"
+            },
+            "order": {
+              "buy_num": 1
+            }
+          }
+        ]
+      },
+      {
+        "delivery_date": "2016-08-12",
+        "seller": {
+          "seller_id": 1337,
+          "seller_name": "测试-张工",
+          "shop_address": "海霸王8区28号R",
+          "seller_tel": "13258585858"
+        },
+        "orders": [
+          {
+            "goods_infos": {
+              "goods_id": 0,
+              "goods_name": "冻品物流配送费",
+              "goods_brand": "运费",
+              "goods_guigei": "运费"
+            },
+            "order": {
+              "buy_num": 3
+            }
+          },
+          {
+            "goods_infos": {
+              "goods_id": 1782,
+              "goods_name": "大胸肉",
+              "goods_brand": "882",
+              "goods_guigei": "555"
+            },
+            "order": {
+              "buy_num": 2
+            }
+          }
+        ]
+      },
+      {
+        "delivery_date": "2016-08-13",
+        "seller": {
+          "seller_id": 1337,
+          "seller_name": "测试-张工",
+          "shop_address": "海霸王8区28号R",
+          "seller_tel": "13258585858"
+        },
+        "orders": [
+          {
+            "goods_infos": {
+              "goods_id": 1809,
+              "goods_name": "开年了",
+              "goods_brand": "叫我",
+              "goods_guigei": "56"
+            },
+            "order": {
+              "buy_num": 1
+            }
+          },
+          {
+            "goods_infos": {
+              "goods_id": 0,
+              "goods_name": "冻品物流配送费",
+              "goods_brand": "运费",
+              "goods_guigei": "运费"
+            },
+            "order": {
+              "buy_num": 1
+            }
+          }
+        ]
+      },
+      {
+        "delivery_date": "2016-08-14",
+        "seller": {
+          "seller_id": 1354,
+          "seller_name": "测试嘻嘻",
+          "shop_address": "123456789",
+          "seller_tel": "13679005214"
+        },
+        "orders": [
+          {
+            "goods_infos": {
+              "goods_id": 1756,
+              "goods_name": "发给",
+              "goods_brand": "仿古",
+              "goods_guigei": "55"
+            },
+            "order": {
+              "buy_num": 1
+            }
+          },
+          {
+            "goods_infos": {
+              "goods_id": 1772,
+              "goods_name": "顶替要",
+              "goods_brand": "枯休",
+              "goods_guigei": "55"
+            },
+            "order": {
+              "buy_num": 1
+            }
+          }
+        ]
+      },
+      {
+        "delivery_date": "2016-08-14",
+        "seller": {
+          "seller_id": 1337,
+          "seller_name": "测试-张工",
+          "shop_address": "海霸王8区28号R",
+          "seller_tel": "13258585858"
+        },
+        "orders": [
+          {
+            "goods_infos": {
+              "goods_id": 0,
+              "goods_name": "冻品物流配送费",
+              "goods_brand": "运费",
+              "goods_guigei": "运费"
+            },
+            "order": {
+              "buy_num": 1
+            }
+          }
+        ]
+      },
+      {
+        "delivery_date": "2016-08-16",
+        "seller": {
+          "seller_id": 1337,
+          "seller_name": "测试-张工",
+          "shop_address": "海霸王8区28号R",
+          "seller_tel": "13258585858"
+        },
+        "orders": [
+          {
+            "goods_infos": {
+              "goods_id": 1809,
+              "goods_name": "开年了",
+              "goods_brand": "叫我",
+              "goods_guigei": "56"
+            },
+            "order": {
+              "buy_num": 2
+            }
+          },
+          {
+            "goods_infos": {
+              "goods_id": 1782,
+              "goods_name": "大胸肉",
+              "goods_brand": "882",
+              "goods_guigei": "555"
+            },
+            "order": {
+              "buy_num": 2
+            }
+          },
+          {
+            "goods_infos": {
+              "goods_id": 0,
+              "goods_name": "冻品物流配送费",
+              "goods_brand": "运费",
+              "goods_guigei": "运费"
+            },
+            "order": {
+              "buy_num": 2
+            }
+          }
+        ]
+      },
+      {
+        "delivery_date": "2016-08-16",
+        "seller": {
+          "seller_id": 1354,
+          "seller_name": "测试嘻嘻",
+          "shop_address": "123456789",
+          "seller_tel": "13679005214"
+        },
+        "orders": [
+          {
+            "goods_infos": {
+              "goods_id": 1757,
+              "goods_name": "几次",
+              "goods_brand": "厚",
+              "goods_guigei": "2"
+            },
+            "order": {
+              "buy_num": 2
+            }
+          },
+          {
+            "goods_infos": {
+              "goods_id": 1756,
+              "goods_name": "发给",
+              "goods_brand": "仿古",
+              "goods_guigei": "55"
+            },
+            "order": {
+              "buy_num": 2
+            }
+          },
+          {
+            "goods_infos": {
+              "goods_id": 1772,
+              "goods_name": "顶替要",
+              "goods_brand": "枯休",
+              "goods_guigei": "55"
+            },
+            "order": {
+              "buy_num": 2
+            }
+          },
+          {
+            "goods_infos": {
+              "goods_id": 1770,
+              "goods_name": "枯人人",
+              "goods_brand": "顶替要",
+              "goods_guigei": "44"
+            },
+            "order": {
+              "buy_num": 1
+            }
+          },
+          {
+            "goods_infos": {
+              "goods_id": 1759,
+              "goods_name": "风格胡",
+              "goods_brand": "好就空间",
+              "goods_guigei": "46"
+            },
+            "order": {
+              "buy_num": 1
+            }
+          },
+          {
+            "goods_infos": {
+              "goods_id": 1754,
+              "goods_name": "厅厅",
+              "goods_brand": "枯枯",
+              "goods_guigei": "22"
+            },
+            "order": {
+              "buy_num": 1
+            }
+          }
+        ]
+      }
+    ],
+    "page": 1
+  },
+  "message": "OK"
+}

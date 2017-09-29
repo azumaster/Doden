@@ -1,0 +1,38 @@
+{
+  "status": 0,
+  "message": "ok",
+  "data": {
+    "articleTitleInfo": [
+      {
+        "id": "17",
+        "typeid": "3",
+        "article_title": "第一张Banner",
+        "article_link": "",
+        "submitter": "不知道",
+        "addtime": "2016-01-07 13:44:14",
+        "cover_pic": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=516868308,668263807&fm=26&gp=0.jpg",
+        "article_state": "2"
+      },
+      {
+        "id": "18",
+        "typeid": "7",
+        "article_title": "第二张Banner",
+        "article_link": "",
+        "submitter": "a",
+        "addtime": "2016-01-15 15:18:21",
+        "cover_pic": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1502943094018&di=06251be7ebbf67560d9222636558914f&imgtype=0&src=http%3A%2F%2Fimage.tianjimedia.com%2FuploadImages%2F2015%2F086%2F05%2FE256RP04Z818_26.jpg",
+        "article_state": "2"
+      },
+      {
+        "id": "20",
+        "typeid": "4",
+        "article_title": "第三张Banner",
+        "article_link": "http://www.baidu.com",
+        "submitter": "第三方",
+        "addtime": "2016-10-25 11:26:09",
+        "cover_pic": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1502943123109&di=de7c8a0657dd912f40da4524f7e02605&imgtype=0&src=http%3A%2F%2Fimg.leikeji.com%2Fresource%2Fimg%2Fdd9a6bacd464492f90f2ace3b09b5605.jpg",
+        "article_state": "2"
+      }
+    ]
+  }
+}

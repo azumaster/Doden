@@ -1,0 +1,82 @@
+//商品;
+.product-list {
+  background-color: #fff;
+}
+.goods-list {
+  padding: @box-bottom @box-left @box-left @box-left;
+  border-bottom: 1px solid @border-color-default;
+  .goods-img {
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+    margin-right: @box-right;
+    .border-radius(5px);
+    position: relative;
+    img {
+      width: 100%;
+    }
+    .pic-num {
+      font-size: 10px;
+      position: absolute;
+      padding: 3px 10px;
+      background-color: rgba(31, 30, 36, 0.8);
+      color: #fff;
+      bottom: 0;
+      right: 0;
+      .border-radius(10px,0,0,0);
+    }
+  }
+  .goods-title {
+    height: 32px;
+    overflow: hidden;
+  }
+  .price {
+    height: 18px;
+    margin-top: 7px;
+    color: @base-color-grey;
+    .color-orange {
+      margin-right: 10px;
+    }
+  }
+  .time {
+    font-size: 12px;
+    color: @base-color-grey;
+    height: 16px;
+  }
+  .btn-wrap {
+    margin-top: 5px;
+  }
+  .collection {
+    text-align: right;
+    a {
+      padding: 5px 0 5px 5px;
+    }
+    .not {
+      &:after {
+        content: '\e601';
+        .icon-font;
+        font-size: 23px;
+        color: #a6a6a6;
+        line-height: 30px;
+      }
+    }
+    .has {
+      &:after {
+        content: '\e600';
+        .icon-font;
+        font-size: 23px;
+        color: @base-color-orange;
+        line-height: 30px;
+      }
+    }
+  }
+  @media (max-width: 340px) {
+    .goods-img {
+      width: 107px;
+      height: 107px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

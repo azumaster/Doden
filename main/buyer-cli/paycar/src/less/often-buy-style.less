@@ -1,0 +1,88 @@
+@charset "utf-8";
+@import "common/normalize";
+@import "common/variable";
+@import "common/component";
+@import "common/pull";
+@import "common/loading";
+@import "common/dialog";
+
+.search-bar {
+	padding: 5px @box-left;
+	.search-words {
+		padding-left: 35px;
+		background-color: #fff;
+		.border-radius(5px, 0, 0, 5px);
+		position: relative;
+		input {
+			width: 100%;
+			height: 35px;
+			font-size: @font-size-medium;
+		}
+		&:before {
+			content: '\e607';
+			position: absolute;
+			font-size: 20px;
+			left: 8px;
+			top: 4px;
+			font-family: 'iconfont';
+			color: rgba(0, 0, 0, 0.32);
+		}
+	}
+	.search-btn {
+		height: 35px;
+		line-height: 35px;
+		background-color: @base-color-green;
+		color: #fff;
+		.border-radius(0,5px,5px,0);
+		padding: 0 15px;
+		font-size: @font-size-medium;
+	}
+}
+.often-buy-list {
+	padding: 0 @box-left;
+	li{
+		margin: @box-bottom 0;
+		background-color: #fff;
+		.border-radius(3px);
+		padding: @box-left;
+		align-items: center;
+		.title {
+			font-size: @font-size-default;
+			font-weight: normal;
+			margin-bottom: 10px;
+		}
+		.phone {
+			font-size: 14px;
+			color: #2ac4f0;
+			text-decoration: underline;
+		}
+		address {
+			font-size: @font-size-sm;
+			color: @text-color-tint;
+			margin-top: 6px;
+		}
+	}
+	.often-shop {
+		padding: 0 @box-left 0 0;
+		img {
+			width: 80px;
+			height: 80px;
+			margin-right: 8px;
+		}
+		.title{
+			margin-bottom: 3px;
+		}
+		.weight {
+			color: #fa6151;
+		}
+		address {
+			margin-top: 15px;
+		}
+	}
+}
+.aside-shop-info {
+	padding: @box-bottom @box-left 0 @box-left;
+}
+.align-items {
+	align-items: center;
+}

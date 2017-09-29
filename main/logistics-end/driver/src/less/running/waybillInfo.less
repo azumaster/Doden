@@ -1,0 +1,101 @@
+
+.waybill-info {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 500;
+  background: @bg-gray;
+  overflow: hidden;
+  transition: bottom .3s ease-in-out;
+  &.no-mark {
+    height: @waybill-no-remark;
+    bottom: -@waybill-no-remark;
+  }
+  &.has-mark {
+    height: @waybill-has-remark;
+    bottom: -@waybill-has-remark;
+  }
+  &.active {
+    bottom: @tab-height;
+    transition: bottom .3s ease-in-out;
+    .waybill-info-title{
+      .toggle {
+        transform: rotate(0deg);
+        transition: transfrom .3s linear;
+      }
+    }
+  }
+
+  .waybill-info-title {
+    height: @waybill-title-height;
+    background: @white;
+    border: 1px solid @border-gray;
+    box-sizing: border-box;
+    padding: 0 @basic-gap;
+    display: flex;
+    justify-content: space-between;
+    .title-icon {
+      line-height: @waybill-title-height;
+      flex: 1;
+      font-size: @font-size-icon;
+      margin-right: @basic-gap;
+    }
+    .address {
+      display: inline-block;
+      flex: 7;
+      line-height: @waybill-title-height/2-@basic-gap/2;
+      font-size: @font-size-title;
+      margin: @basic-gap/2 0;
+      word-break: break-all;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+    }
+    .error{
+      line-height: @waybill-title-height;
+      font-size: @font-size-notice;
+      text-align: center;
+      margin: 0 @basic-gap/2;
+      flex: 3;
+      .error-link {
+        text-decoration: underline;
+        color: @green;
+      }
+    }
+    .toggle {
+      flex: 1;
+      font-size: @font-size-icon;
+      text-align: right;
+      line-height: @waybill-title-height;
+      color: @border-gray;
+      transform: rotate(180deg);
+      transition: transfrom .3s linear;
+    }
+  }
+
+  .waybill-info-content {
+    padding: @basic-gap;
+    box-sizing: border-box;
+    background: @bg-gray;
+    .info {
+      border-radius: @panel-border-radius;
+      background: @white;
+      box-sizing: border-box;
+      padding: @waybill-top @waybill-left;
+      margin-bottom: @basic-gap;
+      &.textarea{
+        border: none;
+        display: block;
+        width: 100%;
+        height: 80px;
+        resize: none;
+        font-size: @font-size-content;
+      }
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+}

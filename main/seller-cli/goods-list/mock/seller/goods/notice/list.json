@@ -1,0 +1,82 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "page": 1,
+    "total": 50,
+    "notification_list": [
+      {
+        "_id": "581dedce9a892003de289ace",
+        "goods_name": "猪蹄",
+        "type": "商品删除",
+        "user_name": "root",
+        "created_at": "2016-11-05 22:33:49",
+        "note": "helloworld"
+      },
+      {
+        "_id": "581dedce9a892003de289ace",
+        "goods_name": "猪蹄",
+        "type": "商品删除",
+        "user_name": "root",
+        "created_at": "2016-11-05 22:33:49",
+        "note": "helloworld"
+      },
+      {
+        "_id": "581dedce9a892003de289ace",
+        "goods_name": "猪蹄",
+        "type": "商品删除",
+        "user_name": "root",
+        "created_at": "2016-11-05 22:33:49",
+        "note": "helloworld"
+      },
+      {
+        "_id": "581dedce9a892003de289ace",
+        "goods_name": "猪蹄",
+        "type": "商品删除",
+        "user_name": "root",
+        "created_at": "2016-11-05 22:33:49",
+        "note": "helloworld"
+      },
+      {
+        "_id": "581dedce9a892003de289ace",
+        "goods_name": "猪蹄",
+        "type": "商品删除",
+        "user_name": "root",
+        "created_at": "2016-11-05 22:33:49",
+        "note": "helloworld"
+      },
+      {
+        "_id": "581dedce9a892003de289ace",
+        "goods_name": "猪蹄",
+        "type": "商品删除",
+        "user_name": "root",
+        "created_at": "2016-11-05 22:33:49",
+        "note": "helloworld"
+      },
+      {
+        "_id": "581dedce9a892003de289ace",
+        "goods_name": "猪蹄",
+        "type": "商品删除",
+        "user_name": "root",
+        "created_at": "2016-11-05 22:33:49",
+        "note": "helloworld"
+      },
+      {
+        "_id": "581dedce9a892003de289ace",
+        "goods_name": "猪蹄",
+        "type": "商品删除",
+        "user_name": "root",
+        "created_at": "2016-11-05 22:33:49",
+        "note": "helloworld"
+      },
+      {
+        "_id": "581dedce9a892003de289ace",
+        "goods_name": "猪蹄",
+        "type": "商品删除",
+        "user_name": "root",
+        "created_at": "2016-11-05 22:33:49",
+        "note": "helloworld"
+      }
+    ]
+  }
+}

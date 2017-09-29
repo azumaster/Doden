@@ -1,0 +1,9 @@
+{
+    "code": 0,
+    "data": {
+        "order_new_price":50,
+        "discount_new_amount":5,
+        "paid_freight_price":3
+    },
+    "message": "删除成功"
+}

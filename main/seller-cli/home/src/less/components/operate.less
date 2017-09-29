@@ -1,0 +1,27 @@
+.operate{
+  .item{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    &:not(:last-child){
+      border-bottom: 1px solid #e3e5e9;
+    }
+    .operate-item{
+      min-width: 80px;
+      text-align: center;
+      margin: 20px 0;
+      .operate-icon{
+        font-size: 20px;
+        line-height: 30px;
+        color: @color-primary;
+      }
+      p{
+        line-height: 25px;
+        font-size: 12px;
+        color: @color-label;
+      }
+    }
+  }
+
+}

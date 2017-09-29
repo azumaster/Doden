@@ -1,0 +1,54 @@
+{
+  "code" : 0,
+  "message" : "OK",
+  "data" : {
+    "page" : 1,
+    "open_id" : 1,
+    "visitor_status" : 1,
+    "red_packet_geted" : 0,
+    "goods_count" : 4,
+    "server_time" : "2016-08-23 11:42:23",
+    "goods" : [
+      {
+        "goods_id" : 1,
+        "goods_name" : "测试数据，看看就好",
+        "goods_goodness" : 10,
+        "goods_price" : 123,
+        "goods_work_off" : 145,
+        "goods_surplus" : 0,
+        "goods_image" : "jfakjdflkadsf",
+        "auto_soldout_time" : "2016-08-23 19:42:23"
+      },
+      {
+        "goods_id" : 2,
+        "goods_name" : "测试数据，看看就好",
+        "goods_goodness" : 10,
+        "goods_price" : 123,
+        "goods_work_off" : 145,
+        "goods_surplus" : 0,
+        "goods_image" : "jfakjdflkadsf",
+        "auto_soldout_time" : "2016-08-23 19:42:23"
+      },
+      {
+        "goods_id" : 3,
+        "goods_name" : "测试数据，看看就好",
+        "goods_goodness" : 10,
+        "goods_price" : 123,
+        "goods_work_off" : 145,
+        "goods_surplus" : 0,
+        "goods_image" : "jfakjdflkadsf",
+        "auto_soldout_time" : "2016-08-23 19:42:23"
+      },
+      {
+        "goods_id" : 4,
+        "goods_name" : "测试数据，看看就好",
+        "goods_goodness" : 10,
+        "goods_price" : 123,
+        "goods_work_off" : 145,
+        "goods_surplus" : 0,
+        "goods_image" : "jfakjdflkadsf",
+        "auto_soldout_time" : "2016-08-23 19:42:23"
+      }
+    ]
+  }
+}

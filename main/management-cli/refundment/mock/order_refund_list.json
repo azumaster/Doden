@@ -1,0 +1,36 @@
+{
+    "code":0,
+    "data":{
+        "page":1,
+        "total":21,
+        "refund_infos":[
+            {
+                "id":1,
+                "refund_no":"sfsddfgfdgfdgfd",
+                "sub_order_no":"136ldkjlsslfjfjj-1",
+                "sub_order_id":36,
+                "buyers_shop_name":"买家店铺名",
+                "buyers_wechat_name":"买家微信名",
+                "refund_amount":126.00,
+                "payment_amount":12.00,
+                "create_time":"2016-04-03 21:00:00",
+                "update_time":"2016-04-03 21:00:00",
+                "status":1
+            },
+            {
+                "id":2,
+                "refund_no":"111111111111111111",
+                "sub_order_no":"136ldkjlsslfjfjj-1",
+                "sub_order_id":46,
+                "buyers_shop_name":"ananan",
+                "buyers_wechat_name":"买家微信名",
+                "refund_amount":126.00,
+                "payment_amount":13.00,
+                "create_time":"2016-04-03 21:00:00",
+                "update_time":"2016-04-03 21:00:00",
+                "status":5
+            }
+        ]
+    },
+    "message":"获取成功"
+}

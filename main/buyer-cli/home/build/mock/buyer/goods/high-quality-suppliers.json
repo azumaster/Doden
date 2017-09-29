@@ -1,0 +1,32 @@
+{
+  "code":0,
+  "data":{
+    "shops":[
+      {
+        "id":1,
+        "shop_id":1234,
+        "shop_name":5,
+        "position":1,
+        "main_business":"鸡副、鸭副",
+        "image":"Public/goods1.jpg"
+      },
+      {
+        "id":2,
+        "shop_id":5617,
+        "shop_name":"非常开心",
+        "position":3,
+        "main_business":"鸡副、鸭副",
+        "image":"Public/goods2.png"
+      },
+      {
+        "id":3,
+        "position":2,
+        "shop_id":5617,
+        "shop_name":"非常开心",
+        "main_business":"鸡副、鸭副",
+        "image":"Public/goods3.png"
+      }
+    ]
+  },
+  "message":"OK"
+}

@@ -1,0 +1,58 @@
+{
+  "code": 0,
+  "data1": {
+    "halal": [
+      0,
+      1
+    ],
+    "xinghaos": [
+      "12斤/只",
+      "6斤/只"
+    ],
+    "markets": [
+      {
+        "pianquId": 2,
+        "pianqu": "海霸王"
+      }
+    ],
+    "categories": [
+      {
+        "id": 1,
+        "sort_name": "冻品",
+        "series": 1
+      },
+      {
+        "id": 2,
+        "sort_name": "鸡副",
+        "series": 2
+      },
+      {
+        "id": 12,
+        "sort_name": "整机",
+        "series": 3
+      },
+      {
+        "id": 13,
+        "sort_name": "老母鸡",
+        "series": 3
+      },
+      {
+        "id": 17,
+        "sort_name": "情话鸡",
+        "series": 3
+      }
+    ],
+    "brands": [
+      {
+        "id": 1091,
+        "brand": "宝地"
+      },
+      {
+        "id": 1092,
+        "brand": "代码及"
+      }
+    ]
+  },
+  "data":[],
+  "message": "OK"
+}

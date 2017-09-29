@@ -1,0 +1,86 @@
+.step_one{
+  margin-top: 14px;
+
+  .ul{
+    background: @color-content;
+    padding: 0 14px;
+    box-sizing: border-box;
+
+    .li{
+      height: 50px;
+      line-height: 50px;
+      display: flex;
+      justify-content: space-between;
+      &:not(:last-child){
+        border-bottom: 1px solid @color-border;
+      }
+      .li-input{
+        flex: 1;
+
+        i{
+          font-size: 20px;
+          margin: 0 15px;
+          float: left;
+        }
+        input{
+          width: 70%;
+          height: 30px;
+          font-size: 14px;
+          border: none;
+          outline: none;
+          color: @color-text;
+          &::-webkit-input-placeholder{
+            color: @color-assist;
+          }
+        }
+        #tel{
+          width: 50%;
+          display: block;
+          float: left;
+          margin: 10px 0;
+        }
+      }
+      .li-verify{
+        min-width: 100px;
+        font-size: 12px;
+        height: 30px;
+        margin: 10px 0;
+        line-height: 30px;
+        color: @color-content;
+        background: @color-primary;
+        border:none;
+        padding: 0 15px;
+        border-radius: 4px;
+        text-align: center;
+        outline: none;
+        &:disabled{
+          background: @color-assist;
+        }
+      }
+      .li-notice{
+        font-size: 14px;
+        color: @color-assist;
+        margin-left: 15px;
+      }
+    }
+  }
+  .login-btn{
+    margin: 15px 14px;
+    background: @color-primary;
+    color: @color-content;
+    text-align: center;
+    border-radius: 4px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 17px;
+  }
+
+  .page-notice{
+    font-size: 12px;
+    color: @color-assist;
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+}

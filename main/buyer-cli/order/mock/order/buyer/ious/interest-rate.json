@@ -1,0 +1,11 @@
+{
+  "code":0,
+  "data":{
+    "interest_rate":0.1,
+    "year_interest_rate":0.18,
+    "interest":19500,
+    "status_date":"2017-01-01 00:00:00",
+    "expire_date":"2017-01-10 00:00:00"
+  },
+  "message":"OK"
+}

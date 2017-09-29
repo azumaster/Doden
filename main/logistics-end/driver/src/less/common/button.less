@@ -1,0 +1,27 @@
+
+/**
+按钮的通用样式
+ */
+
+.btn {
+  display: block;
+  width: 100%;
+  border: none;
+  height: 50px;
+
+  &.btn-lg {
+    height: @btn-lg-height;
+    border-radius: @btn-border-radius;
+  }
+
+  &.btn-black {
+    background: @btn-black;
+    color: @white;
+    font-size: @font-size-title;
+  }
+
+  &:disabled {
+    background: @btn-disabled;
+    opacity: .8;
+  }
+}

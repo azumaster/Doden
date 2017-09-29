@@ -1,0 +1,14 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "goods_price": 25.1,
+    "least_buy_num": 2,
+    "seller_shop_name": "卖家店铺名",
+    "market_name": "商品所在市场 如：青白江",
+    "buyers_market_name": "买家所在市场名",
+    "take_address": "收货地址",
+    "mobile_no": "买家手机号",
+    "goods_unit": "件"
+  }
+}

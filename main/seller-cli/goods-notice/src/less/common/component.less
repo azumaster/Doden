@@ -1,0 +1,134 @@
+/*
+函数
+----------------------------------------------------------*/
+
+//按钮;
+.btn-base (@color: @btn-color-default, @background: @btn-color-default, @border: fadeout(@btn-color-default, 60%)){
+  color: @color;
+  background-color: @background;
+  border: 1px solid @border;
+}
+.btn-size (@font-size: @font-size-content, @width: 65px, @height: 28px){
+  font-size: @font-size;
+  width: @width;
+  height: @height;
+  line-height: @height;
+}
+.flex-num(@size: 1) {
+  -webkit-box-flex: @size;
+  -webkit-flex: @size;
+  -ms-flex: @size;
+  flex: @size;
+}
+
+.btn {
+  display: inline-block;
+  .border-radius(3px,3px,3px,3px);
+  padding: 4px 10px;
+  margin-right: 8px;
+  line-height: 1.6;
+  font-size: 12px;
+  text-align: center;
+  &-orange {
+    .btn-base(@btn-color-white, @btn-bg-color-orange, @btn-bg-color-orange);
+  }
+  &-orange-the {
+    .btn-base(@btn-bg-color-orange, #fff, @btn-bg-color-orange);
+  }
+  &-green {
+    .btn-base(@btn-color-white, @btn-bg-color-green, @btn-bg-color-green);
+  }
+  &-green-the {
+    .btn-base(@btn-bg-color-green, #fff, @btn-bg-color-green);
+  }
+  &-small {
+    padding: 4px 15px;
+  }
+  &-gray {
+    .btn-base(@btn-color-white, #bbb, #bbb);
+  }
+  //加入购物车按钮;
+  &-addcar {
+    padding: 4px 0;
+    width: 6em;
+  }
+  @media (max-width: 340px) {
+    margin-right: 5px;
+    font-size: 12px;
+  }
+}
+
+.btn-mid{
+  padding: 4px 0;
+  width: 80px;
+}
+
+//圆角;
+.border-radius (@radius1: 5px, @radius2: @radius1, @radius3: @radius1, @radius4: @radius1) {
+  -webkit-border-radius: @radius1 @radius2 @radius3 @radius4;
+  -moz-border-radius: @radius1 @radius2 @radius3 @radius4;
+  -ms-border-radius: @radius1 @radius2 @radius3 @radius4;
+  -o-border-radius: @radius1 @radius2 @radius3 @radius4;
+  border-radius: @radius1 @radius2 @radius3 @radius4;
+}
+//超出显示省略号
+.clamp (@row: 1;) {
+  overflow: hidden;
+  -webkit-line-clamp: @row;
+  -moz-line-clamp: @row;
+  -ms-line-clamp: @row;
+  -o-line-clamp: @row;
+  line-clamp: @row;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  -o-box-orient: vertical;
+  box-orient: vertical;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  display: box;
+  word-break: break-all;
+}
+
+.background-size(@x,@y){
+  -webkit-background-size: @x @y;
+  -moz-background-size: @x @y;
+  -ms-background-size: @x @y;
+  -o-background-size: @x @y;
+  background-size: @x @y;  
+}
+
+.transition(@transition) {
+  -webkit-transition: @transition;
+  -moz-transition: @transition;
+  -ms-transition: @transition;
+  -o-transition: @transition;
+  transition: @transition;
+}
+
+.transform(@transform) {
+  -webkit-transform: @transform;
+  -moz-transform: @transform;
+  -ms-transform: @transform;
+  -o-transform: @transform;
+  transform: @transform;
+}
+
+//可以滑动的容器;
+.wrapper(@top: 0, @right: @top, @bottom: @top, @left: @top) {
+  position: absolute;
+  z-index: 1;
+  top: @top;
+  right: @right;
+  bottom: @bottom;
+  left: @left;
+  overflow: hidden;
+}
+
+//图标字体样式;
+.icon-style(@font-size: 16px, @color: @color-text-primary) {
+  font-size: @font-size;
+  color: @color;
+}

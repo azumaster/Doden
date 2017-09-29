@@ -1,0 +1,30 @@
+{
+  "code":0,
+  "data":[
+    {
+      "send_time":"2017-06-06 06:00:00",
+      "msg_content":"消息内容",
+      "read_status":1,
+      "updated_at":"2017-06-06 06:00:00"
+    },
+    {
+      "send_time":"2017-06-06 06:00:00",
+      "msg_content":"消息内容消息内容消息内容消息内容消息内容消息内容消息内容消息内容消息内容消息内容消息内容消息内容",
+      "read_status":2,
+      "updated_at":"2017-06-06 06:00:00"
+    },
+    {
+      "send_time":"2017-06-06 06:00:00",
+      "msg_content":"消息内容",
+      "read_status":1,
+      "updated_at":"2017-06-06 06:00:00"
+    },
+    {
+      "send_time":"2017-06-06 06:00:00",
+      "msg_content":"消息内容",
+      "read_status":1,
+      "updated_at":"2017-06-06 06:00:00"
+    }
+  ],
+  "message":"OK"
+}

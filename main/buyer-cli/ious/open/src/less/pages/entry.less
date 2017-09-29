@@ -1,0 +1,107 @@
+@import "open";
+@import "identity";
+@import "personal";
+@import "images";
+@import "contacts";
+@import "bank";
+@import "protocol";
+
+.cell {
+  display: flex;
+  min-height: 60px;
+  line-height: 60px;
+  padding-right: @margin;
+  .align-items-center;
+  & > label{
+    color: #737373;
+  }
+  &.textarea {
+    align-items: flex-start;
+    font-size: @font-size-h4;
+    padding-bottom: 15px;
+    textarea {
+      padding: 20px 0 0 15px;
+      .flex-item;
+      height: 70px;
+      line-height: 1.6;
+      color: @color-text-primary;
+    }
+  }
+  input[type=text], input[type=tel] {
+    text-align: right;
+    border: none;
+    .flex-item;
+    height: 60px;
+    font-size: @font-size-h3;
+    min-width: 50px;
+    color: @color-text-primary;
+    padding-right: @margin;
+  }
+  .content {
+    display: block;
+    flex: 1;
+    text-align: right;
+  }
+  .bd {
+    height: 60px;
+    text-align: right;
+    .flex-item();
+    color: #b6b6b6;
+    margin-right: -16px;
+    padding-right: 22px;
+    position: relative;
+    //& > select {
+    //  position: absolute;
+    //  width: 100%;
+    //  height: 100%;
+    //  left: 0;
+    //  top: 0;
+    //  border: none;
+    //  outline: none;
+    //  opacity: 0;
+    //  padding-right: 20px;
+    //  box-sizing: content-box;
+    //  z-index:2;
+    //}
+  }
+}
+
+.plate-hd {
+  height: 45px;
+  line-height: 45px;
+  margin: 0 @margin;
+  color: @color-text-assist;
+}
+
+.plate-bd {
+  background-color: #fff;
+  padding-left: @margin;
+  .checked-fill {
+    color: @color-green;
+  }
+}
+
+//资料完善页面;
+.verify-entry {
+  color: #b6b6b6;
+}
+.open-sub-prompt {
+  color: @color-text-assist;
+  margin: @margin @margin 0 @margin;
+}
+.agreement-register {
+  color: @color-text-assist;
+  margin: @margin @margin 0 @margin;
+  .agreement {
+    color: @color-primary;
+  }
+  .checked-fill {
+    color: @color-primary;
+  }
+}
+
+.entry-page {
+  position: absolute;
+  .wrapper();
+  background-color: @color-bg;
+}

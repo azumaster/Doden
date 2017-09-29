@@ -1,0 +1,157 @@
+
+.item
+  width 100%
+  height auto
+  overflow hidden
+  background-color #ffffff
+  display flex
+  flex-direction column
+  justify-content center
+  align-items center
+  margin-bottom 0.3rem
+  .title
+    width calc(100% - 1rem)
+    height 3rem
+    display flex
+    flex-direction row
+    .left,.right
+      display flex
+      height @height
+    .left
+      flex 1
+      flex-direction row
+      .title-info
+        flex 1
+        height calc(@height - 1rem)
+        display flex
+        flex-direction column
+        justify-content center
+        .shop-name
+          width 100%
+          height @height
+          display flex
+          flex-direction row
+          align-items center
+          .icon
+            width 1.5rem
+            height @height
+            font-size 1.4rem
+            display flex
+            align-items center
+            color #333333
+          .name
+            flex 1
+            margin-left 0.3rem
+            height @height
+            line-height @height
+            font-size .9rem
+            line-height 1rem
+            color #333333
+            overflow hidden
+            text-overflow ellipsis
+            display -webkit-box
+            -webkit-line-clamp 1
+            -webkit-box-orient vertical
+      .icon
+        width 1rem
+        heigth @height
+        display flex
+        flex-direction row
+        align-items center
+        justify-content center
+        color #999999
+        font-size 0.8rem
+    .right
+      flex 1
+      display flex
+      flex-direction row-reverse
+      align-items center
+      .status
+        font-size 0.8rem
+        color #fb3338
+      .action
+        flex 1
+        font-size 0.8rem
+        text-align right
+        padding-right 0.5rem
+        color #249af9
+  .goods
+    width calc(100% - 1rem)
+    height 5rem
+    padding 0.5rem
+    margin-bottom 0.3rem
+    background-color #f5f5f5
+    display flex
+    flex-direction row
+    .thumb
+      width 5rem
+      height @width
+      background-color #ffffff
+      overflow hidden
+      img
+        width 100%
+        height 100%
+    .info
+      flex 1
+      height @height
+      font-size 0.9rem
+      padding 0 0.5rem
+      color #333333
+    .data
+      width 4rem
+      heigth @height
+      .price
+        font-size 0.8rem
+        text-align right
+        color #333333
+      .numbers
+        font-size 0.8rem
+        color #888888
+        text-align right
+  .statistics-bar
+    width calc(100% - 1rem)
+    height 2rem
+    display flex
+    flex-direction row-reverse
+    align-items center
+    >span
+      font-size 0.85rem
+      color #222
+      &.sub
+        font-size 0.7rem
+        color #666666
+      &.price
+        font-size 1rem
+        color #fb3338
+  .tool-bar
+    width calc(100% - 1rem)
+    height 3rem
+    padding 0 0.5rem
+    border-top 1px solid #eeeeee
+    display flex
+    flex-direction row
+    align-items center
+    position relative
+    .buttons
+      flex 1
+      height @height
+      display flex
+      flex-direction row-reverse
+      align-items center
+      .button
+        height 1.5rem
+        padding 0.1rem 0.4rem
+        display flex
+        justify-content center
+        align-items center
+        border 1px solid #666666
+        border-radius 5px
+        margin 0 0.2rem
+        opacity 1
+        &:first-child
+          margin-right 0
+        >span
+          font-size 0.8rem
+          color #666666
+        &:active
+          opacity 0.5

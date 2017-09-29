@@ -1,0 +1,12 @@
+{
+  "code":0,
+  "data":{
+    "ious_info":{
+      "status":3,
+      "identity_status": 2,
+      "identity_failure_times":3,
+      "credit_limit":1500000
+    }
+  },
+  "message":"OK"
+}

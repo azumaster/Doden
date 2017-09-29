@@ -1,0 +1,40 @@
+
+/**
+执行中页面
+ */
+
+.content {
+  overflow: hidden;
+  .map {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+
+  .start-delivery {
+    position: absolute;
+    width: 100%;
+    height: @btn-lg-height;
+    bottom: @tab-height;
+    margin: @basic-gap 0;
+    padding: 0 @basic-gap;
+    box-sizing:border-box;
+    left: 0;
+    z-index: 100;
+  }
+}
+
+.amap-logo {
+  right: 0 !important;
+  left: auto !important;
+  display: none;
+}
+.amap-copyright {
+  right: 70px !important;
+  left: auto !important;
+  bottom: -100px !important;
+  display: none;
+}

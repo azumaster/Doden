@@ -1,0 +1,125 @@
+.car-wrap {
+  margin: 10px;
+  background-color: #fff;
+  .border-radius(5px);
+  //padding: 4px;
+  &.invalid {
+    background-color: #e7e6eb;
+    .choose-icon {
+      &:after {
+        content: '\e730';
+      }
+    }
+  }
+  .car-hd {
+    padding: 5px 10px 5px 15px;
+    margin-left: 5px;
+    min-height: 30px;
+    .flex-box();
+    .align-items-center();
+    position: relative;
+    &:after {
+      .border-bottom(1px, @color-border-shallow);
+    }
+  }
+
+  //标题;
+  .title {
+    line-height: 1.4;
+    .flex-num();
+    &:before {
+      content: '\e8a3';
+      .icon-style(18px);
+      font-weight: bold;
+      margin-right: 6px;
+    }
+  }
+
+  //选择;
+  .choose-icon {
+    float: right;
+    &:after {
+      content: '\e72f';
+      .icon-style(25px, @text-color-light);
+    }
+    &.active:after {
+      content: '\e730';
+      color: @color-warning;
+    }
+  }
+
+  //删除地址的图标;
+  .del-address-icon {
+    float: right;
+    padding-left: 10px;
+    &:after {
+      content: '\e62e';
+      .icon-style(18px, @text-color-light);
+    }
+  }
+
+  //内容;
+  .car-bd {
+    color: @color-text-secondary;
+    padding: 10px 10px 10px 20px;
+    font-size: @font-size-content;
+    line-height: 2;
+  }
+
+  .green {
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background-color: @color-primary;
+      .border-radius(50%);
+    }
+  }
+
+  .red {
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background-color: @color-warning;
+      .border-radius(50%);
+    }
+  }
+
+  .car-note {
+    font-size: @font-size-sm;
+    text-align: right;
+    height: 26px;
+    line-height: 26px;
+    color: @color-warning;
+    .green {
+      color: @color-primary;
+    }
+    .grey {
+      color: @text-color-light
+    }
+  }
+
+  label {
+    color: @text-color-light;
+    display: inline-block;
+    width: 3em;
+    text-align:justify; text-justify: distribute-all-lines; text-align-last:justify;
+    margin: 0 6px;
+  }
+
+  .car-ft {
+    padding: 20px;
+    position: relative;
+    .flex-box();
+    .align-items-center();
+    .num {
+      .flex-num();
+    }
+    &:before {
+      .border-top(1px, @color-border-shallow);
+    }
+  }
+}

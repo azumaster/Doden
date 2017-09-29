@@ -1,0 +1,16 @@
+{
+  "code": 0,
+  "data": {
+    "shop":{
+      "level": 1,
+      "name": "豪大大鸡排",
+      "goods_num": 50,
+      "id": 11772,
+      "market_name": "其他市场",
+      "sell_num": 50,
+      "pics": ["path/to/pic", "path/to/pic", "path/to/pic"],
+      "head_image": ""
+    }
+  },
+  "message": "OK"
+}

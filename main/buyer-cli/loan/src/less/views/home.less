@@ -1,0 +1,159 @@
+.loan-home{
+  .wrapper();
+  .scroller{
+    .scroller();
+  }
+}
+
+.loan-head{
+  height: 310px;
+  width: 100%;
+  background: @color-primary;
+
+  .loan-head-info{
+    position: relative;
+
+    .loan-big-info{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      p:first-child{
+        color: #046ed9;
+        font-size: 14px;
+        line-height: 30px;
+      }
+      p:last-child{
+        color: #ffffff;
+        font-size: 22px;
+        line-height: 30px;
+      }
+    }
+  }
+
+  .loan-info{
+    display: flex;
+    justify-content: space-around;
+    .loan-info-item{
+      text-align: center;
+      flex: 1;
+      margin: 15px 0;
+      height: 60px;
+      position: relative;
+      line-height: 25px;
+      color: #ffffff;
+      &:before{
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 1px;
+        background: #a2d7ff;
+      }
+      &:first-child{
+        &:before{
+          right: 0;
+        }
+      }
+      &:last-child{
+        &:before{
+          left: 0;
+        }
+      }
+      .loan-title{
+        font-size: 14px;
+        margin-top: 5px;
+        &:before{
+          content: '';
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          margin-right: 5px;
+          border-radius: 50%;
+          background: #c7f9fe;
+        }
+        &.use{
+          &:before{
+            background: #096dd3;
+          }
+        }
+      }
+      .loan-money{
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+}
+
+.loan-home-list{
+  .loan-title{
+    height: 40px;
+    color: #737373;
+    font-size: 12px;
+    line-height: 40px;
+    padding: 0 15px;
+    position: relative;
+    &:before{
+      content: '';
+      position: absolute;
+      width: 4px;
+      height: 17px;
+      background: @color-primary;
+      border-radius: 2px;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  .loan-ul{
+    padding-bottom: 60px;
+    .loan-ul-li{
+      background: #ffffff;
+      margin-bottom: 5px;
+      display: flex;
+      justify-content: space-between;
+      height: 66px;
+      padding: 22px 15px;
+      .loan-li{
+        flex-grow:1;
+        &.date{
+          padding-right: .8rem;
+          text-align: right;
+          border-right: 1px solid @color-border;
+          color: #fea71f;
+        }
+        &.money{
+          padding-left:.8rem;
+          p:first-child{
+            font-size: 16px;
+            color: #383838;
+          }
+          p:last-child{
+            font-size: 14px;
+            color: #999999;
+          }
+        }
+        p{
+          line-height: 20px;
+          &:first-child{
+            font-size: 14px;
+            margin-top: 11px;
+          }
+          &:last-child{
+            font-size: 12px;
+          }
+        }
+        &.operate{
+          text-align: right;
+          i{
+            line-height: 66px;
+            font-size: 15px;
+            color: #999999;
+          }
+        }
+      }
+    }
+  }
+}

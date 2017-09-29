@@ -1,0 +1,24 @@
+.nav-wrap {
+  @height: @height-hd;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  .flex-box();
+  height: @height;
+  line-height: @height;
+  background-color: #fff;
+  .box-shadow();
+  .align-items-stretch();
+  z-index: 1;
+  .nav-item {
+    display: block;
+    .flex-num();
+    text-align: center;
+    &.active {
+      .box-shadow();
+      background-color: @color-nav;
+      color: #fff;
+    }
+  }
+}

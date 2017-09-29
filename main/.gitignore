@@ -1,0 +1,22 @@
+# exclude IDE files
+build/Public
+/main-frontend-laravel
+.idea
+*.sublime-project
+*.sublime-workspace
+*.project
+
+oa-system/public/js
+oa-system/npm-debug.log.3168992252
+
+seller-cli/goods-list/npm-debug.log.2030549018
+
+# node modules
+node_modules
+npm-debug.log
+
+# build
+coverage
+
+# source-map
+.map

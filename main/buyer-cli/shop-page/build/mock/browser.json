@@ -1,0 +1,10 @@
+{
+  "code": 0,
+  "message": "ok",
+  "data": {
+    "goods_id": 14,
+    "shop_id": 1,
+    "visit_num": 2,
+    "time": "2017-08-11 15:36:10"
+  }
+}

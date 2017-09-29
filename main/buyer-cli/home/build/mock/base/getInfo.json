@@ -1,0 +1,11 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "shop_infos": {
+      "shop_id": "3612",
+      "area_id": "2",
+      "shop_type_number": "11"
+    }
+  }
+}

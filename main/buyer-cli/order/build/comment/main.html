@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name='viewport' content='width=device-width,initial-scale=1.0,user-scalable=no'>
+    <meta name="renderer" content="webkit">
+	<title>评价</title>
+	<script>
+        (function (doc,win) {
+            // 获取根html元素
+            var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in win ? 'orientationchange' : 'resize';
+            var recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if ( !clientWidth ) return;
+                docEl.style.fontSize = ( clientWidth / 320 ) * 16 + 'px';
+            };
+            if ( !doc.addEventListener ) return;
+            win.addEventListener( resizeEvt , recalc , false );
+            doc.addEventListener( 'DOMContentLoaded' , recalc , false );
+            recalc();
+        })(document,window);
+	</script>
+</head>
+<body>
+	<div id="app"></div>
+</body>
+ <script src="/vendors.js"></script>
+ <script src="/comment.js"></script>
+</html>

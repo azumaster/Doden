@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name='viewport' content='width=device-width,initial-scale=1.0,user-scalable=no'>
+    <meta name="renderer" content="webkit">
+	<title>购物车</title>
+	<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+</head>
+<body>
+	<div id="container">
+		<div id="app"></div>
+	</div>
+
+	<div id="picker_container"></div>
+</body>
+</html>
+<script type="text/javascript">
+	var version = '{$version}',CONNECT_TIME= 3000,
+		staticArr = [
+			{name: 'Public/buyer-cli/shopCart/time-option.js', time: 0},
+			{name: 'Public/buyer-cli/shopCart/bundle.js', time: 50}
+		];
+var brWidth=document.documentElement.clientWidth,brHeight=document.documentElement.clientHeight,size=brWidth/320*16;document.getElementsByTagName("html")[0].style.fontSize=size+"px";document.getElementsByTagName("html")[0].style.height=brHeight+"px";(function(){function j(k,l){var m=new Date();m.setTime(m.getTime()+10*60*1000);document.cookie=k+"="+escape(l)+";expires="+m.toGMTString()}function g(l){var k,m=new RegExp("(^| )"+l+"=([^;]*)(;|$)");if(k=document.cookie.match(m)){return unescape(k[2])}else{return null}}function b(n){var l=version||"201607281407";for(var m=0;m<staticArr.length;m++){var k=document.createElement("script");k.type="application/javascript";k.src=n+staticArr[m].name+"?v="+l;if(staticArr[m].time>0){setTimeout(function(){document.body.appendChild(k)},staticArr[m].time)}else{document.body.appendChild(k)}}}var d="",i=window.location.href,c=null,f="http://img.idongpin.com/",e="http://cdn2.img.idongpin.com/",a=false;function h(l){imgError=function(){a=true;j("domain",e);if(l==1){b(e)}};c=function(){a=true;j("domain",f);if(l==1){b(f)}};var k=document.createElement("img");k.src=f+"Public/images/test-connect.png";k.width=0;k.height=0;k.onerror=imgError;k.onload=c;document.body.appendChild(k);setTimeout(function(){if(!a){imgError()}},CONNECT_TIME)}if(i.indexOf("test.m.zdongpin.com")!=-1){h(2);b("http://test.m.zdongpin.com/")}else{if(i.indexOf("m.zdongpin.com")!=-1){if(g("domain")){d=g("domain");b(d)}else{h(1)}}}if(i.indexOf("m.zdongpin.com")==-1){j("domain","http://192.168.2.3:3000/");b("http://192.168.2.3:3000/")}})();
+</script>

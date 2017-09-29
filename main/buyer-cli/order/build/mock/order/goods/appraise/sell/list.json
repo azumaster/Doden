@@ -1,0 +1,25 @@
+{
+    "code":0,
+    "data":{
+        "page":2,
+        "total":25,
+        "appraise_infos":[
+            {
+                "appraise_id":8,
+                "quality":3,
+                "sell_service":3,
+                "delivery_speed":3,
+                "goods_name":"商品名称",
+                "goods_picture":"public/goods/234545.jpg",
+                "goods_brand":"商品品牌",
+                "goods_price":25.00,
+                "buy_number":1,
+                "goods_unit":"件",
+                "goods_total_price":25.00,
+                "content":"评价内容",
+                "create_time":"2016-03-25 21:25:00"
+            }
+        ]
+    },
+    "message":"获取成功"
+}

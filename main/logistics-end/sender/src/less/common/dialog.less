@@ -1,0 +1,147 @@
+//弹窗;
+.dialog-warp {
+  display: block;
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+  .dialog-mask {
+  position: fixed;
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.dialog-content {
+  position: fixed;
+  z-index: 13;
+  width: 85%;
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  background-color: #fff;
+  text-align: center;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: -webkit-translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
+  transform: -webkit-translate(-50%, -50%) scale(1);
+  .dialog-head {
+    padding: 12px 0;
+    position: relative;
+    &:after {
+      .border-bottom();
+    }
+    .dialog-title {
+      font-weight: 400;
+      font-size: 17px;
+    }
+  }
+  .dialog-body {
+    text-align: left;
+    font-size: 15px;
+    p {
+      line-height: 30px;
+      text-indent: 2em;
+    }
+  }
+}
+.dialog-btn-group {
+  position: relative;
+  line-height: 50px;
+  margin-top: 20px;
+  font-size: 17px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  a {
+    display: block;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    position: relative;
+  }
+  &:after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid #D5D5D6;
+    color: #D5D5D6;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+  }
+  .dialog_cancel {
+    background-color: #e6e6e6;
+  }
+  .dialog_confirm {
+    background-color: @color-primary;
+    color: #fff;
+  }
+}
+
+// zoomIn
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    transform-origin: 0 0;
+  }
+  @-webkit-keyframes zoomIn {
+    from {
+      opacity: 0;
+      -webkit-transform: scale3d(.3, .3, .3);
+      transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes zoomIn {
+    from {
+      opacity: 0;
+      -webkit-transform: scale3d(.3, .3, .3);
+      transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+      opacity: 1;
+    }
+  }
+
+  //.zoomIn {
+  //  -webkit-animation-name: zoomIn;
+  //  animation-name: zoomIn;
+  //}
+  .dialog-content {
+    font-family: "Microsoft YaHei";
+    animation-duration: .3s;
+
+    .dialog-close {
+      background-color: #bbb;
+      color: #929292;
+      transition: all 200ms ease;
+      &:hover {
+        background-color: #f0ad4e;
+        color: #fff;
+      }
+    }
+  }
+}

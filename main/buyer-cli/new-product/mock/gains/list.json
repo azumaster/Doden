@@ -1,0 +1,141 @@
+{
+  "code" : 0,
+  "message" : "OK",
+  "data" : {
+    "page" : 1,
+    "open_id" : 1,
+    "visitor_status" : 1,
+    "goods" : [
+      {
+        "goods_id" : 1,
+        "goods_name" : "商品名",
+        "goods_brand" : "商品品牌",
+        "goods_xinghao" : "商品型号",
+        "goods_guigei" : "商品规格",
+        "goods_yesterday_price" : 123,
+        "goods_now_price" : 1,
+        "goods_inventory" : 12,
+        "goods_image_count" : 3,
+        "goods_image" : "Public/buyer-cli/mall/images/goods.jpg",
+        "goods_enshrine" : 0
+      },
+      {
+        "goods_id" : 2,
+        "goods_name" : "商品名",
+        "goods_brand" : "商品品牌",
+        "goods_xinghao" : "商品型号",
+        "goods_guigei" : "商品规格",
+        "goods_yesterday_price" : 123,
+        "goods_now_price" : 1,
+        "goods_inventory" : 12,
+        "goods_image_count" : 3,
+        "goods_image" : "Public/buyer-cli/mall/images/goods.jpg",
+        "goods_enshrine" : 0
+      },
+      {
+        "goods_id" : 3,
+        "goods_name" : "商品名",
+        "goods_brand" : "商品品牌",
+        "goods_xinghao" : "商品型号",
+        "goods_guigei" : "商品规格",
+        "goods_yesterday_price" : 123,
+        "goods_now_price" : 1,
+        "goods_inventory" : 12,
+        "goods_image_count" : 3,
+        "goods_image" : "Public/buyer-cli/mall/images/goods.jpg",
+        "goods_enshrine" : 0
+      },
+      {
+        "goods_id" : 4,
+        "goods_name" : "商品名",
+        "goods_brand" : "商品品牌",
+        "goods_xinghao" : "商品型号",
+        "goods_guigei" : "商品规格",
+        "goods_yesterday_price" : 123,
+        "goods_now_price" : 1,
+        "goods_inventory" : 12,
+        "goods_image_count" : 3,
+        "goods_image" : "Public/buyer-cli/mall/images/goods.jpg",
+        "goods_enshrine" : 0
+      },
+      {
+        "goods_id" : 5,
+        "goods_name" : "商品名",
+        "goods_brand" : "商品品牌",
+        "goods_xinghao" : "商品型号",
+        "goods_guigei" : "商品规格",
+        "goods_yesterday_price" : 123,
+        "goods_now_price" : 1,
+        "goods_inventory" : 12,
+        "goods_image_count" : 3,
+        "goods_image" : "Public/buyer-cli/mall/images/goods.jpg",
+        "goods_enshrine" : 0
+      },
+      {
+        "goods_id" : 6,
+        "goods_name" : "商品名",
+        "goods_brand" : "商品品牌",
+        "goods_xinghao" : "商品型号",
+        "goods_guigei" : "商品规格",
+        "goods_yesterday_price" : 123,
+        "goods_now_price" : 1,
+        "goods_inventory" : 12,
+        "goods_image_count" : 3,
+        "goods_image" : "Public/buyer-cli/mall/images/goods.jpg",
+        "goods_enshrine" : 0
+      },
+      {
+        "goods_id" : 7,
+        "goods_name" : "商品名",
+        "goods_brand" : "商品品牌",
+        "goods_xinghao" : "商品型号",
+        "goods_guigei" : "商品规格",
+        "goods_yesterday_price" : 123,
+        "goods_now_price" : 1,
+        "goods_inventory" : 12,
+        "goods_image_count" : 3,
+        "goods_image" : "Public/buyer-cli/mall/images/goods.jpg",
+        "goods_enshrine" : 0
+      },
+      {
+        "goods_id" : 8,
+        "goods_name" : "商品名",
+        "goods_brand" : "商品品牌",
+        "goods_xinghao" : "商品型号",
+        "goods_guigei" : "商品规格",
+        "goods_yesterday_price" : 123,
+        "goods_now_price" : 1,
+        "goods_inventory" : 12,
+        "goods_image_count" : 3,
+        "goods_image" : "Public/buyer-cli/mall/images/goods.jpg",
+        "goods_enshrine" : 0
+      },
+      {
+        "goods_id" : 9,
+        "goods_name" : "商品名",
+        "goods_brand" : "商品品牌",
+        "goods_xinghao" : "商品型号",
+        "goods_guigei" : "商品规格",
+        "goods_yesterday_price" : 123,
+        "goods_now_price" : 1,
+        "goods_inventory" : 12,
+        "goods_image_count" : 3,
+        "goods_image" : "Public/buyer-cli/mall/images/goods.jpg",
+        "goods_enshrine" : 0
+      },
+      {
+        "goods_id" : 10,
+        "goods_name" : "商品名",
+        "goods_brand" : "商品品牌",
+        "goods_xinghao" : "商品型号",
+        "goods_guigei" : "商品规格",
+        "goods_yesterday_price" : 123,
+        "goods_now_price" : 1,
+        "goods_inventory" : 12,
+        "goods_image_count" : 3,
+        "goods_image" : "Public/buyer-cli/mall/images/goods.jpg",
+        "goods_enshrine" : 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "code": 0,
+  "data": {
+    "page": 1,
+    "total": 50,
+    "buyer_num": 1,
+    "goods_num": "5",
+    "order_total_amount": "1701.00",
+    "delivery_infos": [
+      {
+        "logistic_id": 46,
+        "logistic_num": "",
+        "delivery_date": "2016-08-16",
+        "pay_method": "货到付款",
+        "freight": 12,
+        "total_amount": 1701,
+        "delivery_status": 1,
+        "buyers": {
+          "user_id": 1313,
+          "shop_name": "测试-胡小宇",
+          "shop_address": "四川省成都市郫县北级圈",
+          "contact_phone": "15208359521"
+        },
+        "orders": [
+          {
+            "order_id": 878,
+            "sub_order_no": "13131470731993i4Pb2YRX-0",
+            "order_amount": "87.00",
+            "goods_prepare_status": 2,
+            "order_status": 2,
+            "create_time": "2016-09-01 21:00:00",
+            "goods_infos": [
+              {
+                "goods_id": 1782,
+                "order_goods_id": 1383,
+                "goods_name": "大胸肉",
+                "buy_num": 1,
+                "goods_unit": "件",
+                "goods_price": "82.00"
+              },
+              {
+                "goods_id": 0,
+                "order_goods_id": 1388,
+                "goods_name": "冻品物流配送费",
+                "buy_num": 1,
+                "goods_unit": "件",
+                "goods_price": "5.00"
+              }
+            ],
+            "sellers": [
+              {
+                "shop_id": 1337,
+                "shop_name": "测试-张工"
+              }
+            ]
+          },
+          {
+            "order_id": 880,
+            "sub_order_no": "13131471263797pQuM4Zz8-0",
+            "order_amount": "1614.00",
+            "goods_prepare_status": 2,
+            "order_status": 2,
+            "create_time": "2016-09-01 21:00:00",
+            "goods_infos": [
+              {
+                "goods_id": 1782,
+                "order_goods_id": 1393,
+                "goods_name": "大胸肉",
+                "buy_num": 1,
+                "goods_unit": "件",
+                "goods_price": "82.00"
+              },
+              {
+                "goods_id": 1772,
+                "order_goods_id": 1394,
+                "goods_name": "顶替要",
+                "buy_num": 1,
+                "goods_unit": "件",
+                "goods_price": "40.00"
+              },
+              {
+                "goods_id": 0,
+                "order_goods_id": 1395,
+                "goods_name": "冻品物流配送费",
+                "buy_num": 1,
+                "goods_unit": "件",
+                "goods_price": "7.00"
+              }
+            ],
+            "sellers": [
+              {
+                "shop_id": 1337,
+                "shop_name": "测试-张工"
+              },
+              {
+                "shop_id": 1354,
+                "shop_name": "测试嘻嘻"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "message": "OK"
+}

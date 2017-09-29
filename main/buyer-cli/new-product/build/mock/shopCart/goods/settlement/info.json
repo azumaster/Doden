@@ -1,0 +1,37 @@
+{
+  "code":0,
+  "data":{
+    "shop_transfer": 1,
+    "max_reward_diamond":20,
+    "max_diamond_use_number":300,
+    "max_deduction_amount":15,
+    "voiture_info":{
+      "1":{
+        "market_id":1,
+        "market_name":"青白江",
+        "voiture_location":"停放位置",
+        "license_plates":"川A25698",
+        "driver_tel":"13365458975"
+      },
+      "2":{
+        "market_id":2,
+        "market_name":"海霸王",
+        "voiture_location":"停放位置",
+        "license_plates":"川A25698",
+        "driver_tel":"13365458975"
+      }
+    },
+    "take_info":{
+      "province_id":21,
+      "city_id":0,
+      "county_id":1,
+      "province_name":"四川省",
+      "city_name":"成都市",
+      "county_name":"锦江区",
+      "contacts":"联系人",
+      "address":"XXXXXXX",
+      "phone":"13365458975"
+    }
+  },
+  "message":"OK"
+}

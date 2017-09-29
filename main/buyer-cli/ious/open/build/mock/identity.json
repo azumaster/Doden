@@ -1,0 +1,8 @@
+{
+  "code":0,
+  "data":{
+    "image_status":{"front_image":10,"reverse_image":10,"portrait":1},
+    "fail":0
+  },
+  "message":"OK"
+}

@@ -1,0 +1,46 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "id": 169,
+      "sort_name": "鸭翅膀",
+      "image": "Public/Uploads/goodsTypeIcon/14828911539637.png"
+    },
+    {
+      "id": 170,
+      "sort_name": "鸭掌",
+      "image": "Public/Uploads/goodsTypeIcon/14828911639855.png"
+    },
+    {
+      "id": 171,
+      "sort_name": "鸭边腿",
+      "image": "Public/Uploads/goodsTypeIcon/14829175381763.png"
+    },
+    {
+      "id": 172,
+      "sort_name": "鸭腿",
+      "image": "Public/Uploads/goodsTypeIcon/14828911911542.png"
+    },
+    {
+      "id": 173,
+      "sort_name": "鸭胗",
+      "image": "Public/Uploads/goodsTypeIcon/14829174729570.png"
+    },
+    {
+      "id": 177,
+      "sort_name": "鸭心",
+      "image": "Public/Uploads/goodsTypeIcon/14828912433175.png"
+    },
+    {
+      "id": 355,
+      "sort_name": "半边鸭",
+      "image": "Public/Uploads/goodsTypeIcon/14829174922293.png"
+    },
+    {
+      "id": 794,
+      "sort_name": "黄金贝",
+      "image": "Public/Uploads/goodsTypeIcon/14830646620699.png"
+    }
+  ],
+  "message": "OK"
+}

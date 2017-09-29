@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	height: 100%;
+	background:url("../images/login.png") repeat;
+	background-size: 100% 100%;
+}
+body{
+	width:100%;
+	font-family:"微软雅黑";
+}
+*{
+	margin:0;
+	padding:0;
+	}
+.biaodan{
+	width: 300px;
+	background:#CDE4F2;
+	border:1px solid #CDE4F2;
+	margin:15% auto 0 auto;
+	z-index:999;
+	padding: 15px;
+}
+.biaodan form{
+	width:100%;
+	border:none;
+}
+.biaodan form h4{
+	color: #62A1CF;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #C5C5C0;
+}
+.biaodan form p{
+	margin-bottom: 10px;
+}
+.biaodan form p span{
+	font-size:14px;
+	color:#505050;
+	}
+.biaodan form input{
+	height:40px;
+	width: 220px;
+	border:1px solid #ccc;
+	border-radius:4px;
+	font-size:14px;
+	color:#505050;
+	padding:0 6px;
+}
+#code{
+	width: 104px;
+}
+#getCode{
+	width: 112px;
+	background-color: #6EB6EA;
+	color: #fff;
+}
+#getCode:disabled{
+	background-color: buttonface;
+	color: #505050;
+}
+.btn-wrap{
+	text-align: center;
+	margin-top: 30px;
+}
+#login {
+	width: 100%;
+	background-color: #6EB6EA;
+	color: #fff;
+}
+#login:disabled{
+	opacity: .6;
+}
+#err {
+	font-size: 14px;
+	color: red;
+	margin: 0;
+	text-align: center;
+}

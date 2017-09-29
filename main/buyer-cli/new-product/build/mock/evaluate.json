@@ -1,0 +1,30 @@
+{
+  "code" : 0,
+  "message" : "OK",
+  "data":{
+    "times" : 100,
+    "degree": 0.99,
+    "detail":[
+      {
+        "name":"张三食品",
+        "content":"很好吃",
+        "grade":4
+      },
+      {
+        "name":"张三食品",
+        "content":"很好吃",
+        "grade":4
+      },
+      {
+        "name":"张三食品",
+        "content":"很好吃",
+        "grade":4
+      },
+      {
+        "name":"张三食品",
+        "content":"很好吃",
+        "grade":4
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "code" : 0,
+  "message" : "OK",
+  "data": {
+    "goods_grade" : 5.0,
+    "delivery_speed": 3.5,
+    "service_grade": 4.0,
+    "favorable_rate": 92.1,
+    "shop_integral": "111"
+  }
+}

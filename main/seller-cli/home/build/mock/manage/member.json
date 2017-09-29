@@ -1,0 +1,35 @@
+{
+  "status": 0,
+  "message": "ok",
+  "data": {
+    "memberInfoArr": [
+      {
+        "shid": "13888",
+        "shopid": "13812",
+        "unionpic": "http://wx.qlogo.cn/mmopen/leBoYuXxetlbicrrwWkx51j1UsQvG7jSPxpqURia4icgALIGpsibzwq3T2GGiatHZ9gsP6h2WZIGP32Ybll4cT87UkWAn1KvNRWaic/0",
+        "xingming": "华东",
+        "lianxitel": "18381076241",
+        "laobanhao": "0",
+        "zhucetime": "2017-08-15 09:49:16",
+        "shengheact": "1",
+        "integralall": "0"
+      },{
+        "shid": "13888",
+        "shopid": "13812",
+        "unionpic": "http://wx.qlogo.cn/mmopen/leBoYuXxetlbicrrwWkx51j1UsQvG7jSPxpqURia4icgALIGpsibzwq3T2GGiatHZ9gsP6h2WZIGP32Ybll4cT87UkWAn1KvNRWaic/0",
+        "xingming": "ABCDE",
+        "lianxitel": "18381076241",
+        "laobanhao": "2",
+        "zhucetime": "2017-08-15 09:49:16",
+        "shengheact": "1",
+        "integralall": "0"
+      }
+    ],
+    "yuangongArr": {
+      "1": "仓管",
+      "2": "接单员",
+      "3": "老板",
+      "4": "公司员工"
+    }
+  }
+}

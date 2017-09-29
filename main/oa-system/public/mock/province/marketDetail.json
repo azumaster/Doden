@@ -1,0 +1,152 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "province_id": "21",
+    "detail": [
+      {
+        "province": "四川省",
+        "city": "成都市",
+        "county": "未添加区县信息",
+        "pianqu": "青白江",
+        "addTime": "2015-08-14 17:44:17"
+      },
+      {
+        "province": "四川省",
+        "city": "成都市",
+        "county": "未添加区县信息",
+        "pianqu": "海霸王",
+        "addTime": "2015-08-14 17:44:35"
+      },
+      {
+        "province": "四川省",
+        "city": "成都市",
+        "county": "未添加区县信息",
+        "pianqu": "白家市场",
+        "addTime": "2015-08-14 17:44:49"
+      },
+      {
+        "province": "四川省",
+        "city": "成都市",
+        "county": "未添加区县信息",
+        "pianqu": "青石桥",
+        "addTime": "2015-08-14 17:45:03"
+      },
+      {
+        "province": "四川省",
+        "city": "成都市",
+        "county": "未添加区县信息",
+        "pianqu": "西河市场",
+        "addTime": "2015-08-14 17:45:19"
+      },
+      {
+        "province": "四川省",
+        "city": "成都市",
+        "county": "未添加区县信息",
+        "pianqu": "其他市场",
+        "addTime": "2015-08-14 17:45:33"
+      },
+      {
+        "province": "四川省",
+        "city": "成都市",
+        "county": "未添加区县信息",
+        "pianqu": "简阳市",
+        "addTime": "2015-11-02 11:53:06"
+      },
+      {
+        "province": "四川省",
+        "city": "成都市",
+        "county": "未添加区县信息",
+        "pianqu": "外地市场",
+        "addTime": "2016-12-29 09:55:02"
+      },
+      {
+        "province": "四川省",
+        "city": "自贡市",
+        "county": "未添加区县信息",
+        "pianqu": "自贡",
+        "addTime": "2015-08-14 17:47:18"
+      },
+      {
+        "province": "四川省",
+        "city": "攀枝花",
+        "county": "未添加区县信息",
+        "pianqu": "攀枝花",
+        "addTime": "2015-08-14 17:47:31"
+      },
+      {
+        "province": "四川省",
+        "city": "泸州市",
+        "county": "未添加区县信息",
+        "pianqu": "泸州",
+        "addTime": "2015-08-14 17:48:24"
+      },
+      {
+        "province": "四川省",
+        "city": "德阳市",
+        "county": "未添加区县信息",
+        "pianqu": "德阳",
+        "addTime": "2015-08-14 17:48:36"
+      },
+      {
+        "province": "四川省",
+        "city": "绵阳市",
+        "county": "未添加区县信息",
+        "pianqu": "绵阳",
+        "addTime": "2015-08-14 17:48:50"
+      },
+      {
+        "province": "四川省",
+        "city": "广元市",
+        "county": "未添加区县信息",
+        "pianqu": "广元",
+        "addTime": "2015-08-14 17:49:01"
+      },
+      {
+        "province": "四川省",
+        "city": "遂宁市",
+        "county": "未添加区县信息",
+        "pianqu": "遂宁",
+        "addTime": "2015-08-14 17:49:14"
+      },
+      {
+        "province": "四川省",
+        "city": "内江市",
+        "county": "未添加区县信息",
+        "pianqu": "内江",
+        "addTime": "2015-08-14 17:49:25"
+      },
+      {
+        "province": "四川省",
+        "city": "乐山市",
+        "county": "未添加区县信息",
+        "pianqu": "乐山",
+        "addTime": "2015-08-14 17:49:35"
+      },
+      {
+        "province": "四川省",
+        "city": "乐山市",
+        "county": "未添加区县信息",
+        "pianqu": "峨眉山市",
+        "addTime": "2016-01-16 11:07:56"
+      },
+      {
+        "province": "四川省",
+        "city": "南充市",
+        "county": "未添加区县信息",
+        "pianqu": "南充",
+        "addTime": "2015-08-14 17:49:46"
+      },
+      {
+        "province": "四川省",
+        "city": "眉山市",
+        "county": "未添加区县信息",
+        "pianqu": "眉山",
+        "addTime": "2015-08-14 17:50:01"
+      }
+    ],
+    "current": 1,
+    "last_page": 2,
+    "total": 30
+  }
+}

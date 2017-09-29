@@ -1,0 +1,156 @@
+.card-wrap {
+  margin: 10px;
+  background-color: #fff;
+  .border-radius(5px);
+  //padding: 4px;
+  &.invalid {
+    background-color: #e7e6eb;
+    .choose-icon {
+      &:after {
+        content: '\e730';
+      }
+    }
+  }
+  .card-hd {
+    padding: 5px 10px 5px 15px;
+    margin-left: 5px;
+    min-height: 30px;
+    .flex-box();
+    .align-items-center();
+    position: relative;
+    &:after {
+      .border-bottom(1px, @color-border-shallow);
+    }
+  }
+
+  //标题;
+  .title {
+    line-height: 1.4;
+    .flex-num();
+    &:before {
+      content: '\e8a3';
+      .icon-style(18px);
+      font-weight: bold;
+      margin-right: 6px;
+    }
+  }
+
+  .load-status {
+    font-size: @font-size-content;
+    &.not {
+      color: @color-warning;
+    }
+    &.has {
+      color: @color-text-secondary;
+    }
+  }
+
+  //选择;
+  .choose-icon {
+    float: right;
+    &:after {
+      content: '\e72f';
+      .icon-style(25px, @text-color-light);
+    }
+    &.active:after {
+      content: '\e730';
+      color: @color-warning;
+    }
+  }
+
+  //删除地址的图标;
+  .del-address-icon {
+    float: right;
+    padding-left: 10px;
+    &:after {
+      content: '\e62e';
+      .icon-style(18px, @text-color-light);
+    }
+  }
+
+  //内容;
+  .card-bd {
+    color: @color-text-secondary;
+    padding: 10px 10px 20px 20px;
+    font-size: @font-size-content;
+    line-height: 2;
+  }
+
+  .green-icon {
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background-color: @color-primary;
+      .border-radius(50%);
+    }
+  }
+
+  .red-icon {
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background-color: @color-warning;
+      .border-radius(50%);
+    }
+  }
+  .orange-icon {
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background-color: @color-orange;
+      .border-radius(50%);
+    }
+  }
+
+  .card-note {
+    font-size: @font-size-sm;
+    text-align: right;
+    height: 26px;
+    line-height: 26px;
+    color: @color-warning;
+    .green {
+      color: @color-primary;
+    }
+    .grey {
+      color: @text-color-light
+    }
+  }
+
+  label {
+    color: @text-color-light;
+    display: inline-block;
+    width: 5em;
+    margin: 0 6px;
+  }
+
+  .card-ft {
+    padding: 20px;
+    position: relative;
+    .flex-box();
+    .align-items-center();
+    .num {
+      .flex-num();
+    }
+    &:before {
+      .border-top(1px, @color-border-shallow);
+    }
+  }
+  .operate {
+    .btn-size(@font-size-content);
+    .border-radius(3px);
+    float: right;
+    &.btn-style-solid {
+      .btn-base(#fff, @color-green, @color-green);
+    }
+    &.btn-style-hollow {
+      .btn-base(@color-green, #fff, @color-green);
+    }
+  }
+
+}

@@ -1,0 +1,157 @@
+/**
+**  商品全部评论
+ */
+.comments{
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  z-index: 6;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  .comments-tab{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 5;
+    background-color: #ffffff;
+    .comments-tab-item{
+      flex: 1;
+      height: 2rem;
+      text-align: center;
+      line-height: 2rem;
+      font-size: 0.8rem;
+      color: #999999;
+      &.active,&:active{
+        color: #289ff2;
+      }
+    }
+  }
+  .comments-tab-content-box{
+    flex: 1;
+    width: 100%;
+    background-color: #efefef;
+    overflow: hidden;
+    .comment-content-item{
+      @diff: 20px;
+      width: calc(~"100% - " @diff);
+      padding: 0 10px;
+      height: auto;
+      background-color: #ffffff;
+      margin-bottom: 10px;
+      .user-info{
+        width: 100%;
+        height: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .avatar{
+          width: 2.5rem;
+          height: 2.5rem;
+          background-color: #efefef;
+          border-radius: 2rem;
+          img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+          }
+        }
+        .username{
+          flex: 1;
+          height: 2.5rem;
+          line-height: 2.5rem;
+          font-size: 0.9rem;
+          color: #333333;
+          margin-left: 0.5rem;
+        }
+      }
+      .comment-content-item-content{
+        width: 100%;
+        font-size: 0.8rem;
+        line-height: 1rem;
+        padding: 0.3rem 0;
+      }
+      .images{
+        width: 100%;
+        overflow-scrolling: touch;
+        overflow: hidden;
+        overflow-x: scroll;
+        padding-bottom: 10px;
+        .image{
+          width: 4rem;
+          height: 3rem;
+          overflow: hidden;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 5px;
+          background-color: #efefef;
+          margin: 5px 5px 0 0;
+          float: left;
+          img{
+            width: 100%;
+            border-radius: 5px;
+          }
+        }
+      }
+      .bottom-bar{
+        width: calc(100%);
+        height: 2rem;
+        display: flex;
+        flex-direction: row;
+        .date-time{
+          flex: 1;
+          line-height: 2rem;
+          font-size: 0.8rem;
+          color: #999999;
+        }
+        .like{
+          width: 2rem;
+          height: 2rem;
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img{
+            width: 1.3rem;
+            height: 1.3rem;
+            &.like-on{
+              display: none;
+            }
+            &.like-off{
+              display: block;
+            }
+          }
+          .like-text{
+            position: absolute;
+            width: 1rem;
+            height: 1rem;
+            top: .5rem;
+            left: .5rem;
+            text-align: center;
+            line-height: 0.9rem;
+            font-size: 0.5rem;
+            color: #f97d7d;
+          }
+          &.active{
+            img{
+              &.like-on{
+                display: block;
+              }
+              &.like-off{
+                display: none;
+              }
+            }
+            .like-text{
+              color: #ffffff;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}

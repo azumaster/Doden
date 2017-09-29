@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>申请使用</title>
+    <meta name='viewport' content='width=device-width,initial-scale=1.0,user-scalable=no'>
+    <meta name="renderer" content="webkit">
+    <style>
+        * {margin:0; padding: 0}
+        .shop-closed{
+            text-align: center;
+        }
+        .img{
+            margin: 100px 0 30px;
+        }
+        .img img{
+            width: 40%;
+
+        }
+        .shop-text{
+            font-size: 17px;
+            margin-bottom: 14px;
+            color: #545454;
+        }
+        .shop-assist {
+            font-size: 14px;
+            color: #999999;
+        }
+        .shop-btn{
+            margin: 25px 14px;
+        }
+        .shop-btn .btn{
+            display: block;
+            height: 44px;
+            width: 100%;
+            border-radius: 5px;
+            background: #239af9;
+            color: #ffffff;
+            text-decoration: none;
+            line-height: 44px;
+        }
+    </style>
+</head>
+<body>
+    <div id="shopClosed" class="shop-closed">
+        <div class="img"><img src="http://img.idongpin.com/Public/images/login/unpass.png"></div>
+        <p class="shop-text">店铺审核未通过</p>
+        <p class="shop-assist" id="reason">失败原因：<?php echo $reason; ?></p>
+        <div class="shop-btn">
+            <input type="text" id="a">
+            <button id="button"></button>
+            <!-- 这里的跳转链接需要 -->
+            <a href="javascript:;" class="btn" onclick="window.location.href='/index.php?m=PublicTemplate&c=ApiPublic&a=regIndex&pageStatus=1'">重新申请</a>
+        </div>
+    </div>
+
+    <script>
+//        (function () {
+//            getReason();
+//        })();
+//
+//        function getReason() {
+//            // 获取被拒绝的理由
+//            var xhr = new XMLHttpRequest()?new XMLHttpRequest():new ActiveXObject('Microsoft.XMLHTTP');
+//
+//            xhr.open('GET', '/index.php?m=Home&c=UserReg&a=refuseReason');
+//            xhr.setRequestHeader("Accept", "application/json");
+//            xhr.send();
+//            xhr.onreadystatechange=function() {
+//                if (xhr.readyState==4 && xhr.status==200) {
+//                    var res = JSON.parse(xhr.responseText);
+//                    if(res.code == 0 || res.status==0){
+//                        document.getElementById("reason").innerHTML='未通过原因：'+res.data.reason;
+//                    }
+//                }
+//            }
+//        }
+    </script>
+</body>
+</html>

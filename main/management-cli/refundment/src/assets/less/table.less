@@ -1,0 +1,21 @@
+@charset "utf-8";
+.table-w {
+	padding: 10px 0;
+	.btn-default {
+		padding: 1px 10px;
+		font-size: 13px;
+	}
+	.btn-primary {
+		&:extend(.table-w .btn-default);
+	}
+
+	thead {
+			background-color: #f2f2f2;
+	}
+	.pagination-w {
+		text-align: center;
+		nav {
+			text-align: center;
+		}
+	}
+}

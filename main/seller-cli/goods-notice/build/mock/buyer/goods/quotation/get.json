@@ -1,0 +1,13 @@
+{
+  "code": 0,
+  "data": {
+    "goods_id": 8,
+    "goods_name": "大闸蟹",
+    "user_name": "测试用户",
+    "user_address": "用户地址",
+    "need_num": 5,
+    "start_time": "2016-11-21 15:31:05",
+    "status": 2
+  },
+  "message": "OK"
+}

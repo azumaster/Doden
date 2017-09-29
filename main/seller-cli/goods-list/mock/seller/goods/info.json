@@ -1,0 +1,131 @@
+{
+  "code": 0,
+  "data": {
+    "activity_type": 1,
+    "basic_infos": {
+      "goods_id": 1932,
+      "goods_name": "天天大鸭胗",
+      "goods_type_id": 15,
+      "brand_id": 28,
+      "origin": "山东",
+      "halal": 0,
+      "smuggle_id": 1,
+      "goods_title": "天天大号鸭胗，货好，纯干，买了还想买",
+      "describe": ""
+    },
+    "basic_attributes": {
+      "goods_price": "155.00",
+      "goods_unit_id": 0,
+      "price_adjust_frequency": 1,
+      "rough_weight": 15,
+      "net_weight": 15,
+      "meat_weight": 0,
+      "inventory": 99999,
+      "minimum_order_quantity": 1,
+      "specs": {
+        "constraint_id": 4,
+        "must": true,
+        "name": "规格",
+        "values": [
+          {
+            "value": "5",
+            "unit": "斤"
+          }
+        ],
+        "format_type_id": 1,
+        "attr_values": "5斤"
+      },
+      "types": {
+        "constraint_id": 3,
+        "must": true,
+        "name": "型号",
+        "values": [
+          {
+            "value": "15",
+            "unit": "只"
+          }
+        ],
+        "format_type_id": 1,
+        "attr_values": "15只"
+      }
+    },
+    "special_attributes": [
+      {
+        "constraint_id": 9,
+        "must": 0,
+        "name": "x-y",
+        "values": [
+          {
+            "value": "11",
+            "unit": "M"
+          },
+          {
+            "value": "12",
+            "unit": "M"
+          }
+        ],
+        "format_type_id": 4,
+        "attr_values": "11M-12M"
+      },
+      {
+        "constraint_id": 13,
+        "must": 1,
+        "name": "水份",
+        "values": [
+          {
+            "value": "5",
+            "unit": "件"
+          }
+        ],
+        "format_type_id": 1,
+        "attr_values": "5件"
+      },
+      {
+        "constraint_id": 14,
+        "must": 0,
+        "name": "颜色",
+        "values": [
+          {
+            "value": "红",
+            "unit": ""
+          }
+        ],
+        "format_type_id": 2,
+        "attr_values": "红"
+      },
+      {
+        "constraint_id": 15,
+        "must": 1,
+        "name": "大小",
+        "values": [
+          {
+            "value": "5M",
+            "unit": ""
+          }
+        ],
+        "format_type_id": 3,
+        "attr_values": "5M"
+      },
+      {
+        "constraint_id": 16,
+        "must": 1,
+        "name": "X*Y",
+        "values": [
+          {
+            "value": "6",
+            "unit": "包"
+          },
+          {
+            "value": "2",
+            "unit": "包"
+          }
+        ],
+        "format_type_id": 5,
+        "attr_values": "6包*2包"
+      }
+    ],
+    "pictures": [],
+    "inspection_reports": []
+  },
+  "message": "OK"
+}

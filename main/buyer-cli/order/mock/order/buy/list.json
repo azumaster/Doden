@@ -1,0 +1,249 @@
+{
+    "code": 0,
+    "data": {
+        "order_infos": [
+            {
+                "remark": [],
+                "payment_mode": 1,
+                "logistic_info": [
+                    "8小时内未付款，订单会自动取消",
+                    "如需修改收货信息，请联系客服"
+                ],
+                "status": 1,
+                "phone": "028-85171136",
+                "status_time": "2016-12-28 16:53:03",
+                "order_amount": 463,
+                "appraise": 2,
+                "buy_way": 1,
+                "parent_order_no": "351414829151838KAZZ4jB",
+                "discount_amount": "0.00",
+                "sell_district": "青白江",
+                "order_goods_infos": [
+                    {
+                        "goods_id": 25183,
+                        "goods_name": "星河鸡翅尖  大号",
+                        "goods_brand": "星河",
+                        "goods_pic": "Public/Uploads/goodsimg/20161202/25183_D3gVNs2meXUqpA9-wIaqLXqycs1YTBeC1wUO-ZhZnUDMVB-L-0JQXKYweqEcnphC.jpg",
+                        "preferential_name": "",
+                        "preferential_value": "0",
+                        "preferential_unit": "",
+                        "buy_num": 1,
+                        "buy_price": "155.00",
+                        "goods_total_amount": "155.00",
+                        "order_goods_id": 107217,
+                        "goods_unit": "件"
+                    },
+                    {
+                        "goods_id": 12129,
+                        "goods_name": "雅士享琵琶腿120-130g",
+                        "goods_brand": "雅士享",
+                        "goods_pic": "Public/Uploads/goodsimg/20160330/39001200_1459303196.jpg",
+                        "preferential_name": "",
+                        "preferential_value": "0",
+                        "preferential_unit": "",
+                        "buy_num": 1,
+                        "buy_price": "120.00",
+                        "goods_total_amount": "120.00",
+                        "order_goods_id": 107216,
+                        "goods_unit": "件"
+                    },
+                    {
+                        "goods_id": 12131,
+                        "goods_name": "雅士享长鸡爪中号M",
+                        "goods_brand": "雅士享",
+                        "goods_pic": "Public/Uploads/goodsimg/20160330/38259300_1459303341.jpg",
+                        "preferential_name": "",
+                        "preferential_value": "0",
+                        "preferential_unit": "",
+                        "buy_num": 1,
+                        "buy_price": "188.00",
+                        "goods_total_amount": "188.00",
+                        "order_goods_id": 107215,
+                        "goods_unit": "件"
+                    }
+                ]
+            },
+            {
+                "remark": [],
+                "payment_mode": 1,
+                "order_id": 63443,
+                "sell_shop_name": "测试-杨陈鹏",
+                "sub_order_no": "35141503370911pT4CPC1S-0",
+                "logistic_info": [
+                    "卖家找车"
+                ],
+                "status": 4,
+                "take_goods_time": "2017-08-25 10:04:53",
+                "phone": "13123144888",
+                "status_time": "2017-08-25 14:21:22",
+                "order_amount": 1.01,
+                "appraise": 4,
+                "buy_way": 1,
+                "parent_order_no": "35141503370911pT4CPC1S",
+                "discount_amount": "0.00",
+                "sell_district": "未指定市场",
+                "order_goods_infos": [
+                    {
+                        "goods_id": 25880,
+                        "goods_name": "测试商品测试测试",
+                        "goods_brand": "宝迪",
+                        "goods_pic": "events/Uploads/goodsimg/20170815/25880_snwx6gXkoxm-d5-Eflq9gUh7cU0N3FRpfvLlwv_aHD5zCnjSqrB6r8tVDiH4Y0Wk.jpg",
+                        "preferential_name": "",
+                        "preferential_value": "0",
+                        "preferential_unit": "件",
+                        "buy_num": 1,
+                        "buy_price": "1.01",
+                        "goods_total_amount": "1.01",
+                        "order_goods_id": 107689,
+                        "goods_unit": "件"
+                    }
+                ]
+            },
+            {
+                "remark": [],
+                "payment_mode": 1,
+                "order_id": 63397,
+                "sell_shop_name": "强悦食品",
+                "sub_order_no": "35141499753241Pf2bYCga-1",
+                "logistic_info": [
+                    "再测白条"
+                ],
+                "status": 7,
+                "phone": "13805167853",
+                "status_time": "2017-07-14 14:25:17",
+                "order_amount": 0.01,
+                "appraise": 2,
+                "refund_amount": "0.01",
+                "buy_way": 1,
+                "parent_order_no": "35141499753241Pf2bYCga",
+                "discount_amount": "0.00",
+                "sell_district": "海霸王",
+                "order_goods_infos": [
+                    {
+                        "goods_id": 23573,
+                        "goods_name": "美国7769火鸡尖  大号",
+                        "goods_brand": "7769",
+                        "goods_pic": "Public/Uploads/goodsimg/20161027/91401200_1477549246_vL5.jpg",
+                        "preferential_name": "",
+                        "preferential_value": "0",
+                        "preferential_unit": "件",
+                        "buy_num": 1,
+                        "buy_price": "0.01",
+                        "goods_total_amount": "0.01",
+                        "order_goods_id": 107631,
+                        "goods_unit": "件"
+                    }
+                ]
+            },
+            {
+                "remark": [],
+                "payment_mode": 1,
+                "order_id": 63359,
+                "sell_shop_name": "小王食品",
+                "sub_order_no": "35141494903890ltQoriln-0",
+                "logistic_info": [
+                    "111111，司机电话：15208359521"
+                ],
+                "status": 2,
+                "phone": "15228988708",
+                "status_time": "2017-05-16 11:04:50",
+                "order_amount": 0.01,
+                "appraise": 2,
+                "buy_way": 1,
+                "parent_order_no": "35141494903890ltQoriln",
+                "discount_amount": "0.00",
+                "sell_district": "海霸王",
+                "order_goods_infos": [
+                    {
+                        "goods_id": 3589,
+                        "goods_name": "欧喜 鸡腿皮",
+                        "goods_brand": "欧喜",
+                        "goods_pic": "Public/Uploads/goodsimg/20151022/1445480922355.jpg",
+                        "preferential_name": "",
+                        "preferential_value": "0",
+                        "preferential_unit": "件",
+                        "buy_num": 1,
+                        "buy_price": "0.01",
+                        "goods_total_amount": "0.01",
+                        "order_goods_id": 107582,
+                        "goods_unit": "件"
+                    }
+                ]
+            },
+            {
+                "remark": [],
+                "payment_mode": 1,
+                "order_id": 63358,
+                "sell_shop_name": "小王食品",
+                "sub_order_no": "35141494833202xGlA7LiI-0",
+                "logistic_info": [
+                    "111111，司机电话：15208359521"
+                ],
+                "status": 2,
+                "phone": "15228988708",
+                "status_time": "2017-05-15 15:26:42",
+                "order_amount": 0.01,
+                "appraise": 2,
+                "buy_way": 1,
+                "parent_order_no": "35141494833202xGlA7LiI",
+                "discount_amount": "0.00",
+                "sell_district": "海霸王",
+                "order_goods_infos": [
+                    {
+                        "goods_id": 3589,
+                        "goods_name": "欧喜 鸡腿皮",
+                        "goods_brand": "欧喜",
+                        "goods_pic": "Public/Uploads/goodsimg/20151022/1445480922355.jpg",
+                        "preferential_name": "",
+                        "preferential_value": "0",
+                        "preferential_unit": "件",
+                        "buy_num": 1,
+                        "buy_price": "0.01",
+                        "goods_total_amount": "0.01",
+                        "order_goods_id": 107580,
+                        "goods_unit": "件"
+                    }
+                ]
+            },
+            {
+                "remark": [],
+                "payment_mode": 1,
+                "order_id": 63357,
+                "sell_shop_name": "小王食品",
+                "sub_order_no": "35141494831880GAVo8o5d-0",
+                "logistic_info": [
+                    "111111，司机电话：15208359521"
+                ],
+                "status": 2,
+                "phone": "15228988708",
+                "status_time": "2017-05-15 15:04:40",
+                "order_amount": 0.01,
+                "appraise": 2,
+                "buy_way": 1,
+                "parent_order_no": "35141494831880GAVo8o5d",
+                "discount_amount": "0.00",
+                "sell_district": "海霸王",
+                "order_goods_infos": [
+                    {
+                        "goods_id": 3589,
+                        "goods_name": "欧喜 鸡腿皮",
+                        "goods_brand": "欧喜",
+                        "goods_pic": "Public/Uploads/goodsimg/20151022/1445480922355.jpg",
+                        "preferential_name": "",
+                        "preferential_value": "0",
+                        "preferential_unit": "件",
+                        "buy_num": 1,
+                        "buy_price": "0.01",
+                        "goods_total_amount": "0.01",
+                        "order_goods_id": 107579,
+                        "goods_unit": "件"
+                    }
+                ]
+            }
+        ],
+        "user_type": 1,
+        "page": "1",
+        "total_count": 62
+    },
+    "message": "获取成功"
+}

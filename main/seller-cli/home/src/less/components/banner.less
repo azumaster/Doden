@@ -1,0 +1,62 @@
+.banner{
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  .banner-img{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    img{
+      float: left;
+      height: 100%;
+      display: block;
+    }
+  }
+  .banner-points{
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%, 0);
+
+    .banner-point{
+      width: 9px;
+      height: 9px;
+      display: block;
+      border-radius: 50%;
+      background: @color-content;
+      opacity: .7;
+      transition: opacity .3s linear;
+      &.active{
+        opacity: 1;
+        transition: opacity .3s linear;
+      }
+      &:not(:last-child){
+        margin-right: 10px;
+      }
+    }
+  }
+  .banner-decorate{
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    background: transparent;
+    z-index: 100;
+    overflow: hidden;
+    &:before{
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      height: 100px;
+      width: 200%;
+      left: -50%;
+      background: transparent;
+      border-radius: 0 0 50% 50%;
+      z-index: 200;
+      border: 10px solid @color-content;
+    }
+  }
+}

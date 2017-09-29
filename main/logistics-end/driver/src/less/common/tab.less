@@ -1,0 +1,48 @@
+/**
+底部Tab的样式
+ */
+
+.tab-nav{
+  height: @tab-height;
+  width: 100%;
+  position: fixed;
+  z-index: 900;
+  bottom: 0;
+  box-shadow: 0 0 2px 1px @box-shadow;
+  display: flex;
+  justify-content: space-between;
+  &.sub-tab-nav{
+    position: absolute;
+  }
+
+  .btn-item {
+    width: 50%;
+    color: @black;
+    font-size: @font-size-title;
+    text-align: center;
+    line-height: @tab-height;
+    background: @white;
+
+    &.active{
+      background: @green;
+      color: @white;
+      box-shadow: 0 0 8px 3px @box-shadow;
+    }
+  }
+
+  .btn-icon {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: @green;
+    border: 3px solid @border-gray;
+    top: -12px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: @white;
+    text-align: center;
+    line-height: 60px;
+    font-size: @font-size-icon-lg;
+  }
+}

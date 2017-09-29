@@ -1,0 +1,278 @@
+@charset "utf-8";
+body {
+  font-family: "Microsoft YaHei";
+}
+.section-withdraw{
+  @pad: 10px;
+  padding: @pad;
+  .section-filter {
+    position: relative;
+    padding-top: @pad;
+    overflow: auto;
+    input {
+      margin-right: @pad;
+      border-radius: 0;
+    }
+    span {
+      /*日期筛选间的中横线样式*/
+      padding-right: @pad;
+      color: #ccc;
+    }
+    .search-w {
+      padding: @pad 0;
+      select {
+        border-radius: 0;
+      }
+      input {
+        border-left: 0;
+      }
+    }
+    .time-search-w {
+      display: inline-block;
+      margin-right: @pad*27;
+      padding-bottom: @pad;
+    }
+    .btn-w {
+      padding-bottom: @pad;
+      vertical-align: bottom;
+
+      display: block;
+      overflow: auto;
+    }
+    .refresh-btn {
+      @fontColor: #337ab7;
+      float: right;
+      margin-top: 5px;
+      color: @fontColor;
+      cursor: pointer;
+      span {
+        font-size: 16px;
+        color: @fontColor;
+      }
+    }
+  }
+  .section-table {
+    @pad: 10px;
+    .table {
+      margin-bottom: 0;
+      thead {
+        background-color: #f3f3f3;
+        tr > th {
+          border-bottom-width: 1px;
+        }
+      }
+      tbody {
+        td {
+          min-height: 40px;
+          vertical-align: middle;
+        }
+        button {
+          margin: 2px 0;
+        }
+      }
+    }
+    nav {
+      text-align: center;
+    }
+  }
+}
+.section-withdraw {
+  .time-search-w {
+    float: left;
+  }
+  select {
+    border-radius: 0;
+    &+input {
+      border-left: 0;
+    }
+  }
+  .section-table {
+    tr {
+      cursor: pointer;
+    }
+  }
+  .section-tr-info {
+    @pad: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-left: @pad;
+    width: 100%;
+    height: 0;
+    z-index: 100;
+    background-color: rgba(0,0,0,0.75);
+    color: #fff;
+    .transition(250ms ease);
+
+    &.show {
+      height: 400px;
+      overflow: hidden;
+    }
+
+    .info-title {
+      border-bottom: 1px solid #666;
+    }
+    .info-main-w {
+      height: 340px;
+      overflow: auto;
+    }
+    .info-close-btn {
+      @wid: 30px;
+      position: absolute;
+      top: 2px;
+      width: @wid;
+      height: @wid/2;
+      left: 50%;
+      margin-left: -2*@wid;
+      background-color: transparent;
+      text-indent: -999px;
+      cursor: pointer;
+
+      &:after {
+        content: '.';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 0;
+        border-top: 10px solid #ccc;
+        .transition(300ms ease);
+      }
+
+      &:hover {
+        &:after {
+          border-top-color: @primary;
+        }
+      }
+    }
+
+    .info-main-w {
+      padding:0 @pad*20 0 @pad*2;
+    }
+    .table {
+      border-top: 1px solid #333;
+      th {
+        background-color: #333;
+        border: 1px solid #333;
+        color: #fff;
+      }
+      tr {
+        .transition(100ms ease);
+        &:hover {
+          background-color: rgba(0,0,0,.1);
+          td {
+            color: lighten(@primary,10%);
+          }
+        }
+        td {
+          border: 1px solid #333;
+          vertical-align: middle;
+        }
+      }
+    }
+
+    // [2016-03-31]
+    .submit_violation-w {
+      position: absolute;
+      top: 68px;
+      padding: 20px;
+      margin-bottom: 10px;
+      margin-right: 10px;
+      min-width: 300px;
+      float: left;
+      background: #fff;
+      color: #000;
+      overflow: auto;
+      h3 {
+        margin-top: 0;
+      }
+
+      .input-w {
+        margin: 5px 0;
+        input {
+          border-radius: 0;
+        }
+        span {
+          display: inline-block;
+          width: 80px;
+        }
+      }
+
+      .btn-submit {
+        margin-top: 40px;
+        margin-left: 100px;
+      }
+    }
+    .table-w {
+      margin-left: 350px;
+      overflow: auto;
+
+    }
+  }
+}
+
+// zoomIn
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  @-webkit-keyframes zoomIn {
+    from {
+      opacity: 0;
+      -webkit-transform: scale3d(.3, .3, .3);
+      transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes zoomIn {
+    from {
+      opacity: 0;
+      -webkit-transform: scale3d(.3, .3, .3);
+      transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+      opacity: 1;
+    }
+  }
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+.dialog-body {
+  font-family: "Microsoft YaHei";
+  animation-duration: .4s;
+
+  .dialog-close {
+    background-color: #bbb;
+    color: #929292;
+    .transition(200ms ease);
+    &:hover {
+      background-color: #f0ad4e;
+      color: #fff;
+    }
+  }
+}
+
+.search-inputs-w {
+  float: left;
+}
+
+.btn-groups-w {
+  padding-top: 10px;
+  float: left;
+}
+
+.icon-star-yellow {
+  color: gold;
+}

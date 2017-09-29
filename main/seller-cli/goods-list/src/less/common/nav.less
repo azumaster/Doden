@@ -1,0 +1,76 @@
+/*
+* 手机端底部导航*/
+
+.nav {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  border-top: 1px solid @color-border-tab;
+  font-size: 0;
+  padding: 4px 0;
+  text-align: center;
+  .nav-icon {
+    display: inline-block;
+    .icon-font;
+    font-size: 22px;
+    width: 27px;
+    height: 27px;
+  }
+  .nav-item {
+    color: @color-text-secondary;
+    display: inline-block;
+    width: 33.33%;
+    font-size: 10px;
+    &.active {
+      color: @color-primary;
+      .icon-font {
+        &:after {
+          color: @color-primary;
+        }
+      }
+    }
+  }
+  .cell-column {
+    position: relative;
+    padding: 5px 0;
+    a {
+      color: @color-text-secondary;
+    }
+    .icon-font {
+      color: @color-text-secondary;
+      font-size: 20px;
+      height: 24px;
+    }
+    > .cell-body {
+      margin-top: 1px;
+      height: 14px;
+    }
+
+    &.active {
+      a {
+        color: @color-primary;
+      }
+      .icon-font {
+        color: @color-primary;
+      }
+    }
+  }
+  .icon-home {
+    &:after {
+      content: '\e612';
+      font-size: 20px;
+    }
+  }
+  .icon-goods {
+    &:after {
+      content: '\e615';
+    }
+  }
+  .icon-order {
+    &:after {
+      content: '\e638';
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "code" : 0,
+  "data" : {
+    "all_goods":2000,
+    "new_goods":40
+  },
+  "message" : "获取成功"
+}

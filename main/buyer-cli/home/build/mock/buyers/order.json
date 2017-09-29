@@ -1,0 +1,12 @@
+{
+  "code" : 0,
+  "message" : "OK",
+  "data" : {
+    "goods_name" : "商品名字",
+    "goods_price" : 100,
+    "goods_unit" : "件",
+    "goods_start_num" : 5,
+    "goods_inventory" : 1,
+    "tag" : 2
+  }
+}

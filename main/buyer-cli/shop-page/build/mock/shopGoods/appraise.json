@@ -1,0 +1,9 @@
+{
+  "code": 0,
+  "data": {
+    "service_grade": 3.4,
+    "delivery_speed": 4,
+    "goods_grade": 2
+  },
+  "message": "OK"
+}

@@ -1,0 +1,108 @@
+{
+  "code": 0,
+  "data": {
+    "navigates": {
+      "1": [
+        {
+          "name": "订单管理",
+          "privilege_tag": "order",
+          "id": 1
+        },
+        {
+          "name": "系统设置",
+          "privilege_tag": "system",
+          "id": 3
+        }
+      ],
+      "2": {
+        "1": [
+          {
+            "name": "转接订单",
+            "privilege_tag": "order_buyer",
+            "id": 2
+          }
+        ],
+        "3": [
+          {
+            "name": "账户管理",
+            "privilege_tag": "user",
+            "id": 4
+          },
+          {
+            "name": "部门管理",
+            "privilege_tag": "department",
+            "id": 5
+          }
+        ]
+      }
+    },
+    "execute_privilege": {
+      "1": {
+        "2": [
+          {
+            "name": "可读",
+            "privilege_tag": "order_buyer_list",
+            "id": 16
+          }
+        ]
+      },
+      "3": {
+        "4": [
+          {
+            "name": "可读",
+            "privilege_tag": "user_list",
+            "id": 6
+          },
+          {
+            "name": "创建",
+            "privilege_tag": "user_add",
+            "id": 7
+          },
+          {
+            "name": "启用",
+            "privilege_tag": "user_status_update",
+            "id": 8
+          },
+          {
+            "name": "修改",
+            "privilege_tag": "user_info_update",
+            "id": 9
+          },
+          {
+            "name": "权限",
+            "privilege_tag": "user_privilege_update",
+            "id": 10
+          },
+          {
+            "name": "删除",
+            "privilege_tag": "user_status_update_delete",
+            "id": 11
+          }
+        ],
+        "5": [
+          {
+            "name": "可读",
+            "privilege_tag": "department_list",
+            "id": 12
+          },
+          {
+            "name": "创建",
+            "privilege_tag": "department_add",
+            "id": 13
+          },
+          {
+            "name": "修改",
+            "privilege_tag": "department_info_update",
+            "id": 14
+          },
+          {
+            "name": "删除",
+            "privilege_tag": "department_status_update",
+            "id": 15
+          }
+        ]
+      }
+    }
+  },
+  "message": "OK"
+}

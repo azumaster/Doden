@@ -1,0 +1,23 @@
+{
+  "code": 0,
+  "data": [
+    "department",
+    "department_add",
+    "department_info_update",
+    "department_list",
+    "department_status_update",
+    "order",
+    "order_buyer",
+    "order_buyer_list",
+    "system",
+    "undefined",
+    "user",
+    "user_add",
+    "user_info_update",
+    "user_list",
+    "user_privilege_update",
+    "user_status_update",
+    "user_status_update_delete"
+  ],
+  "message": "OK"
+}

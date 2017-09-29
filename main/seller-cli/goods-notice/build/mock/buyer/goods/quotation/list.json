@@ -1,0 +1,52 @@
+{
+  "code": 0,
+  "data": {
+    "page":1,
+    "total":30,
+    "quotations": [
+      {
+        "goods_id": 8,
+        "goods_name": "大闸蟹",
+        "goods_image": "path/to/url",
+        "shop_name": "测试店铺",
+        "user_image": "path/to/url",
+        "shop_address": "店铺地址",
+        "province":"四川",
+        "city":"成都",
+        "county":"郫县",
+        "need_num": 5,
+        "start_time": "2016-11-21 15:31:05",
+        "status": 0
+      },
+      {
+        "goods_id": 8,
+        "goods_name": "大闸蟹",
+        "goods_image": "path/to/url",
+        "shop_name": "测试店铺",
+        "user_image": "path/to/url",
+        "shop_address": "店铺地址",
+        "province":"四川",
+        "city":"成都",
+        "county":"郫县",
+        "need_num": 5,
+        "start_time": "2016-11-21 15:31:05",
+        "status": 2
+      },
+      {
+        "goods_id": 8,
+        "goods_name": "大闸蟹",
+        "goods_image": "path/to/url",
+        "shop_name": "测试店铺",
+        "user_image": "path/to/url",
+        "shop_address": "店铺地址",
+        "province":"四川",
+        "city":"成都",
+        "county":"郫县",
+        "need_num": 5,
+        "start_time": "2016-11-21 15:31:05",
+        "status": 2
+      }
+    ]
+  },
+  "message": "OK"
+}

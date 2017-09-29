@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+.table-bordered>thead>tr>th,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>tbody>tr>td,
+.table-bordered>tfoot>tr>td {
+	border-color: #ccc;
+	//cursor: pointer;
+}
+.section-table {
+	@pad: 10px;
+	padding-right: @pad;
+	.table {
+		margin-bottom: 0;
+		thead {
+			background-color: #f3f3f3;
+			tr > th {
+				border-bottom-width: 1px;
+				text-align: center;
+			}
+			.tr-bg {
+				background: url("../images/tr-bg.jpg") repeat-x;
+				background-size: auto 100%;
+			}
+		}
+		tbody {
+			td {
+				min-height: 40px;
+				vertical-align: middle;
+				text-align: center;
+				a {
+					margin: 0 5px;
+					padding: 0 5px;
+					display: inline-block;
+					color: #337ab7;
+					&:hover {
+						cursor: pointer;
+					}
+					&.disabled {
+						color: #999;
+						text-decoration: none;
+						cursor: default;
+					}
+				}
+				&.col-row {
+					font-weight: 700;
+					background-color: #f0fff9;
+					vertical-align: top;
+				}
+				.success-icon {
+					display: inline-block;
+					width: 50px;
+					height: 14px;
+					background: url("../images/success-icon.png") no-repeat center;
+					background-size: auto 100%;
+				}
+				.error-icon {
+					display: inline-block;
+					width: 50px;
+					height: 14px;
+					background: url("../images/error-icon.png") no-repeat center;
+					background-size: auto 100%;
+				}
+			}
+			button {
+				margin: 2px 0;
+			}
+			.hr-tr {
+				td {
+					padding: 4px 0;
+					min-height: inherit;
+					border-left: none;
+					border-right: none;
+				}
+			}
+			input[type=checkbox] {
+				vertical-align: middle;
+				margin-top: 0;
+			}
+		}
+	}
+	.page-nav-left {
+		display: inline-block;
+		margin: 20px 0;
+		height: 34px;
+	}
+	nav {
+		text-align: center;
+		display: inline-block;
+		float: right;
+	}
+}
+
+//覆盖原来的页码样式;
+.pagination>li>a,
+.pagination>li>span {
+	position: relative;
+	float: left;
+	padding: 6px 12px;
+	line-height: 1.42857143;
+	text-decoration: none;
+	color: @primary;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin-left: -1px;
+}
+.pagination>li>a:hover,
+.pagination>li>span:hover,
+.pagination>li>a:focus,
+.pagination>li>span:focus {
+	z-index: 3;
+	color: @primary;
+	background-color: #eee;
+	border-color: #ddd;
+}
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus {
+	z-index: 2;
+	color: #fff;
+	background-color: @primary;
+	border-color: @primary;
+	cursor: default;
+}

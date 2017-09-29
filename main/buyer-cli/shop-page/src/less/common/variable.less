@@ -1,0 +1,104 @@
+
+
+//方法
+.wrapper(@top: 0, @right: @top, @bottom: @top, @left: @top) {
+  position: absolute;
+  z-index: 1;
+  top: @top;
+  right: @right;
+  bottom: @bottom;
+  left: @left;
+  overflow: hidden;
+}
+.scroller{
+  position: absolute;
+  z-index: 2;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  width: 100%;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  text-size-adjust: none;
+}
+//超出显示省略号
+.clamp (@row: 1;) {
+  overflow: hidden;
+  -webkit-line-clamp: @row;
+  -moz-line-clamp: @row;
+  -ms-line-clamp: @row;
+  -o-line-clamp: @row;
+  line-clamp: @row;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  -o-box-orient: vertical;
+  box-orient: vertical;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  display: box;
+  word-break: break-all;
+}
+
+//背景色以及特色字体颜色 color;
+// 颜色
+//背景色以及特色字体颜色 color;
+@color-primary:               #1498fc;  //主色绿;
+@color-warning:               #d40c21;  //警告红;
+@color-bg: #eeeeee;
+@color-background:               #f0eff5;  //body背景颜色;
+@base-color-green:       #1498fc;  //主色绿;
+@base-color-orange:      #fc754c;  //橙（订单按钮，金额颜色）;
+
+//基础字体颜色;
+@color-text-black:            #000;       //纯黑色
+@color-text-primary:          #363636;  //字体主色;
+@color-text-secondary:        #878787;  //从色字体（比主色浅一点）;
+@text-color-light:            #b3b3b3;  //浅色字体;
+
+//边框颜色：
+@color-border-primary:        #bfbfbf;  //主要的边框颜色;
+@color-border-secondary:      #d9d9d9;  //辅助的边框颜色;
+@color-border-tab:            #d5d5d5;  //外层级分栏边框颜色;
+@color-border-shallow:        #e6e6e6;  //外层级分栏边框颜色;
+@color-border-input:          #888888;  //输入框的边框颜色;
+@color-border-more:           #c7c7cc;  //更多（小三角）的边框颜色;
+
+//字体大小;
+@font-size-big:               17px;  //标签大小，常用于表单的和小cell中;
+@font-size-primary:           16px;  //正文标题大小;
+@font-size-content:           14px;  //正文字体;
+@font-size-sm:                13px;  //辅助说明字体;
+@font-size-xs:                12px;  //提示辅助字体
+
+//间距;
+@margin-default:                 10px;   //基础边距,可用来计算;
+@margin-left:                    10px;  //模块（卡片）离屏幕左右边的间距;
+@margin-bottom:                  10px;  //模块（卡片）离屏幕上下边的间距;
+@margin-between:                 10px;  //每个模块（卡片）之间的间距;
+@height-hd:                     50px;  //底部nav高度;
+@height-ft:                    50px;  //顶部工具栏高度;
+
+
+/*
+ 组件变量
+ ----------*/
+//按钮组件变量
+@btn-color-default:           @color-primary; //按钮默认背景颜色;
+@btn-bg-color-default: #f2f0f0; //按钮默认背景颜色;
+@btn-bg-color-orange : @base-color-orange; //橙色按钮背景颜色;
+@btn-bg-color-green : @base-color-green;  //绿色按钮背景颜色;
+@btn-color-white: #fff;   //按钮带有彩色背景时的字体颜色;
+@btn-color-green-label:  @base-color-green;  // 标注;@btn-color-default:

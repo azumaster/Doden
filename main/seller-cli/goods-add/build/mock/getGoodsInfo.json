@@ -1,0 +1,124 @@
+{
+  "code": 0,
+  "data": {
+    "activity_type": 1,
+    "basic_infos": {
+      "goods_id": 25814,
+      "goods_name": "，我的",
+      "goods_type_id": 294,
+      "brand_name": "代码鸡",
+      "origin": "这些",
+      "halal": 0,
+      "smuggle_id": 1,
+      "goods_title": "23454533456347543",
+      "describe": "楏土土土土土土土土土"
+    },
+    "basic_attributes": {
+      "goods_price": "1.01",
+      "goods_unit_id": 0,
+      "price_adjust_frequency": 1,
+      "rough_weight": 15,
+      "net_weight": 12,
+      "meat_weight": 0,
+      "inventory": 9999,
+      "minimum_order_quantity": 1,
+      "specs": {
+        "constraint_id": 74,
+        "must": true,
+        "name": "规格",
+        "values": [
+          {
+            "value": "8个一袋（编织袋）",
+            "unit": ""
+          }
+        ],
+        "format_type_id": 2,
+        "attr_values": "8个一袋（编织袋）"
+      },
+      "types": {
+        "constraint_id": 73,
+        "must": true,
+        "name": "型号",
+        "values": [
+          {
+            "value": "15",
+            "unit": "斤／个"
+          },
+          {
+            "value": "12",
+            "unit": "斤／个"
+          }
+        ],
+        "format_type_id": 4,
+        "attr_values": "15斤／个-12斤／个"
+      },
+      "price_rules": [
+        {
+          "price_rule_id": 1,
+          "rules": [
+            {
+              "buy_num": 1,
+              "preferential": 1
+            }
+          ]
+        }
+      ]
+    },
+    "special_attributes": [
+      {
+        "constraint_id": 107,
+        "must": 1,
+        "name": "内脏净度",
+        "values": [
+          {
+            "value": "去内脏（带叉骨）",
+            "unit": ""
+          }
+        ],
+        "format_type_id": 2,
+        "attr_values": "去内脏（带叉骨）"
+      },
+      {
+        "constraint_id": 108,
+        "must": 1,
+        "name": "带骨长度（腰骨）",
+        "values": [
+          {
+            "value": "（适中）",
+            "unit": ""
+          }
+        ],
+        "format_type_id": 2,
+        "attr_values": "（适中）"
+      }
+    ],
+    "pictures": [
+      {
+        "picture_id": 101637,
+        "picture_add": "events/Uploads/goodsimg/20161226/25814_4P71a7FfuLuAXznb9h1sbXS-oePCgU-WLJVB4u7UwYQY_ruiYLdKoh6WnLSetV32.jpg",
+        "sort_value": 1,
+        "goodsid": 25814
+      },
+      {
+        "picture_id": 101638,
+        "picture_add": "events/Uploads/goodsimg/20161226/25814_Cd5m1k3ToxOBCCcvbVkszHsJqX3a35u_S0O2lA4oYuMGSn9Fa1sUOfF4CHn000BF.jpg",
+        "sort_value": 2,
+        "goodsid": 25814
+      },
+      {
+        "picture_id": 101639,
+        "picture_add": "events/Uploads/goodsimg/20161226/25814_VFCeECbBzdFvEmMib5hlhAjhZTl1mdsoeQL6LRSXdBXVtXhSli7SGkNMgDK0wZxj.jpg",
+        "sort_value": 3,
+        "goodsid": 25814
+      },
+      {
+        "picture_id": 101640,
+        "picture_add": "events/Uploads/goodsimg/20161226/25814_fwlrreneOFU4lKlWvvhouudBpBaANd3-KnmKX9NfA5WNljnATUiVp8xasGez3yNL.jpg",
+        "sort_value": 4,
+        "goodsid": 25814
+      }
+    ],
+    "inspection_reports": []
+  },
+  "message": "OK"
+}

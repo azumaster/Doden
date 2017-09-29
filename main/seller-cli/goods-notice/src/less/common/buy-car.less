@@ -1,0 +1,53 @@
+.buy-car-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  color: #fff;
+  background-color: #000;
+  height: 52px;
+  font-size: 13px;
+  line-height: 1.6;
+  padding: 0 10px;
+  .car-confirm {
+    display: block;
+    color: #fff;
+    background-color: @base-color-green;
+    height: 40px;
+    width: 46px;
+    line-height: 40px;
+    text-align: center;
+    .border-radius(3px)
+  }
+  .breaks {
+    text-align: right;
+    margin: 0 8px;
+  }
+  .car-num-wrap {
+    position: relative;
+    margin-right: 20px;
+    .car-icon {
+      &:after {
+        content: '\e603';
+        .icon-font;
+        color: #fff;
+        font-size: 25px;
+      }
+    }
+    .car-num {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      .border-radius(50%);
+      background-color: #fc223b;
+      text-align: center;
+      line-height: 16px;
+      right: -15px;
+      font-size: 12px;
+    }
+  }
+  .price {
+    font-size: 16px;
+  }
+}

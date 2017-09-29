@@ -1,0 +1,54 @@
+/*
+** @description 文本溢出
+** @param lines 显示文本行数
+*/
+text-overflow(lines)
+  overflow hidden
+  text-overflow ellipsis
+  display -webkit-box
+  -webkit-line-clamp lines
+  -webkit-box-orient vertical
+  word-break break-all
+/*
+** @description 圆角
+** @param arg 长度单位
+*/
+border-radius(arg)
+  border-radius arg
+/*
+** @description flex盒子从左到右排列上下居中
+*/
+flex-row-vertical-center()
+  display flex
+  flex-direction row
+  justify-content center
+/*
+** @description flex盒子从左到右排列左右居中
+*/
+flex-row-transverse-center()
+  display flex
+  flex-direction row
+  align-items center
+/*
+** @description flex盒子上下左右居中
+*/
+flex-row-transverse-vertical-center()
+  display flex
+  flex-direction row
+  align-items center
+  justify-content center
+
+/*
+** @description flex盒子从右到左排列上下居中
+*/
+flex-row-reverse-vertical-center()
+  display flex
+  flex-direction row-reverse
+  justify-content center
+/*
+** @description flex盒子从右到左排列左右居中
+*/
+flex-row-reverse-transverse-center()
+  display flex
+  flex-direction row-reverse
+  align-items center

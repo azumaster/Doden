@@ -1,0 +1,153 @@
+//商品;
+.product-list {
+  background-color: #fff;
+}
+.goods-list {
+  padding: @box-bottom @box-left;
+  border-bottom: 1px solid @border-color-default;
+  .goods-img {
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+    margin-right: @box-right;
+    .border-radius(5px);
+    position: relative;
+    background-color: #f5f5f5;
+    img {
+      min-width: 100%;
+      min-height: 100%;
+    }
+    .pic-num {
+      font-size: 10px;
+      position: absolute;
+      padding: 3px 10px;
+      background-color: rgba(31, 30, 36, 0.8);
+      color: #fff;
+      bottom: 0;
+      right: 0;
+      .border-radius(10px,0,0,0);
+    }
+  }
+  .goods-title {
+    height: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    .goods-title-clamp {
+      display: block;
+      line-height: 1.25em;
+      .clamp(2);
+    }
+  }
+  .old-price {
+    color: @base-color-grey;
+  }
+  .price {
+    height: 18px;
+    margin-top: 4px;
+    color: @base-color-grey;
+    .color-orange {
+      margin-right: 10px;
+    }
+    .price-num {
+      font-size: 18px;
+    }
+  }
+  .diff-price {
+    color: @base-color-grey;
+    font-size: 13px;
+    height: 17px;
+    margin-top: 8px;
+    .group-icon {
+      display: inline-block;
+      width: 13px;
+      height: 13px;
+      text-align: center;
+      line-height: 13px;
+      font-size: 12px;
+      background-color: @base-color-green;
+      padding: 2px;
+      .border-radius(2px);
+      color: #fff;
+    }
+  }
+  .group-count {
+    font-size: 13px;
+    height: 15px;
+    color: @base-color-grey;
+    margin-top: 8px;
+  }
+  .group-btn {
+    .time {
+      color: @base-color-green;
+      font-size: 16px;
+      width: 110px;
+      text-align: center;
+      .clock-icon-item {
+        &:after {
+          content: '\e607';
+          .icon-font;
+          color: @base-color-green;
+          margin-right: 5px;
+        }
+      }
+      .time-i {
+        vertical-align: middle;
+      }
+    }
+  }
+  .hot-level {
+    font-size: 12px;
+    height: 15px;
+    .hot-level-icon {
+      &:after {
+        content: '\e606';
+        .icon-font;
+        font-size: 12px;
+        margin-right: 3px;
+        color: @base-color-orange;
+      }
+    }
+  }
+  .time {
+    font-size: 12px;
+    color: @base-color-grey;
+    height: 16px;
+  }
+  .btn-wrap {
+    margin-top: 5px;
+    height: 32px;
+  }
+  .collection {
+    text-align: right;
+    a {
+      padding: 5px 0 5px 5px;
+    }
+    .not {
+      &:after {
+        content: '\e601';
+        .icon-font;
+        font-size: 23px;
+        color: #a6a6a6;
+        line-height: 30px;
+      }
+    }
+    .has {
+      &:after {
+        content: '\e600';
+        .icon-font;
+        font-size: 23px;
+        color: @base-color-orange;
+        line-height: 30px;
+      }
+    }
+  }
+  @media (max-width: 340px) {
+    .goods-img {
+      width: 107px;
+      height: 107px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

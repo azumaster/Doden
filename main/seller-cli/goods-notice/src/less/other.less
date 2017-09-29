@@ -1,0 +1,176 @@
+/*
+店铺列表
+*/
+.shop-info-list{
+  background-color: #ffffff;
+}
+
+.goods-list-item {
+  padding: @margin-bottom @margin-left @margin-bottom*2 @margin-left;
+  background-color: #fff;
+  overflow: hidden;
+  border-bottom: 1px solid @color-border-primary;
+  .cell-head {
+    img {
+      width: 90px;
+      height: 90px;
+      display: block;
+      margin-right: @margin-default*1.5;
+    }
+  }
+  .cell-row {
+    padding: @margin-left;
+    align-items: flex-start;
+    > .cell-foot {
+      .btn {
+        color: @color-text-secondary;
+        font-size: @font-size-xs;
+      }
+    }
+  }
+
+  .cell-body {
+    .cell-column {
+      position: relative;
+      align-items: flex-start;
+      .cell-head {
+        font-size: @font-size-primary;
+        .clamp(2);
+        margin-top: -10px;
+      }
+
+      .cell-foot {
+        line-height: 1.6;
+        font-size: @font-size-content;
+        color: @color-text-secondary;
+        .shop-goods-operate{
+          position: absolute;
+          right: 0;
+          bottom: -35px;
+        }
+      }
+    }
+  }
+}
+
+.shop-goods-operate{
+  position: relative;
+  text-align: center;
+  a{
+    display: inline-block;
+  }
+}
+
+.shop-goods{
+  .wrapper(0, 0, 0, 0);
+}
+
+
+
+.ask-price{
+  position: relative;
+  img{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+  }
+
+  .cell-body{
+    position: relative;
+    height: 80px;
+    margin-left: @margin-left;
+    .cell-column{
+      align-items: baseline;
+      & > .cell-head{
+        position: absolute;
+        font-size: 16px;
+        top: 0;
+      }
+      & > .cell-foot{
+        position: absolute;
+        bottom: 0;
+        font-size: @font-size-content;
+        color: @text-color-light;
+      }
+    }
+  }
+
+  .cell-input-value{
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid #C9C9C9;
+    bottom: 35%;
+    text-align: center;
+  }
+
+  .exp{
+    line-height: 1.3;
+    border-top: 1px solid #e6e6e6;
+    color: #b3b3b3;
+    font-size: @font-size-content;
+    margin-top: @margin-bottom;
+    padding-top: @margin-bottom;
+  }
+}
+
+.quotation-goods{
+  padding: 6px @margin-bottom;
+  background-color: white;
+  border-bottom: 1px solid @text-color-light;
+  .cell-head{
+    display: flex;
+    -webkit-display: flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    align-items: center;
+    & > img{
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+    }
+  }
+  .cell-body{
+    text-align: left;
+    margin-left: 10px;
+    p{
+      font-size: @font-size-primary;
+      line-height: 1.5;
+    }
+    p:last-of-type{
+      font-size: @font-size-content;
+      color: @color-text-secondary;
+    }
+  }
+
+  .cell-foot{
+    p{
+      font-size: @font-size-content;
+      line-height: 1.5;
+      color: @color-primary;
+      text-align: end;
+    }
+    p:last-of-type{
+      font-size: 10px;
+      color: @color-text-secondary;
+    }
+  }
+}
+
+.notice-goods-wrap{
+  text-align: center;
+  line-height: 2;
+  position: relative;
+
+  & > p a{
+    position: absolute;
+    right: @margin-left;
+    color: @color-primary;
+    text-decoration: underline;
+  }
+}
+
+.quotation-goods-wrap{
+  margin-bottom: @margin-between;
+}

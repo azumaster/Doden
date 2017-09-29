@@ -1,0 +1,27 @@
+.product-footer {
+  text-align: center;
+  .product-footer-info {
+    position: relative;
+    display: inline-block;
+    margin: 10px 0;
+    color: @base-color-grey;
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 50px;
+      border-bottom: 1px solid #888888;
+      position: absolute;
+      top: 50%;
+      left: -60px;
+    }
+    &:after {
+      content: '';
+      display: inline-block;
+      width: 50px;
+      border-bottom: 1px solid #888888;
+      position: absolute;
+      top: 50%;
+      right: -60px;
+    }
+  }
+}

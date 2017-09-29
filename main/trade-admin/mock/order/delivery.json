@@ -1,0 +1,9 @@
+{
+  "code":0,
+  "data":{
+    "succeed_num":1,
+    "failure_num":1,
+    "errors":"已发货,未备货"
+  },
+  "message":"OK"
+}

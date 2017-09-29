@@ -1,0 +1,25 @@
+{
+  "status": 0,
+  "message": "OK",
+  "data": {
+    "provinceArr": [
+      {
+        "provinceidtxt": "25",
+        "dividename": "云南区"
+      },
+      {
+        "provinceidtxt": "2",
+        "dividename": "天津市"
+      }
+    ],
+    "pianquArr": {
+      "2": [
+        {
+          "pianquId": 83,
+          "pianqu": "测试直辖市"
+        }
+      ],
+      "25": []
+    }
+  }
+}

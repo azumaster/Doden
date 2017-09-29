@@ -1,0 +1,28 @@
+{
+  "code":0,
+  "data":{
+    "credit_limit":{
+      "total":2000000,
+      "available":1500000,
+      "used":500000
+    },
+    "recent_loan_list":[
+      {
+        "expire_date":"2017-09-09",
+        "loan_money":500000,
+        "loan_no":"2017060622222123"
+      },
+      {
+        "expire_date":"2017-05-09",
+        "loan_money":1524400,
+        "loan_no":"20170606284111111314"
+      },
+      {
+        "expire_date":"2017-04-18",
+        "loan_money":1524400,
+        "loan_no":"2016060628411111131456"
+      }
+    ]
+  },
+  "message":"OK"
+}

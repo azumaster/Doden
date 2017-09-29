@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "data": {
+    "categories": [
+      {
+        "id": 293,
+        "num": 1,
+        "name": "鸡蓬腿"
+      },
+      {
+        "id": 149,
+        "num": 1,
+        "name": "鸡腿肉"
+      }
+    ]
+  },
+  "message": "OK"
+}

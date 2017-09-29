@@ -1,0 +1,41 @@
+{
+  "code": 0,
+  "data": {
+    "page": "1",
+    "visitor_status": "1",
+    "is_seller": "0",
+    "goods": [
+      {
+        "goods_id": 1764,
+        "goods_name": "厅要要1",
+        "goods_title": "",
+        "goods_brand": "顶替枯",
+        "goods_xinghao": "30-50",
+        "goods_guigei": "2kg*5",
+        "goods_price": "40.00",
+        "goods_inventory": 0,
+        "goods_hot": 5,
+        "goods_seller_num": 50,
+        "goods_image": "Public/images/buyer-cli/goods.jpg",
+        "goods_image_count": 2,
+        "goods_enshrine": 0
+      },
+      {
+        "goods_id": 1951,
+        "goods_name": "四爽猪耳朵",
+        "goods_title": "dasdadadadasd",
+        "goods_brand": "快来了",
+        "goods_xinghao": "40",
+        "goods_guigei": "555",
+        "goods_price": "50.00",
+        "goods_inventory": 1160,
+        "goods_hot": 5,
+        "goods_seller_num": 10,
+        "goods_image": "Public/images/buyer-cli/goods.jpg",
+        "goods_image_count": 6,
+        "goods_enshrine": 1
+      }
+    ]
+  },
+  "message": "OK"
+}

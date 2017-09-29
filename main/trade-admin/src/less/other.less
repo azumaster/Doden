@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+//权限管理（root管理员添加、修改、删除菜单及权限）;
+.privilege-table {
+  .one {
+    td {
+      background-color: #e1e1e1;
+    }
+  }
+  .two {
+    td {
+      background-color: #ececec;
+    }
+  }
+}
+
+.privilege-infoPanel {
+  padding: 10px 70px 10px 0;
+  border: 1px solid #666;
+}
+
+//买家卖家版切换按钮;
+.buyer-or-seller {
+  margin: 0 20px;
+  float: right;
+  padding: 5px 20px;
+  border: 1px solid #ccc;
+  a {
+    &.active {
+      color: @primary;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+//买家版中更改备货状态的弹窗口样式;
+.prepare-ul {
+  li {
+    padding: 5px 0 5px 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  .prepare-input {
+    position: relative;
+    input{
+      padding-right: 30px;
+      width: 150px;
+    }
+    &:after {
+      content: "元";
+      position: absolute;
+      right: 10px;
+      top: 6px;
+    }
+  }
+}
+
+//打印和导出的弹窗样式；
+.radio-inline.disabled {
+  color: #bbb;
+}
+
+//订单中买家列表中，控制商品名列表的宽;
+@media (max-width: 1500px) {
+  .buyer-list-goods {
+    width: 500px;
+  }
+}
+@media (min-width: 1500px) and (max-width: 1700px) {
+  .buyer-list-goods {
+    width: 680px;
+  }
+}
+@media (min-width: 1700px) {
+  .buyer-list-goods {
+    width: 800px;
+  }
+}

@@ -1,0 +1,49 @@
+.shop-level {
+  display: inherit;
+  margin-right: 5px;
+  & > i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("/Public/images/level.png") no-repeat;
+    background-size: 400%;
+    margin-right: 3px;
+  }
+  .low {
+    background-position: 0 center;
+  }
+  .middle {
+    background-position: 33.333333333333% center;
+  }
+  .high {
+    background-position: 66.666666666666% center;
+  }
+  .highest {
+    background-position: 100% center;
+  }
+}
+
+.stars{
+  margin: 0 6px 0 12px;
+  i{
+    margin-right: 5px;
+  }
+  .star{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-repeat: no-repeat;
+    background-size: 1100%;
+    &.zero{background-position: 0 center;}
+    &.one{background-position: 10% center;}
+    &.two{background-position: 20% center;}
+    &.three{background-position: 30% center;}
+    &.four{background-position: 40% center;}
+    &.five{background-position: 50% center;}
+    &.six{background-position: 60% center;}
+    &.seven{background-position: 70% center;}
+    &.eight{background-position: 80% center;}
+    &.nine{background-position: 90% center;}
+    &.ten{background-position: 100% center;}
+  }
+}

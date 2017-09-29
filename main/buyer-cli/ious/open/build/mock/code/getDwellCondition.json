@@ -1,0 +1,18 @@
+{
+  "code":0,
+  "data":[
+    {
+      "name":"自购无贷",
+      "code":"S_LOAN"
+    },
+    {
+      "name":"自购有贷",
+      "code":"M_LOAN"
+    },
+    {
+      "name":"其他",
+      "code":"OTHER"
+    }
+  ],
+  "message":"OK"
+}

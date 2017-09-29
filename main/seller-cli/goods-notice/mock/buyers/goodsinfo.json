@@ -1,0 +1,49 @@
+{
+  "code" : 0,
+  "message" : "OK",
+  "data" : {
+    "page" : 1,
+    "open_id" : 1,
+    "visitor_status" : 1,
+    "server_time" : "2016-08-25 12:00:00",
+    "is_seller": "0",
+    "goods" : {
+      "goods_id" : 1,
+      "goods_price" : 123,
+      "goods_description" : "描述",
+      "inspection_report": "Public/images/buyer-cli/goods1.jpg",
+      "goods_image" : [
+        "Public/images/buyer-cli/goods1.jpg",
+        "Public/images/buyer-cli/goods.jpg"
+      ],
+      "goods_image_count" : 3,
+      "goods_sell_num" : 200,
+      "goods_net_weight" : 180,
+      "goods_rough_weight": 20,
+      "goods_meat_weight": 0
+    },
+    "details" : {
+      "goods_name" : "商品名字",
+      "goods_brand" : "商品品牌",
+      "goods_xinghao" : "商品型号",
+      "goods_guigei" : "商品规格",
+      "goods_origin" : "商品产地"
+
+    },
+    "activity" : {
+      "type" : 2,
+      "end_time" : "2016-08-25 12:01:00"
+    },
+    "special_detail" : [
+      {
+        "prope_name" : "特殊属性1",
+        "prope_value": "我是特殊属性1"
+      },
+      {
+        "prope_name" : "特殊属性2",
+        "prope_value": "我是特殊属性2"
+      }
+    ],
+    "goods_enshrine" : 0
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "code":0,
+  "data":{
+    "credit_limit":{
+      "total":2000000,
+      "available":1500000,
+      "used":500000
+    }
+  },
+  "message":"OK"
+}

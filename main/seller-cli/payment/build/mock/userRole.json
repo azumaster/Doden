@@ -1,0 +1,22 @@
+{
+  "code":0,
+  "data":{
+    "shop_infos":{
+      "shop_id":2,
+      "area_id":3,
+      "shop_type_number":1,
+      "shop_name":"店铺名",
+      "user_name":"会员名",
+      "mobile":"联系电话",
+      "province_id":21,
+      "city_id":1,
+      "county_id":1,
+      "province_name":"省",
+      "city_name":"市",
+      "county":"区、县",
+      "user_role":0,
+      "diamond":100
+    }
+  },
+  "message":"OK"
+}

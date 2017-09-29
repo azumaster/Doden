@@ -1,0 +1,15 @@
+{
+  "code":0,
+  "data":{
+    "shop_id":1,
+    "shop_name":"店铺名称",
+    "recent_sales":55,
+    "goods_num":86,
+    "shop_rank":2,
+    "main_business":"主营业务主营业务主营业务主营业务主营业务主营业务主营业务主营业务主营业务主营业务",
+    "shop_province":"四川",
+    "shop_city":"成都",
+    "sell_market":"海霸王"
+  },
+  "message":"OK"
+}

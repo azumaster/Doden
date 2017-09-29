@@ -1,0 +1,31 @@
+{
+  "code" : 0,
+  "message" : "OK",
+  "data": {
+    "evaluate_times" : 101,
+    "praise_degree": 0.89,
+    "evaluate_details":[
+      {
+        "buyers_fotocall" : "/Public/images/buyer-cli/header.png",
+        "buyers_name":"张三食品",
+        "evaluate_content":"很好吃",
+        "evaluate_grade":4,
+        "evaluate_time":"2016-08-08 08:08:08"
+      },
+      {
+        "buyers_fotocall" : "",
+        "buyers_name":"张三食品",
+        "evaluate_content":"很好吃很好吃很好吃很好吃很好吃很好吃很好吃很好吃很好吃很好吃很好吃很好吃很好吃很好吃很好吃很好吃很好吃很好吃很好吃很好吃",
+        "evaluate_grade":4,
+        "evaluate_time":"2016-08-08 08:08:08"
+      },
+      {
+        "buyers_fotocall" : "/Public/images/buyer-cli/header.png",
+        "buyers_name":"张三食品",
+        "evaluate_content":"很好吃",
+        "evaluate_grade":4,
+        "evaluate_time":"2016-08-08 08:08:08"
+      }
+    ]
+  }
+}

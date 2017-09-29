@@ -1,0 +1,106 @@
+.payment-header{
+  height: 150px;
+  background: url('http://img.idongpin.com/Public/images/seller-cli/bg.png@750w_100Q.png') no-repeat;
+  background-size: cover;
+  position: relative;
+  .header-info{
+    padding: 0 30px;
+    overflow: hidden;
+    .tip{
+      font-size: 13px;
+      color: #ffb5a4;
+      &.top{
+        margin-top: 35px;
+      }
+    }
+    h1{
+      color: #ffffff;
+      font-size: 30px;
+      line-height: 50px;
+    }
+    .payment-code{
+      position: absolute;
+      font-size: 14px;
+      color: #ffffff;
+      right: 30px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  .payment-btn{
+    height: 50px;
+    background: #ffffff;
+    border-radius: 25px;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    line-height: 50px;
+    bottom: -25px;
+    font-size: 16px;
+    color: #ff5f3e;
+    box-shadow: 0 0 27px rgba(254, 167, 158, .33);
+    &.sm{
+      font-size: 14px;
+    }
+    i{
+      margin-right: 10px;
+    }
+  }
+}
+
+.payment-list{
+  overflow: hidden;
+  margin-top: 46px;
+  .payment-ul{
+    margin-bottom: 10px;
+    background: #ffffff;
+    .payment-li{
+      height: 60px;
+      padding: 0 15px;
+      line-height: 60px;
+      font-size: 15px;
+      color: #737373;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      &:not(:last-child):before{
+        content: '';
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        bottom: 0;
+        background: @color-border;
+      }
+    }
+  }
+}
+
+.payment-tip{
+  font-size: 12px;
+  color: #b2b2b2;
+  text-align: center;
+  margin: 20px 0;
+  width: 100%;
+  line-height: 20px;
+  p:first-child{
+    position: relative;
+    display: inline;
+    &:before, &:after{
+      content: '';
+      position: absolute;
+      width: 30px;
+      height: 1px;
+      background: #bdbdbd;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &:before{
+      left: -40px;
+    }
+    &:after{
+      right: -40px;
+    }
+  }
+}

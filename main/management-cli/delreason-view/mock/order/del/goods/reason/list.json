@@ -1,0 +1,24 @@
+{
+    "code":0,
+    "message":"处理成功",
+    "data":{
+        "data_total":36,
+        "page":1,
+        "lists":[
+            {
+                "buy_shop_name":"侯氏冻品",
+                "sell_shop_name":"食品房子",
+                "del_goods_name":"猪儿朵",
+                "del_reason":["不想要","点错了"],
+                "del_time":"2016-02-06 15:22:00"
+            },
+            {
+                "buy_shop_name":"张氏冻品",
+                "sell_shop_name":"食品房子",
+                "del_goods_name":"猪儿朵阿斯顿",
+                "del_reason":["不想要","点错了"],
+                "del_time":"2016-02-16 15:22:00"
+            }
+        ]
+    }
+}

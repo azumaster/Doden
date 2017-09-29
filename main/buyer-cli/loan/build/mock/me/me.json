@@ -1,0 +1,26 @@
+{
+  "code":0,
+  "data":{
+    "personal_details":{
+      "name":"姓名",
+      "id_card_no":"510223123454656",
+      "gender":1,
+      "marriage":"MARRIED",
+      "mobile_codes":"13042568954",
+      "email":"xy@zdongpin.com"
+    },
+    "banks":[
+      {
+        "bank_name":"银行名称",
+        "card_number":"5131564648333",
+        "mobile_code":"13000000000"
+      },
+      {
+        "bank_name":"农业银行",
+        "card_number":"201545120254581",
+        "mobile_code":"13000000000"
+      }
+    ]
+  },
+  "message":"OK"
+}

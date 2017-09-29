@@ -1,0 +1,166 @@
+//可以滑动的容器;
+.wrapper(@top: 0, @right: @top, @bottom: @top, @left: @top, @index: 1, @overflow: hidden) {
+  position: absolute;
+  z-index: @index;
+  top: @top;
+  right: @right;
+  bottom: @bottom;
+  left: @left;
+  overflow: @overflow;
+}
+
+//图标字体样式;
+.icon-style(@font-size: 16px, @color: @black) {
+  font-family: iconfont;
+  font-size: @font-size;
+  color: @color;
+}
+
+.flex-box() {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  display:-moz-box;
+  display:-ms-box;
+}
+.align-items-center() {
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center;
+  box-align: center;
+}
+.align-items-end() {
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  -ms-align-items: flex-end;
+  align-items: flex-end;
+  -webkit-box-align: end;
+  -moz-box-align: end;
+  -ms-box-align: end;
+  box-align: end;
+}
+.align-items-start() {
+  -webkit-align-items: flex-start;
+  -moz-align-items: flex-start;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+  -webkit-box-align: start;
+  -moz-box-align: start;
+  -ms-box-align: start;
+  box-align: start;
+}
+.align-items-stretch() {
+  -webkit-align-items: stretch;
+  -moz-align-items: stretch;
+  -ms-align-items: stretch;
+  align-items: stretch;
+  -webkit-box-align: stretch;
+  -moz-box-align: stretch;
+  -ms-box-align: stretch;
+  box-align: stretch;
+}
+.align-items-baseline() {
+  -webkit-align-items: baseline;
+  -moz-align-items: baseline;
+  -ms-align-items: baseline;
+  align-items: baseline;
+  -webkit-box-align: baseline;
+  -moz-box-align: baseline;
+  -ms-box-align: baseline;
+  box-align: baseline;
+}
+.flex-direction-row() {
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-orient:horizontal;
+  -moz-box-orient:horizontal;
+  -ms-box-orient:horizontal;
+  box-orient:horizontal;
+  -webkit-box-direction:normal;
+  -moz-box-direction:normal;
+  -ms-box-direction:normal;
+  box-direction:normal;
+}
+.flex-direction-column() {
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-orient:vertical;
+  -moz-box-orient:vertical;
+  -ms-box-orient:vertical;
+  box-orient:vertical;
+  -webkit-box-direction:normal;
+  -moz-box-direction:normal;
+  -ms-box-direction:normal;
+  box-direction:normal;
+}
+.flex-wrap-wrap() {
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-column-break-inside: auto;
+  -moz-column-break-inside: auto;
+  -ms-column-break-inside: auto;
+  column-break-inside: auto;
+}
+.justify-space-between() {
+  -webkit-justify-content:space-between;
+  -moz-justify-content:space-between;
+  -ms-justify-content:space-between;
+  justify-content:space-between;
+  -webkit-box-pack:justify;
+  -moz-box-pack:justify;
+  -ms-box-pack:justify;
+  box-pack:justify;
+}
+.justify-center() {
+  -webkit-justify-content: center;
+  -moz-justify-content:center;
+  -ms-justify-content:center;
+  justify-content:center;
+  -webkit-box-pack:center;
+  -moz-box-pack:center;
+  -ms-box-pack:center;
+  box-pack:center;
+}
+
+.border-radius (@radius1: 5px, @radius2: @radius1, @radius3: @radius1, @radius4: @radius1) {
+  -webkit-border-radius: @radius1 @radius2 @radius3 @radius4;
+  -moz-border-radius: @radius1 @radius2 @radius3 @radius4;
+  -ms-border-radius: @radius1 @radius2 @radius3 @radius4;
+  -o-border-radius: @radius1 @radius2 @radius3 @radius4;
+  border-radius: @radius1 @radius2 @radius3 @radius4;
+}
+
+.box-shadow(@x: 0, @y: 0, @size: 13px, @opacity: 0.2){
+  -webkit-box-shadow: @x @y @size rgba(7, 0, 2, @opacity);
+  box-shadow: @x @y @size rgba(7, 0, 2, @opacity);
+}
+
+.flex-num(@size: 1) {
+  -webkit-box-flex: @size;
+  -webkit-flex: @size;
+  -ms-flex: @size;
+  flex: @size;
+}
+
+
+.border-bottom(@size: 1px, @color: @box-shadow) {
+  content: '';
+  display: block;
+  width: 100%;
+  border-bottom: @size solid @color;
+  -webkit-transform: scaleY(.5);
+  transform: scaleY(.5);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

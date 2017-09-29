@@ -1,0 +1,16 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "type": 1,
+      "title": "售后违规",
+      "score": -5
+    },
+    {
+      "type": 2,
+      "title": "上下架违规",
+      "score": -10
+    }
+  ],
+  "message": ""
+}

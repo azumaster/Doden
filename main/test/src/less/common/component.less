@@ -1,0 +1,319 @@
+/*
+函数
+----------------------------------------------------------*/
+
+//按钮;
+.btn-base (@color: @btn-color-default, @background: @btn-bg-color-default, @border: fadeout(@btn-color-default, 60%)){
+  color: @color;
+  background-color: @background;
+  border: 1px solid @border;
+}
+.btn-size (@font-size: @font-size-medium, @width: 65px, @height: 28px){
+  font-size: @font-size;
+  width: @width;
+  height: @height;
+  line-height: @height;
+}
+//flex布局;
+.flex-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  &.center {
+    align-items: center;
+  }
+}
+.flex-num1 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.flex-num(@size: 1) {
+  -webkit-box-flex: @size;
+  -webkit-flex: @size;
+  -ms-flex: @size;
+  flex: @size;
+}
+
+//圆角;
+.border-radius (@radius1: 5px, @radius2: @radius1, @radius3: @radius1, @radius4: @radius1) {
+  -webkit-border-radius: @radius1 @radius2 @radius3 @radius4;
+  -moz-border-radius: @radius1 @radius2 @radius3 @radius4;
+  -ms-border-radius: @radius1 @radius2 @radius3 @radius4;
+  -o-border-radius: @radius1 @radius2 @radius3 @radius4;
+  border-radius: @radius1 @radius2 @radius3 @radius4;
+}
+//超出显示省略号
+.clamp (@row: 1;) {
+  overflow: hidden;
+  -webkit-line-clamp: @row;
+  -moz-line-clamp: @row;
+  -ms-line-clamp: @row;
+  -o-line-clamp: @row;
+  line-clamp: @row;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  -o-box-orient: vertical;
+  box-orient: vertical;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  display: box;
+  word-break: break-all;
+}
+
+.background-size(@x,@y){
+  -webkit-background-size: @x @y;
+  -moz-background-size: @x @y;
+  -ms-background-size: @x @y;
+  -o-background-size: @x @y;
+  background-size: @x @y;  
+}
+
+.transition(@transition) {
+  -webkit-transition: @transition;
+  -moz-transition: @transition;
+  -ms-transition: @transition;
+  -o-transition: @transition;
+  transition: @transition;
+}
+
+.transform(@transform) {
+  -webkit-transform: @transform;
+  -moz-transform: @transform;
+  -ms-transform: @transform;
+  -o-transform: @transform;
+  transform: @transform;
+}
+
+/*
+公共样式
+------------------------------------------------------*/
+/*---基础样式---*/
+html{
+  height: 100%;
+  overflow: hidden;
+}
+body,div,section,canvas,p,h1,h2,h3,h4,h5,h6,ul,li {
+  margin: 0;
+  padding: 0
+}
+body{
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  height: 100%;
+  color: @text-color-primary;
+  font-size: @font-size-default;
+  //font-family: 'Helvetica Neue', 'Microsoft Yahei', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: @body-bg;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+a,
+img,
+button,
+input[type=text],
+input[type=tel],
+input[type=password],
+textarea,
+span,
+i,
+address,
+div {
+  outline: none;
+  -webkit-tap-highlight-color:rgba(255,255,255,0);
+  -webkit-appearance: none;
+  border: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  .border-radius(0,0,0,0);
+  font-style: normal;
+  /*font-family: "微软雅黑";*/
+  -webkit-text-size-adjust:none;
+}
+input[type=checkbox] {
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255,255,255,0);
+  border: 1px solid #868686;
+  width: 16px;
+  height: 16px;
+  .border-radius(2px,2px,2px,2px);
+  margin-right: 3px;
+  background-color: transparent;
+}
+ul,ol,li {
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.cls:after{
+  content:".";
+  display:block;
+  height:0;
+  clear:both;
+  visibility:hidden;
+}
+
+/**icon部分**/
+@font-face {font-family: 'iconfont';
+  src: url('../font/iconfont.eot'); /* IE9*/ ; /* iOS 4.1- */
+  src: url('../font/iconfont.svg#iconfont') format('svg'),
+  url('../font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/iconfont.woff') format('woff'), /* chrome、firefox */
+  url('../font/iconfont.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+.icon-font{
+  font-family: iconfont;
+  font-size: 16px;
+  font-style: normal;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*
+----------------wrapper
+*/
+#wrapper {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top: 40px;
+  left: 0;
+  overflow: hidden;
+}
+.scroller{
+  position: absolute;
+  z-index: 2;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  width: 100%;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+//按钮样式
+.btn {
+  display: inline-block;
+  .border-radius(3px,3px,3px,3px);
+  padding: 4px 10px;
+  margin-right: 8px;
+  line-height: 1.6;
+  font-size: 14px;
+  &-orange {
+    .btn-base(@btn-color-white, @btn-bg-color-orange, @btn-bg-color-orange);
+  }
+  &-orange-the {
+    .btn-base(@btn-bg-color-orange, #fff, @btn-bg-color-orange);
+  }
+  &-green {
+    .btn-base(@btn-color-white, @btn-bg-color-green, @btn-bg-color-green);
+  }
+  &-green-the {
+    .btn-base(@btn-bg-color-green, #fff, @btn-bg-color-green);
+  }
+  &-small {
+    padding: 4px 12px;
+  }
+  &-gray {
+    .btn-base(@btn-color-white, #D7D7D7, #D7D7D7);
+  }
+  @media (max-width: 340px) {
+    padding: 4px 10px;
+    margin-right: 5px;
+    font-size: 12px;
+    &-small {
+      padding: 4px 12px;
+    }
+  }
+}
+
+//顶部返回栏;
+.back-bar {
+  @h: 35px;
+  height: @h;
+  padding: 0 @box-left;
+  background-color: #fff;
+  border-bottom: 1px solid @border-color-in-dark;
+  .back {
+    line-height: @h;
+    display: inline-block;
+  }
+}
+
+//向左的方向方括号（表示返回...）;
+.before-back {
+  @color: @text-color-deputy;
+  color: @color;
+  &:before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid @color;
+    border-left: 2px solid @color;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+}
+
+//向右的方向方括号（表示更多...）;
+.after-more {
+  @color: @text-color-deputy;
+  color: @color;
+  &:after {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-top: 2px solid @color;
+    border-right: 2px solid @color;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
+
+//底部工作区;
+footer {
+  &.foot-bar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+//字体颜色;
+.color {
+  &-orange {
+    color: @base-color-orange;
+  }
+}

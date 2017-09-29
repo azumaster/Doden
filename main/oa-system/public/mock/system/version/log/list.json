@@ -1,0 +1,32 @@
+{
+  "code":0,
+  "data":{
+    "page":1,
+    "total":50,
+    "version_logs":[
+      {
+        "big_version":3,
+        "small_version":1,
+        "develop_version":15,
+        "remark":"备注信息",
+        "created_at":"2016-08-05 21:00:00",
+        "updated_at":"2016-08-05 21:00:00"
+      },{
+        "big_version":3,
+        "small_version":1,
+        "develop_version":15,
+        "remark":"备注信息",
+        "created_at":"2016-08-05 21:00:00",
+        "updated_at":"2016-08-05 21:00:00"
+      },{
+        "big_version":3,
+        "small_version":1,
+        "develop_version":15,
+        "remark":"备注信息",
+        "created_at":"2016-08-05 21:00:00",
+        "updated_at":"2016-08-05 21:00:00"
+      }
+    ]
+  },
+  "message":"OK"
+}

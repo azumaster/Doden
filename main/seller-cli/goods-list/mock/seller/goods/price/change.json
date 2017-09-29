@@ -1,0 +1,17 @@
+{
+  "code": 0,
+  "data":{
+    "price_rules": [
+      {
+        "rule_type": "减",
+        "rules": [
+          {
+            "buy_num": 20,
+            "preferential": "0.01元"
+          }
+        ]
+      }
+    ]
+  },
+  "message": "OK"
+}

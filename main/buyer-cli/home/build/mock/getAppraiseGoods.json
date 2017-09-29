@@ -1,0 +1,54 @@
+{
+  "code": 0,
+  "data": {
+    "total": 7,
+    "per_page": "2",
+    "current_page": 1,
+    "last_page": 4,
+    "next_page_url": "http://zdongpin.main.com/order/appraise/good?=2",
+    "prev_page_url": null,
+    "from": 1,
+    "to": 2,
+    "data": [
+      {
+        "id": 4266,
+        "goods_id": 2355,
+        "buyers_id": 7178,
+        "content": "好",
+        "replay": null,
+        "praises_num": 0,
+        "created_at": "2016-09-16 17:57:15",
+        "updated_at": "2016-09-16 17:57:15",
+        "buyer": {
+          "shId": 7178,
+          "unionName": "彭叔叔",
+          "unionPic": "http://wx.qlogo.cn/mmopen/YS6hvEsEdGSI2o4Eoka7BB895XfCuBkP8ATmgll21SvY4hIlEYCkTAphxNTm3VhZUXkqSN6j25Idibj0x0uHsrh7Ol0ibodYOv/0"
+        },
+        "appraise_img": [
+          {
+            "appraise_id": 1346,
+            "img_url": "Public/goods1.jpg"
+          }
+        ],
+        "praise": [],
+        "addContent": [
+          {
+            "id": 8,
+            "content": "货还是很正的，谢谢找冻品网提供评价功能",
+            "replay": "了法艰苦打",
+            "created_at": "2016-04-13 19:42:31",
+            "updated_at": "2017-08-17 21:31:04"
+          }
+        ]
+      }
+    ],
+    "diffGrade": {
+      "allCount": 56,
+      "goodCount": 36,
+      "mediumCount": 18,
+      "poorCount": 2,
+      "imgCount": 1
+    }
+  },
+  "message": "ok"
+}

@@ -1,0 +1,52 @@
+{
+  "code": 0,
+  "data": {
+    "charge": {
+      "id": "ch_WHSSC0qfDOu9rP4iH8fPWvDS",
+      "object": "charge",
+      "created": 1458876337,
+      "livemode": false,
+      "paid": false,
+      "refunded": false,
+      "app": "app_948if104qDa1vXPy",
+      "channel": "wx_pub",
+      "order_no": "17001446463117EKR5QeHe",
+      "client_ip": "127.0.0.1",
+      "amount": 1,
+      "amount_settle": 1,
+      "currency": "cny",
+      "subject": "冻品",
+      "body": "冻品小额微信公众号支付",
+      "extra": {
+        "open_id": "oDoh6wSSecaHyy9KF2qE0qDmQGig"
+      },
+      "time_paid": null,
+      "time_expire": 1458883537,
+      "time_settle": null,
+      "transaction_no": null,
+      "refunds": {
+        "object": "list",
+        "url": "/v1/charges/ch_WHSSC0qfDOu9rP4iH8fPWvDS/refunds",
+        "has_more": false,
+        "data": []
+      },
+      "amount_refunded": 0,
+      "failure_code": null,
+      "failure_msg": null,
+      "metadata": {},
+      "credential": {
+        "object": "credential",
+        "wx_pub": {
+          "appId": "wxbhqtssbb5i5o4kca",
+          "timeStamp": 1458876337,
+          "nonceStr": "467ea98af2af1cedde32435f4aba6ca9",
+          "package": "prepay_id=1101000000160325om9ez9lcwb144gyj",
+          "signType": "MD5",
+          "paySign": "CB02446AF4EC55D1FBACA77E99130F61"
+        }
+      },
+      "description": null
+    }
+  },
+  "message": ""
+}

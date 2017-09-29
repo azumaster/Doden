@@ -1,0 +1,51 @@
+{
+  "code": 0,
+  "data": {
+    "total": 20,
+    "per_page": "5",
+    "current_page": 4,
+    "last_page": 4,
+    "next_page_url": null,
+    "prev_page_url": "http://zdongpin.main.com/seller/withdraw/getAllLogs?=3",
+    "from": 16,
+    "to": 20,
+    "data": [
+      {
+        "status": "withdrawNo",
+        "money": "912.00",
+        "orderNum": 1,
+        "startTime": "2016-02-27 10:36:49",
+        "endTime": "2016-02-27 10:38:01"
+      },
+      {
+        "status": "withdrawNo",
+        "money": "456.00",
+        "orderNum": 1,
+        "startTime": "2016-02-26 20:06:04",
+        "endTime": "2016-02-26 20:08:02"
+      },
+      {
+        "status": "withdrawYes",
+        "money": "1368.00",
+        "orderNum": 2,
+        "startTime": "2016-02-26 19:59:46",
+        "endTime": "2016-02-26 20:02:01"
+      },
+      {
+        "status": "withdrawNo",
+        "money": "456.00",
+        "orderNum": 1,
+        "startTime": "2016-02-26 19:55:34",
+        "endTime": "2016-02-26 19:56:02"
+      },
+      {
+        "status": "withdrawYes",
+        "money": "912.00",
+        "orderNum": 1,
+        "startTime": "2016-02-26 19:48:45",
+        "endTime": "2016-02-26 19:51:55"
+      }
+    ]
+  },
+  "message": "OK"
+}

@@ -1,0 +1,161 @@
+{
+    "code":0,
+    "message":"成功",
+    "data":{
+        "main_menu":[
+            {
+                "menu_id": 404180513,
+                "name": "注册",
+                "type": "view",
+                "value": "http://test.auth.zdongpin.com",
+                "sub_button": [
+                    {
+                        "name":"菜单名",
+                        "type":"view",
+                        "value":"http://auth.zdongpin.com"
+                    }
+                ]
+            },
+            {
+                "menu_id": 404180513,
+                "name": "卖家中心",
+                "type": "view",
+                "value": "http://test.m.zdongpin.com/index.php?m=Home&c=Index&a=index",
+                "sub_button": []
+            },
+            {
+                "menu_id": 404180513,
+                "name": "找冻品",
+                "type": "view",
+                "value": "http://test.m.zdongpin.com/index.php?m=Buyers&c=user&a=index",
+                "sub_button": []
+            }
+        ],
+        "conditional_menu":[
+            {
+                "group_name":"未注册",
+                "group_id":1,
+                "menu_info":[
+                    {
+                        "name":"使用教程",
+                        "type":"view",
+                        "value":"http://auth.zdongpin.com?role=teach",
+                        "menu_id":550,
+                        "sub_button":[
+                            {
+                                "name":"如何找货",
+                                "type":"view",
+                                "value":"http://auth.zdongpin.com?howtofind"
+                            },
+                            {
+                                "name":"如何买货",
+                                "type":"view",
+                                "value":"http://auth.zdongpin.com?howtobuy"
+                            },
+                            {
+                                "name":"资金安全",
+                                "type":"view",
+                                "value":"http://auth.zdongpin.com?security"
+                            }
+                        ]
+                    },
+                    {
+                        "name":"关于我们",
+                        "type":"view",
+                        "value":"http://auth.zdongpin.com?role=teach",
+                        "menu_id":552,
+                        "sub_button":[
+                            {
+                                "name":"公司介绍",
+                                "type":"view",
+                                "value":"http://auth.zdongpin.com?company"
+                            },
+                            {
+                                "name":"团队介绍",
+                                "type":"view",
+                                "value":"http://auth.zdongpin.com?team"
+                            }
+                        ]
+                    },
+                    {
+                        "name":"注册",
+                        "type":"view",
+                        "value":"http://auth.zdongpin.com?role=teach",
+                        "menu_id":555,
+                        "sub_button":[]
+                    }
+                ]
+            },
+            {
+                "group_name":"四川一批",
+                "group_id":2,
+                "menu_info":[
+                    {
+                        "name":"店铺管理",
+                        "type":"btn",
+                        "value":"http://auth.zdongpin.com?role=shopmanagement",
+                        "menu_id":510,
+                        "sub_button":[]
+                    },
+                    {
+                        "name":"冻品商城",
+                        "type":"btn",
+                        "value":"http://auth.zdongpin.com?role=shop",
+                        "menu_id":502,
+                        "sub_button":[]
+                    },
+                    {
+                        "name":"联系客服",
+                        "type":"view",
+                        "value":"http://auth.zdongpin.com?role=kefu",
+                        "menu_id":511,
+                        "sub_button":[
+                            {
+                                "name":"联系客服",
+                                "type":"view",
+                                "value":"http://auth.zdongpin.com?ll"
+                            },
+                            {
+                                "name":"如何找货",
+                                "type":"view",
+                                "value":"http://auth.zdongpin.com?team"
+                            },
+                            {
+                                "name":"如何卖货",
+                                "type":"view",
+                                "value":"http://auth.zdongpin.com?team"
+                            },
+                            {
+                                "name":"退货退款",
+                                "type":"view",
+                                "value":"http://auth.zdongpin.com?refund"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "group_id": 0,
+                "group_name": "默认组",
+                "menu_info": []
+            }
+        ],
+        "menu_type":[
+            {
+                "menu_type_name": "点击推事件",
+                "menu_type_value": "click",
+                "remark": "用户点击click类型按钮后，微信服务器会通过消息接口推送消息类型为 event\t的结构给开发者"
+            },
+            {
+                "menu_type_name": "跳转URL",
+                "menu_type_value": "view",
+                "remark": "用户点击view类型按钮后，微信客户端将会打开开发者在按钮中填写的网页URL"
+            },
+            {
+                "menu_type_name": "弹出拍照或者相册发图",
+                "menu_type_value": "pic_photo_or_album",
+                "remark": "用户点击按钮后，微信客户端将弹出选择器供用户选择“拍照”或者“从手机相册选择”"
+            }
+        ]
+    }
+}

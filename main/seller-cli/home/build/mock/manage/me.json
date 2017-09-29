@@ -1,0 +1,48 @@
+{
+  "status": 0,
+  "message": "ok",
+  "userRegAct": 1,
+  "data": {
+    "userInfoArr": {
+      "shid": "13888",
+      "shopid": "13812",
+      "openid": "oV06lw8q3TKiKsiAhAJ-B1Z-qc5U",
+      "unionid": "oQytYwJ_0qW8HNm7SvAwhBZ_X4vs",
+      "unionname": "Doden",
+      "unionpic": "http://wx.qlogo.cn/mmopen/leBoYuXxetlbicrrwWkx51j1UsQvG7jSPxpqURia4icgALIGpsibzwq3T2GGiatHZ9gsP6h2WZIGP32Ybll4cT87UkWAn1KvNRWaic/0",
+      "xingming": "华东",
+      "lianxitel": "18381076241",
+      "laobanid": "0",
+      "laobanhao": "0",
+      "zhucetime": "2017-08-15 09:49:16",
+      "shengheact": "1",
+      "grounds": null,
+      "shenheadminid": "1",
+      "shengheadminname": "root",
+      "msgnotice": "1",
+      "endguanzhutime": "0000-00-00 00:00:00",
+      "guanzhuact": "1",
+      "zhuxiaotime": "0000-00-00 00:00:00",
+      "shanghudenji": "0",
+      "integralall": "0",
+      "onlineday": "0",
+      "coupons": "0",
+      "dohaobend": "0",
+      "bendtxt": "",
+      "updatetime": "2017-08-17 16:34:16",
+      "wegroupid": "100",
+      "olduser": null,
+      "oldid": "0",
+      "oldlaobanid": "0",
+      "address": "",
+      "staffids": "",
+      "oldpianquid": "0"
+    },
+    "yuangongArr": {
+      "1": "仓管",
+      "2": "接单员",
+      "3": "老板",
+      "4": "公司员工"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "code":0,
+  "data":{
+    "is_registered": true,
+    "is_boss": true,
+    "page": 1,
+    "total":5,
+    "goods":[
+      {
+        "goods_id":150,
+        "goods_category_id":5,
+        "goods_title":"测试标题这是一个测试标题，今天是个好天气；测试标题这是一个测试标题，今天是个好天气",
+        "goods_price":"13.x",
+        "sell_num":133,
+        "goods_image":"/Public/goods1.jpg",
+        "is_expired":true,
+        "is_oftenbuy":false
+      },
+      {
+        "goods_id":150,
+        "goods_category_id":5,
+        "goods_title":"测试标题测试标题这是一个测试标题，今天是个好天气测试标题这是一个测试标题，今天是个好天气",
+        "goods_price":"13.x",
+        "sell_num":133,
+        "goods_image":"/Public/goods1.jpg",
+        "is_expired":false,
+        "is_oftenbuy":false
+      },
+      {
+        "goods_id":150,
+        "goods_category_id":4,
+        "goods_title":"测试标题",
+        "goods_price":"13.x",
+        "sell_num":133,
+        "goods_image":"/Public/goods1.jpg",
+        "is_expired":false,
+        "is_oftenbuy":true
+      },
+      {
+        "goods_id":150,
+        "goods_category_id":4,
+        "goods_title":"测试标题",
+        "goods_price":"13.x",
+        "sell_num":133,
+        "goods_image":"/Public/goods1.jpg",
+        "is_expired":true,
+        "is_oftenbuy":true
+      }
+    ]
+  },
+  "message":"OK"
+}

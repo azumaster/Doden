@@ -1,0 +1,80 @@
+//影像资料页面样式;
+
+.images-page {
+  position: absolute;
+  .wrapper(0,0,0,0,2);
+  background-color: @color-bg;
+}
+
+.uploader-cell {
+  background-color: #fff;
+  padding: @margin @margin - 9px @margin - 4px @margin;
+  overflow: hidden;
+  .upload-img {
+    position: relative;
+    float: left;
+    margin-right: 9px;
+    margin-bottom: 9px;
+    width: 79px;
+    height: 79px;
+    background: no-repeat center center;
+    background-size: cover;
+    .del {
+      position: absolute;
+      right: -4px;
+      top: -6px;
+      width: 16px;
+      height: 16px;
+      background-color: red;
+      border-radius:50%;
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 10px;
+        height: 1px;
+        background-color: #fff;
+        transform: rotate(45deg);
+        left: 3px;
+        top: 7px;
+      }
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 10px;
+        height: 1px;
+        background-color: #fff;
+        transform: rotate(-45deg);
+        top: 7px;
+        left: 3px;
+      }
+    }
+  }
+  .uploader {
+    float: left;
+    position: relative;
+    margin-right: 9px;
+    margin-bottom: 9px;
+    width: 77px;
+    height: 77px;
+    border: 1px solid #D9D9D9;
+    &:before, &:after {
+      content: " ";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      background-color: #D9D9D9;
+    }
+    &:before {
+      width: 2px;
+      height: 39.5px;
+    }
+    &:after {
+      width: 39.5px;
+      height: 2px;
+    }
+  }
+}

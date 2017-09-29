@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "isRaw":1,
+    "charge": {
+      "appId": "wxdfd8ecdd1ae6f5f1",
+      "nonceStr": "585266098e37e",
+      "package": "prepay_id=wx20161215174441a07b24df620060939365",
+      "signType": "MD5",
+      "paySign": "25F9BBC479CF569B4008876E5A0D7036",
+      "timestamp": "1481795081"
+    }
+  },
+  "message": "OK"
+}

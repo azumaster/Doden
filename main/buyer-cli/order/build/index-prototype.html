@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name='viewport' content='width=device-width,initial-scale=1.0,user-scalable=no'>
+    <meta name="renderer" content="webkit">
+	<title>buyer order prototype</title>
+	<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+	<script type="text/javascript">
+		var brWidth = document.documentElement.clientWidth;
+		var brHeight = document.documentElement.clientHeight;
+		brWidth = brWidth>640?640:brWidth;
+		var size=brWidth/320*16;
+		document.getElementsByTagName("html")[0].style.fontSize=size+"px";
+		document.getElementsByTagName("html")[0].style.height=brHeight+"px";
+	</script>
+</head>
+<body onload="load()">
+	<div id="container">
+		<div id="toolbar" class="toolbar">
+			<ul class="order-tab">
+				<li class="active"><a><span>全部订单</span></a></li>
+				<li><a><span>未付款</span></a></li>
+				<li><a><span>待发货</span></a></li>
+				<li><a><span>已发货</span></a></li>
+			</ul>
+		</div>
+		<div id="wrapper">
+			<div id="scroller">
+				<ul class="order-content">
+					<li class="list">
+						<div class="order-list-top">
+							<div class="order-price">
+								<p><span class="privilege-text">减免</span>:<span class="privilege-price">-￥872</span></p>
+								<p><span class="privilege-text">实付金额</span>:<span class="count-price">￥3872</span></p>
+							</div>
+							<div class="btn-group">
+								<a class="btn btn-default">客服电话</a>
+								<a class="btn btn-orange">去支付</a>
+							</div>
+						</div>
+						<div class="order-state">
+							<div class="state-title-warp">
+								<ul class="state-title-animate">
+									<li><p class="state-title">8小时未付款，订单会自动取消</p></li>
+									<li><p class="state-title">订单会自动取消</p></li>
+								</ul>
+							</div>
+							<p class="state-time">下单时间：2016-02-12  12:00:23</p>
+						</div>
+						<div class="order-shop-name">
+							<p>海霸王-食品房子</p>
+						</div>
+						<ul class="order-goods-list">
+							<li class="cls">
+								<div class="goods-img">
+									<img src="images/order-goods-img.jpg" width="100%"/>
+								</div>
+								<div class="goods-info">
+									<div class="goods-title">鱼本家虾味饺(20件送1) (鱼鱼本家虾味饺(20件送1) (鱼</div>
+									<div class="goods-num">75元*2件=150元</div>
+								</div>
+								<div class="operation"><a class="btn btn-small">删除</a></div>
+							</li>
+							<li class="cls">
+								<div class="goods-img">
+									<img src="images/order-goods-img.jpg" width="100%"/>
+								</div>
+								<div class="goods-info">
+									<div class="goods-title">鱼本家虾味饺(20件送1) (鱼鱼本家虾味饺(20件送1) (鱼</div>
+									<div class="goods-num">75元*2件=150元</div>
+								</div>
+								<div class="operation"><a class="btn btn-small">删除</a></div>
+							</li>
+						</ul>
+					</li>
+					<li class="list">
+						<div class="order-list-top">
+							<div class="order-price">
+								<p><span class="privilege-text">状态</span>:<span class="state">已取消</span></p>
+								<p><span class="privilege-text">实付金额</span>:<span class="count-price">￥3872</span></p>
+							</div>
+							<div class="btn-group">
+								<a class="btn btn-default">客服电话</a>
+								<a class="btn btn-orange">去支付</a>
+							</div>
+						</div>
+						<div class="order-state">
+							<p class="state-title">8小时未付款，订单会自动取消</p>
+							<p class="state-time">下单时间：2016-02-12  12:00:23</p>
+						</div>
+						<div class="order-shop-name">
+							<p>海霸王-食品房子</p>
+						</div>
+						<ul class="order-goods-list">
+							<li class="cls">
+								<div class="goods-img">
+									<img src="images/order-goods-img.jpg" width="100%"/>
+								</div>
+								<div class="goods-info">
+									<div class="goods-title">鱼本家虾味饺(20件送1) (鱼鱼本家虾味饺(20件送1) (鱼</div>
+									<div class="goods-num">75元*2件=150元</div>
+								</div>
+								<div class="operation"><a class="btn btn-small">删除</a></div>
+							</li>
+							<li class="cls">
+								<div class="goods-img">
+									<img src="images/order-goods-img.jpg" width="100%"/>
+								</div>
+								<div class="goods-info">
+									<div class="goods-title">鱼本家虾味饺(20件送1) (鱼鱼本家虾味饺(20件送1) (鱼</div>
+									<div class="goods-num">75元*2件=150元</div>
+								</div>
+								<div class="operation"><a class="btn btn-small">删除</a></div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="nav">
+			<div class="navs">
+				<a href="" style="background-position: 0% 0%"></a>
+			</div>
+			<div class="navs">
+				<a href="" style="background-position: 0 100%"></a>
+			</div>
+			<div class="navs">
+				<a href="" style="background-position: 100% 25%"></a>
+			</div>
+			<div class="navs">
+				<a href="" style="background-position: 0 75%"></a>
+			</div>
+			<div class="navs">
+				<a href="" style="background-position: 0% 50%"></a>
+			</div>
+		</div>
+		<!--<div id="actionSheet_wrap">-->
+			<!--<div class="mask_transition fade_toggle" id="mask"></div>  &lt;!&ndash;style="display: block;"&ndash;&gt;-->
+			<!--<div class="actionsheet" id="actionsheet">  &lt;!&ndash;actionsheet_toggle&ndash;&gt;-->
+				<!--<div class="actionsheet_menu">-->
+					<!--<div class="actionsheet_cell">示例菜单</div>-->
+					<!--<div class="actionsheet_cell">示例菜单</div>-->
+					<!--<div class="actionsheet_cell">示例菜单</div>-->
+					<!--<div class="actionsheet_cell">示例菜单</div>-->
+				<!--</div>-->
+				<!--<div class="actionsheet_action">-->
+					<!--<div class="actionsheet_cell" id="actionsheet_cancel">取消</div>-->
+				<!--</div>-->
+			<!--</div>-->
+		<!--</div>-->
+		<!--<div class="dialog-warp" id="dialog">-->
+			<!--<div class="dialog-mask"></div>-->
+			<!--<div class="dialog-content">-->
+				<!--<div class="dialog-head"><strong class="dialog-title">弹窗标题</strong></div>-->
+				<!--<div class="dialog-body">-->
+					<!--自定义弹窗内容，居左对齐显示，告知需要确认的信息等-->
+				<!--</div>-->
+				<!--<div class="dialog-btn-group">-->
+					<!--<a href="javascript:;" class="weui_btn_dialog default">取消</a>-->
+					<!--<a href="javascript:;" class="weui_btn_dialog primary">确定</a>-->
+				<!--</div>-->
+			<!--</div>-->
+		<!--</div>-->
+	</div>
+</body>
+<script src="bundle.js"></script>
+<script src="iscroll-probe.js"></script>
+<script>
+	function load() {
+		setTimeout(function(){
+			var wrapper = document.getElementById("wrapper");
+			var myScroll = new IScroll(wrapper, {
+				zoom: true,
+				scrollX: false,  //是不中可以横向滚动;
+				scrollY: true,  //是否可以纵向滚动;
+				mouseWheel: true, //是否监听鼠标滚轮;
+				wheelAction: 'zoom',
+				probeType: 2,
+				click: true,
+				topOffset: 50,
+				onRefresh: function(){
+					console.log("onRefresh");
+				},
+				onScrollMove: function(){
+					console.log("onScrollMove");
+				},
+				onScrollEnd: function(){
+					console.log("onScrollEnd");
+				}
+			});
+			document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+			function updatePosition(){
+				console.log(this.y);
+			}
+			myScroll.on('scroll', updatePosition);
+			//myScroll.on('scrollEnd', updatePosition);
+			//myScroll.on('scrollStart', updatePosition);
+		},1000)
+	}
+</script>
+</html>

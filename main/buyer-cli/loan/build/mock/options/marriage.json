@@ -1,0 +1,14 @@
+{
+  "code":0,
+  "data":[
+    {
+      "name":"未婚",
+      "code":"SPINSTERHOOD"
+    },
+    {
+      "name":"已婚",
+      "code":"MARRIED"
+    }
+  ],
+  "message":"OK"
+}

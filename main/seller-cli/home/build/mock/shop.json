@@ -1,0 +1,20 @@
+{
+  "status": 0,
+  "message": "ok",
+  "dianPuName": "Huadong",
+  "shop_diamond_num": "0",
+  "userName": "华东",
+  "telPhone": "18381076241",
+  "gudingTel": "18381076241",
+  "pianqu": "四川省",
+  "doorNum": "海霸王123",
+  "dianpuJianjie": "",
+  "newOrderNum": 0,
+  "dfhOrderNum": 0,
+  "consignmentOrderNum": 0,
+  "goodNum": 2,
+  "goodMoney": 2.02,
+  "financialArr": {
+    "confirmed": 0
+  }
+}

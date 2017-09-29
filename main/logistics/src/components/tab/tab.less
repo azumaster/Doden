@@ -1,0 +1,23 @@
+.tab {
+  .flex-box();
+  background-color: #fff;
+  color: #4c4c4c;
+  .cell {
+    .flex-num();
+    text-align: center;
+    line-height: 40px;
+  }
+  .active {
+    color: @color-primary;
+  }
+  .slider {
+    position: absolute;
+    bottom: 0;
+    transition: transform .4s cubic-bezier(.68,-.55,.27,1.55);
+    -webkit-transition: transform .4s cubic-bezier(.68,-.55,.27,1.55);
+    .item {
+      margin: 0 20%;
+      border-bottom: 2px solid @color-primary;
+    }
+  }
+}

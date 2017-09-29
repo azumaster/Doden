@@ -1,0 +1,107 @@
+{
+  "code": 0,
+  "data": {
+    "service_time": "2016-09-30 07:44:39",
+    "rerister_status": 1,
+    "shop_type_num": "21",
+    "is_seller": "0",
+    "activitys": [
+      {
+        "start_time": "2016-09-30 00:11:00",
+        "end_time": "2016-09-30 13:22:00",
+        "activity_shop_types": [
+          "21",
+          "22"
+        ],
+        "lists": [
+          {
+            "goods_id": 1952,
+            "goods_name": "记录着我们的生活",
+            "goods_title": "",
+            "goods_brand": "j图了",
+            "goods_model": "10",
+            "goods_standard": "55555",
+            "goods_price": "105.00",
+            "goods_inventory": 0,
+            "restrict_buy_num": 1,
+            "buy_num": 0,
+            "goods_image": "events/Uploads/goodsimg/20160907/42903000_1473221458_thr.jpg",
+            "goods_image_count": 3,
+            "seller_shop_name": "测试-胡小宇"
+          },
+          {
+            "goods_id": 1961,
+            "goods_name": "方法v哈哈哈",
+            "goods_title": "测试一个商品标题的增加长度也要验证的哦",
+            "goods_brand": "发布会",
+            "goods_model": "刚刚好",
+            "goods_standard": "125",
+            "goods_price": "126.00",
+            "goods_inventory": 66,
+            "restrict_buy_num": 10,
+            "buy_num": 10,
+            "goods_image": "Public/images/buyer-cli/goods.jpg",
+            "goods_image_count": 3,
+            "seller_shop_name": "测试-张工"
+          }
+        ]
+      },
+      {
+        "start_time": "2016-09-30 12:03:00",
+        "end_time": "2016-09-30 13:03:00",
+        "activity_shop_types": [
+          "21",
+          "22"
+        ],
+        "lists": [
+          {
+            "goods_id": 1953,
+            "goods_name": "记录着我们的生活",
+            "goods_title": "",
+            "goods_brand": "j图了",
+            "goods_model": "20",
+            "goods_standard": "555",
+            "goods_price": "150.00",
+            "goods_inventory": 133,
+            "restrict_buy_num": 3,
+            "buy_num": 0,
+            "goods_image": "events/Uploads/goodsimg/20160907/42903000_1473221458_thr.jpg",
+            "goods_image_count": 3,
+            "seller_shop_name": "测试-胡小宇"
+          },
+          {
+            "goods_id": 1955,
+            "goods_name": "记录着我们的生活",
+            "goods_title": "",
+            "goods_brand": "j图了",
+            "goods_model": "50",
+            "goods_standard": "28",
+            "goods_price": "154.00",
+            "goods_inventory": 100,
+            "restrict_buy_num": 2,
+            "buy_num": 0,
+            "goods_image": "events/Uploads/goodsimg/20160907/42903000_1473221458_thr.jpg",
+            "goods_image_count": 3,
+            "seller_shop_name": "测试-胡小宇"
+          },
+          {
+            "goods_id": 1954,
+            "goods_name": "记录着我们的生活",
+            "goods_title": "",
+            "goods_brand": "j图了",
+            "goods_model": "30",
+            "goods_standard": "225",
+            "goods_price": "140.00",
+            "goods_inventory": 122,
+            "restrict_buy_num": 1,
+            "buy_num": 0,
+            "goods_image": "events/Uploads/goodsimg/20160907/42903000_1473221458_thr.jpg",
+            "goods_image_count": 3,
+            "seller_shop_name": "测试-胡小宇"
+          }
+        ]
+      }
+    ]
+  },
+  "message": "OK"
+}

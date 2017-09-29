@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <title>找冻品网</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        img{display: block;}
+    </style>
+</head>
+<body>
+<img id="img" src="http://img.idongpin.com/Public/Uploads/banner/banner-info1.jpg@450w_90Q.jpg" width="100%"/>
+<script type="text/javascript">
+    var version = '201612070949',CONNECT_TIME = 3000,$showDate = window.location.host.indexOf('192.168.') == -1 ? '{$showDate}' : 1;
+    var brWidth=document.documentElement.clientWidth,brHeight=document.documentElement.clientHeight,size=brWidth/320*16;document.getElementsByTagName("html")[0].style.fontSize=size+"px";document.getElementsByTagName("html")[0].style.height=brHeight+"px";(function(){function k(l,m){var n=new Date();n.setTime(n.getTime()+2*60*1000);document.cookie=l+"="+escape(m)+";expires="+n.toGMTString()}function g(m){var l,n=new RegExp("(^| )"+m+"=([^;]*)(;|$)");if(l=document.cookie.match(n)){return unescape(l[2])}else{return null}}function b(o){var m=version||"201607281407";for(var n=0;n<staticArr.length;n++){var l=document.createElement("script");l.type="application/javascript";l.src=o+staticArr[n].name+"?v="+m;document.body.appendChild(l);if(staticArr[n].time){var p=staticArr[n].time;l.onload=function(){var q=document.createElement("script");q.type="application/javascript";q.src=o+p+"?v="+m;document.body.appendChild(q)}}}}var d="",j=window.location.href,c=null,f="http://img.idongpin.com/",e="http://cdn2.img.idongpin.com/",a=false,h=null;function i(m){imgError=function(){if(!h){return}clearInterval(h);h=null;a=true;k("domain",e);if(m==1){b(e)}else{if(m==2){b("http://test.m.zdongpin.com/")}}};c=function(){clearInterval(h);a=true;k("domain",f);if(m==1){b(f)}else{if(m==2){b("http://test.m.zdongpin.com/")}}};var l=document.createElement("img");l.src=f+"Public/images/test-connect.png";l.width=0;l.height=0;l.onerror=imgError;l.onload=c;document.body.appendChild(l);h=setInterval(function(){if(!a){imgError()}},CONNECT_TIME)}if(j.indexOf("test.m.zdongpin.com")!=-1){if(g("domain")){b("http://test.m.zdongpin.com/")}else{i(2)}}else{if(j.indexOf("m.zdongpin.com")!=-1){if(g("domain")){d=g("domain");b(d)}else{i(1)}}}if(j.indexOf("m.zdongpin.com")==-1){k("domain","http://"+window.location.host+"/");b("http://"+window.location.host+"/")}})();
+</script>
+</body>
+</html>

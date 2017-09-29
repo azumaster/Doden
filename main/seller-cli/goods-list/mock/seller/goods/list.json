@@ -1,0 +1,148 @@
+{
+  "code": 0,
+  "data": {
+    "goods": [
+      {
+        "goods_id": 25814,
+        "type": "293",
+        "name": "，我的",
+        "thumb": "events/Uploads/goodsimg/20161226/25814_4P71a7FfuLuAXznb9h1sbXS-oePCgU-WLJVB4u7UwYQY_ruiYLdKoh6WnLSetV32.jpg",
+        "xinghao": "15斤／个-12斤／个",
+        "price": "0.01",
+        "unit": "件",
+        "price_rules": [
+          {
+            "rule_type": "减",
+            "rules": [
+              {
+                "buy_num": 20,
+                "preferential": "0.01元"
+              },
+              {
+                "buy_num": 20,
+                "preferential": "0.01元"
+              },
+              {
+                "buy_num": 20,
+                "preferential": "0.01元"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "goods_id": 25813,
+        "type": "149",
+        "name": "鸡肉",
+        "thumb": "events/Uploads/goodsimg/20161226/25813_ApqB9P1A2YR1SssDXMVxo8L9R7Ll7XGdpQhAnbMP6sf49M5QqzXFV3sfAWJo18wb.jpg",
+        "xinghao": "12克／块-12克／块",
+        "price": "0.01",
+        "unit": "件",
+        "price_rules": [
+
+        ]
+      },
+      {
+        "goods_id": 25813,
+        "type": "149",
+        "name": "鸡肉",
+        "thumb": "events/Uploads/goodsimg/20161226/25813_ApqB9P1A2YR1SssDXMVxo8L9R7Ll7XGdpQhAnbMP6sf49M5QqzXFV3sfAWJo18wb.jpg",
+        "xinghao": "12克／块-12克／块",
+        "price": "0.01",
+        "unit": "件",
+        "price_rules": [
+
+        ]
+      },
+      {
+        "goods_id": 25813,
+        "type": "149",
+        "name": "鸡肉",
+        "thumb": "events/Uploads/goodsimg/20161226/25813_ApqB9P1A2YR1SssDXMVxo8L9R7Ll7XGdpQhAnbMP6sf49M5QqzXFV3sfAWJo18wb.jpg",
+        "xinghao": "12克／块-12克／块",
+        "price": "0.01",
+        "unit": "件",
+        "price_rules": [
+
+        ]
+      },
+      {
+        "goods_id": 25813,
+        "type": "149",
+        "name": "鸡肉",
+        "thumb": "events/Uploads/goodsimg/20161226/25813_ApqB9P1A2YR1SssDXMVxo8L9R7Ll7XGdpQhAnbMP6sf49M5QqzXFV3sfAWJo18wb.jpg",
+        "xinghao": "12克／块-12克／块",
+        "price": "0.01",
+        "unit": "件",
+        "price_rules": [
+
+        ]
+      },
+      {
+        "goods_id": 25813,
+        "type": "149",
+        "name": "鸡肉",
+        "thumb": "events/Uploads/goodsimg/20161226/25813_ApqB9P1A2YR1SssDXMVxo8L9R7Ll7XGdpQhAnbMP6sf49M5QqzXFV3sfAWJo18wb.jpg",
+        "xinghao": "12克／块-12克／块",
+        "price": "0.01",
+        "unit": "件",
+        "price_rules": [
+
+        ]
+      },
+      {
+        "goods_id": 25813,
+        "type": "149",
+        "name": "鸡肉",
+        "thumb": "events/Uploads/goodsimg/20161226/25813_ApqB9P1A2YR1SssDXMVxo8L9R7Ll7XGdpQhAnbMP6sf49M5QqzXFV3sfAWJo18wb.jpg",
+        "xinghao": "12克／块-12克／块",
+        "price": "0.01",
+        "unit": "件",
+        "price_rules": [
+
+        ]
+      },
+      {
+        "goods_id": 25813,
+        "type": "149",
+        "name": "鸡肉",
+        "thumb": "events/Uploads/goodsimg/20161226/25813_ApqB9P1A2YR1SssDXMVxo8L9R7Ll7XGdpQhAnbMP6sf49M5QqzXFV3sfAWJo18wb.jpg",
+        "xinghao": "12克／块-12克／块",
+        "price": "0.01",
+        "unit": "件",
+        "price_rules": [
+
+        ]
+      },
+      {
+        "goods_id": 25813,
+        "type": "149",
+        "name": "鸡肉",
+        "thumb": "events/Uploads/goodsimg/20161226/25813_ApqB9P1A2YR1SssDXMVxo8L9R7Ll7XGdpQhAnbMP6sf49M5QqzXFV3sfAWJo18wb.jpg",
+        "xinghao": "12克／块-12克／块",
+        "price": "0.01",
+        "unit": "件",
+        "price_rules": [
+
+        ]
+      },
+      {
+        "goods_id": 25813,
+        "type": "149",
+        "name": "鸡肉",
+        "thumb": "events/Uploads/goodsimg/20161226/25813_ApqB9P1A2YR1SssDXMVxo8L9R7Ll7XGdpQhAnbMP6sf49M5QqzXFV3sfAWJo18wb.jpg",
+        "xinghao": "12克／块-12克／块",
+        "price": "0.01",
+        "unit": "件",
+        "price_rules": [
+
+        ]
+      }
+    ],
+    "total": 28,
+    "start": 0,
+    "end": 49,
+    "type": 1
+  },
+  "message": "OK"
+}

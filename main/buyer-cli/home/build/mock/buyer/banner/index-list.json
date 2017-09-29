@@ -1,0 +1,23 @@
+{
+  "code":0,
+  "data":[
+    {
+      "banner_id":1,
+      "cover_pic":"Public/goods1.jpg",
+      "banner_title":"banner标题",
+      "link_url": "Public/Uploads/linkBanner/14873127461511.jpg"
+    },
+    {
+      "banner_id":2,
+      "cover_pic":"Public/goods2.png",
+      "link_url": "qq.com"
+    },
+    {
+      "banner_id":3,
+      "cover_pic":"Public/goods3.png",
+      "link_url": "www.qq.com"
+    }
+  ],
+  "data1": [],
+  "message":"OK"
+}

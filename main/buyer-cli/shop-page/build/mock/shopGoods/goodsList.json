@@ -1,0 +1,54 @@
+{
+  "code": 0,
+  "data": {
+    "goods": [
+      {
+        "id": 25570,
+        "title": "来个标题才能过，这个标题要15个字哦。",
+        "pic": "Public/Uploads/goodsimg/20161212/25570_DGtOAZn3exzc6GJHj03FVGiCiTedwNkaR2XgUOGG2ReuAK8HY1aJZ_zmmyJNC0hd.jpg",
+        "sell_num": 1,
+        "price_rules": [],
+        "shop_name": "测试号猪肉专卖",
+        "market_name": "海霸王",
+        "price_expired": false,
+        "price": "120.01",
+        "is_often_buy": false,
+        "visit_num": 8,
+        "visit_time": "2017-08-15 10:27:29"
+      },
+      {
+        "id": 25474,
+        "title": "好货就不用说了，买了就不亏，自己看着办。",
+        "pic": "Public/Uploads/goodsimg/20161208/25474_3oJeaRZKBsDWndDaftY_tjowaU_SqVNhEReLMYC2zpDIVXTR7oqEjNoTtQCc0HCA.jpg",
+        "sell_num": 3,
+        "price_rules": [],
+        "shop_name": "测试号猪肉专卖",
+        "market_name": "海霸王",
+        "price_expired": true,
+        "price": "100.11",
+        "is_often_buy": false,
+        "visit_num": 3,
+        "visit_time": "2017-08-15 09:44:39"
+      },
+      {
+        "id": 25474,
+        "title": "猪肉鸡肉，也偶，了裤角开了房间ask领导看了大师傅艰苦拉萨",
+        "pic": "Public/Uploads/goodsimg/20161208/25474_3oJeaRZKBsDWndDaftY_tjowaU_SqVNhEReLMYC2zpDIVXTR7oqEjNoTtQCc0HCA.jpg",
+        "sell_num": 3,
+        "price_rules": [],
+        "shop_name": "测试号猪肉专卖",
+        "market_name": "海霸王",
+        "price_expired": true,
+        "price": "100.11",
+        "is_often_buy": false,
+        "visit_num": 3,
+        "visit_time": "2017-08-15 09:44:39"
+      }
+    ],
+    "page_all": 1,
+    "page": 1,
+    "size": 10,
+    "total": 12
+  },
+  "message": "OK"
+}

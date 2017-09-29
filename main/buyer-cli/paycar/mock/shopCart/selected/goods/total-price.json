@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "goods_total_price": 2,
+    "goods_total_num": "3件",
+    "preferential": [
+      {
+        "preferential_unit": "元",
+        "preferential_name": "减",
+        "preferential_value": 0.02
+      }
+    ]
+  },
+  "message": "OK"
+}

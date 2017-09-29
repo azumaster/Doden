@@ -1,0 +1,22 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "shop_infos": {
+      "shop_id": "13812",
+      "area_id": "2",
+      "shop_type_number": "11",
+      "shop_name": "Huadong",
+      "user_name": "华东",
+      "mobile": "18381076241",
+      "province_id": "21",
+      "city_id": "0",
+      "county_id": "-1",
+      "province_name": "四川省",
+      "city_name": "成都市",
+      "county": null,
+      "user_role": "0",
+      "diamond": "0"
+    }
+  }
+}

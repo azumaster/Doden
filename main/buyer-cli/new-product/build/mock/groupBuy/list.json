@@ -1,0 +1,135 @@
+{
+  "code" : 0,
+  "message" : "OK",
+  "data" : {
+    "page" : 1,
+    "open_id" : 1,
+    "visitor_status" : 1,
+    "red_packet_geted" : 0,
+    "goods_count" : 4,
+    "server_time" : "2016-08-31 11:42:23",
+    "is_seller" : 0,
+    "goods" : [
+      {
+        "goods_id" : 1,
+        "goods_name": "众泰鸡边腿",
+        "goods_title" : "商品名字商品名商品名字商品名商品名字商品名商品名字商品名商品名字商品名商品名字商品名",
+        "goods_goodness" : 10,
+        "goods_price" : 123,
+        "goods_work_off" : 145,
+        "goods_surplus" : 100,
+        "goods_image" : "Public/images/buyer-cli/goods.jpg",
+        "goods_image_count" : 3,
+        "auto_soldout_time" : "2016-08-31 20:02:20"
+      },
+      {
+        "goods_id" : 2,
+        "goods_name": "众泰鸡边腿1",
+        "goods_title" : "商品名字商品名商品",
+        "goods_goodness" : 10,
+        "goods_price" : 123,
+        "goods_work_off" : 145,
+        "goods_surplus" : 100,
+        "goods_image" : "Public/images/buyer-cli/goods.jpg",
+        "goods_image_count" : 3,
+        "auto_soldout_time" : "2016-08-31 17:28:34"
+      },
+      {
+        "goods_id" : 3,
+        "goods_name": "众泰鸡边腿",
+        "goods_title" : "商品名字商品名商品",
+        "goods_goodness" : 10,
+        "goods_price" : 123,
+        "goods_work_off" : 145,
+        "goods_surplus" : 100,
+        "goods_image" : "Public/images/buyer-cli/goods.jpg",
+        "goods_image_count" : 3,
+        "auto_soldout_time" : "2016-08-31 19:35:34"
+      },
+      {
+        "goods_id" : 4,
+        "goods_name": "众泰鸡边腿",
+        "goods_title" : "商品名字商品名商品",
+        "goods_goodness" : 10,
+        "goods_price" : 123,
+        "goods_work_off" : 145,
+        "goods_surplus" : 100,
+        "goods_image" : "Public/images/buyer-cli/goods.jpg",
+        "goods_image_count" : 3,
+        "auto_soldout_time" : "2016-08-31 12:22:25"
+      },
+      {
+        "goods_id" : 5,
+        "goods_name": "众泰鸡边腿",
+        "goods_title" : "商品名字商品名商品",
+        "goods_goodness" : 10,
+        "goods_price" : 123,
+        "goods_work_off" : 145,
+        "goods_surplus" : 100,
+        "goods_image" : "Public/images/buyer-cli/goods.jpg",
+        "goods_image_count" : 3,
+        "auto_soldout_time" : "2016-08-31 12:50:13"
+      },
+      {
+        "goods_id" : 6,
+        "goods_name": "众泰鸡边腿",
+        "goods_title" : "商品名字商品名商品",
+        "goods_goodness" : 10,
+        "goods_price" : 123,
+        "goods_work_off" : 145,
+        "goods_surplus" : 100,
+        "goods_image" : "Public/images/buyer-cli/goods.jpg",
+        "goods_image_count" : 3,
+        "auto_soldout_time" : "2016-08-31 12:41:23"
+      },
+      {
+        "goods_id" : 7,
+        "goods_name": "众泰鸡边腿",
+        "goods_title" : "商品名字商品名商品",
+        "goods_goodness" : 10,
+        "goods_price" : 123,
+        "goods_work_off" : 145,
+        "goods_surplus" : 100,
+        "goods_image" : "Public/images/buyer-cli/goods.jpg",
+        "goods_image_count" : 3,
+        "auto_soldout_time" : "2016-08-31 12:42:33"
+      },
+      {
+        "goods_id" : 8,
+        "goods_name": "众泰鸡边腿",
+        "goods_title" : "商品名字商品名商品",
+        "goods_goodness" : 10,
+        "goods_price" : 123,
+        "goods_work_off" : 145,
+        "goods_surplus" : 100,
+        "goods_image" : "Public/images/buyer-cli/goods.jpg",
+        "goods_image_count" : 3,
+        "auto_soldout_time" : "2016-08-31 12:44:43"
+      },
+      {
+        "goods_id" : 9,
+        "goods_name": "众泰鸡边腿",
+        "goods_title" : "商品名字商品名商品",
+        "goods_goodness" : 10,
+        "goods_price" : 123,
+        "goods_work_off" : 145,
+        "goods_surplus" : 100,
+        "goods_image" : "Public/images/buyer-cli/goods.jpg",
+        "goods_image_count" : 3,
+        "auto_soldout_time" : "2016-08-31 19:42:53"
+      },
+      {
+        "goods_id" : 10,
+        "goods_name": "众泰鸡边腿",
+        "goods_title" : "商品名字商品名商品",
+        "goods_goodness" : 10,
+        "goods_price" : 123,
+        "goods_work_off" : 145,
+        "goods_surplus" : 100,
+        "goods_image" : "Public/images/buyer-cli/goods.jpg",
+        "goods_image_count" : 3,
+        "auto_soldout_time" : "2016-08-31 12:42:13"
+      }
+    ]
+  }
+}

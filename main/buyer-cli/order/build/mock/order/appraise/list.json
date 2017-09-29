@@ -1,0 +1,60 @@
+{
+    "code":0,
+    "data":{
+        "order_infos":{
+            "sub_order_no":"136ldkjlsslfjfjj-1",
+            "sell_shop_id":36,
+            "order_appraise": {
+                "delivery_speed": 5,
+                "sell_service": 4
+            }
+        },
+        "goods_infos":[
+            {
+                "goods_id":656,
+                "order_goods_id":555,
+                "name":"鹅肠",
+                "picture":"/order-goods-img.jpg",
+                "brand":"品牌",
+                "price":55.50,
+                "buy_number":3,
+                "goods_unit":"件",
+                "total_price":156.50,
+                "goods_appraise":""
+            },
+            {
+                "goods_id":657,
+                "order_goods_id":555,
+                "name":"鹅肠",
+                "picture":"/order-goods-img.jpg",
+                "brand":"品牌",
+                "price":55.50,
+                "buy_number":3,
+                "goods_unit":"件",
+                "total_price":156.50,
+                "goods_appraise":{
+                    "quality":3,
+                    "content":"质量一般，没有图片上的好",
+                    "status": 1
+                }
+            },
+            {
+                "goods_id":6561,
+                "order_goods_id":5525,
+                "name":"鸭肠",
+                "picture":"/order-goods-img.jpg",
+                "brand":"品牌",
+                "price":55.50,
+                "buy_number":3,
+                "goods_unit":"件",
+                "total_price":156.50,
+                "goods_appraise":{
+                    "quality":3,
+                    "content":"质量一般，没有图片上的好",
+                    "status": 2
+                }
+            }
+        ]
+    },
+    "message":"获取成功"
+}

@@ -1,0 +1,92 @@
+.top-btn-group {
+  @h: 40px;
+  .flex-box();
+  .share-btn {
+    width: 60%;
+    padding: @box-bottom @box-left;
+    button {
+      width: 100%;
+      height: @h;
+      line-height: @h;
+      .btn-base(#fff,@base-color-green,@base-color-green);
+      .border-radius(2px);
+    }
+  }
+  .add-btn {
+    .flex-num();
+    padding: @box-bottom @box-left;
+    button {
+      width: 100%;
+      height: @h;
+      line-height: @h;
+      .btn-base(#fff,@base-color-orange,@base-color-orange);
+      .border-radius(2px);
+    }
+  }
+}
+
+.content {
+  align-items: center;
+  margin-top: @box-bottom;
+  .list {
+    background-color: #fff;
+    margin-bottom: @box-bottom;
+    .flex-box();
+    padding: @box-left;
+    align-items: center;
+    .username {
+      width: 75px;
+      height: 75px;
+      background-color: @base-color-green;
+      color: #fff;
+      //padding: @box-left 3px;
+      .border-radius(3px);
+      text-align: center;
+      .flex-box();
+      align-items: center;
+      > div {
+        .flex-num();
+        p:first-child {
+          font-size: 14px;
+        }
+      }
+    }
+    .info {
+      .flex-num();
+      padding-left: @box-left;
+    }
+    .remark {
+      color: #a2a2a2;
+    }
+  }
+  .explain {
+    align-items: center;
+    .flex-box();
+    .explain-tel {
+      text-align: right;
+      button {
+        .btn-base(#fff, @btn-bg-color-green, @btn-bg-color-green);
+        .btn-size(12px);
+        .border-radius(3px);
+      }
+    }
+    .explain-mes {
+      .flex-num();
+      color: #a2a2a2;
+    }
+  }
+  .address-list {
+    margin-bottom: 5px;
+    span {
+      display: inline-block;
+      margin-right: .2em;
+      &:after {
+        content: '>>';
+        margin-left: .2em;
+      }
+      &:last-child:after {
+        content: '';
+      }
+    }
+  }
+}

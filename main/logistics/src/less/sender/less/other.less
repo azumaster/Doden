@@ -1,0 +1,486 @@
+/*发件页面样式*/
+.send-wrap {
+  @height: @height-ft;
+  .wrapper(@height-hd, 0, @height, 0);
+
+  .add-address {
+    margin-bottom: 60px;
+    color: @text-color-light;
+    text-align: center;
+    .add-address-btn {
+      display: inline-block;
+      line-height: 2;
+      &:before {
+        content: '\e726';
+        .icon-style(20px, @text-color-light);
+        vertical-align: middle;
+        margin-right: 6px;
+      }
+    }
+  }
+  .time-instruct {
+    color: @text-color-light;
+    text-align: center;
+  }
+}
+
+//发件时操作步骤
+.step-bar {
+  height: @height-ft;
+  line-height: @height-ft;
+  .wrapper(auto, 0, 0, 0);
+  background-color: #fff;
+  text-align: center;
+  color: @color-text-primary;
+  .step-btn {
+    display: block;
+    background-color: @color-primary;
+    color: #fff;
+    padding: 0 20px;
+  }
+}
+
+/*预约成功页面*/
+.add-order-finish {
+  ul li {
+    .box-shadow();
+  }
+  padding-bottom: 30px;
+  .red {
+    color: @color-warning;
+  }
+  .orange {
+    color: @color-orange;
+  }
+  background-color: #fff;
+  .hd-label {
+    color: @color-primary;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    &:before {
+      content: '\e64f';
+      .icon-style(20px, @color-primary);
+      margin-right: 10px;
+    }
+    &:after {
+      .border-bottom();
+    }
+  }
+
+  .note-wrap {
+    margin: 10px;
+    .border-radius(5px);
+    .box-shadow(0, 1px, 18px, .13);
+    font-size: @font-size-sm;
+    overflow: hidden;
+    .hd {
+      padding: 0 15px;
+      background-color: @color-primary;
+      color: #fff;
+      height: 40px;
+      line-height: 40px;
+    }
+    .example {
+      color: #fff;
+      text-decoration: underline;
+    }
+    .bd {
+      padding: 15px;
+      color: @color-text-secondary;
+      line-height: 2;
+    }
+  }
+
+  //费用说明;
+  .expense-wrap {
+    font-size: 15px;
+    margin: 10px;
+    .border-radius(5px);
+    .box-shadow(0, 1px, 18px, .13);
+    overflow: hidden;
+    .hd {
+      padding: 0 15px;
+      background-color: @color-orange;
+      color: #fff;
+      height: 40px;
+      line-height: 40px;
+      font-size: @font-size-sm;
+    }
+    .bd {
+      color: @color-text-secondary;
+      padding-left: 15px;
+      .item {
+        padding: 18px 10px 10px 0;
+        position: relative;
+        &:after {
+          .border-bottom();
+        }
+      }
+    }
+    .attention {
+      text-align: center;
+      height: 50px;
+      line-height: 50px;
+      position: relative;
+      &:after {
+        .border-bottom();
+      }
+    }
+    .ft {
+      color: @color-text-secondary;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      font-size: @font-size-sm;
+    }
+  }
+}
+
+//地址管理;
+.address-wrap {
+  .wrapper(0, 0, 50px, 0);
+  .address-list {
+    padding-top: 50px;
+  }
+  .edit-address {
+
+    &:after{
+      content: '\e625';
+      .icon-style(18px, @color-primary);
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+  }
+}
+
+.address-page-add {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 46px;
+  line-height: 46px;
+  color: #FFFFFF;
+  text-align: center;
+  z-index: 2;
+  background-color: #8ed6b8;
+  &:before {
+    content: '\e726';
+    .icon-style(20px, #ffffff);
+    vertical-align: middle;
+    margin-right: 6px;
+  }
+}
+
+//修改地址的弹窗口
+.edit-address-player {
+  .hd {
+    margin-left: 20px;
+    padding: 10px 0;
+    color: @text-color-light;
+    font-size: @font-size-content;
+    input {
+      font-size: @font-size-content;
+      color: @color-text-secondary;
+      text-align: right;
+      width: 100%;
+      padding-right: 30px;
+      -webkit-box-sizing:border-box;
+      box-sizing:border-box;
+    }
+    .green {
+      position: relative;
+      &:before {
+        content: '';
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        background-color: @color-primary;
+        .border-radius(50%);
+      }
+    }
+    .red {
+      position: relative;
+      &:before {
+        content: '';
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        background-color: @color-warning;
+        .border-radius(50%);
+      }
+    }
+    .label {
+      padding: 0 10px;
+      height: 35px;
+      line-height: 35px;
+    }
+    .edit-address-icon {
+      &:after {
+        content: '\e625';
+        .icon-style(16px, @color-primary);
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 10px;
+        padding: 0 10px;
+      }
+    }
+  }
+  .choose-address-icon {
+    &:before {
+      content: '\e61a';
+      .icon-style(16px, @color-primary);
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 10px;
+      padding: 0 10px;
+    }
+  }
+  .choose-address-val {
+    padding-right: 30px;
+    text-align: right;
+    color: @color-text-secondary;
+  }
+  .choose-address-val.not{
+    color: #a9a9a9;
+  }
+}
+
+//历史记录
+.history-wrap {
+  .wrapper(0, 0, 50px, 0);
+}
+.order-info-wrap {
+  .wrapper(0, 0, 50px, 0);
+  background-color: #fff;
+}
+
+.order-item {
+  margin: 10px;
+  background-color: #fff;
+  .border-radius(5px);
+  overflow: hidden;
+  .align-items-stretch();
+  .hd {
+    font-size: @font-size-content;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    padding-left: 15px;
+    &:after {
+      .border-bottom();
+    }
+    &:before {
+      content: '\e67c';
+      .icon-style(18px, @color-text-primary);
+      margin-right: 10px;
+    }
+  }
+  .bd {
+    color: @text-color-light;
+    font-size: @font-size-content;
+    padding-left: 15px;
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background-color: @color-warning;
+      .border-radius(50%);
+      margin-right: 10px;
+      margin-left: 5px;
+    }
+    .num {
+      color: @color-text-secondary;
+    }
+    height: 50px;
+    line-height: 50px;
+  }
+  .check-order-info {
+    width: 80px;
+    line-height: 80px;
+    text-align: center;
+    background-color: @color-primary;
+    color: #fff;
+  }
+}
+
+//搜索地址定位;
+.map-address-list-wrap {
+  position: absolute;
+  .wrapper(60px, 10px, 10px ,10px);
+  background-color: #fff;
+  .border-radius(5px);
+  .box-shadow(3px, 0, 16px, 0.28);
+}
+.map-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  .search-bar {
+    .wrapper(0, 0, auto, 0, 2);
+    background-color: #fff;
+    height: 50px;
+    .flex-box();
+    .align-items-center();
+    &:before {
+      content: '\e6d3';
+      .icon-style(18px, @text-color-light);
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    .search-wrap {
+      input {
+        width: 100%;
+        font-size: 15px;
+      }
+    }
+    .cancel {
+      color: @color-primary;
+      padding: 3px 15px;
+      border-left: 1px solid @color-border-shallow;
+    }
+  }
+  .map-notice-bar {
+    .wrapper(50px, 0, auto, 0, 2);
+    background: @color-orange;
+    opacity: .75;
+    color: @btn-color-white;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: @font-size-primary;
+  }
+  .map-address-notice{
+    width: 100%;
+    height: 100%;
+    .wrapper(auto, auto, auto, auto, 3);
+    background: rgba(0,0,0,.8);
+    .map-address-notice-content {
+      border-radius: 10px;
+      .wrapper(auto, auto, auto, auto, 4);
+      background: #FFFFFF;
+      width: auto;
+      top: 50%;
+      transform: translate(0, -50%);
+      margin: 0 25px;
+      padding: 40px 20px 20px 20px;
+      p:first-child {
+        text-indent: 2em;
+        font-size: @font-size-content;
+        color: @color-text-primary;
+      }
+      p:nth-child(2){
+        text-align: center;
+        color: @color-text-primary;
+        margin: 20px 0 30px;
+        font-size: @font-size-content;
+        a {
+          color: blue;
+          text-decoration: underline;
+        }
+      }
+      .button {
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        height: 45px;
+        border-radius: 10px;
+        background: @color-primary;
+        text-align: center;
+        line-height: 45px;
+        font-size: @font-size-big;
+        color: @btn-color-white;
+      }
+    }
+  }
+  .map-address-list {
+    .map-notice {
+      margin: 20px;
+      line-height: 30px;
+      font-size: 14px;
+
+    }
+    li {
+      padding: 10px;
+      position: relative;
+      &:after {
+        .border-bottom();
+      }
+      &:last-child:after {
+        display: none;
+      }
+      line-height: 1.6;
+      .hd {
+        font-size: @font-size-content;
+      }
+      .bd {
+        font-size: @font-size-xs;
+        color: @color-text-secondary;
+      }
+    }
+    .location-icon {
+      &:before {
+        content: '\e61a';
+        .icon-style(18px, @text-color-light);
+        margin: 0 .5rem;
+      }
+    }
+  }
+  .map-content {
+    .wrapper();
+    background-color: #fff;
+  }
+}
+
+.confirm-address-wrap {
+  .wrapper(auto, 0, 0, 0, 2);
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  line-height: 1.6;
+  .confirm-address-info {
+    color: @color-text-secondary;
+    font-size: @font-size-content;
+    padding: 10px 0;
+  }
+  .confirm-address-btn {
+    background-color: @color-primary;
+    color: #fff;
+    .border-radius(5px);
+    height: 40px;
+    line-height: 40px;
+    font-size: 17px;
+  }
+}
+
+//顶部工具条;
+.tool-bar {
+  .wrapper(0, 0, auto, 0, 3);
+  height: 40px;
+  line-height: 40px;
+  color: #192a44;
+  text-align: center;
+  background-color: #fff;
+  .box-shadow();
+  .show-nav-btn {
+    padding: 0 15px;
+    &:before {
+      content: '\e605';
+      .icon-style(20px, @color-primary);
+    }
+  }
+  .kf-btn {
+    padding: 0 15px;
+    &:before {
+      content: '\e636';
+      .icon-style(22px, @color-primary);
+    }
+  }
+}

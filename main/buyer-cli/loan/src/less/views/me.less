@@ -1,0 +1,106 @@
+.my-info{
+  .wrapper();
+  .scroller{
+    .scroller();
+  }
+}
+
+.info-body{
+
+  .info-title{
+    height: @list-title-height;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+    line-height: 44px;
+    font-size: 13px;
+    .info-name{
+      color: @color-assist;
+    }
+    .info-link{
+      color: @color-primary;
+      text-decoration: underline;
+    }
+  }
+  .info-ul{
+    background: @color-bg-white;
+    overflow: hidden;
+    .info-li{
+      height:@list-li-height;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 15px;
+      line-height: @list-li-height;
+      font-size: 15px;
+      position: relative;
+      .info-li-label{
+        color: @color-label;
+        position: relative;
+        select{
+          border: none;
+          background: none;
+          outline: none;
+          margin-right: 5px;
+          height: 30px;
+          font-size: 15px;
+          direction: rtl;
+        }
+        .info-notice{
+          color: @color-form-assist;
+        }
+      }
+      .info-li-name{
+        color: @color-form;
+      }
+      .info-li-input{
+        height: 30px;
+        width: 50%;
+        margin: 15px 0;
+        border: none;
+        text-align: right;
+        outline: none;
+        color: @color-form;
+        font-size: 15px;
+        &::-webkit-input-placeholder{
+          color: @color-form-assist;
+        }
+      }
+      &:not(:last-child):before{
+        content: '';
+        position: absolute;
+        left: 15px;
+        bottom: 1px;
+        background: @color-border;
+        width: 100%;
+        height: 1px;
+      }
+    }
+  }
+  &:last-child{
+    padding-bottom: 50px;
+  }
+}
+
+.add-btn{
+  margin: 15px;
+
+  .btn {
+    border: none;
+    background: none;
+    outline: none;
+    &.btn-submit{
+      background: @color-primary;
+      color: #ffffff;
+    }
+    &.btn-lg{
+      width: 100%;
+      height: 44px;
+      font-size: 16px;
+      border-radius: 4px;
+    }
+  }
+  .btn[disabled]{
+    background: #cccccc;
+    color: #999999;
+  }
+}

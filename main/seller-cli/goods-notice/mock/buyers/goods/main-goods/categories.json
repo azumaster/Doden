@@ -1,0 +1,16 @@
+{
+  "code":0,
+  "data":{
+    "categories":[
+      {
+        "id":5,
+        "name":"鸡胸"
+      },
+      {
+        "id":4,
+        "name":"鸡腿"
+      }
+    ]
+  },
+  "message":"OK"
+}

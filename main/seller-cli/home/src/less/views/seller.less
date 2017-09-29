@@ -1,0 +1,95 @@
+.seller{
+  width: 100%;
+  height: 80px;
+  padding: 0 14px;
+  box-sizing: border-box;
+  position: relative;
+  border-bottom: 1px solid @color-border;
+  .seller-head{
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin: 17px 12px 17px 0;
+    position: relative;
+    img{
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+    }
+    //&:before{
+    //  content: '\e622';
+    //  position: absolute;
+    //  z-index: 100;
+    //  font-family: 'iconfont';
+    //  font-size: 12px;
+    //  width: 20px;
+    //  height: 20px;
+    //  background: @color-noV;
+    //  border-radius: 50%;
+    //  text-align: center;
+    //  line-height: 20px;
+    //  color: @color-content;
+    //  right: -5px;
+    //  bottom: 2px;
+    //  transform: scale(.6);
+    //}
+    //&.vip:before{
+    //  background: @color-hasV;
+    //}
+  }
+  .seller-info{
+    margin: 20px 0;
+    float: left;
+    .shop-name{
+      font-size: 14px;
+      color: #282828;
+      overflow: hidden;
+      p{
+        float: left;
+        margin-right: 10px;
+        line-height: 20px;
+      }
+      .vip{
+        float: left;
+        font-size: 12px;
+        padding: 3px 5px;
+        border: 1px solid @color-primary;
+        color: @color-primary;
+        border-radius: 5px;
+      }
+    }
+    .shop-extra{
+      font-size: 11px;
+      color: @color-assist;
+      line-height: 25px;
+      overflow: hidden;
+      p{
+        float: left;
+        &:last-child{
+          margin-left: 5px;
+        }
+        i{
+          margin-right: 5px;
+        }
+      }
+
+    }
+  }
+  .seller-setting{
+    float: right;
+    font-size: 20px;
+    color: @color-assist;
+    margin-top: 17px;
+  }
+  .see{
+    float: right;
+    font-size: 12px;
+    line-height: 25px;
+    overflow: hidden;
+    position: absolute;
+    height: 20px;
+    right: 15px;
+    bottom: 18px;
+    color: #999999;
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "code":0,
+    "data":{
+        "bank":{
+            "payment_mode":"网银转账",
+            "remark":"人工确认",
+            "status":1
+        },
+        "alipay":{
+            "payment_mode":"支付宝转账",
+            "remark":"人工确认",
+            "status":1
+        },
+        "we_chat":{
+            "payment_mode":"微信支付，自动确认",
+            "remark":"即将开通",
+            "status":1
+        }
+    },
+    "message":"获取成功"
+}

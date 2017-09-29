@@ -1,0 +1,120 @@
+.pos-tab {
+  color: #4c4c4c;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  z-index: 2;
+  border-bottom: 1px solid @color-border-shallow;
+}
+
+.pos-wrap {
+  .wrapper(100px, 0, 0, 0);
+  .scroller {
+    padding-bottom: 44px;
+  }
+}
+
+.count-num {
+  .wrapper(40px, 0, auto, 0, 2);
+  background-color: #f2f1f1;
+  border-top: 1px solid @color-border-shallow;
+  border-bottom: 1px solid @color-border-shallow;
+  height: 60px;
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  padding: 6px 0;
+  line-height: 1.6;
+  font-size: 13px;
+  color: #686868;
+  .appointment {
+    width: 190px;
+    margin: 0 auto;
+    &:before {
+      content: '\e743';
+      .icon-style(15px, @color-primary);
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+  }
+  .already-load {
+    width: 190px;
+    margin: 0 auto;
+    &:before {
+      content: '\e61d';
+      .icon-style(16px, @color-green);
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+  }
+}
+
+.pos-footer {
+  background-color: @color-primary;
+  color: #fff;
+  height: 44px;
+  line-height: 44px;
+  .wrapper(auto, 0, 0, 0, 2);
+  text-align: center;
+}
+.entrucking  {
+  
+}
+
+//弹窗口;
+.dialog-card-bd {
+  color: @color-text-secondary;
+  margin: 10px;
+  padding: 10px;
+  font-size: @font-size-content;
+  line-height: 2;
+  position: relative;
+  .green-icon {
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background-color: @color-green;
+      .border-radius(50%);
+    }
+  }
+
+  .red-icon {
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background-color: @color-warning;
+      .border-radius(50%);
+    }
+  }
+  .orange-icon {
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background-color: @color-orange;
+      .border-radius(50%);
+    }
+  }
+  label {
+    color: @text-color-light;
+    display: inline-block;
+    width: 5em;
+    margin: 0 6px;
+  }
+}
+.dialog-blue-list {
+  li {
+    margin: 0 10px;
+    padding: 8px 10px 12px 10px;
+    position: relative;
+    &:before {
+      .border-top();
+    }
+  }
+}

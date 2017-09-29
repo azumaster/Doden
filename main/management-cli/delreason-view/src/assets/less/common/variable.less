@@ -1,0 +1,40 @@
+//背景色以及特色字体颜色 color;
+@base-color-green:       #4ebf98;  //主色绿;
+@base-color-orange:      #f3922b;  //橙（订单按钮，金额颜色）;
+@base-color-blue:        #3985ff;  //蓝（订单状态）;
+@base-color-red:         #ff0000;  //标准红,（订单状态数量,）;
+@body-bg:     #f5f5f5;  //body背景颜色;
+
+//基础字体颜色;
+@text-color-primary:             #2a2a2a;  //字体主色;
+@text-color-deputy:              #6f6f6f;  //从色字体（比主色浅一点）;
+@text-color-tint:                #848689;  //浅色字体;
+
+//字体大小;
+@font-size-default:   16px;  //字体默认大小;
+@font-size-sm:        12px;  //小号字体;
+@font-size-medium:    14px;  //中号字体;
+@font-size-big:       18px;  //大号字体
+
+
+//边框;
+@border-color-default:  #D9D9D9;  //卡片边框;
+@border-color-in-dark:  fadeout(@border-color-default, 20%); //卡片中深色的内边框;
+@border-color-in-light: fadeout(@border-color-default, 40%); //卡片中浅色的内边框;
+
+//间距;
+@box-left:      8px;  //模块（卡片）离屏幕左边的间距;
+@box-right:     8px;  //模块（卡片）离屏幕右边的间距;
+@box-bottom:    12px; //每个模块（卡片）之间的间距;
+
+
+/*
+ 组件变量
+ ----------*/
+//按钮组件变量
+@btn-bg-color-default: #f2f0f0; //按钮默认背景颜色;
+@btn-bg-color-orange : @base-color-orange; //橙色按钮背景颜色;
+@btn-bg-color-green : @base-color-green;  //绿色按钮背景颜色;
+@btn-color-default: #868686;  //按钮默认字体颜色;
+@btn-color-white: #fff;   //按钮带有彩色背景时的字体颜色;
+@btn-color-green-label:  #14a65f;  // 标注;

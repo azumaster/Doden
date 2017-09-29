@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='viewport' content='width=device-width,initial-scale=1.0,user-scalable=no'>
+    <meta name="renderer" content="webkit">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="full-screen" content="yes">
+    <title>大鱼物流</title>
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <style>
+        *{ margin: 0; padding: 0}
+        body{ background: #f0eff5 }
+        .complain-page {  position: absolute;  z-index: 1;  width: 100%;  top: 0;  left: 0;  bottom: 0;  overflow: hidden;  }
+        .complain-page .scroll{  position: absolute;  z-index: 2;  -webkit-tap-highlight-color: rgba(0,0,0,0);  width: 100%;  -webkit-transform: translateZ(0);  -moz-transform: translateZ(0);  -ms-transform: translateZ(0);  -o-transform: translateZ(0);  transform: translateZ(0);  -webkit-touch-callout: none;  -webkit-user-select: none;  -moz-user-select: none;  -ms-user-select: none;  user-select: none;  -webkit-text-size-adjust: none;  -moz-text-size-adjust: none;  -ms-text-size-adjust: none;  -o-text-size-adjust: none;  text-size-adjust: none;  }
+        .page-header{ height: 50px; font-size: 16px; color: #363636; background: #ffffff; line-height: 50px; text-align: center}
+        .page-card { margin: 10px 10px 15px 10px; background: #ffffff; border-radius: 5px}
+        .page-card .card-info {padding: 20px; border-bottom: 1px dashed #e6e6e6}
+        .page-card .card-info .info{line-height: 35px; font-size: 14px; color: #878787}
+        .page-card .card-info .info:before{content: ''; width: 10px; height: 10px; border-radius: 5px; margin-right: 5px; display: inline-block}
+        .page-card .card-info .info.green:before{background: #1bc078}
+        .page-card .card-info .info.red:before{background: #cf3f3f}
+        .page-card .card-info .info.yellow:before{background: #e9aa31}
+        .page-card .card-info .info .label {color: #b2b2b2; margin-right: 10px; display: inline-block;}
+        .page-card .card-info .info .con {display: inline-block; margin-left: 15px; width: 100%}
+        .page-card .card-message {padding: 20px; border-bottom: 1px dashed #e6e6e6}
+        .page-card .card-message .message-img {margin: 0 auto; width: 150px; height: 70px; margin-bottom: 20px}
+        .page-card .card-message .message-img img {display: block; width: 125px; height: 70px; margin: 0 auto}
+        .page-card .card-message .message {line-height: 20px; font-size: 14px; color: #878787; text-align: center}
+        .page-card .complain { color: #878787; font-size: 14px; padding: 20px 40px 20px 40px; }
+        .page-card .complain-reason {position: relative}
+        .page-card .complain-reason select {height: 30px; border: 1px solid #e6e6e6; padding: 0 10px; outline: none; border-radius: 5px;}
+        .page-card .complain-reason .more {position: absolute; left: 190px; top: 0; line-height: 30px; font-size: 20px;transform: rotate(90deg)}
+        .page-card .complain-des p {line-height: 35px}
+        .page-card .complain-des input {width: 100%; height: 100px; padding: 15px; display: block; box-sizing: border-box; outline: none; color: #999999; font-size: 14px; border:none; border-radius: 5px; background: #f5f5f5; resize: none}
+        .page-card .complain-verify {line-height: 30px; margin-top: 10px}
+        .page-card .complain-verify input {width: 28%; height: 30px; border:1px solid #e6e6e6; outline: none; border-radius: 5px; float: right; margin-right: 10px; padding: 0 5px}
+        .page-card .complain-verify button {height: 30px; background: #1bc078; color: #ffffff; padding:  0 5px; border-radius: 5px; border: none; outline: none; float: right}
+        .page-card .complain-verify button[disabled] {background: #aaaaaa}
+        .page-btn {margin: 0 10px;}
+        .page-btn button{ width: 100%; border-radius: 5px; height: 44px; font-size: 16px; color: #ffffff; border: none; background: #1bc078; outline:none }
+        @media only screen and (min-width: 350px) {  .page-card .complain-verify input {width: 40%}  }
+
+        .toast{
+            width: 280px;
+            padding: 5px;
+            background: rgba(0, 0, 0, .7);
+            color: #ffffff;
+            line-height: 20px;
+            text-align: center;
+            position: fixed;
+            z-index: 999;
+            left: 50%;
+            bottom: 30%;
+            border-radius: 5px;
+            opacity: 0;
+            transform: translateX(-50%);
+            font-size: 12px;
+            transition: opacity .3s linear;
+        }
+        .toast.active{
+            opacity: 1;
+            transition: opacity .3s linear;
+        }
+    </style>
+</head>
+<body onload="scroll()">
+<div class="complain-page" id="driverComplain">
+    <div class="scroll">
+        <!--投诉的-->
+        <div id="c" style="display: none">
+            <header class="page-header">司机投诉</header>
+            <div class="page-card">
+                <!--这个地方是发布投诉内容的地方-->
+                <div class="card-info" id="info">
+                    <div class="info green"><div class="label">送货时间</div>2017-07-08 22:33:57</div>
+                    <div class="info red"><span>送货数量</span>4</div>
+                    <div class="info yellow"><span>送货师傅</span>张师傅(13340215211)</div>
+                </div>
+                <!--这个地方显示投诉时的投诉理由-->
+                <div id="complain" class="complain">
+                    <div class="complain-reason">投诉理由：<select id="select">
+                        <option value="0">送货态度差</option>
+                        <option value="1">司机语言不文明</option>
+                        <option value="2">司机不搬货</option>
+                        <option value="3">无法联系</option>
+                        <option value="4">送货不及时</option>
+                    </select>
+                    </div>
+                    <div class="complain-des">
+                        <p>描述：</p>
+                        <input id="des" placeholder="请输入具体描述" />
+                    </div>
+                    <div class="complain-verify">验证码：<button id="verify" type="button" onclick="verify(this);">获取验证码</button><input id="verifyDes" type="text"></div>
+                </div>
+            </div>
+            <!--这个是投诉的提交-->
+            <div class="page-btn" id="desSubmit"><button type="button" onclick="submit('des');">提交</button></div>
+        </div>
+        <!--补充信息-->
+        <div id="e" style="display: block">
+            <header class="page-header">投诉成功</header>
+            <div class="page-card">
+                <!--这个地方是显示成功状态的图片-->
+                <div class="card-message" id="message" >
+                    <div class="message-img"><img src="/Public/images/logistics/status.png" alt=""></div>
+                    <p class="message">我们已受到您的投诉，并会尽快处理！<br />您可以完善您的描述。</p>
+                </div>
+                <!--这个地方显示投诉成功后显示的投诉描述-->
+                <div id="extraInfo" class="card-info">
+                    <div class="info green"><div class="label">送货时间</div><div class="con">2017-07-08 22:33:57</div></div>
+                    <div class="info red"><div class="label">送货数量</div><div class="con">4</div></div>
+                    <div class="info yellow"><div class="label">送货师傅</div><div class="con">张师傅(13340215211)</div></div>
+                    <div class="info green"><div class="label">投诉理由</div><div class="con">什么鬼</div></div>
+                    <div class="info red"><div class="label">描　　述</div><div class="con">这个司机态度太差了，还有好多的口臭，简直受不了了啊<br>sdfsdfdsfdsfdsf<br>dsfdsfdsfdsfdsf</div></div>
+                </div>
+
+                <!--这个地方是补充描述-->
+                <div id="replenish" class="complain">
+                    <div class="complain-des">
+                        <p>补充描述：</p>
+                        <input id="extra" placeholder="请输入具体的补充描述" />
+                    </div>
+                    <div class="complain-verify">验证码：<button type="button" onclick="verify(this)">获取验证码</button><input id="verifyExtra" type="text"></div>
+                </div>
+            </div>
+            <!--这个是额外数据的提交；-->
+            <div class="page-btn" id="extraSubmit"><button type="button" onclick="submit('extra');">提交</button></div>
+        </div>
+
+        <!--已过期-->
+        <div id="t">
+            <header class="page-header">已过期</header>
+            <div class="page-card">
+                <!--这个地方是显示成功状态的图片-->
+                <div class="card-message" id="timeout" style="border: none">
+                    <div class="message-img"><img src="/Public/images/logistics/timeout.png" alt=""></div>
+                    <p class="message">该订单已完成超过10天,超出了投诉限制时间哦</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="//cdn.bootcss.com/iScroll/5.2.0/iscroll.min.js"></script>
+    <script>
+        var SCROLL;
+
+        (function () {
+            document.addEventListener('touchmove', function (e) {
+                e.preventDefault();
+            }, false);
+        })();
+
+        // 提交投诉
+        function submit(type){
+            var reason, detail, verify;
+            var params = {};
+
+            if(type == 'des'){
+                reason = select.options[select.options.selectedIndex].text;
+                detail = document.getElementById('des').value;
+                verify = document.getElementById('verifyDes').value;
+
+                params = {reason: reason, detail: detail, verify: verify};
+            }else if( type == 'extra'){
+                detail = document.getElementById('extra').value;
+                verify = document.getElementById('verifyExtra').value;
+
+                params = {detail: detail, verify: verify};
+            }
+
+            console.log(params);
+            ajax('post', window.location.href, params, function (res) {
+                if(res.code == 0){
+                    toast('投诉成功，我们会尽快处理。', 'second');
+                    setTimeout(function () {
+                        window.location.reload();
+                    }, 5600);
+                }else {
+                    toast(res.message);
+                }
+            });
+        }
+
+        // 获取验证码
+        function verify(obj) {
+            var verify = obj;
+            ajax('post', window.location.href+'/verify', {}, function (res) {
+                if(res.code == 0){
+                    var second = 60,
+                        interval = null;
+
+                    verify.setAttribute('disabled', 'disabled');
+                    interval = setInterval(function () {
+                        second --;
+                        verify.innerHTML = second+'s后再试';
+                        if(second<=0){
+                            clearInterval(interval);
+                            verify.removeAttribute('disabled');
+                            verify.innerHTML = '发送验证码';
+                        }
+                    }, 1000);
+                }else{
+                    toast(res.message);
+                }
+            });
+        }
+        
+        // 创建toast
+        function toast(text, type) {
+            var interval = null,
+                second = 5;
+            if(!document.getElementById('toast')){
+                var toast = document.createElement('div');
+                toast.className = 'toast';
+
+                if(type){
+                    toast.innerHTML = text+' '+second+'s';
+
+                    document.body.appendChild(toast);
+                    setTimeout(function () {
+                        toast.className = 'toast active';
+
+                        interval = setInterval(function () {
+                            second--;
+                            toast.innerHTML = text + ' '+second+'s';
+                            if(second<=0){
+                                clearInterval(interval);
+                                toast.className = 'toast';
+                                setTimeout(function () {
+                                    document.body.removeChild(toast);
+                                }, 300);
+                            }
+                        }, 1000);
+                    }, 300);
+                }else{
+                    toast.innerHTML = text;
+
+                    document.body.appendChild(toast);
+                    setTimeout(function () {
+                        toast.className = 'toast active';
+
+                        interval = setInterval(function () {
+                            second --;
+                            if(second<=0){
+                                clearInterval(interval);
+                                toast.className = 'toast';
+                                setTimeout(function () {
+                                    document.body.removeChild(toast);
+                                }, 300);
+                            }
+                        }, 1000);
+                    }, 300);
+                }
+            }
+        }
+
+        // 创建滑动
+        function scroll() {
+
+            SCROLL = new IScroll('#driverComplain', {
+                zoom: true,
+                scrollX: false,  //是不中可以横向滚动;
+                scrollY: true,  //是否可以纵向滚动;
+                mouseWheel: true, //是否监听鼠标滚轮;
+                wheelAction: 'zoom',
+                probeType: 2,
+                preventDefault: false
+            });
+
+            SCROLL.on('beforeScrollStart', function() {
+                SCROLL.refresh();
+            });
+        }
+
+        function ajax(method, link, param, callback) {
+            var xhr = window.XMLHttpRequest?new XMLHttpRequest():new ActiveXObject('Microsoft.XMLHTTP'),
+                url = method == 'post'?link+'?r='+Math.random():link+'?'+buildData(data)+'&r='+Math.random(),
+                type = method?method:'get',
+                data = param || null;
+
+            xhr.open(type, url, true);
+            type=='post'?xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded'):null;
+            xhr.setRequestHeader('Cache-Control', 'no-cache');
+            xhr.setRequestHeader('Accept', 'application/json');
+            xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+            xhr.send(type=='post'?buildData(data):'');
+
+            xhr.onreadystatechange = function(){
+                if(xhr.readyState == 4 && xhr.status == 200){
+                    callback(JSON.parse(xhr.responseText));
+                }
+            };
+        }
+
+        // 构建Send的数据结构
+        function buildData(data) {
+            if(data == null) return data;
+
+            var arr = [];
+            for(var key in data){
+                var str = key+'='+data[key];
+                arr.push(str);
+            }
+
+            return arr.join('&');
+        }
+    </script>
+</body>
+</html>

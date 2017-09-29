@@ -1,0 +1,55 @@
+.content
+  width 100%
+  height 100%
+  overflow hidden
+  .tabs
+    width 100%
+    height 2.5rem
+    background-color #ffffff
+    display flex
+    justify-content center
+    align-items center
+    flex-direction row
+    border-bottom 1px solid #eeeeee
+    .tab
+      flex 1
+      height @height
+      display flex
+      justify-content center
+      align-items center
+      border-bottom 1px solid #eeeeee
+      position relative
+      .badge
+        position absolute
+        padding 0.15rem 0.3rem
+        font-size 0.3rem
+        color #ffffff
+        border-radius 1rem
+        top 0.5rem
+        right 0.3rem
+        background-color #fb4e44
+      >span
+        font-size 0.9rem
+        color #666666
+      &.active
+        border-bottom-color #249af9
+        >span
+          color #249af9
+  .tab-content
+    width @width
+    height calc(100% - 2.5rem)
+    overflow-y auto
+    overflow-scrolling touch
+    -webkit-overflow-scrolling touch
+    .swiper-box
+      width 100%
+      height 100%
+      .swiper-slide
+        width @width
+        height @height
+        overflow-y auto
+        overflow-scrolling touch
+        -webkit-overflow-scrolling touch
+        border-right 1px solid #cccccc
+
+

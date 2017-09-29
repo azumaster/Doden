@@ -1,0 +1,9 @@
+{
+  "code": 0,
+  "data": {
+    "preferential_value": 111,
+    "preferential_name": "减",
+    "preferential_text": "111元"
+  },
+  "message": "OK"
+}

@@ -1,0 +1,36 @@
+{
+    "code": 0,
+    "data": [
+        {
+            "type": 1,
+            "title": "售后违规",
+            "score": -5
+        },
+        {
+            "type": 2,
+            "title": "商品信息违规",
+            "score": -5
+        },
+        {
+            "type": 9,
+            "title": "上下架违规",
+            "score": -5
+        },
+        {
+            "type": 4,
+            "title": "虚报价格",
+            "score": -10
+        },
+        {
+            "type": 5,
+            "title": "过期或劣质",
+            "score": -5
+        }, 
+        {
+            "type": 10,
+            "title": "乱点发货",
+            "score": -5
+        }
+    ],
+    "message": "请求成功"
+}    

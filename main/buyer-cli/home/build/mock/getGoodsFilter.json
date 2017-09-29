@@ -1,0 +1,679 @@
+{
+  "code": 0,
+  "data": {
+    "halal": [
+      0,
+      1
+    ],
+    "markets": [
+      {
+        "pianquId": 1,
+        "pianqu": "青白江"
+      },
+      {
+        "pianquId": 2,
+        "pianqu": "海霸王"
+      }
+    ],
+    "categories": [
+      {
+        "id": 1,
+        "sort_name": "冻品",
+        "series": 1
+      },
+      {
+        "id": 2,
+        "sort_name": "鸡副",
+        "series": 2
+      },
+      {
+        "id": 4,
+        "sort_name": "鸡胸",
+        "series": 3
+      },
+      {
+        "id": 5,
+        "sort_name": "去油鸡胸",
+        "series": 4
+      },
+      {
+        "id": 6,
+        "sort_name": "毛鸡胸",
+        "series": 4
+      },
+      {
+        "id": 12,
+        "sort_name": "整鸡",
+        "series": 3
+      },
+      {
+        "id": 13,
+        "sort_name": "老母鸡",
+        "series": 4
+      },
+      {
+        "id": 15,
+        "sort_name": "三黄鸡",
+        "series": 4
+      },
+      {
+        "id": 16,
+        "sort_name": "乌鸡",
+        "series": 4
+      },
+      {
+        "id": 17,
+        "sort_name": "青脚鸡",
+        "series": 4
+      },
+      {
+        "id": 73,
+        "sort_name": "鸡边腿",
+        "series": 3
+      },
+      {
+        "id": 74,
+        "sort_name": "仔鸡边",
+        "series": 4
+      },
+      {
+        "id": 75,
+        "sort_name": "老鸡边",
+        "series": 4
+      },
+      {
+        "id": 77,
+        "sort_name": "琵琶腿",
+        "series": 3
+      },
+      {
+        "id": 79,
+        "sort_name": "鸡排腿",
+        "series": 3
+      },
+      {
+        "id": 82,
+        "sort_name": "仔排腿",
+        "series": 4
+      },
+      {
+        "id": 90,
+        "sort_name": "小吃快餐",
+        "series": 2
+      },
+      {
+        "id": 92,
+        "sort_name": "调理丸类",
+        "series": 2
+      },
+      {
+        "id": 93,
+        "sort_name": "串类",
+        "series": 2
+      },
+      {
+        "id": 98,
+        "sort_name": "炸制类",
+        "series": 3
+      },
+      {
+        "id": 103,
+        "sort_name": "即食常温类",
+        "series": 3
+      },
+      {
+        "id": 120,
+        "sort_name": "丸卷类",
+        "series": 3
+      },
+      {
+        "id": 137,
+        "sort_name": "清远鸡",
+        "series": 4
+      },
+      {
+        "id": 147,
+        "sort_name": "翅膀类",
+        "series": 3
+      },
+      {
+        "id": 148,
+        "sort_name": "鸡中翅",
+        "series": 4
+      },
+      {
+        "id": 149,
+        "sort_name": "鸡腿肉",
+        "series": 3
+      },
+      {
+        "id": 150,
+        "sort_name": "去骨腿肉",
+        "series": 4
+      },
+      {
+        "id": 195,
+        "sort_name": "鸡翅尖",
+        "series": 4
+      },
+      {
+        "id": 197,
+        "sort_name": "鸡翅根",
+        "series": 4
+      },
+      {
+        "id": 199,
+        "sort_name": "仔全翅",
+        "series": 4
+      },
+      {
+        "id": 215,
+        "sort_name": "鸡腿块",
+        "series": 4
+      },
+      {
+        "id": 295,
+        "sort_name": "鸡爪类",
+        "series": 3
+      },
+      {
+        "id": 297,
+        "sort_name": "长鸡爪",
+        "series": 4
+      },
+      {
+        "id": 301,
+        "sort_name": "鸡架",
+        "series": 3
+      },
+      {
+        "id": 302,
+        "sort_name": "仔鸡架",
+        "series": 4
+      },
+      {
+        "id": 303,
+        "sort_name": "老鸡架",
+        "series": 4
+      },
+      {
+        "id": 304,
+        "sort_name": "鸡皮",
+        "series": 3
+      },
+      {
+        "id": 306,
+        "sort_name": "鸡皮",
+        "series": 4
+      },
+      {
+        "id": 315,
+        "sort_name": "鸡油",
+        "series": 3
+      },
+      {
+        "id": 316,
+        "sort_name": "鸡心",
+        "series": 3
+      },
+      {
+        "id": 317,
+        "sort_name": "鸡胗",
+        "series": 3
+      },
+      {
+        "id": 319,
+        "sort_name": "鸡肚",
+        "series": 3
+      },
+      {
+        "id": 324,
+        "sort_name": "鸡锁骨",
+        "series": 3
+      },
+      {
+        "id": 326,
+        "sort_name": "鸡油",
+        "series": 4
+      },
+      {
+        "id": 346,
+        "sort_name": "鸡心",
+        "series": 4
+      },
+      {
+        "id": 347,
+        "sort_name": "鸡胗",
+        "series": 4
+      },
+      {
+        "id": 349,
+        "sort_name": "鸡肚",
+        "series": 4
+      },
+      {
+        "id": 351,
+        "sort_name": "鸡锁骨",
+        "series": 4
+      },
+      {
+        "id": 480,
+        "sort_name": "火鸡",
+        "series": 3
+      },
+      {
+        "id": 481,
+        "sort_name": "火鸡尖",
+        "series": 4
+      },
+      {
+        "id": 539,
+        "sort_name": "鸡肉类丸",
+        "series": 4
+      },
+      {
+        "id": 552,
+        "sort_name": "鸡肉串",
+        "series": 3
+      },
+      {
+        "id": 558,
+        "sort_name": "素食其他串类",
+        "series": 3
+      },
+      {
+        "id": 559,
+        "sort_name": "鸡翅串",
+        "series": 4
+      },
+      {
+        "id": 560,
+        "sort_name": "鸡腿爪类",
+        "series": 4
+      },
+      {
+        "id": 562,
+        "sort_name": "鸡皮类",
+        "series": 4
+      },
+      {
+        "id": 563,
+        "sort_name": "鸡柳类",
+        "series": 4
+      },
+      {
+        "id": 564,
+        "sort_name": "鸡排类",
+        "series": 4
+      },
+      {
+        "id": 565,
+        "sort_name": "鸡块类",
+        "series": 4
+      },
+      {
+        "id": 566,
+        "sort_name": "鸡胗类",
+        "series": 4
+      },
+      {
+        "id": 597,
+        "sort_name": "卷圈类",
+        "series": 4
+      },
+      {
+        "id": 598,
+        "sort_name": "饼类",
+        "series": 4
+      },
+      {
+        "id": 599,
+        "sort_name": "球丸类",
+        "series": 4
+      },
+      {
+        "id": 601,
+        "sort_name": "常温小吃",
+        "series": 4
+      },
+      {
+        "id": 602,
+        "sort_name": "调理裹粉类",
+        "series": 4
+      },
+      {
+        "id": 629,
+        "sort_name": "豆腐串",
+        "series": 4
+      },
+      {
+        "id": 633,
+        "sort_name": "其他",
+        "series": 4
+      },
+      {
+        "id": 725,
+        "sort_name": "条棒类",
+        "series": 4
+      },
+      {
+        "id": 742,
+        "sort_name": "调理裹粉类",
+        "series": 3
+      },
+      {
+        "id": 743,
+        "sort_name": "鸡系列",
+        "series": 4
+      },
+      {
+        "id": 882,
+        "sort_name": "中餐半成品",
+        "series": 2
+      },
+      {
+        "id": 886,
+        "sort_name": "鸡肉类",
+        "series": 3
+      },
+      {
+        "id": 935,
+        "sort_name": "肉卷类",
+        "series": 2
+      },
+      {
+        "id": 936,
+        "sort_name": "肉卷",
+        "series": 3
+      },
+      {
+        "id": 937,
+        "sort_name": "肉卷类",
+        "series": 4
+      }
+    ],
+    "brands": [
+      {
+        "id": 5,
+        "brand": "太合"
+      },
+      {
+        "id": 9,
+        "brand": "和美"
+      },
+      {
+        "id": 10,
+        "brand": "九联"
+      },
+      {
+        "id": 15,
+        "brand": "恒泰盛"
+      },
+      {
+        "id": 16,
+        "brand": "凤祥"
+      },
+      {
+        "id": 17,
+        "brand": "五谷金凤"
+      },
+      {
+        "id": 21,
+        "brand": "兰鑫"
+      },
+      {
+        "id": 22,
+        "brand": "欣宇"
+      },
+      {
+        "id": 26,
+        "brand": "八面城"
+      },
+      {
+        "id": 27,
+        "brand": "田中禾"
+      },
+      {
+        "id": 28,
+        "brand": "纳佰味"
+      },
+      {
+        "id": 38,
+        "brand": "金锣"
+      },
+      {
+        "id": 40,
+        "brand": "金牧"
+      },
+      {
+        "id": 49,
+        "brand": "丰来庆"
+      },
+      {
+        "id": 57,
+        "brand": "大闰"
+      },
+      {
+        "id": 58,
+        "brand": "博大"
+      },
+      {
+        "id": 92,
+        "brand": "德润"
+      },
+      {
+        "id": 110,
+        "brand": "噫康"
+      },
+      {
+        "id": 188,
+        "brand": "泽昌"
+      },
+      {
+        "id": 191,
+        "brand": "雅士享"
+      },
+      {
+        "id": 207,
+        "brand": "伊穆斋"
+      },
+      {
+        "id": 211,
+        "brand": "圣农"
+      },
+      {
+        "id": 216,
+        "brand": "铭川"
+      },
+      {
+        "id": 249,
+        "brand": "仁真"
+      },
+      {
+        "id": 315,
+        "brand": "雨丰"
+      },
+      {
+        "id": 326,
+        "brand": "无"
+      },
+      {
+        "id": 336,
+        "brand": "盛鑫源"
+      },
+      {
+        "id": 337,
+        "brand": "金宝"
+      },
+      {
+        "id": 340,
+        "brand": "7769"
+      },
+      {
+        "id": 341,
+        "brand": "神农"
+      },
+      {
+        "id": 366,
+        "brand": "昊明"
+      },
+      {
+        "id": 395,
+        "brand": "威腾食品"
+      },
+      {
+        "id": 397,
+        "brand": "凤中皇"
+      },
+      {
+        "id": 414,
+        "brand": "川哥壹品"
+      },
+      {
+        "id": 417,
+        "brand": "味之仙"
+      },
+      {
+        "id": 419,
+        "brand": "夏星"
+      },
+      {
+        "id": 424,
+        "brand": "新田园"
+      },
+      {
+        "id": 428,
+        "brand": "南洋食品"
+      },
+      {
+        "id": 431,
+        "brand": " 友发"
+      },
+      {
+        "id": 439,
+        "brand": "常润家"
+      },
+      {
+        "id": 445,
+        "brand": "博远"
+      },
+      {
+        "id": 452,
+        "brand": "日康"
+      },
+      {
+        "id": 469,
+        "brand": "奥鑫"
+      },
+      {
+        "id": 476,
+        "brand": "圣轩"
+      },
+      {
+        "id": 487,
+        "brand": "泉中王 "
+      },
+      {
+        "id": 494,
+        "brand": "正大"
+      },
+      {
+        "id": 496,
+        "brand": "农夫"
+      },
+      {
+        "id": 497,
+        "brand": "宛乐"
+      },
+      {
+        "id": 507,
+        "brand": "正达"
+      },
+      {
+        "id": 508,
+        "brand": "红甲"
+      },
+      {
+        "id": 509,
+        "brand": "家家乐"
+      },
+      {
+        "id": 510,
+        "brand": "环球"
+      },
+      {
+        "id": 543,
+        "brand": "冠卓"
+      },
+      {
+        "id": 562,
+        "brand": "可可益佳"
+      },
+      {
+        "id": 571,
+        "brand": "永合源"
+      },
+      {
+        "id": 572,
+        "brand": "聚味"
+      },
+      {
+        "id": 615,
+        "brand": "乡润"
+      },
+      {
+        "id": 700,
+        "brand": "昌顺"
+      },
+      {
+        "id": 701,
+        "brand": "鲜尊"
+      },
+      {
+        "id": 708,
+        "brand": "奥卓"
+      },
+      {
+        "id": 709,
+        "brand": "玖兴"
+      },
+      {
+        "id": 719,
+        "brand": "审师傅"
+      },
+      {
+        "id": 758,
+        "brand": "小天下"
+      },
+      {
+        "id": 768,
+        "brand": "星河"
+      },
+      {
+        "id": 805,
+        "brand": "华都"
+      },
+      {
+        "id": 806,
+        "brand": "荣德坊"
+      },
+      {
+        "id": 824,
+        "brand": "福鑫源"
+      },
+      {
+        "id": 835,
+        "brand": "鸿鲜"
+      },
+      {
+        "id": 849,
+        "brand": "舜优"
+      },
+      {
+        "id": 879,
+        "brand": "鲁鑫"
+      }
+    ]
+  },
+  "message": "OK"
+}

@@ -1,0 +1,49 @@
+{
+  "code":0,
+  "data":{
+    "shop_transfer":1,
+    "max_reward_diamond":30,
+    "max_diamond_use_number":300,
+    "max_deduction_amount":15,
+    "delivery_mode":{
+      "sell_shop_name":"小小商贸",
+      "arrival_time":"2016年07月21日 下午3-6点"
+    },
+    "take_info":{
+      "province_id":21,
+      "city_id":0,
+      "county_id":1,
+      "province_name":"四川省",
+      "city_name":"成都市",
+      "county_name":"锦江区",
+      "address":"红牌楼",
+      "contacts":"胡小宇",
+      "phone":"13365458975"
+    },
+    "logistics_fees":{
+      "buy_number":3,
+      "total_price":"50",
+      "reduce_price":"30",
+      "paid_price":"20",
+      "buy_number_price": "30.00",
+      "price_standard":{
+        "free_freight_order_time": 2,
+        "free_freight_max_amount":30,
+        "freight_min_amount": "0.00",
+        "fees_rules":[
+          {
+            "from_min_amount":1,
+            "to_max_amount":"50",
+            "freight_amount":"5.00"
+          },
+          {
+            "from_min_amount":2,
+            "to_max_amount":"50",
+            "freight_amount":"5.00"
+          }
+        ]
+      }
+    }
+  },
+  "message":"OK"
+}

@@ -1,0 +1,36 @@
+/*
+ * tab切换*/
+
+//基础的;
+.tab {
+  position: relative;
+  font-size: 14px;
+  padding: 12px 0;
+  color: @color-text-secondary;
+  .slider {
+    position: absolute;
+    height: 0;
+    bottom: 1px;
+    -webkit-transition: all 300ms cubic-bezier(.68,-.55,.27,1.55);
+    transition: all 300ms cubic-bezier(.68,-.55,.27,1.55);
+    .slider-line {
+      margin: 0 5%;
+      height: 2px;
+      background-color: @color-primary;
+    }
+  }
+  .cell-column {
+    border-left: 1px solid @color-border-secondary;
+    &:first-child {
+      border-left: none;
+    }
+    a {
+      color: @color-text-secondary;
+    }
+    &.active {
+      a {
+        color: @color-primary;
+      }
+    }
+  }
+}

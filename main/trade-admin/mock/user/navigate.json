@@ -1,0 +1,198 @@
+{
+  "code": 0,
+  "data": {
+    "navigates": {
+      "1": [
+        {
+          "name": "订单管理",
+          "privilege_tag": "order",
+          "url": "#",
+          "id": 1
+        },
+        {
+          "name": "系统设置",
+          "privilege_tag": "system",
+          "url": "system",
+          "id": 3
+        }
+      ],
+      "2": {
+        "1": [
+          {
+            "name": "转接订单",
+            "privilege_tag": "order_buyer",
+            "url": "transfer-order",
+            "id": 2
+          }
+        ],
+        "3": [
+          {
+            "name": "账户管理",
+            "privilege_tag": "user",
+            "url": "account-management",
+            "id": 4
+          },
+          {
+            "name": "部门管理",
+            "privilege_tag": "department",
+            "url": "department-management",
+            "id": 5
+          }
+        ]
+      }
+    },
+    "execute_privilege": {
+      "1": {
+        "2": [
+          {
+            "name": "可读",
+            "privilege_tag": "order_buyer_list",
+            "url": "#",
+            "id": 16
+          },
+          {
+            "name": "导出/打印",
+            "privilege_tag": "order_print_export",
+            "url": "#",
+            "id": 17
+          },
+          {
+            "name": "批量发货",
+            "privilege_tag": "order_batch_deliver",
+            "url": "#",
+            "id": 18
+          },
+          {
+            "name": "发货",
+            "privilege_tag": "order_deliver",
+            "url": "#",
+            "id": 19
+          },
+          {
+            "name": "打印",
+            "privilege_tag": "order_print",
+            "url": "#",
+            "id": 20
+          },
+          {
+            "name": "改期",
+            "privilege_tag": "order_delivery_date",
+            "url": "#",
+            "id": 21
+          },
+          {
+            "name": "取消",
+            "privilege_tag": "order_goods_del",
+            "url": "#",
+            "id": 22
+          },
+          {
+            "name": "确认收货",
+            "privilege_tag": "order_goods_take",
+            "url": "#",
+            "id": 23
+          },
+          {
+            "name": "确认有效",
+            "privilege_tag": "order_confirm",
+            "url": "#",
+            "id": 24
+          }
+        ]
+      },
+      "3": {
+        "4": [
+          {
+            "name": "可读",
+            "privilege_tag": "user_list",
+            "url": "#",
+            "id": 6
+          },
+          {
+            "name": "创建",
+            "privilege_tag": "user_add",
+            "url": "#",
+            "id": 7
+          },
+          {
+            "name": "启用",
+            "privilege_tag": "user_status_update",
+            "url": "#",
+            "id": 8
+          },
+          {
+            "name": "修改",
+            "privilege_tag": "user_info_update",
+            "url": "#",
+            "id": 9
+          },
+          {
+            "name": "权限",
+            "privilege_tag": "user_privilege_update",
+            "url": "#",
+            "id": 10
+          },
+          {
+            "name": "删除",
+            "privilege_tag": "user_status_update_delete",
+            "url": "#",
+            "id": 11
+          }
+        ],
+        "5": [
+          {
+            "name": "可读",
+            "privilege_tag": "department_list",
+            "url": "#",
+            "id": 12
+          },
+          {
+            "name": "创建",
+            "privilege_tag": "department_add",
+            "url": "#",
+            "id": 13
+          },
+          {
+            "name": "修改",
+            "privilege_tag": "department_info_update",
+            "url": "#",
+            "id": 14
+          },
+          {
+            "name": "删除",
+            "privilege_tag": "department_status_update",
+            "url": "#",
+            "id": 15
+          }
+        ]
+      }
+    },
+    "user_tags": [
+      "user_list",
+      "user_add",
+      "user_status_update",
+      "user_info_update",
+      "user_privilege_update",
+      "user_status_update_delete",
+      "department_list",
+      "department_add",
+      "department_info_update",
+      "department_status_update",
+      "order_buyer_list",
+      "order_print_export",
+      "order_batch_deliver",
+      "order_deliver",
+      "order_print",
+      "order_delivery_date",
+      "order_goods_del",
+      "order_goods_take",
+      "order_confirm",
+      "order",
+      "system",
+      "order_buyer",
+      "user",
+      "department"
+    ]
+  },
+  "message": "OK"
+}

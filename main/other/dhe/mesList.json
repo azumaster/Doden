@@ -1,0 +1,24 @@
+{
+  "code":0,
+  "data":{
+    "status":1,
+    "contents":[
+      {
+        "sender":"哈儿测试会员1",
+        "send_time":"2016-09-08 21:00:00",
+        "send_content":"最近有什么活动？"
+      },
+      {
+        "sender":"哈儿测试会员1",
+        "send_time":"2016-09-08 21:00:00",
+        "send_content":"最近有什么活动？"
+      },
+      {
+        "sender":"哈儿测试会员1",
+        "send_time":"2016-09-08 21:00:00",
+        "send_content":"最近有什么活动？"
+      }
+    ]
+  },
+  "message":"OK"
+}

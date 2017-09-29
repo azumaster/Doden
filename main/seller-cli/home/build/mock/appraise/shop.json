@@ -1,0 +1,22 @@
+{
+  "code": 0,
+  "data": {
+    "shop_id": 963,
+    "shop_name": "找冻品网",
+    "recent_sales": 4,
+    "goods_num": 2,
+    "shop_rank": 2,
+    "main_business": "主营鸡鸭鱼肉、各种好吃的……主营业务……主营业务……主营业务……",
+    "shop_province": "四川省",
+    "shop_city": "成都市",
+    "shop_address": "高新区创业路49号",
+    "sell_market": "海霸王",
+    "brands": [
+      "渝达",
+      "宝迪"
+    ],
+    "join_age": "1月",
+    "license_act": 0
+  },
+  "message": "OK"
+}

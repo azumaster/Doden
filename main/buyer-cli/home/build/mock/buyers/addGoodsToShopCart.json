@@ -1,0 +1,10 @@
+{
+  "code":0,
+  "data":{
+    "cart_goods_amount":55.00,
+    "cart_goods_number":5,
+    "maxObtainIntegral":30,
+    "maxPreferentialMoney":5.00
+  },
+  "message":"OK"
+}

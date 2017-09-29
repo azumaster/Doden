@@ -1,0 +1,54 @@
+.complete-content{
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    bottom: @tab-height;
+    left: 0;
+    overflow: hidden;
+    background: @bg-gray;
+
+
+    .complete-item {
+      background: @white;
+      border-radius: @panel-border-radius;
+      margin-bottom: @basic-gap;
+
+      .complete-title {
+        box-sizing: border-box;
+        padding:0 @complete-left-gap;
+        font-size: @font-size-subTitle;
+        height: @complete-title-height;
+        line-height: @complete-title-height;
+        border-radius: @panel-border-radius @panel-border-radius 0 0;
+        color: @white;
+        span{
+          margin-right: @basic-gap;
+        }
+        span:last-child{
+          margin-right: 0;
+          float: right;
+        }
+        &.refuse {
+          background: @deep-gray;
+        }
+        &.send {
+          background: @green;
+        }
+      }
+
+      .complete-body {
+        box-sizing: border-box;
+        padding:0 @complete-left-gap;
+        .info{
+          box-sizing: border-box;
+          padding: @complete-top-gap 0;
+          border-bottom: 1px solid @border-gray;
+          &:last-child{
+            border-bottom: none;
+          }
+        }
+      }
+    }
+  }
+

@@ -1,0 +1,88 @@
+{
+  "code": 0,
+  "data": {
+    "goods": [
+      {
+        "id": 3988,
+        "title": "好邦石羊琵琶腿",
+        "pic": null,
+        "price_expired": false,
+        "is_often_buy": false,
+        "price": "14X",
+        "shop_name": "店铺名",
+        "market_name": "市场名"
+      },
+      {
+        "id": 3988,
+        "title": "好邦石羊琵琶腿好邦石羊琵琶腿好邦石羊琵琶腿",
+        "pic": null,
+        "price_expired": true,
+        "is_often_buy": false,
+        "price": "14X",
+        "shop_name": "店铺名",
+        "market_name": "市场名",
+        "price_rules":[
+          {
+            "rule_type":"赠",
+            "max_preferential":"1件"
+          }
+          ]
+      },
+      {
+        "id": 3988,
+        "title": "好邦石羊琵琶腿",
+        "pic": null,
+        "price_expired": true,
+        "is_often_buy": false,
+        "price": "14X",
+        "shop_name": "店铺名",
+        "market_name": "市场名"
+      },
+      {
+        "id": 3988,
+        "title": "好邦石羊琵琶腿",
+        "pic": null,
+        "price_expired": true,
+        "is_often_buy": false,
+        "price": "14X",
+        "shop_name": "店铺名",
+        "market_name": "市场名"
+      },
+      {
+        "id": 3988,
+        "title": "好邦石羊琵琶腿",
+        "pic": null,
+        "price_expired": true,
+        "is_often_buy": false,
+        "price": "14X",
+        "shop_name": "店铺名",
+        "market_name": "市场名"
+      },
+      {
+        "id": 3988,
+        "title": "好邦石羊琵琶腿",
+        "pic": null,
+        "price_expired": true,
+        "is_often_buy": false,
+        "price": "14X",
+        "shop_name": "店铺名",
+        "market_name": "市场名"
+      },
+      {
+        "id": 3988,
+        "title": "好邦石羊琵琶腿",
+        "pic": null,
+        "price_expired": true,
+        "is_often_buy": false,
+        "price": "14X",
+        "shop_name": "店铺名",
+        "market_name": "市场名"
+      }
+    ],
+    "page_all": 11,
+    "page": 1,
+    "size": 10,
+    "total": 102
+  },
+  "message": "OK"
+}

@@ -1,0 +1,70 @@
+{
+  "code": 0,
+  "data": {
+    "page": 1,
+    "total": 3,
+    "users": [
+      {
+        "id": 1,
+        "name": "root",
+        "department_id": "1",
+        "department_name": "系统管理组",
+        "login_name": "10000000000",
+        "we_chat_binding": 1,
+        "status": 1,
+        "create_time": "2016-08-13 14:14:23",
+        "privileges": {
+          "privilege_scope": "全部",
+          "navigates": "",
+          "execute_privilege": ""
+        }
+      },
+      {
+        "id": 2,
+        "name": "admin",
+        "department_id": "2",
+        "department_name": "公司管理组",
+        "login_name": "13262987416",
+        "we_chat_binding": 1,
+        "status": 1,
+        "create_time": "2016-07-13 15:52:19",
+        "privileges": {
+          "privilege_scope": "全部",
+          "navigates": "",
+          "execute_privilege": ""
+        }
+      },
+      {
+        "id": 14,
+        "name": "胡小宇",
+        "department_id": "17",
+        "department_name": "运营组",
+        "login_name": "15208359521",
+        "we_chat_binding": 1,
+        "status": 1,
+        "create_time": "2016-08-15 10:28:32",
+        "privileges": {
+          "privilege_scope": "部分",
+          "navigates": {
+            "1": [
+              {
+                "name": "订单管理",
+                "id": 1
+              }
+            ],
+            "2": {
+              "1": [
+                {
+                  "name": "转接订单",
+                  "id": 2
+                }
+              ]
+            }
+          },
+          "execute_privilege": []
+        }
+      }
+    ]
+  },
+  "message": "OK"
+}

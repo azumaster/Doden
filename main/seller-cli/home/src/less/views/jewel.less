@@ -1,0 +1,260 @@
+.jewel-title{
+  height: 125px;
+  width: 100%;
+  background: @color-primary;
+  text-align: center;
+  overflow: hidden;
+  h3{
+    font-size: 13px;
+    color: #7ec6fc;
+    margin-top: 20px;
+  }
+  h1{
+    font-size: 40px;
+    line-height: 60px;
+    color: #ffffff;
+  }
+  h4{
+    font-size: 12px;
+    color: #ffffff;
+    i{
+      margin-right: 5px;
+    }
+  }
+}
+
+.jewel-list{
+  margin-top: 10px;
+  background: #ffffff;
+  position: relative;
+  &:after{
+    content:'';
+    position: absolute;
+    bottom: 1px;
+
+  }
+  .jewel-list-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #737373;
+    position: relative;
+    border-bottom: 1px solid @color-divide;
+    p.title-operate{
+      color: @color-primary;
+    }
+    &:before{
+      content: '';
+      position: absolute;
+      height: 17px;
+      width: 4px;
+      background: @color-primary;
+      border-radius: 2px;
+      left: 0;
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+  }
+  .no-card{
+    background: #f5f5f5;
+    overflow: hidden;
+    text-align: center;
+    img{
+      display: block;
+      margin: 70px auto 0;
+      width: 86px;
+      height: 86px;
+    }
+    p{
+      font-size: 12px;
+      color: #999999;
+      line-height: 40px;
+    }
+  }
+  .jewel-list-ul{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap row;
+    .jewel-list-li{
+      position: relative;
+      overflow: hidden;
+      width: 50%;
+      border-bottom: 1px solid @color-divide;
+      &:nth-child(2n-1):before{
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 1px;
+        background: @color-divide;
+      }
+      .list-img{
+        margin: 19px 20px 15px;
+        img{
+          width: 100%;
+          height: auto;
+          max-height: 100px;
+          display: block;
+          margin: 0 auto;
+          border-radius: 7px;
+        }
+      }
+      .list-name{
+        margin: 0 20px;
+        font-size: 14px;
+        line-height: 18px;
+        height: 36px;
+        overflow: hidden;
+        .clamp(2);
+      }
+      .list-info{
+        margin: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        margin-bottom: 19px;
+        line-height: 25px;
+        color: #999999;
+        position: relative;
+        p.jewel-price{
+          color: #ff6000;
+          i{
+            color: #999999;
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.jewel-footer{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #999999;
+  padding-bottom: 20px;
+}
+
+.dialog-buy-body{
+  margin: 0 14px;
+  .card-info{
+    height: 60px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    .card-img{
+      flex: 1;
+      margin-right: 15px;
+      img{
+        height: 60px;
+        width: 110px;
+        border-radius: 5px
+      }
+    }
+
+    .card-info-des{
+      flex: 2;
+      .card-dialog-name{
+        color: #383838;
+        font-size: 14px;
+        line-height: 20px;
+      }
+      .card-dialog-des{
+        font-size: 12px;
+        margin-top: 25px;
+        display: flex;
+        justify-content: flex-start;
+        p:first-child{
+          color: #999999;
+          margin-right: 20px;
+        }
+        .card-dialog-price{
+          color: #ff6000;
+          i{
+            margin-left: 5px;
+            color: #999999;
+          }
+        }
+      }
+    }
+  }
+
+  .card-notice{
+    height: 73px;
+    border-top: 1px solid @color-divide;
+    color: @color-assist;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 15px 0;
+    text-align: center;
+  }
+
+}
+
+.jewel-detail-list{
+  .warper();
+
+  .jewel-current{
+    height: 45px;
+    padding: 0 14px;
+    line-height: 45px;
+    background: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    p:first-child{
+      color: #383838;
+      i{
+        color: @color-primary;
+        font-size: 20px;
+        margin-right: 5px;
+      }
+    }
+    p:last-child{
+      color: @color-primary;
+    }
+  }
+  .jewel-detail-ul{
+      background: #ffffff;
+    .jewel-detail-li{
+      padding: 20px 15px;
+      height: 40px;
+      background: #ffffff;
+      position: relative;
+      &:not(:last-child):before{
+        position: absolute;
+        content: '';
+        left: 15px;
+        bottom: 0;
+        height: 1px;
+        width: 100%;
+        background: #eeeeee;
+      }
+      .jewel-num{
+        font-size: 14px;
+        margin-bottom: 15px;
+        &.sub{
+          color: #ff5f3e;
+        }
+        &.add{
+          color: #6bc408;
+        }
+      }
+      .jewel-num-info{
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        color: @color-assist;
+        em:first-child{
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+}

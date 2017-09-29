@@ -1,0 +1,37 @@
+
+.sub-title {
+  font-size: @font-size-notice;
+  font-weight: normal;
+  color: @deep-gray;
+  line-height: @line-height-notice;
+}
+
+.detail-info {
+  line-height: @line-height-notice;
+  font-size: @font-size-content;
+  .detail-describe{
+    color: @light-gray;
+    margin-left: @basic-gap*2;
+    margin-bottom: @basic-gap*2;
+  }
+  .detail-mark {
+    margin-right: @complete-span-gap*2;
+  }
+  .detail-label {
+    color: @light-gray;
+    margin-right: @complete-span-gap;
+  }
+  .detail-value {
+    margin-left: @complete-span-gap;
+    a{
+      text-decoration: underline;
+      &.tel-link{
+        color: @blue;
+      }
+      &.error-link {
+        color: @green;
+        float: right;
+      }
+    }
+  }
+}

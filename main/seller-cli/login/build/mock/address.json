@@ -1,0 +1,12 @@
+{
+  "status": 0,
+  "message": "OK",
+  "data": {
+    "province_id": 21,
+    "province": "四川省",
+    "city_id": 11,
+    "city": "达州市",
+    "county_id": 0,
+    "county": "市辖区"
+  }
+}

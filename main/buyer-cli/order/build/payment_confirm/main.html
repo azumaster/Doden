@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name='viewport' content='width=device-width,initial-scale=1.0,user-scalable=no'>
+    <meta name="renderer" content="webkit">
+	<title>微信支付待确认列表</title>
+	<script>
+		(function (doc,win) {
+                // 获取根html元素
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in win ? 'orientationchange' : 'resize';
+            var recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if ( !clientWidth ) return;
+                docEl.style.fontSize = ( clientWidth / 320 ) * 16 + 'px';
+            };
+            if ( !doc.addEventListener ) return;
+            win.addEventListener( resizeEvt , recalc , false );
+            doc.addEventListener( 'DOMContentLoaded' , recalc , false );
+            recalc();
+        })(document,window);
+	</script>
+</head>
+<body>
+	<div id="app">
+		<div class="section-region section-tabs">
+			<a href="#">所有大区</a>
+			<a href="#">四川区</a>
+			<a href="#">重庆区</a>
+		</div>
+		<div class="section-tabContent">
+			<div class="thead">
+				<span>付款人</span>
+				<span>大区</span>
+				<span>实付金额</span>
+				<span>操作</span>
+			</div>
+			<div class="section-table-w">
+				<table class="table">
+					<tbody>
+						<tr>
+							<td colspan="2"><a href="#">吴三冻货</a></td>
+							<td>四川区</td>
+							<td>5000</td>
+							<td><button>确认</button></td>
+						</tr>
+						<tr>
+							<td colspan="5">
+								<span>2016-03-18 18:00:00</span>
+								<span>减免：5元</span>
+							</td>
+						</tr>
+						<tr>
+							<td>海鲜冻铺 带鱼</td>
+							<td><a href="#">食品房子</a></td>
+							<td>单价：200</td>
+							<td>数量：25</td>
+							<td><button>退款</button></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+ <script src="/paymentConfirm.js"></script>
+</html>

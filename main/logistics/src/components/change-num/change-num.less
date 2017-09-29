@@ -1,0 +1,22 @@
+.change-num {
+  .flex-box();
+  .reduce {
+    &:before {
+      content: '\e659';
+      .icon-style(25px, @color-primary);
+    }
+  }
+  .increase {
+    display: inline-block;
+    &:before {
+      content: '\e726';
+      .icon-style(25px, @color-primary);
+    }
+  }
+  .num-input {
+    width: 60px;
+    border-bottom: 1px solid @color-border-shallow;
+    text-align: center;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "code" : 0,
+  "message" : "OK",
+  "data" : {
+    "tel" : 13999999999,
+    "seller_name" : "供应商名字",
+    "market" : "青白江"
+  }
+}
